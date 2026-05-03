@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import AlbumBadge from './AlbumBadge.jsx'
 
 export default function SongTable({ songs, limit = 20 }) {
@@ -13,7 +14,9 @@ export default function SongTable({ songs, limit = 20 }) {
         {visible.map((s, i) => (
           <li key={s.name}>
             <span className="ranked-list__rank">{i + 1}</span>
-            <span className="ranked-list__name">{s.name}</span>
+            <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>
+              {s.name}
+            </Link>
             <AlbumBadge album={s.album} />
             <div className="ranked-list__bar-wrap">
               <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />

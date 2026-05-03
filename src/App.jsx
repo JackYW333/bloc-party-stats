@@ -4,6 +4,10 @@ import ToursPage from './pages/ToursPage.jsx'
 import TourPage from './pages/TourPage.jsx'
 import ConcertPage from './pages/ConcertPage.jsx'
 import MembersPage from './pages/MembersPage.jsx'
+import SongPage from './pages/SongPage.jsx'
+import YearPage from './pages/YearPage.jsx'
+import CountryPage from './pages/CountryPage.jsx'
+import CityPage from './pages/CityPage.jsx'
 import { useSetlists } from './hooks/useSetlists.js'
 
 export default function App() {
@@ -28,6 +32,10 @@ export default function App() {
         <Route path="/tour/:tourName" element={<TourPage data={data} />} />
         <Route path="/concert/:id" element={<ConcertPage data={data} />} />
         <Route path="/members" element={<MembersPage data={data} />} />
+        <Route path="/song/:songName" element={<SongPage data={data} />} />
+        <Route path="/year/:year" element={<YearPage data={data} />} />
+        <Route path="/country/:countryCode" element={<CountryPage data={data} />} />
+        <Route path="/city/:cityName/:countryCode" element={<CityPage data={data} />} />
       </Routes>
     </>
   )
