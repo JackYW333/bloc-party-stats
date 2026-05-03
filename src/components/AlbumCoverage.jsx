@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function AlbumCoverage({ data }) {
   return (
     <div className="card">
@@ -6,7 +8,7 @@ export default function AlbumCoverage({ data }) {
         {data.filter(a => a.plays > 0).map(album => (
           <li key={album.id} className="album-coverage-item">
             <div className="album-coverage-item__header">
-              <span className="album-coverage-item__name">{album.name}</span>
+              <Link to={`/album/${album.id}`} className="album-coverage-item__name" style={{ color: 'var(--text)' }}>{album.name}</Link>
               <span className="album-coverage-item__meta">{album.plays} plays · {album.pct}%</span>
             </div>
             <div className="album-coverage-item__track">
