@@ -86,24 +86,31 @@ export function computeTourStats(setlists) {
 }
 
 export function computeAlbumCoverage(setlists) {
-  const played = new Set()
+  // Count every performance of each song (not unique songs)
+  let totalPlays = 0
+  const playsByAlbum = {}
+  albumData.forEach(a => { playsByAlbum[a.id] = 0 })
+
   setlists.forEach(show => {
     show.songs.forEach(song => {
-      if (!song.tape) played.add(song.name.toLowerCase())
+      if (song.tape) return
+      totalPlays++
+      const album = getAlbum(song.name)
+      if (album) playsByAlbum[album.id] = (playsByAlbum[album.id] || 0) + 1
     })
   })
+
   return albumData.map(album => {
-    const playedCount = album.songs.filter(s => played.has(s.toLowerCase())).length
+    const plays = playsByAlbum[album.id] || 0
     return {
       id: album.id,
       name: album.name,
       year: album.year,
       color: album.color,
-      total: album.songs.length,
-      played: playedCount,
-      pct: album.songs.length ? Math.round((playedCount / album.songs.length) * 100) : 0,
+      plays,
+      pct: totalPlays ? Math.round((plays / totalPlays) * 100) : 0,
     }
-  })
+  }).sort((a, b) => b.plays - a.plays)
 }
 
 export function computeOpeners(setlists) {

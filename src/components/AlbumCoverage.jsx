@@ -1,13 +1,13 @@
 export default function AlbumCoverage({ data }) {
   return (
     <div className="card">
-      <div className="card-title">Album Coverage</div>
+      <div className="card-title">Songs by Release</div>
       <ul className="album-coverage-list">
-        {data.map(album => (
+        {data.filter(a => a.plays > 0).map(album => (
           <li key={album.id} className="album-coverage-item">
             <div className="album-coverage-item__header">
               <span className="album-coverage-item__name">{album.name}</span>
-              <span className="album-coverage-item__meta">{album.played}/{album.total} songs · {album.pct}%</span>
+              <span className="album-coverage-item__meta">{album.plays} plays · {album.pct}%</span>
             </div>
             <div className="album-coverage-item__track">
               <div
