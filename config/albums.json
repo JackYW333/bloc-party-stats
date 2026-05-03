@@ -16,10 +16,9 @@
       "Price of Gas",
       "So Here We Are",
       "Plans",
-      "Staying Fat",
-      "Tulips",
-      "Little Thoughts",
-      "Colonnade"
+      "The Pioneers",
+      "Every Time Is the Last Time",
+      "Compliments"
     ]
   },
   {
@@ -38,10 +37,7 @@
       "Kreuzberg",
       "I Still Remember",
       "Sunday",
-      "SRXT",
-      "England",
-      "We Were Lovers",
-      "Miranda"
+      "SRXT"
     ]
   },
   {
@@ -62,7 +58,8 @@
       "Letter to My Son",
       "Talons",
       "Better Than Heaven",
-      "Flux"
+      "Your Visits Are Getting Shorter",
+      "Idea for a Story"
     ]
   },
   {
@@ -78,11 +75,16 @@
       "Octopus",
       "Truth",
       "Kettling",
-      "Leaf",
+      "Leaf Skeleton",
       "We Are Not Good People",
       "Coliseum",
-      "Nextwave",
-      "Real Talk"
+      "Real Talk",
+      "3x3",
+      "Black Crown",
+      "Lean",
+      "Mean",
+      "Straight Thru Cru",
+      "The Healing"
     ]
   },
   {
@@ -96,12 +98,17 @@
       "Into the Earth",
       "Fortress",
       "Different Drugs",
-      "One More Chance",
       "My True Name",
       "Virtue",
       "Exes",
       "Living Lux",
-      "Stunt Queen"
+      "Eden",
+      "Evening Song",
+      "New Blood",
+      "Paraíso",
+      "So Real",
+      "The God Vibration",
+      "The Good News"
     ]
   },
   {
@@ -110,19 +117,163 @@
     "year": 2022,
     "color": "#ffd166",
     "songs": [
-      "Tooled Up",
-      "Traps",
-      "If We Get Caught",
-      "Refuge",
-      "Wilderness",
+      "Acting Out",
+      "By Any Means Necessary",
       "Callum Is a Snake",
-      "Sex Magik",
-      "Étienne",
+      "Day Drinker",
+      "If We Get Caught",
+      "In Situ",
       "Of Things Yet to Come",
+      "Rough Justice",
+      "Sex Magik",
+      "Strut",
+      "The Girls Are Fighting",
       "The Peace Offering",
-      "I Will Not Lie",
-      "Negative",
-      "Last Rites"
+      "The Robot and the Psychonaut",
+      "Traps",
+      "You Should Know the Truth"
+    ]
+  },
+  {
+    "id": "bloc-party-ep",
+    "name": "Bloc Party",
+    "year": 2004,
+    "color": "#c9a84c",
+    "songs": [
+      "Staying Fat",
+      "The Answer",
+      "The Marshals Are Dead"
+    ]
+  },
+  {
+    "id": "little-thoughts",
+    "name": "Little Thoughts",
+    "year": 2004,
+    "color": "#ff6b9d",
+    "songs": [
+      "Little Thoughts",
+      "Tulips",
+      "Storm and Stress",
+      "Skeleton"
+    ]
+  },
+  {
+    "id": "helicopter-single",
+    "name": "Helicopter",
+    "year": 2004,
+    "color": "#adb5bd",
+    "songs": [
+      "Always New Depths"
+    ]
+  },
+  {
+    "id": "two-more-years",
+    "name": "Two More Years",
+    "year": 2005,
+    "color": "#ef476f",
+    "songs": [
+      "Two More Years",
+      "Hero"
+    ]
+  },
+  {
+    "id": "help-a-day-in-the-life",
+    "name": "Help!: A Day in the Life",
+    "year": 2005,
+    "color": "#495057",
+    "songs": [
+      "The Present"
+    ]
+  },
+  {
+    "id": "a-weekend-in-the-city-b-sides",
+    "name": "A Weekend in the City B-Sides",
+    "year": 2007,
+    "color": "#7b8cde",
+    "songs": [
+      "Atonement",
+      "Cain Said to Abel",
+      "Cavaliers and Roundheads",
+      "Emma Kate's Accident",
+      "England",
+      "Rhododendrons",
+      "Secrets",
+      "Selfish Son",
+      "The Once and Future King",
+      "Version 2.0",
+      "Vision of Heaven",
+      "We Were Lovers"
+    ]
+  },
+  {
+    "id": "flux",
+    "name": "Flux",
+    "year": 2007,
+    "color": "#43aa8b",
+    "songs": [
+      "Flux"
+    ]
+  },
+  {
+    "id": "radio-1-live-lounge",
+    "name": "Radio 1's Live Lounge: Vol. 2",
+    "year": 2006,
+    "color": "#6c757d",
+    "songs": [
+      "Say It Right"
+    ]
+  },
+  {
+    "id": "the-nextwave-sessions",
+    "name": "The Nextwave Sessions",
+    "year": 2013,
+    "color": "#06d6a0",
+    "songs": [
+      "Children of the Future",
+      "French Exit",
+      "Montreal",
+      "Obscene",
+      "Ratchet",
+      "X-Cutioner's Song"
+    ]
+  },
+  {
+    "id": "flirting-again",
+    "name": "Flirting Again",
+    "year": 2024,
+    "color": "#f8961e",
+    "songs": [
+      "Flirting Again"
+    ]
+  },
+  {
+    "id": "the-high-life",
+    "name": "The High Life",
+    "year": 2023,
+    "color": "#118ab2",
+    "songs": [
+      "Blue",
+      "High Life",
+      "Keep It Rolling",
+      "The Blood Moon"
+    ]
+  },
+  {
+    "id": "one-more-chance",
+    "name": "One More Chance",
+    "year": 2009,
+    "color": "#577590",
+    "songs": [
+      "One More Chance"
+    ]
+  },
+  {
+    "id": "stunt-queen",
+    "name": "Stunt Queen",
+    "year": 2016,
+    "color": "#f72585",
+    "songs": [
+      "Stunt Queen"
     ]
   }
 ]
