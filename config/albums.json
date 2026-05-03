@@ -3,7 +3,7 @@
     "id": "silent-alarm",
     "name": "Silent Alarm",
     "year": 2005,
-    "color": "#e63946",
+    "color": "#fefefe",
     "songs": [
       "Like Eating Glass",
       "Helicopter",
@@ -13,7 +13,7 @@
       "She's Hearing Voices",
       "This Modern Love",
       "Luno",
-      "Price of Gas",
+      "Price of Gasoline",
       "So Here We Are",
       "Plans",
       "The Pioneers",
@@ -25,7 +25,7 @@
     "id": "a-weekend-in-the-city",
     "name": "A Weekend in the City",
     "year": 2007,
-    "color": "#4361ee",
+    "color": "#3c9141",
     "songs": [
       "Song for Clay (Disappear Here)",
       "Hunting for Witches",
@@ -44,7 +44,7 @@
     "id": "intimacy",
     "name": "Intimacy",
     "year": 2008,
-    "color": "#f77f00",
+    "color": "#7e4355",
     "songs": [
       "Ares",
       "Mercury",
@@ -66,7 +66,7 @@
     "id": "four",
     "name": "Four",
     "year": 2012,
-    "color": "#2dc653",
+    "color": "#171940",
     "songs": [
       "So He Begins to Lie",
       "Team A",
@@ -91,7 +91,7 @@
     "id": "hymns",
     "name": "Hymns",
     "year": 2016,
-    "color": "#9b5de5",
+    "color": "#d4ba1d",
     "songs": [
       "The Love Within",
       "Only He Can Heal Me",
@@ -115,7 +115,7 @@
     "id": "alpha-games",
     "name": "Alpha Games",
     "year": 2022,
-    "color": "#ffd166",
+    "color": "#d32e44",
     "songs": [
       "Acting Out",
       "By Any Means Necessary",
@@ -138,7 +138,7 @@
     "id": "bloc-party-ep",
     "name": "Bloc Party",
     "year": 2004,
-    "color": "#c9a84c",
+    "color": "#ba5542",
     "songs": [
       "Staying Fat",
       "The Answer",
@@ -149,7 +149,7 @@
     "id": "little-thoughts",
     "name": "Little Thoughts",
     "year": 2004,
-    "color": "#ff6b9d",
+    "color": "#c59dbf",
     "songs": [
       "Little Thoughts",
       "Tulips",
@@ -161,7 +161,7 @@
     "id": "helicopter-single",
     "name": "Helicopter",
     "year": 2004,
-    "color": "#adb5bd",
+    "color": "#73777a",
     "songs": [
       "Always New Depths"
     ]
@@ -170,7 +170,7 @@
     "id": "two-more-years",
     "name": "Two More Years",
     "year": 2005,
-    "color": "#ef476f",
+    "color": "#75876e",
     "songs": [
       "Two More Years",
       "Hero"
@@ -180,7 +180,7 @@
     "id": "help-a-day-in-the-life",
     "name": "Help!: A Day in the Life",
     "year": 2005,
-    "color": "#495057",
+    "color": "#a42c1b",
     "songs": [
       "The Present"
     ]
@@ -189,7 +189,7 @@
     "id": "a-weekend-in-the-city-b-sides",
     "name": "A Weekend in the City B-Sides",
     "year": 2007,
-    "color": "#7b8cde",
+    "color": "#593e20",
     "songs": [
       "Atonement",
       "Cain Said to Abel",
@@ -209,7 +209,7 @@
     "id": "flux",
     "name": "Flux",
     "year": 2007,
-    "color": "#43aa8b",
+    "color": "#d4d36d",
     "songs": [
       "Flux"
     ]
@@ -218,7 +218,7 @@
     "id": "radio-1-live-lounge",
     "name": "Radio 1's Live Lounge: Vol. 2",
     "year": 2006,
-    "color": "#6c757d",
+    "color": "#7e38f4",
     "songs": [
       "Say It Right"
     ]
@@ -227,7 +227,7 @@
     "id": "the-nextwave-sessions",
     "name": "The Nextwave Sessions",
     "year": 2013,
-    "color": "#06d6a0",
+    "color": "#215262",
     "songs": [
       "Children of the Future",
       "French Exit",
@@ -241,7 +241,7 @@
     "id": "flirting-again",
     "name": "Flirting Again",
     "year": 2024,
-    "color": "#f8961e",
+    "color": "#bc8e81",
     "songs": [
       "Flirting Again"
     ]
@@ -250,7 +250,7 @@
     "id": "the-high-life",
     "name": "The High Life",
     "year": 2023,
-    "color": "#118ab2",
+    "color": "#094d72",
     "songs": [
       "Blue",
       "High Life",
@@ -262,7 +262,7 @@
     "id": "one-more-chance",
     "name": "One More Chance",
     "year": 2009,
-    "color": "#577590",
+    "color": "#757745",
     "songs": [
       "One More Chance"
     ]
@@ -271,7 +271,7 @@
     "id": "stunt-queen",
     "name": "Stunt Queen",
     "year": 2016,
-    "color": "#f72585",
+    "color": "#303030",
     "songs": [
       "Stunt Queen"
     ]
