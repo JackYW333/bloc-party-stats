@@ -7,7 +7,15 @@ export default function ConcertPage({ data }) {
   const { id } = useParams()
   const { loading, error, setlists } = data
 
-  const show = useMemo(() => setlists.find(s => s.id === id), [setlists, id])
+  const sorted = useMemo(
+    () => [...setlists].sort((a, b) => a.date.localeCompare(b.date)),
+    [setlists]
+  )
+
+  const showIndex = useMemo(() => sorted.findIndex(s => s.id === id), [sorted, id])
+  const show = sorted[showIndex] ?? null
+  const prev = showIndex > 0 ? sorted[showIndex - 1] : null
+  const next = showIndex < sorted.length - 1 ? sorted[showIndex + 1] : null
 
   const debutMap = useMemo(() => {
     if (!setlists.length) return {}
@@ -83,6 +91,33 @@ export default function ConcertPage({ data }) {
           <a href={show.setlistFmUrl} target="_blank" rel="noopener noreferrer">View on setlist.fm ↗</a>
         </p>
       )}
+
+      <nav className="show-nav">
+        <div className="show-nav__side">
+          {prev && (
+            <Link to={`/concert/${prev.id}`} className="show-nav__btn">
+              <span className="show-nav__arrow">←</span>
+              <span className="show-nav__info">
+                <span className="show-nav__label">Previous</span>
+                <span className="show-nav__detail">{formatDate(prev.date)}</span>
+                <span className="show-nav__detail">{prev.venue}, {prev.city}</span>
+              </span>
+            </Link>
+          )}
+        </div>
+        <div className="show-nav__side show-nav__side--right">
+          {next && (
+            <Link to={`/concert/${next.id}`} className="show-nav__btn show-nav__btn--right">
+              <span className="show-nav__info">
+                <span className="show-nav__label">Next</span>
+                <span className="show-nav__detail">{formatDate(next.date)}</span>
+                <span className="show-nav__detail">{next.venue}, {next.city}</span>
+              </span>
+              <span className="show-nav__arrow">→</span>
+            </Link>
+          )}
+        </div>
+      </nav>
     </div>
   )
 }
