@@ -1,0 +1,35 @@
+import { useState } from 'react'
+import AlbumBadge from './AlbumBadge.jsx'
+
+export default function SongTable({ songs, limit = 20 }) {
+  const [expanded, setExpanded] = useState(false)
+  const max = songs[0]?.count || 1
+  const visible = expanded ? songs : songs.slice(0, limit)
+
+  return (
+    <div className="card">
+      <div className="card-title">Most Played Songs</div>
+      <ol className="ranked-list">
+        {visible.map((s, i) => (
+          <li key={s.name}>
+            <span className="ranked-list__rank">{i + 1}</span>
+            <span className="ranked-list__name">{s.name}</span>
+            <AlbumBadge album={s.album} />
+            <div className="ranked-list__bar-wrap">
+              <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
+            </div>
+            <span className="ranked-list__meta">{s.count}×</span>
+          </li>
+        ))}
+      </ol>
+      {songs.length > limit && (
+        <button
+          onClick={() => setExpanded(e => !e)}
+          style={{ marginTop: '0.75rem', background: 'none', border: 'none', color: 'var(--accent)', cursor: 'pointer', fontSize: '0.85rem' }}
+        >
+          {expanded ? 'Show less' : `Show all ${songs.length} songs`}
+        </button>
+      )}
+    </div>
+  )
+}

@@ -1,0 +1,53 @@
+{
+  "members": [
+    {
+      "id": "kele",
+      "name": "Kele Okereke",
+      "role": "Vocals, Guitar",
+      "periods": [
+        { "from": "2003-01-01", "to": null }
+      ]
+    },
+    {
+      "id": "russell",
+      "name": "Russell Lissack",
+      "role": "Guitar",
+      "periods": [
+        { "from": "2003-01-01", "to": null }
+      ]
+    },
+    {
+      "id": "gordon",
+      "name": "Gordon Moakes",
+      "role": "Bass, Vocals",
+      "periods": [
+        { "from": "2003-01-01", "to": "2015-04-01" }
+      ]
+    },
+    {
+      "id": "justin",
+      "name": "Justin Harris",
+      "role": "Bass, Vocals",
+      "periods": [
+        { "from": "2015-04-01", "to": null }
+      ]
+    },
+    {
+      "id": "matt",
+      "name": "Matt Tong",
+      "role": "Drums",
+      "periods": [
+        { "from": "2003-01-01", "to": "2013-09-01" }
+      ]
+    },
+    {
+      "id": "louise",
+      "name": "Louise Bartle",
+      "role": "Drums",
+      "periods": [
+        { "from": "2015-01-01", "to": null }
+      ]
+    }
+  ],
+  "note": "Membership periods are approximate. Edit this file to correct dates or add non-consecutive periods. 'to': null means currently active. Between Matt Tong's departure (Sept 2013) and Louise Bartle joining (Jan 2015), Bloc Party used various session drummers — add them here if desired."
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "silent-alarm",
+    "name": "Silent Alarm",
+    "year": 2005,
+    "color": "#e63946",
+    "songs": [
+      "Like Eating Glass",
+      "Helicopter",
+      "Positive Tension",
+      "Banquet",
+      "Blue Light",
+      "She's Hearing Voices",
+      "This Modern Love",
+      "Luno",
+      "Price of Gas",
+      "So Here We Are",
+      "Plans",
+      "Staying Fat",
+      "Tulips",
+      "Little Thoughts",
+      "Colonnade"
+    ]
+  },
+  {
+    "id": "a-weekend-in-the-city",
+    "name": "A Weekend in the City",
+    "year": 2007,
+    "color": "#4361ee",
+    "songs": [
+      "Song for Clay (Disappear Here)",
+      "Hunting for Witches",
+      "Waiting for the 7.18",
+      "The Prayer",
+      "Uniform",
+      "On",
+      "Where Is Home?",
+      "Kreuzberg",
+      "I Still Remember",
+      "Sunday",
+      "SRXT",
+      "England",
+      "We Were Lovers",
+      "Miranda"
+    ]
+  },
+  {
+    "id": "intimacy",
+    "name": "Intimacy",
+    "year": 2008,
+    "color": "#f77f00",
+    "songs": [
+      "Ares",
+      "Mercury",
+      "Halo",
+      "Biko",
+      "Trojan Horse",
+      "Signs",
+      "One Month Off",
+      "Zephyrus",
+      "Ion Square",
+      "Letter to My Son",
+      "Talons",
+      "Better Than Heaven",
+      "Flux"
+    ]
+  },
+  {
+    "id": "four",
+    "name": "Four",
+    "year": 2012,
+    "color": "#2dc653",
+    "songs": [
+      "So He Begins to Lie",
+      "Team A",
+      "V.A.L.I.S.",
+      "Day Four",
+      "Octopus",
+      "Truth",
+      "Kettling",
+      "Leaf",
+      "We Are Not Good People",
+      "Coliseum",
+      "Nextwave",
+      "Real Talk"
+    ]
+  },
+  {
+    "id": "hymns",
+    "name": "Hymns",
+    "year": 2016,
+    "color": "#9b5de5",
+    "songs": [
+      "The Love Within",
+      "Only He Can Heal Me",
+      "Into the Earth",
+      "Fortress",
+      "Different Drugs",
+      "One More Chance",
+      "My True Name",
+      "Virtue",
+      "Exes",
+      "Living Lux",
+      "Stunt Queen"
+    ]
+  },
+  {
+    "id": "alpha-games",
+    "name": "Alpha Games",
+    "year": 2022,
+    "color": "#ffd166",
+    "songs": [
+      "Tooled Up",
+      "Traps",
+      "If We Get Caught",
+      "Refuge",
+      "Wilderness",
+      "Callum Is a Snake",
+      "Sex Magik",
+      "Étienne",
+      "Of Things Yet to Come",
+      "The Peace Offering",
+      "I Will Not Lie",
+      "Negative",
+      "Last Rites"
+    ]
+  }
+]
