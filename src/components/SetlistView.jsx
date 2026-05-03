@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import AlbumBadge from './AlbumBadge.jsx'
 import { getAlbum } from '../utils/stats.js'
 
@@ -34,7 +35,10 @@ export default function SetlistView({ songs, debutNames = [] }) {
               return (
                 <li key={`${song.name}-${posCounter}`} className="setlist__song">
                   <span className="setlist__pos">{song.tape ? '—' : posCounter}</span>
-                  <span className="setlist__name">{song.name}</span>
+                  {song.tape
+                    ? <span className="setlist__name">{song.name}</span>
+                    : <Link to={`/song/${encodeURIComponent(song.name)}`} className="setlist__name" style={{ color: 'var(--text)' }}>{song.name}</Link>
+                  }
                   {song.tape && <span className="tag tag--tape">tape</span>}
                   {isDebut && <span className="tag tag--debut">debut</span>}
                   <AlbumBadge album={album} />
