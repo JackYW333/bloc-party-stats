@@ -81,10 +81,18 @@
       "Real Talk",
       "3x3",
       "Black Crown",
-      "Lean",
       "Mean",
-      "Straight Thru Cru",
       "The Healing"
+    ]
+  },
+  {
+    "id": "four-more",
+    "name": "Four More",
+    "year": 2013,
+    "color": "#cb3d38",
+    "songs": [
+      "Lean",
+      "Straight Thru Cru"
     ]
   },
   {
