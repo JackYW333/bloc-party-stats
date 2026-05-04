@@ -25,7 +25,7 @@ import {
 } from '../utils/stats.js'
 
 export default function Overview({ data }) {
-  const { loading, error, setlists, lastUpdated } = data
+  const { loading, error, setlists, lastUpdated, totalWithSetlist } = data
 
   const stats = useMemo(() => {
     if (!setlists.length) return null
@@ -66,7 +66,12 @@ export default function Overview({ data }) {
       </div>
 
       <div className="stat-grid">
-        <StatCard value={setlists.length.toLocaleString()} label="Total Shows" />
+        <StatCard
+          value={setlists.length.toLocaleString()}
+          label={totalWithSetlist != null && totalWithSetlist < setlists.length
+            ? `Total Shows (${totalWithSetlist.toLocaleString()} with setlist)`
+            : 'Total Shows'}
+        />
         <StatCard value={stats.countries.length} label="Countries" />
         <StatCard value={stats.cities.length} label="Cities" />
         <StatCard value={stats.venues.length} label="Venues" />

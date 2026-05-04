@@ -1,6 +1,7 @@
 {
-  "lastUpdated": "2026-05-04T08:42:06.633Z",
-  "total": 902,
+  "lastUpdated": "2026-05-04T11:49:24.503Z",
+  "total": 1132,
+  "totalWithSetlist": 902,
   "setlists": [
     {
       "id": "7b480ea0",
@@ -4202,12 +4203,6 @@
           "name": "Like Eating Glass",
           "tape": false,
           "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": true,
-          "encore": 1,
           "cover": null
         },
         {
@@ -20852,12 +20847,6 @@
           "cover": null
         },
         {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "My True Name",
           "tape": false,
           "encore": 0,
@@ -23288,6 +23277,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "63fff243",
+      "date": "2016-07-07",
+      "venue": "Parc de Valmy",
+      "city": "Argelès-sur-Mer",
+      "state": "Occitanie",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 42.546,
+      "lng": 3.023,
+      "tour": "Hymns",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/parc-de-valmy-argeles-sur-mer-france-63fff243.html",
+      "songs": []
     },
     {
       "id": "53ff9b6d",
@@ -31738,12 +31741,6 @@
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/ottakringer-arena-wiesen-austria-bd941fe.html",
       "songs": [
         {
-          "name": "",
-          "tape": true,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "So Here We Are",
           "tape": false,
           "encore": 0,
@@ -37237,12 +37234,6 @@
           "cover": null
         },
         {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "Song for Clay (Disappear Here)",
           "tape": false,
           "encore": 0,
@@ -37250,12 +37241,6 @@
         },
         {
           "name": "Banquet",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
           "tape": false,
           "encore": 0,
           "cover": null
@@ -38764,6 +38749,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "3bdb8424",
+      "date": "2013-01-23",
+      "venue": "Belly Up",
+      "city": "Aspen",
+      "state": "Colorado",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 39.1910983,
+      "lng": -106.8175387,
+      "tour": "Four Tour 2013",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/belly-up-aspen-co-3bdb8424.html",
+      "songs": []
     },
     {
       "id": "13dba1b5",
@@ -40636,12 +40635,6 @@
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2012/the-observatory-santa-ana-ca-1bda0d78.html",
       "songs": [
         {
-          "name": "",
-          "tape": true,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "So He Begins to Lie",
           "tape": false,
           "encore": 0,
@@ -40770,12 +40763,6 @@
       "tour": "Four Tour 2012",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2012/hollywood-palladium-los-angeles-ca-2bda140e.html",
       "songs": [
-        {
-          "name": "",
-          "tape": true,
-          "encore": 0,
-          "cover": null
-        },
         {
           "name": "So He Begins to Lie",
           "tape": false,
@@ -45433,12 +45420,6 @@
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2012/trocadero-theatre-philadelphia-pa-3dd998b.html",
       "songs": [
         {
-          "name": "",
-          "tape": true,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "So He Begins to Lie",
           "tape": false,
           "encore": 0,
@@ -46054,6 +46035,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "5bdb1388",
+      "date": "2012-09-04",
+      "venue": "Mallorca Rocks Hotel",
+      "city": "Magalluf",
+      "state": "Balearic Islands",
+      "country": "Spain",
+      "countryCode": "ES",
+      "lat": 39.5111,
+      "lng": 2.5353,
+      "tour": "Four Tour 2012",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2012/mallorca-rocks-hotel-magalluf-spain-5bdb1388.html",
+      "songs": []
     },
     {
       "id": "23dc70f7",
@@ -48201,12 +48196,6 @@
       "tour": "Four Tour 2012",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2012/ferropolis-grafenhainichen-germany-1bdcb544.html",
       "songs": [
-        {
-          "name": "",
-          "tape": true,
-          "encore": 0,
-          "cover": null
-        },
         {
           "name": "Octopus",
           "tape": false,
@@ -51525,6 +51514,20 @@
       ]
     },
     {
+      "id": "3d24d3b",
+      "date": "2009-10-06",
+      "venue": "Music Hall",
+      "city": "Aberdeen",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 57.1333333,
+      "lng": -2.1,
+      "tour": "Bloctober",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/music-hall-aberdeen-scotland-3d24d3b.html",
+      "songs": []
+    },
+    {
       "id": "3bd7f8a0",
       "date": "2009-10-04",
       "venue": "The Ironworks",
@@ -52617,6 +52620,20 @@
       ]
     },
     {
+      "id": "13eb41d9",
+      "date": "2009-08-01",
+      "venue": "Galopprennbahn Riem",
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 48.1374325498109,
+      "lng": 11.5754914283752,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/galopprennbahn-riem-munich-germany-13eb41d9.html",
+      "songs": []
+    },
+    {
       "id": "1bd6411c",
       "date": "2009-07-28",
       "venue": "Museum of Contemporary Art",
@@ -53307,6 +53324,20 @@
       ]
     },
     {
+      "id": "33d26881",
+      "date": "2009-07-16",
+      "venue": "Gurten",
+      "city": "Bern",
+      "state": "Bern",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "lat": 46.948,
+      "lng": 7.447,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/gurten-bern-switzerland-33d26881.html",
+      "songs": []
+    },
+    {
       "id": "1bd64db4",
       "date": "2009-07-15",
       "venue": "Piazza Castello",
@@ -53719,6 +53750,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "13d5d9d5",
+      "date": "2009-07-06",
+      "venue": "Festivalpark",
+      "city": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "lat": 50.2092284127622,
+      "lng": 15.8327684657118,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/festivalpark-hradec-kralove-czechia-13d5d9d5.html",
+      "songs": []
     },
     {
       "id": "7bd1ca44",
@@ -54613,6 +54658,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "53d1fb65",
+      "date": "2009-06-01",
+      "venue": "La Laiterie",
+      "city": "Strasbourg",
+      "state": "Grand Est",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 48.583,
+      "lng": 7.75,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/la-laiterie-strasbourg-france-53d1fb65.html",
+      "songs": []
     },
     {
       "id": "7bd78a38",
@@ -56067,6 +56126,20 @@
       ]
     },
     {
+      "id": "6bd62e4e",
+      "date": "2009-04-22",
+      "venue": "Roseland Theater",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 45.5234515,
+      "lng": -122.6762071,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/roseland-theater-portland-or-6bd62e4e.html",
+      "songs": []
+    },
+    {
       "id": "3bd62cb0",
       "date": "2009-04-20",
       "venue": "Fox Theater",
@@ -56194,6 +56267,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "53db1395",
+      "date": "2009-04-19",
+      "venue": "Veterans Memorial Building",
+      "city": "San Luis Obispo",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 35,
+      "lng": 120,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/veterans-memorial-building-san-luis-obispo-ca-53db1395.html",
+      "songs": []
     },
     {
       "id": "7bd63238",
@@ -61401,6 +61488,20 @@
       ]
     },
     {
+      "id": "53db1391",
+      "date": "2008-12-12",
+      "venue": "The Joint at Hard Rock Hotel",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 36.1749705,
+      "lng": -115.137223,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-joint-at-hard-rock-hotel-las-vegas-nv-53db1391.html",
+      "songs": []
+    },
+    {
       "id": "3d11d5f",
       "date": "2008-12-11",
       "venue": "Oracle Arena",
@@ -63134,24 +63235,6 @@
           "tape": false,
           "encore": 0,
           "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
         }
       ]
     },
@@ -64861,6 +64944,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "43db139b",
+      "date": "2008-09-07",
+      "venue": "Syracuse University",
+      "city": "Syracuse",
+      "state": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 43.0481221,
+      "lng": -76.1474244,
+      "tour": "Intimacy Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/syracuse-university-syracuse-ny-43db139b.html",
+      "songs": []
     },
     {
       "id": "2bd73432",
@@ -67524,6 +67621,48 @@
       ]
     },
     {
+      "id": "7bda16f4",
+      "date": "2007-11-23",
+      "venue": "Pabellón Multiusos Sánchez Paraíso",
+      "city": "Salamanca",
+      "state": "Castille and León",
+      "country": "Spain",
+      "countryCode": "ES",
+      "lat": 40.9666667,
+      "lng": -5.65,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/pabellon-multiusos-sanchez-paraiso-salamanca-spain-7bda16f4.html",
+      "songs": []
+    },
+    {
+      "id": "53d733f9",
+      "date": "2007-11-22",
+      "venue": "Heineken Greenspace",
+      "city": "Valencia",
+      "state": "Valencia",
+      "country": "Spain",
+      "countryCode": "ES",
+      "lat": 39.4697524227712,
+      "lng": -0.377386808395386,
+      "tour": "A Weekend in the City",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/heineken-greenspace-valencia-spain-53d733f9.html",
+      "songs": []
+    },
+    {
+      "id": "4bdb13e6",
+      "date": "2007-11-20",
+      "venue": "Dock des Suds",
+      "city": "Marseille",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 43.3,
+      "lng": 5.4,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/dock-des-suds-marseille-france-4bdb13e6.html",
+      "songs": []
+    },
+    {
       "id": "23d11cab",
       "date": "2007-11-19",
       "venue": "Teatro Concordia Venaria Reale",
@@ -68684,6 +68823,20 @@
       ]
     },
     {
+      "id": "43bc5757",
+      "date": "2007-11-06",
+      "venue": "KB Hallen",
+      "city": "Copenhagen",
+      "state": "Capital Region",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "lat": 55.6776812020993,
+      "lng": 12.5709342956543,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/kb-hallen-copenhagen-denmark-43bc5757.html",
+      "songs": []
+    },
+    {
       "id": "13d5c5b5",
       "date": "2007-11-03",
       "venue": "Phoenix Park",
@@ -68991,6 +69144,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "5bdb13f4",
+      "date": "2007-10-19",
+      "venue": "Flensborgarskólinn",
+      "city": "Hafnarfjörður",
+      "state": "Capital Region",
+      "country": "Iceland",
+      "countryCode": "IS",
+      "lat": 64.0671046248028,
+      "lng": -21.9377446174622,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/flensborgarskolinn-hafnarfjorur-iceland-5bdb13f4.html",
+      "songs": []
     },
     {
       "id": "53d2d7f5",
@@ -69873,6 +70040,48 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "63dc1eab",
+      "date": "2007-09-25",
+      "venue": "City Hall",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 36.1658899,
+      "lng": -86.7844432,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/city-hall-nashville-tn-63dc1eab.html",
+      "songs": []
+    },
+    {
+      "id": "43db13fb",
+      "date": "2007-09-23",
+      "venue": "Cain's Ballroom",
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 36.1539816,
+      "lng": -95.992775,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/cains-ballroom-tulsa-ok-43db13fb.html",
+      "songs": []
+    },
+    {
+      "id": "53db1305",
+      "date": "2007-09-22",
+      "venue": "House of Blues",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 32.7830556,
+      "lng": -96.8066667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/house-of-blues-dallas-tx-53db1305.html",
+      "songs": []
     },
     {
       "id": "4bdb1306",
@@ -71933,6 +72142,20 @@
       ]
     },
     {
+      "id": "5bd55bd4",
+      "date": "2007-07-12",
+      "venue": "Folkets Park",
+      "city": "Arvika",
+      "state": "Värmland County",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "lat": 59.6552818052101,
+      "lng": 12.5851821899414,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/folkets-park-arvika-sweden-5bd55bd4.html",
+      "songs": []
+    },
+    {
       "id": "33d6c04d",
       "date": "2007-07-08",
       "venue": "Punchestown Racecourse",
@@ -72357,12 +72580,6 @@
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/sittertobel-st-gallen-switzerland-53db1331.html",
       "songs": [
         {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "Hunting for Witches",
           "tape": false,
           "encore": 0,
@@ -72510,6 +72727,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "5bdb133c",
+      "date": "2007-06-28",
+      "venue": "Zénith de Rouen",
+      "city": "Le Grand-Quevilly",
+      "state": "Normandy",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 49.417,
+      "lng": 1.033,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/zenith-de-rouen-le-grand-quevilly-france-5bdb133c.html",
+      "songs": []
+    },
+    {
+      "id": "53db133d",
+      "date": "2007-06-26",
+      "venue": "Den Atelier",
+      "city": "Luxembourg",
+      "state": "Luxembourg",
+      "country": "Luxembourg",
+      "countryCode": "LU",
+      "lat": 49.6116667,
+      "lng": 6.13,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/den-atelier-luxembourg-luxembourg-53db133d.html",
+      "songs": []
     },
     {
       "id": "4bd4cf0e",
@@ -73982,6 +74227,20 @@
       ]
     },
     {
+      "id": "43db134f",
+      "date": "2007-05-31",
+      "venue": "Tabernacle",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 33.7489954,
+      "lng": -84.3879824,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/tabernacle-atlanta-ga-43db134f.html",
+      "songs": []
+    },
+    {
       "id": "23d3701f",
       "date": "2007-05-29",
       "venue": "Club Firestone",
@@ -74366,6 +74625,20 @@
       ]
     },
     {
+      "id": "bd725de",
+      "date": "2007-05-17",
+      "venue": "La Riviera",
+      "city": "Madrid",
+      "state": "Autonomous Region of Madrid",
+      "country": "Spain",
+      "countryCode": "ES",
+      "lat": 40.4165020941502,
+      "lng": -3.70256423950195,
+      "tour": "A Weekend in the City",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/la-riviera-madrid-spain-bd725de.html",
+      "songs": []
+    },
+    {
       "id": "33d46cc5",
       "date": "2007-05-15",
       "venue": "Razzmatazz",
@@ -74732,6 +75005,34 @@
       ]
     },
     {
+      "id": "53db135d",
+      "date": "2007-05-10",
+      "venue": "Salle Métropole",
+      "city": "Lausanne",
+      "state": "Vaud",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "lat": 46.5159963488544,
+      "lng": 6.6328239440918,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/salle-metropole-lausanne-switzerland-53db135d.html",
+      "songs": []
+    },
+    {
+      "id": "4bdb135e",
+      "date": "2007-05-09",
+      "venue": "Tonhalle",
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 48.1374325498109,
+      "lng": 11.5754914283752,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/tonhalle-munich-germany-4bdb135e.html",
+      "songs": []
+    },
+    {
       "id": "43d41bb7",
       "date": "2007-05-08",
       "venue": "Palladium",
@@ -74847,6 +75148,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bd7ed2e",
+      "date": "2007-05-06",
+      "venue": "Alter Schlachthof",
+      "city": "Dresden",
+      "state": "Saxony",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 51.0508910809796,
+      "lng": 13.738317489624,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/alter-schlachthof-dresden-germany-bd7ed2e.html",
+      "songs": []
     },
     {
       "id": "4bd6af06",
@@ -75071,6 +75386,20 @@
       ]
     },
     {
+      "id": "4bd28f7a",
+      "date": "2007-05-02",
+      "venue": "Sentrum Scene",
+      "city": "Oslo",
+      "state": "Oslo",
+      "country": "Norway",
+      "countryCode": "NO",
+      "lat": 59.912697157616,
+      "lng": 10.7413673400879,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/sentrum-scene-oslo-norway-4bd28f7a.html",
+      "songs": []
+    },
+    {
       "id": "7bd6ea58",
       "date": "2007-05-01",
       "venue": "Cirkus",
@@ -75186,6 +75515,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "5bdda384",
+      "date": "2007-04-30",
+      "venue": "Store VEGA",
+      "city": "Copenhagen",
+      "state": "Capital Region",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "lat": 55.6776812020993,
+      "lng": 12.5709342956543,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/store-vega-copenhagen-denmark-5bdda384.html",
+      "songs": []
     },
     {
       "id": "5bd573f4",
@@ -75618,6 +75961,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "5bdb1364",
+      "date": "2007-04-24",
+      "venue": "L'Aéronef",
+      "city": "Lille",
+      "state": "Hauts-de-France",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 50.633,
+      "lng": 3.067,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/laeronef-lille-france-5bdb1364.html",
+      "songs": []
+    },
+    {
+      "id": "53db1365",
+      "date": "2007-04-23",
+      "venue": "La Carrière",
+      "city": "Saint-Herblain",
+      "state": "Pays de la Loire",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 47.217,
+      "lng": -1.65,
+      "tour": "A Weekend in the City",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/la-carriere-saint-herblain-france-53db1365.html",
+      "songs": []
     },
     {
       "id": "13df4d05",
@@ -76208,6 +76579,20 @@
       ]
     },
     {
+      "id": "4bd717a6",
+      "date": "2007-04-14",
+      "venue": "Carling Academy Glasgow",
+      "city": "Glasgow",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.8333333,
+      "lng": -4.25,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/carling-academy-glasgow-glasgow-scotland-4bd717a6.html",
+      "songs": []
+    },
+    {
       "id": "33db10cd",
       "date": "2007-03-31",
       "venue": "United Palace Theatre",
@@ -76611,54 +76996,6 @@
           "cover": null
         },
         {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 1,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 1,
-          "cover": null
-        },
-        {
           "name": "She's Hearing Voices",
           "tape": false,
           "encore": 1,
@@ -76668,12 +77005,6 @@
           "name": "Helicopter",
           "tape": false,
           "encore": 1,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 2,
           "cover": null
         }
       ]
@@ -76782,6 +77113,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "33db10c9",
+      "date": "2007-03-24",
+      "venue": "Royal Oak Music Theatre",
+      "city": "Royal Oak",
+      "state": "Michigan",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 42.4894801,
+      "lng": -83.1446485,
+      "tour": "A Weekend in the City",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/royal-oak-music-theatre-royal-oak-mi-33db10c9.html",
+      "songs": []
     },
     {
       "id": "7bd3daec",
@@ -77723,6 +78068,48 @@
       ]
     },
     {
+      "id": "33db10d5",
+      "date": "2007-03-06",
+      "venue": "Nanba Hatch",
+      "city": "Osaka",
+      "state": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 34.694,
+      "lng": 135.502,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/nanba-hatch-osaka-japan-33db10d5.html",
+      "songs": []
+    },
+    {
+      "id": "3bdb10d0",
+      "date": "2007-03-05",
+      "venue": "Club Diamond Hall",
+      "city": "Nagoya",
+      "state": "Aichi",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 35.105,
+      "lng": 136.542,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/club-diamond-hall-nagoya-japan-3bdb10d0.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb1184",
+      "date": "2007-03-04",
+      "venue": "STUDIO COAST",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 35.69,
+      "lng": 139.692,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/studio-coast-tokyo-japan-1bdb1184.html",
+      "songs": []
+    },
+    {
       "id": "3bd6e0c0",
       "date": "2007-02-22",
       "venue": "Octagon Centre",
@@ -77834,6 +78221,20 @@
       ]
     },
     {
+      "id": "3db1187",
+      "date": "2007-02-21",
+      "venue": "Carling Academy",
+      "city": "Newcastle upon Tyne",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 54.973,
+      "lng": -1.614,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/carling-academy-newcastle-upon-tyne-england-3db1187.html",
+      "songs": []
+    },
+    {
       "id": "7bd08a40",
       "date": "2007-02-20",
       "venue": "Corn Exchange",
@@ -77853,6 +78254,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bdb1182",
+      "date": "2007-02-18",
+      "venue": "Music Hall",
+      "city": "Aberdeen",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 57.1333333,
+      "lng": -2.1,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/music-hall-aberdeen-scotland-bdb1182.html",
+      "songs": []
     },
     {
       "id": "63d6def7",
@@ -80189,6 +80604,48 @@
       ]
     },
     {
+      "id": "33d37039",
+      "date": "2006-11-08",
+      "venue": "UCF Arena",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 28.5383355,
+      "lng": -81.3792365,
+      "tour": "Nothing Rhymes With Circus Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/ucf-arena-orlando-fl-33d37039.html",
+      "songs": []
+    },
+    {
+      "id": "53db1775",
+      "date": "2006-11-07",
+      "venue": "BankAtlantic Center",
+      "city": "Sunrise",
+      "state": "Florida",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 27.2594935,
+      "lng": -82.4428733,
+      "tour": "Nothing Rhymes With Circus Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/bankatlantic-center-sunrise-fl-53db1775.html",
+      "songs": []
+    },
+    {
+      "id": "5bdb1770",
+      "date": "2006-11-02",
+      "venue": "UNIT",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 35.69,
+      "lng": 139.692,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/unit-tokyo-japan-5bdb1770.html",
+      "songs": []
+    },
+    {
       "id": "13d009a1",
       "date": "2006-09-02",
       "venue": "Stradbally Hall",
@@ -80346,6 +80803,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "4bdb177e",
+      "date": "2006-08-18",
+      "venue": "Evenemententerrein Walibi Holland",
+      "city": "Biddinghuizen",
+      "state": "Flevoland",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "lat": 52.455,
+      "lng": 5.693056,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/evenemententerrein-walibi-holland-biddinghuizen-netherlands-4bdb177e.html",
+      "songs": []
     },
     {
       "id": "53d5b391",
@@ -81788,6 +82259,20 @@
       ]
     },
     {
+      "id": "73d5aeb5",
+      "date": "2006-04-28",
+      "venue": "The Joint at Hard Rock Hotel",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 36.1749705,
+      "lng": -115.137223,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/the-joint-at-hard-rock-hotel-las-vegas-nv-73d5aeb5.html",
+      "songs": []
+    },
+    {
       "id": "33db1481",
       "date": "2006-04-27",
       "venue": "Marquee Theatre",
@@ -82958,6 +83443,20 @@
       ]
     },
     {
+      "id": "138b41d1",
+      "date": "2006-01-16",
+      "venue": "Vanbrugh College",
+      "city": "York",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.9666667,
+      "lng": -1.0833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/vanbrugh-college-york-england-138b41d1.html",
+      "songs": []
+    },
+    {
       "id": "73d5fa4d",
       "date": "2005-12-18",
       "venue": "KOKO",
@@ -83180,6 +83679,20 @@
       ]
     },
     {
+      "id": "53d73375",
+      "date": "2005-12-02",
+      "venue": "Tor 3",
+      "city": "Dusseldorf",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 51.222,
+      "lng": 6.776,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/tor-3-dusseldorf-germany-53d73375.html",
+      "songs": []
+    },
+    {
       "id": "53de6705",
       "date": "2005-12-01",
       "venue": "Ringlokschuppen",
@@ -83283,6 +83796,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "1bdb15b8",
+      "date": "2005-11-29",
+      "venue": "Alter Schlachthof",
+      "city": "Dresden",
+      "state": "Saxony",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 51.0508910809796,
+      "lng": 13.738317489624,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/alter-schlachthof-dresden-germany-1bdb15b8.html",
+      "songs": []
+    },
+    {
+      "id": "13db15b9",
+      "date": "2005-11-28",
+      "venue": "Hugenottenhalle",
+      "city": "Neu Isenburg",
+      "state": "Hesse",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 50.05,
+      "lng": 8.7,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hugenottenhalle-neu-isenburg-germany-13db15b9.html",
+      "songs": []
     },
     {
       "id": "bdb15ba",
@@ -83810,6 +84351,20 @@
       ]
     },
     {
+      "id": "13d4814d",
+      "date": "2005-11-19",
+      "venue": "Razzmatazz",
+      "city": "Barcelona",
+      "state": "Catalonia",
+      "country": "Spain",
+      "countryCode": "ES",
+      "lat": 41.3887868890716,
+      "lng": 2.15898513793945,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/razzmatazz-barcelona-spain-13d4814d.html",
+      "songs": []
+    },
+    {
       "id": "1bd749bc",
       "date": "2005-11-18",
       "venue": "Sala Aqualung",
@@ -83913,6 +84468,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "13db15c5",
+      "date": "2005-11-16",
+      "venue": "Le Vigean",
+      "city": "Eysines",
+      "state": "Nouvelle-Aquitaine",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 44.883,
+      "lng": -0.65,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/le-vigean-eysines-france-13db15c5.html",
+      "songs": []
+    },
+    {
+      "id": "bdb15c6",
+      "date": "2005-11-15",
+      "venue": "La Carrière",
+      "city": "Saint-Herblain",
+      "state": "Pays de la Loire",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 47.217,
+      "lng": -1.65,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/la-carriere-saint-herblain-france-bdb15c6.html",
+      "songs": []
     },
     {
       "id": "53d7ab01",
@@ -84026,6 +84609,20 @@
       ]
     },
     {
+      "id": "3db15c7",
+      "date": "2005-11-12",
+      "venue": "Salle des Fêtes",
+      "city": "Schiltigheim",
+      "state": "Grand Est",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 48.6,
+      "lng": 7.75,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/salle-des-fetes-schiltigheim-france-3db15c7.html",
+      "songs": []
+    },
+    {
       "id": "7bd3d248",
       "date": "2005-11-11",
       "venue": "L'Aéronef",
@@ -84129,6 +84726,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "6bd2de1e",
+      "date": "2005-11-10",
+      "venue": "Hallen Van Schaarbeek / Halles de Schaerbeek",
+      "city": "Schaarbeek / Schaerbeek",
+      "state": "Brussels-Capital Region",
+      "country": "Belgium",
+      "countryCode": "BE",
+      "lat": 50.85,
+      "lng": 4.383,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hallen-van-schaarbeek-halles-de-schaerbeek-schaarbeek-schaerbeek-belgium-6bd2de1e.html",
+      "songs": []
+    },
+    {
+      "id": "bdb15ce",
+      "date": "2005-11-08",
+      "venue": "Black Box",
+      "city": "Galway",
+      "state": "Galway",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "lat": 53.2719444,
+      "lng": -9.0488889,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/black-box-galway-ireland-bdb15ce.html",
+      "songs": []
     },
     {
       "id": "3bd6c02c",
@@ -84407,6 +85032,34 @@
       ]
     },
     {
+      "id": "5bd4975c",
+      "date": "2005-10-28",
+      "venue": "Carling Academy Brixton",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-brixton-london-england-5bd4975c.html",
+      "songs": []
+    },
+    {
+      "id": "3db15cf",
+      "date": "2005-10-26",
+      "venue": "University of Exeter",
+      "city": "Exeter",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 50.7235979104432,
+      "lng": -3.52750718593597,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/university-of-exeter-exeter-england-3db15cf.html",
+      "songs": []
+    },
+    {
       "id": "1bdb15c8",
       "date": "2005-10-25",
       "venue": "Carling Academy Bristol",
@@ -84512,6 +85165,34 @@
       ]
     },
     {
+      "id": "7bd40ea4",
+      "date": "2005-10-24",
+      "venue": "Cardiff University",
+      "city": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.48,
+      "lng": -3.18,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/cardiff-university-cardiff-wales-7bd40ea4.html",
+      "songs": []
+    },
+    {
+      "id": "7bd6560c",
+      "date": "2005-10-22",
+      "venue": "De Montfort Hall",
+      "city": "Leicester",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.6333333,
+      "lng": -1.1333333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/de-montfort-hall-leicester-england-7bd6560c.html",
+      "songs": []
+    },
+    {
       "id": "bdb15ca",
       "date": "2005-10-21",
       "venue": "Carling Apollo Manchester",
@@ -84531,6 +85212,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "1bdb15d4",
+      "date": "2005-10-20",
+      "venue": "Carling Apollo Manchester",
+      "city": "Manchester",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4809464283615,
+      "lng": -2.23743438720703,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-apollo-manchester-manchester-england-1bdb15d4.html",
+      "songs": []
     },
     {
       "id": "13db15d5",
@@ -84636,6 +85331,48 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bdb15d6",
+      "date": "2005-10-17",
+      "venue": "Carling Academy Liverpool",
+      "city": "Liverpool",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4166667,
+      "lng": -3,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-liverpool-liverpool-england-bdb15d6.html",
+      "songs": []
+    },
+    {
+      "id": "3db15d7",
+      "date": "2005-10-16",
+      "venue": "Rock City",
+      "city": "Nottingham",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.9536023000285,
+      "lng": -1.15047454833984,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/rock-city-nottingham-england-3db15d7.html",
+      "songs": []
+    },
+    {
+      "id": "4bd3cf16",
+      "date": "2005-10-14",
+      "venue": "Carling Academy",
+      "city": "Birmingham",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.4666667,
+      "lng": -1.9166667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-birmingham-england-4bd3cf16.html",
+      "songs": []
     },
     {
       "id": "1bdb15d0",
@@ -84887,6 +85624,20 @@
       ]
     },
     {
+      "id": "33dcc471",
+      "date": "2005-10-09",
+      "venue": "The LCR, UEA",
+      "city": "Norwich",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.6278273182018,
+      "lng": 1.29833936691284,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-lcr-uea-norwich-england-33dcc471.html",
+      "songs": []
+    },
+    {
       "id": "3db15d3",
       "date": "2005-10-08",
       "venue": "Cambridge Corn Exchange",
@@ -85074,6 +85825,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "13db15dd",
+      "date": "2005-10-04",
+      "venue": "Carling Academy Glasgow",
+      "city": "Glasgow",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.8333333,
+      "lng": -4.25,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-glasgow-glasgow-scotland-13db15dd.html",
+      "songs": []
+    },
+    {
+      "id": "bdb15de",
+      "date": "2005-10-02",
+      "venue": "Corn Exchange",
+      "city": "Edinburgh",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.95,
+      "lng": -3.2,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/corn-exchange-edinburgh-scotland-bdb15de.html",
+      "songs": []
     },
     {
       "id": "3dd890b",
@@ -85280,6 +86059,48 @@
       ]
     },
     {
+      "id": "3db15df",
+      "date": "2005-09-22",
+      "venue": "The Warfield",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.775,
+      "lng": -122.419,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-warfield-san-francisco-ca-3db15df.html",
+      "songs": []
+    },
+    {
+      "id": "33da3cd5",
+      "date": "2005-09-21",
+      "venue": "The Warfield",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.775,
+      "lng": -122.419,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-warfield-san-francisco-ca-33da3cd5.html",
+      "songs": []
+    },
+    {
+      "id": "43d5d77b",
+      "date": "2005-09-20",
+      "venue": "Hollywood Palladium",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 34.052,
+      "lng": -118.244,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hollywood-palladium-los-angeles-ca-43d5d77b.html",
+      "songs": []
+    },
+    {
       "id": "3b8c5c68",
       "date": "2005-09-20",
       "venue": "The Tonight Show with Jay Leno",
@@ -85445,6 +86266,20 @@
       ]
     },
     {
+      "id": "3db15db",
+      "date": "2005-09-14",
+      "venue": "Congress Theater",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 41.850033,
+      "lng": -87.6500523,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/congress-theater-chicago-il-3db15db.html",
+      "songs": []
+    },
+    {
       "id": "1bdb15e4",
       "date": "2005-09-13",
       "venue": "Royal Oak Music Theatre",
@@ -85530,6 +86365,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "13db15e5",
+      "date": "2005-09-12",
+      "venue": "The Docks",
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "lat": 43.700113788,
+      "lng": -79.416304194,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-docks-toronto-on-canada-13db15e5.html",
+      "songs": []
     },
     {
       "id": "bdb15e6",
@@ -85674,6 +86523,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "1bdb15e0",
+      "date": "2005-09-08",
+      "venue": "Avalon",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 42.3584308,
+      "lng": -71.0597732,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/avalon-boston-ma-1bdb15e0.html",
+      "songs": []
+    },
+    {
+      "id": "7b4f0638",
+      "date": "2005-09-06",
+      "venue": "Grosvenor House Hotel",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/grosvenor-house-hotel-london-england-7b4f0638.html",
+      "songs": []
     },
     {
       "id": "bdb15e2",
@@ -85934,6 +86811,20 @@
       ]
     },
     {
+      "id": "bdb15ea",
+      "date": "2005-08-13",
+      "venue": "5 Goukan",
+      "city": "Osaka",
+      "state": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 34.694,
+      "lng": 135.502,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/5-goukan-osaka-japan-bdb15ea.html",
+      "songs": []
+    },
+    {
       "id": "bddadaa",
       "date": "2005-07-24",
       "venue": "Belongil Fields",
@@ -86082,12 +86973,6 @@
           "cover": null
         },
         {
-          "name": "",
-          "tape": false,
-          "encore": 1,
-          "cover": null
-        },
-        {
           "name": "So Here We Are",
           "tape": false,
           "encore": 1,
@@ -86100,6 +86985,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bdb15f6",
+      "date": "2005-07-21",
+      "venue": "Metro Theatre",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -33.8678499639382,
+      "lng": 151.207323074341,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/metro-theatre-sydney-australia-bdb15f6.html",
+      "songs": []
+    },
+    {
+      "id": "63d1da47",
+      "date": "2005-07-20",
+      "venue": "The Hi-Fi",
+      "city": "Melbourne",
+      "state": "Victoria",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -37.8139965641595,
+      "lng": 144.963322877884,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-hi-fi-melbourne-australia-63d1da47.html",
+      "songs": []
     },
     {
       "id": "1ba429e4",
@@ -86456,6 +87369,20 @@
       ]
     },
     {
+      "id": "4bdae7de",
+      "date": "2005-07-07",
+      "venue": "Münchenbryggeriet",
+      "city": "Stockholm",
+      "state": "Stockholm County",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "lat": 59.3325765361753,
+      "lng": 18.0649030208588,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/munchenbryggeriet-stockholm-sweden-4bdae7de.html",
+      "songs": []
+    },
+    {
       "id": "1bdb150c",
       "date": "2005-07-06",
       "venue": "Trädgår'n",
@@ -86596,26 +87523,22 @@
           "tape": false,
           "encore": 0,
           "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
         }
       ]
+    },
+    {
+      "id": "1bdb1514",
+      "date": "2005-07-03",
+      "venue": "Dyrskuepladsen",
+      "city": "Roskilde",
+      "state": "Region Zealand",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "lat": 55.6415191517441,
+      "lng": 12.0803475379944,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/dyrskuepladsen-roskilde-denmark-1bdb1514.html",
+      "songs": []
     },
     {
       "id": "13defd5d",
@@ -86790,6 +87713,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "13d125f5",
+      "date": "2005-06-25",
+      "venue": "Schulzentrum",
+      "city": "Herzogenrath",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 50.8666667,
+      "lng": 6.1,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/schulzentrum-herzogenrath-germany-13d125f5.html",
+      "songs": []
     },
     {
       "id": "4bd5ef2e",
@@ -87032,6 +87969,90 @@
       ]
     },
     {
+      "id": "1bdb1510",
+      "date": "2005-06-15",
+      "venue": "Webster Hall",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.7142691,
+      "lng": -74.0059729,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/webster-hall-new-york-ny-1bdb1510.html",
+      "songs": []
+    },
+    {
+      "id": "13db1511",
+      "date": "2005-06-14",
+      "venue": "Webster Hall",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.7142691,
+      "lng": -74.0059729,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/webster-hall-new-york-ny-13db1511.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb151c",
+      "date": "2005-06-13",
+      "venue": "Merriweather Post Pavilion",
+      "city": "Columbia",
+      "state": "Maryland",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 39.2403841,
+      "lng": -76.8394184,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/merriweather-post-pavilion-columbia-md-1bdb151c.html",
+      "songs": []
+    },
+    {
+      "id": "2bd3703e",
+      "date": "2005-06-11",
+      "venue": "Downtown Atlanta",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 33.7489954,
+      "lng": -84.3879824,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/downtown-atlanta-atlanta-ga-2bd3703e.html",
+      "songs": []
+    },
+    {
+      "id": "13db151d",
+      "date": "2005-06-10",
+      "venue": "One Eyed Jacks",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 29.955,
+      "lng": -90.075,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/one-eyed-jacks-new-orleans-la-13db151d.html",
+      "songs": []
+    },
+    {
+      "id": "bdb151e",
+      "date": "2005-06-09",
+      "venue": "The Ballroom",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 32.7830556,
+      "lng": -96.8066667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-ballroom-dallas-tx-bdb151e.html",
+      "songs": []
+    },
+    {
       "id": "4bd4b382",
       "date": "2005-06-06",
       "venue": "Salón 21",
@@ -87137,6 +88158,34 @@
       ]
     },
     {
+      "id": "3db151f",
+      "date": "2005-06-04",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 34.052,
+      "lng": -118.244,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/el-rey-theatre-los-angeles-ca-3db151f.html",
+      "songs": []
+    },
+    {
+      "id": "bdb151a",
+      "date": "2005-06-03",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 34.052,
+      "lng": -118.244,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/el-rey-theatre-los-angeles-ca-bdb151a.html",
+      "songs": []
+    },
+    {
       "id": "3d3510b",
       "date": "2005-06-01",
       "venue": "The Fillmore",
@@ -87236,6 +88285,34 @@
       ]
     },
     {
+      "id": "3db151b",
+      "date": "2005-05-31",
+      "venue": "Slim's",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 37.775,
+      "lng": -122.419,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/slims-san-francisco-ca-3db151b.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb1524",
+      "date": "2005-05-29",
+      "venue": "Commodore Ballroom",
+      "city": "Vancouver",
+      "state": "British Columbia",
+      "country": "Canada",
+      "countryCode": "CA",
+      "lat": 49.249657393,
+      "lng": -123.119340403,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/commodore-ballroom-vancouver-bc-canada-1bdb1524.html",
+      "songs": []
+    },
+    {
       "id": "13db1525",
       "date": "2005-05-28",
       "venue": "The Gorge Amphitheatre",
@@ -87303,6 +88380,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bdb1526",
+      "date": "2005-05-27",
+      "venue": "Crystal Ballroom",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 45.5234515,
+      "lng": -122.6762071,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/crystal-ballroom-portland-or-bdb1526.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb1520",
+      "date": "2005-05-25",
+      "venue": "In the Venue",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.7607794,
+      "lng": -111.8910474,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/in-the-venue-salt-lake-city-ut-1bdb1520.html",
+      "songs": []
     },
     {
       "id": "13db152d",
@@ -87555,6 +88660,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "73d3d241",
+      "date": "2005-05-17",
+      "venue": "Le Splendid",
+      "city": "Lille",
+      "state": "Hauts-de-France",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 50.633,
+      "lng": 3.067,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/le-splendid-lille-france-73d3d241.html",
+      "songs": []
     },
     {
       "id": "33dd6ce1",
@@ -88022,6 +89141,48 @@
       ]
     },
     {
+      "id": "13db254d",
+      "date": "2005-05-07",
+      "venue": "Shibuya CLUB QUATTRO",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 35.69,
+      "lng": 139.692,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/shibuya-club-quattro-tokyo-japan-13db254d.html",
+      "songs": []
+    },
+    {
+      "id": "3db254f",
+      "date": "2005-05-05",
+      "venue": "Nagoya CLUB QUATTRO",
+      "city": "Nagoya",
+      "state": "Aichi",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 35.105,
+      "lng": 136.542,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/nagoya-club-quattro-nagoya-japan-3db254f.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2548",
+      "date": "2005-05-04",
+      "venue": "Shinsaibashi CLUB QUATTRO",
+      "city": "Osaka",
+      "state": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 34.694,
+      "lng": 135.502,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/shinsaibashi-club-quattro-osaka-japan-1bdb2548.html",
+      "songs": []
+    },
+    {
       "id": "3bd17cb8",
       "date": "2005-04-30",
       "venue": "Empire Polo Club",
@@ -88196,6 +89357,20 @@
       ]
     },
     {
+      "id": "6bd46af6",
+      "date": "2005-04-24",
+      "venue": "Georg-Elser-Hallen",
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 48.1374325498109,
+      "lng": 11.5754914283752,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/georg-elser-hallen-munich-germany-6bd46af6.html",
+      "songs": []
+    },
+    {
       "id": "1bdf4d04",
       "date": "2005-04-23",
       "venue": "Palais d'Auron",
@@ -88239,6 +89414,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "5bdec380",
+      "date": "2005-04-21",
+      "venue": "Markthalle",
+      "city": "Hamburg",
+      "state": "Hamburg",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 53.55,
+      "lng": 10,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/markthalle-hamburg-germany-5bdec380.html",
+      "songs": []
+    },
+    {
+      "id": "bdb254a",
+      "date": "2005-04-20",
+      "venue": "Postbahnhof",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 52.5166667,
+      "lng": 13.4,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/postbahnhof-berlin-germany-bdb254a.html",
+      "songs": []
     },
     {
       "id": "43d73357",
@@ -88359,6 +89562,48 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "5bd483a4",
+      "date": "2005-04-15",
+      "venue": "Barrowland",
+      "city": "Glasgow",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.8333333,
+      "lng": -4.25,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/barrowland-glasgow-scotland-5bd483a4.html",
+      "songs": []
+    },
+    {
+      "id": "43d3df67",
+      "date": "2005-04-14",
+      "venue": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/london-astoria-london-england-43d3df67.html",
+      "songs": []
+    },
+    {
+      "id": "3db254b",
+      "date": "2005-04-13",
+      "venue": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/london-astoria-london-england-3db254b.html",
+      "songs": []
     },
     {
       "id": "1bdb2554",
@@ -88640,6 +89885,20 @@
       ]
     },
     {
+      "id": "73540a91",
+      "date": "2005-04-06",
+      "venue": "Club Polaris AKA Starlight Ballroom",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 39.952335,
+      "lng": -75.163789,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/club-polaris-aka-starlight-ballroom-philadelphia-pa-73540a91.html",
+      "songs": []
+    },
+    {
       "id": "1ba39598",
       "date": "2005-04-06",
       "venue": "Late Show With David Letterman",
@@ -88659,6 +89918,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "3db2557",
+      "date": "2005-04-05",
+      "venue": "Paradise Rock Club",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 42.3584308,
+      "lng": -71.0597732,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/paradise-rock-club-boston-ma-3db2557.html",
+      "songs": []
+    },
+    {
+      "id": "bdcb5f2",
+      "date": "2005-04-03",
+      "venue": "La Tulipe",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada",
+      "countryCode": "CA",
+      "lat": 45.5088375,
+      "lng": -73.587809,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/la-tulipe-montreal-qc-canada-bdcb5f2.html",
+      "songs": []
     },
     {
       "id": "7bdb2ecc",
@@ -88847,6 +90134,48 @@
       ]
     },
     {
+      "id": "1bd7ddf4",
+      "date": "2005-03-31",
+      "venue": "Metro",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 41.850033,
+      "lng": -87.6500523,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/metro-chicago-il-1bd7ddf4.html",
+      "songs": []
+    },
+    {
+      "id": "13db2551",
+      "date": "2005-03-30",
+      "venue": "First Avenue",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 44.9799654,
+      "lng": -93.2638361,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/first-avenue-minneapolis-mn-13db2551.html",
+      "songs": []
+    },
+    {
+      "id": "3db255f",
+      "date": "2005-03-27",
+      "venue": "Richard's on Richards",
+      "city": "Vancouver",
+      "state": "British Columbia",
+      "country": "Canada",
+      "countryCode": "CA",
+      "lat": 49.249657393,
+      "lng": -123.119340403,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/richards-on-richards-vancouver-bc-canada-3db255f.html",
+      "songs": []
+    },
+    {
       "id": "1bdb2558",
       "date": "2005-03-26",
       "venue": "Neumos",
@@ -89031,6 +90360,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bdb2566",
+      "date": "2005-03-22",
+      "venue": "Troubadour",
+      "city": "West Hollywood",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 34.0900091,
+      "lng": -118.3617443,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/troubadour-west-hollywood-ca-bdb2566.html",
+      "songs": []
     },
     {
       "id": "3db255b",
@@ -89360,6 +90703,34 @@
       ]
     },
     {
+      "id": "13f5c55d",
+      "date": "2005-03-18",
+      "venue": "Stubb's Bar-B-Q",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 30.267153,
+      "lng": -97.7430608,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/stubbs-bar-b-q-austin-tx-13f5c55d.html",
+      "songs": []
+    },
+    {
+      "id": "2bdb2892",
+      "date": "2005-03-17",
+      "venue": "The Ritz",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 30.267153,
+      "lng": -97.7430608,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-ritz-austin-tx-2bdb2892.html",
+      "songs": []
+    },
+    {
       "id": "63d7b207",
       "date": "2005-03-08",
       "venue": "La Boule Noire",
@@ -89570,6 +90941,34 @@
       ]
     },
     {
+      "id": "6bd42e6e",
+      "date": "2005-03-05",
+      "venue": "Portsmouth Pyramids Centre",
+      "city": "Portsmouth",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 50.8090805768295,
+      "lng": -1.07142448425293,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/portsmouth-pyramids-centre-portsmouth-england-6bd42e6e.html",
+      "songs": []
+    },
+    {
+      "id": "3bdb2898",
+      "date": "2005-03-04",
+      "venue": "The Forum",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-forum-london-england-3bdb2898.html",
+      "songs": []
+    },
+    {
       "id": "33db2899",
       "date": "2005-03-02",
       "venue": "The Leadmill",
@@ -89582,12 +90981,6 @@
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-leadmill-sheffield-england-33db2899.html",
       "songs": [
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
         {
           "name": "Positive Tension",
           "tape": false,
@@ -89655,6 +91048,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "2bdb289a",
+      "date": "2005-03-01",
+      "venue": "Liquid Room",
+      "city": "Edinburgh",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.95,
+      "lng": -3.2,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/liquid-room-edinburgh-scotland-2bdb289a.html",
+      "songs": []
+    },
+    {
+      "id": "23db289b",
+      "date": "2005-02-20",
+      "venue": "The Roxy",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.7142691,
+      "lng": -74.0059729,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-roxy-new-york-ny-23db289b.html",
+      "songs": []
     },
     {
       "id": "3bdb28a4",
@@ -89763,6 +91184,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "2bdb28a6",
+      "date": "2005-02-14",
+      "venue": "Virgin Megastore",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/virgin-megastore-london-england-2bdb28a6.html",
+      "songs": []
+    },
+    {
+      "id": "3d361a7",
+      "date": "2005-02-09",
+      "venue": "Carling Academy Brixton",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-brixton-london-england-3d361a7.html",
+      "songs": []
     },
     {
       "id": "33db28a1",
@@ -89927,6 +91376,20 @@
       ]
     },
     {
+      "id": "23db28a3",
+      "date": "2005-02-06",
+      "venue": "Cardiff University",
+      "city": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.48,
+      "lng": -3.18,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/cardiff-university-cardiff-wales-23db28a3.html",
+      "songs": []
+    },
+    {
       "id": "63fc9adb",
       "date": "2005-02-05",
       "venue": "BBC Studios",
@@ -89946,6 +91409,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "33db28ad",
+      "date": "2005-02-05",
+      "venue": "Southampton Guildhall",
+      "city": "Southampton",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 50.9,
+      "lng": -1.4,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/southampton-guildhall-southampton-england-33db28ad.html",
+      "songs": []
     },
     {
       "id": "2bdb28ae",
@@ -90074,6 +91551,90 @@
       ]
     },
     {
+      "id": "3bdb28a8",
+      "date": "2005-02-01",
+      "venue": "Carling Academy Bristol",
+      "city": "Bristol",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.45,
+      "lng": -2.5833333,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-bristol-bristol-england-3bdb28a8.html",
+      "songs": []
+    },
+    {
+      "id": "1bdcc598",
+      "date": "2005-01-31",
+      "venue": "The LCR, UEA",
+      "city": "Norwich",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.6278273182018,
+      "lng": 1.29833936691284,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-lcr-uea-norwich-england-1bdcc598.html",
+      "songs": []
+    },
+    {
+      "id": "33db28a9",
+      "date": "2005-01-29",
+      "venue": "Manchester Academy 1",
+      "city": "Manchester",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4809464283615,
+      "lng": -2.23743438720703,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/manchester-academy-1-manchester-england-33db28a9.html",
+      "songs": []
+    },
+    {
+      "id": "2bdb28aa",
+      "date": "2005-01-28",
+      "venue": "Manchester Academy 1",
+      "city": "Manchester",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4809464283615,
+      "lng": -2.23743438720703,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/manchester-academy-1-manchester-england-2bdb28aa.html",
+      "songs": []
+    },
+    {
+      "id": "1bd7e1b4",
+      "date": "2005-01-27",
+      "venue": "The Refectory",
+      "city": "Leeds",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.2333333,
+      "lng": 0.6166667,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-refectory-leeds-england-1bd7e1b4.html",
+      "songs": []
+    },
+    {
+      "id": "3bdb2838",
+      "date": "2005-01-25",
+      "venue": "University of Liverpool",
+      "city": "Liverpool",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4166667,
+      "lng": -3,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/university-of-liverpool-liverpool-england-3bdb2838.html",
+      "songs": []
+    },
+    {
       "id": "1bd3650c",
       "date": "2005-01-24",
       "venue": "Carling Academy",
@@ -90168,6 +91729,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "2bdb283a",
+      "date": "2005-01-21",
+      "venue": "Carling Academy Glasgow",
+      "city": "Glasgow",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.8333333,
+      "lng": -4.25,
+      "tour": "NME Shockwaves Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-glasgow-glasgow-scotland-2bdb283a.html",
+      "songs": []
+    },
+    {
+      "id": "3bdb2844",
+      "date": "2005-01-20",
+      "venue": "Carling Academy Glasgow",
+      "city": "Glasgow",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.8333333,
+      "lng": -4.25,
+      "tour": "NME Awards Tour 2005",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-glasgow-glasgow-scotland-3bdb2844.html",
+      "songs": []
     },
     {
       "id": "33db2845",
@@ -90366,6 +91955,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "23db2867",
+      "date": "2004-12-22",
+      "venue": "club vijon",
+      "city": "Osaka",
+      "state": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 34.694,
+      "lng": 135.502,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/club-vijon-osaka-japan-23db2867.html",
+      "songs": []
+    },
+    {
+      "id": "3bdb2860",
+      "date": "2004-12-21",
+      "venue": "ASTRO HALL",
+      "city": "Tokyo",
+      "state": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 35.69,
+      "lng": 139.692,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/astro-hall-tokyo-japan-3bdb2860.html",
+      "songs": []
     },
     {
       "id": "33db2861",
@@ -90617,6 +92234,34 @@
       ]
     },
     {
+      "id": "2bdb286e",
+      "date": "2004-12-07",
+      "venue": "SO36",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 52.5166667,
+      "lng": 13.4,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/so36-berlin-germany-2bdb286e.html",
+      "songs": []
+    },
+    {
+      "id": "23db286f",
+      "date": "2004-12-06",
+      "venue": "Muffathalle",
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 48.1374325498109,
+      "lng": 11.5754914283752,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/muffathalle-munich-germany-23db286f.html",
+      "songs": []
+    },
+    {
       "id": "3bdb2868",
       "date": "2004-12-04",
       "venue": "Le Transbordeur",
@@ -90741,6 +92386,76 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "2bdb286a",
+      "date": "2004-12-02",
+      "venue": "Velvet Club",
+      "city": "Rimini",
+      "state": "Emilia-Romagna",
+      "country": "Italy",
+      "countryCode": "IT",
+      "lat": 44.0633333,
+      "lng": 12.5808333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/velvet-club-rimini-italy-2bdb286a.html",
+      "songs": []
+    },
+    {
+      "id": "23db286b",
+      "date": "2004-11-30",
+      "venue": "Markthalle",
+      "city": "Hamburg",
+      "state": "Hamburg",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 53.55,
+      "lng": 10,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/markthalle-hamburg-germany-23db286b.html",
+      "songs": []
+    },
+    {
+      "id": "3bdb2874",
+      "date": "2004-11-28",
+      "venue": "Mondo",
+      "city": "Stockholm",
+      "state": "Stockholm County",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "lat": 59.3325765361753,
+      "lng": 18.0649030208588,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/mondo-stockholm-sweden-3bdb2874.html",
+      "songs": []
+    },
+    {
+      "id": "33db2875",
+      "date": "2004-11-27",
+      "venue": "Rockefeller Music Hall",
+      "city": "Oslo",
+      "state": "Oslo",
+      "country": "Norway",
+      "countryCode": "NO",
+      "lat": 59.912697157616,
+      "lng": 10.7413673400879,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/rockefeller-music-hall-oslo-norway-33db2875.html",
+      "songs": []
+    },
+    {
+      "id": "3bdb2870",
+      "date": "2004-11-26",
+      "venue": "Vega",
+      "city": "Copenhagen",
+      "state": "Capital Region",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "lat": 55.6776812020993,
+      "lng": 12.5709342956543,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/vega-copenhagen-denmark-3bdb2870.html",
+      "songs": []
     },
     {
       "id": "3d6fdd3",
@@ -90950,6 +92665,34 @@
       ]
     },
     {
+      "id": "2bdb2872",
+      "date": "2004-11-21",
+      "venue": "La Laiterie",
+      "city": "Strasbourg",
+      "state": "Grand Est",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 48.583,
+      "lng": 7.75,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/la-laiterie-strasbourg-france-2bdb2872.html",
+      "songs": []
+    },
+    {
+      "id": "33db287d",
+      "date": "2004-11-20",
+      "venue": "The Forum",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-forum-london-england-33db287d.html",
+      "songs": []
+    },
+    {
       "id": "13d7a141",
       "date": "2004-11-19",
       "venue": "Élysée Montmartre",
@@ -91011,6 +92754,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "23db287f",
+      "date": "2004-11-17",
+      "venue": "Mandela Hall",
+      "city": "Belfast",
+      "state": "Northern Ireland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 54.5833333,
+      "lng": -5.9333333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/mandela-hall-belfast-northern-ireland-23db287f.html",
+      "songs": []
+    },
+    {
+      "id": "7b811240",
+      "date": "2004-11-13",
+      "venue": "L’Orangerie",
+      "city": "Sint-Joost-ten-Noode / Saint-Josse-ten-Noode",
+      "state": "Brussels-Capital Region",
+      "country": "Belgium",
+      "countryCode": "BE",
+      "lat": 50.85,
+      "lng": 4.35,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/lorangerie-sint-joost-ten-noode-saint-josse-ten-noode-belgium-7b811240.html",
+      "songs": []
     },
     {
       "id": "3bdb2878",
@@ -91301,6 +93072,20 @@
       ]
     },
     {
+      "id": "13db2985",
+      "date": "2004-11-06",
+      "venue": "L'Aéronef",
+      "city": "Lille",
+      "state": "Hauts-de-France",
+      "country": "France",
+      "countryCode": "FR",
+      "lat": 50.633,
+      "lng": 3.067,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/laeronef-lille-france-13db2985.html",
+      "songs": []
+    },
+    {
       "id": "6bf5be2a",
       "date": "2004-11-04",
       "venue": "John Peel Sessions, BBC Broadcasting House",
@@ -91383,6 +93168,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "3db2987",
+      "date": "2004-10-31",
+      "venue": "Night & Day Café",
+      "city": "Manchester",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4809464283615,
+      "lng": -2.23743438720703,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/night-and-day-cafe-manchester-england-3db2987.html",
+      "songs": []
+    },
+    {
+      "id": "bdb2982",
+      "date": "2004-10-30",
+      "venue": "The Leadmill",
+      "city": "Sheffield",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.383,
+      "lng": -1.466,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-leadmill-sheffield-england-bdb2982.html",
+      "songs": []
     },
     {
       "id": "5bdbeba0",
@@ -91475,6 +93288,104 @@
       ]
     },
     {
+      "id": "1bdb298c",
+      "date": "2004-10-26",
+      "venue": "The Venue",
+      "city": "Edinburgh",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.95,
+      "lng": -3.2,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-venue-edinburgh-scotland-1bdb298c.html",
+      "songs": []
+    },
+    {
+      "id": "13db298d",
+      "date": "2004-10-25",
+      "venue": "The Lemon Tree",
+      "city": "Aberdeen",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 57.1333333,
+      "lng": -2.1,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-lemon-tree-aberdeen-scotland-13db298d.html",
+      "songs": []
+    },
+    {
+      "id": "bdb298e",
+      "date": "2004-10-23",
+      "venue": "The Middlesbrough Empire",
+      "city": "Middlesbrough",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 54.5727778,
+      "lng": -1.1627778,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-middlesbrough-empire-middlesbrough-england-bdb298e.html",
+      "songs": []
+    },
+    {
+      "id": "3db298f",
+      "date": "2004-10-22",
+      "venue": "Northumbria University",
+      "city": "Newcastle upon Tyne",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 54.973,
+      "lng": -1.614,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/northumbria-university-newcastle-upon-tyne-england-3db298f.html",
+      "songs": []
+    },
+    {
+      "id": "bdb2992",
+      "date": "2004-10-21",
+      "venue": "The Welly Club",
+      "city": "Kingston upon Hull",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.7445995159511,
+      "lng": -0.335254669189453,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-welly-club-kingston-upon-hull-england-bdb2992.html",
+      "songs": []
+    },
+    {
+      "id": "3db2993",
+      "date": "2004-10-20",
+      "venue": "Carling Academy 2",
+      "city": "Birmingham",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.4666667,
+      "lng": -1.9166667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/carling-academy-2-birmingham-england-3db2993.html",
+      "songs": []
+    },
+    {
+      "id": "13db299d",
+      "date": "2004-10-18",
+      "venue": "The Cockpit",
+      "city": "Leeds",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.2333333,
+      "lng": 0.6166667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-cockpit-leeds-england-13db299d.html",
+      "songs": []
+    },
+    {
       "id": "3db299f",
       "date": "2004-10-17",
       "venue": "Clwb Ifor Bach",
@@ -91521,36 +93432,6 @@
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/central-station-wrexham-wales-1bdb2998.html",
       "songs": [
         {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "Banquet",
           "tape": false,
           "encore": 0,
@@ -91563,6 +93444,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "13db2999",
+      "date": "2004-10-15",
+      "venue": "Liverpool Barfly",
+      "city": "Liverpool",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4166667,
+      "lng": -3,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/liverpool-barfly-liverpool-england-13db2999.html",
+      "songs": []
+    },
+    {
+      "id": "bdb299a",
+      "date": "2004-10-13",
+      "venue": "Fleece and Firkin",
+      "city": "Bristol",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.45,
+      "lng": -2.5833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/fleece-and-firkin-bristol-england-bdb299a.html",
+      "songs": []
     },
     {
       "id": "3db299b",
@@ -91697,6 +93606,76 @@
       ]
     },
     {
+      "id": "3db29a7",
+      "date": "2004-10-10",
+      "venue": "Concorde 2",
+      "city": "Brighton",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 50.8283849472495,
+      "lng": -0.139474868774414,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/concorde-2-brighton-england-3db29a7.html",
+      "songs": []
+    },
+    {
+      "id": "7b942e24",
+      "date": "2004-10-05",
+      "venue": "UCLA Bruin Plaza",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 34.052,
+      "lng": -118.244,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/ucla-bruin-plaza-los-angeles-ca-7b942e24.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb29a0",
+      "date": "2004-10-05",
+      "venue": "Cinespace",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 34.052,
+      "lng": -118.244,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/cinespace-los-angeles-ca-1bdb29a0.html",
+      "songs": []
+    },
+    {
+      "id": "13db29a1",
+      "date": "2004-10-04",
+      "venue": "Spaceland",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 34.052,
+      "lng": -118.244,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/spaceland-los-angeles-ca-13db29a1.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29a2",
+      "date": "2004-10-02",
+      "venue": "Tribeca Grand Hotel",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.7142691,
+      "lng": -74.0059729,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/tribeca-grand-hotel-new-york-ny-bdb29a2.html",
+      "songs": []
+    },
+    {
       "id": "3db29a3",
       "date": "2004-10-01",
       "venue": "Transit",
@@ -91785,6 +93764,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bdb29ae",
+      "date": "2004-09-27",
+      "venue": "Revival Bar",
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "lat": 43.700113788,
+      "lng": -79.416304194,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/revival-bar-toronto-on-canada-bdb29ae.html",
+      "songs": []
+    },
+    {
+      "id": "63c272ab",
+      "date": "2004-09-08",
+      "venue": "Dingwalls",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/dingwalls-london-england-63c272ab.html",
+      "songs": []
     },
     {
       "id": "4bdf3322",
@@ -92009,6 +94016,34 @@
       ]
     },
     {
+      "id": "1bdb29b4",
+      "date": "2004-08-18",
+      "venue": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/london-astoria-london-england-1bdb29b4.html",
+      "songs": []
+    },
+    {
+      "id": "13db29b5",
+      "date": "2004-08-08",
+      "venue": "Zepp Osaka",
+      "city": "Osaka",
+      "state": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "lat": 34.694,
+      "lng": 135.502,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/zepp-osaka-osaka-japan-13db29b5.html",
+      "songs": []
+    },
+    {
       "id": "bdb29b6",
       "date": "2004-08-07",
       "venue": "Hall 1",
@@ -92028,6 +94063,34 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "3db29b7",
+      "date": "2004-07-15",
+      "venue": "Rust",
+      "city": "Copenhagen",
+      "state": "Capital Region",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "lat": 55.6776812020993,
+      "lng": 12.5709342956543,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/rust-copenhagen-denmark-3db29b7.html",
+      "songs": []
+    },
+    {
+      "id": "13db29b1",
+      "date": "2004-07-08",
+      "venue": "Münchenbryggeriet",
+      "city": "Stockholm",
+      "state": "Stockholm County",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "lat": 59.3325765361753,
+      "lng": 18.0649030208588,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/munchenbryggeriet-stockholm-sweden-13db29b1.html",
+      "songs": []
     },
     {
       "id": "63fc9ae3",
@@ -92138,6 +94201,20 @@
       ]
     },
     {
+      "id": "1bdb29b8",
+      "date": "2004-06-13",
+      "venue": "The Zap Club",
+      "city": "Brighton",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 50.8283849472495,
+      "lng": -0.139474868774414,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-zap-club-brighton-england-1bdb29b8.html",
+      "songs": []
+    },
+    {
       "id": "13db29b9",
       "date": "2004-06-11",
       "venue": "The Bierkeller",
@@ -92163,6 +94240,20 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "3db29bb",
+      "date": "2004-06-10",
+      "venue": "Fuzz Club",
+      "city": "Sheffield",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.383,
+      "lng": -1.466,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/fuzz-club-sheffield-england-3db29bb.html",
+      "songs": []
     },
     {
       "id": "1bdb29c4",
@@ -92196,6 +94287,104 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "13db29c5",
+      "date": "2004-06-08",
+      "venue": "Carling Academy",
+      "city": "Birmingham",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.4666667,
+      "lng": -1.9166667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/carling-academy-birmingham-england-13db29c5.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29c6",
+      "date": "2004-06-06",
+      "venue": "The Zodiac",
+      "city": "Oxford",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.7522210025796,
+      "lng": -1.25596046447754,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-zodiac-oxford-england-bdb29c6.html",
+      "songs": []
+    },
+    {
+      "id": "3db29c7",
+      "date": "2004-06-05",
+      "venue": "Esquires",
+      "city": "Bedford",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.8257,
+      "lng": -3.0552,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/esquires-bedford-england-3db29c7.html",
+      "songs": []
+    },
+    {
+      "id": "13db29c1",
+      "date": "2004-06-04",
+      "venue": "Heebie Jeebies",
+      "city": "Liverpool",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4166667,
+      "lng": -3,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/heebie-jeebies-liverpool-england-13db29c1.html",
+      "songs": []
+    },
+    {
+      "id": "53d48399",
+      "date": "2004-06-03",
+      "venue": "King Tut's Wah Wah Hut",
+      "city": "Glasgow",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.8333333,
+      "lng": -4.25,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/king-tuts-wah-wah-hut-glasgow-scotland-53d48399.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29c2",
+      "date": "2004-05-31",
+      "venue": "Middlesbrough Town Hall",
+      "city": "Middlesbrough",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 54.5727778,
+      "lng": -1.1627778,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/middlesbrough-town-hall-middlesbrough-england-bdb29c2.html",
+      "songs": []
+    },
+    {
+      "id": "3db29c3",
+      "date": "2004-05-30",
+      "venue": "University of Liverpool",
+      "city": "Liverpool",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4166667,
+      "lng": -3,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/university-of-liverpool-liverpool-england-3db29c3.html",
+      "songs": []
     },
     {
       "id": "6bfc9aee",
@@ -92300,6 +94489,76 @@
       ]
     },
     {
+      "id": "bdb29ce",
+      "date": "2004-03-31",
+      "venue": "Cardiff Barfly",
+      "city": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.48,
+      "lng": -3.18,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/cardiff-barfly-cardiff-wales-bdb29ce.html",
+      "songs": []
+    },
+    {
+      "id": "3db29cf",
+      "date": "2004-03-30",
+      "venue": "Anglia Polytechnic University",
+      "city": "Cambridge",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.2018,
+      "lng": 0.1144,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/anglia-polytechnic-university-cambridge-england-3db29cf.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb29c8",
+      "date": "2004-03-28",
+      "venue": "Lichfield Garrick Theatre",
+      "city": "Lichfield",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.6833333,
+      "lng": -1.8166667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/lichfield-garrick-theatre-lichfield-england-1bdb29c8.html",
+      "songs": []
+    },
+    {
+      "id": "13db29c9",
+      "date": "2004-03-27",
+      "venue": "Georgian Theatre",
+      "city": "Stockton-on-Tees",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 54.5833333,
+      "lng": -1.4166667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/georgian-theatre-stockton-on-tees-england-13db29c9.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29d6",
+      "date": "2004-03-26",
+      "venue": "The Soundhaus",
+      "city": "Northampton",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.25,
+      "lng": -0.8833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-soundhaus-northampton-england-bdb29d6.html",
+      "songs": []
+    },
+    {
       "id": "3db29d7",
       "date": "2004-03-25",
       "venue": "The Bodega Social Club",
@@ -92339,6 +94598,34 @@
       ]
     },
     {
+      "id": "1bdb29d0",
+      "date": "2004-03-23",
+      "venue": "The Charlotte",
+      "city": "Leicester",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.6333333,
+      "lng": -1.1333333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-charlotte-leicester-england-1bdb29d0.html",
+      "songs": []
+    },
+    {
+      "id": "13db29d1",
+      "date": "2004-03-22",
+      "venue": "University of Liverpool",
+      "city": "Liverpool",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4166667,
+      "lng": -3,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/university-of-liverpool-liverpool-england-13db29d1.html",
+      "songs": []
+    },
+    {
       "id": "bdb29d2",
       "date": "2004-03-21",
       "venue": "Joseph's Well",
@@ -92358,6 +94645,188 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "3db29d3",
+      "date": "2004-03-20",
+      "venue": "The Well",
+      "city": "Luton",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 50.5833333,
+      "lng": -3.55,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-well-luton-england-3db29d3.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29de",
+      "date": "2004-03-18",
+      "venue": "Fuzz Club",
+      "city": "Sheffield",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.383,
+      "lng": -1.466,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/fuzz-club-sheffield-england-bdb29de.html",
+      "songs": []
+    },
+    {
+      "id": "3db29df",
+      "date": "2004-03-17",
+      "venue": "King Tut's Wah Wah Hut",
+      "city": "Glasgow",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 55.8333333,
+      "lng": -4.25,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/king-tuts-wah-wah-hut-glasgow-scotland-3db29df.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb29d8",
+      "date": "2004-03-16",
+      "venue": "Bar 36",
+      "city": "Sunderland",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 54.7,
+      "lng": -3.2666667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/bar-36-sunderland-england-1bdb29d8.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29da",
+      "date": "2004-03-15",
+      "venue": "The New Adelphi Club",
+      "city": "Kingston upon Hull",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.7445995159511,
+      "lng": -0.335254669189453,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-new-adelphi-club-kingston-upon-hull-england-bdb29da.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb29e4",
+      "date": "2004-03-13",
+      "venue": "The Louisiana",
+      "city": "Bristol",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.45,
+      "lng": -2.5833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-louisiana-bristol-england-1bdb29e4.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29e6",
+      "date": "2004-03-12",
+      "venue": "Fibbers",
+      "city": "York",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.9666667,
+      "lng": -1.0833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/fibbers-york-england-bdb29e6.html",
+      "songs": []
+    },
+    {
+      "id": "3db29e7",
+      "date": "2004-03-11",
+      "venue": "Esquires",
+      "city": "Bedford",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.8257,
+      "lng": -3.0552,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/esquires-bedford-england-3db29e7.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb29e0",
+      "date": "2004-03-10",
+      "venue": "Fleece and Firkin",
+      "city": "Bristol",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.45,
+      "lng": -2.5833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/fleece-and-firkin-bristol-england-1bdb29e0.html",
+      "songs": []
+    },
+    {
+      "id": "13db29e1",
+      "date": "2004-03-09",
+      "venue": "The Sugarmill",
+      "city": "Hanley",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.0333333,
+      "lng": -2.1833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-sugarmill-hanley-england-13db29e1.html",
+      "songs": []
+    },
+    {
+      "id": "3db29e3",
+      "date": "2004-02-27",
+      "venue": "The Rising Sun Arts Centre",
+      "city": "Reading",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.4333333,
+      "lng": -1,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-rising-sun-arts-centre-reading-england-3db29e3.html",
+      "songs": []
+    },
+    {
+      "id": "13db29ed",
+      "date": "2004-02-26",
+      "venue": "Electrowerkz",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/electrowerkz-london-england-13db29ed.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29ee",
+      "date": "2004-02-19",
+      "venue": "Carling Academy Islington",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/carling-academy-islington-london-england-bdb29ee.html",
+      "songs": []
     },
     {
       "id": "1bdb29e8",
@@ -92432,6 +94901,76 @@
       ]
     },
     {
+      "id": "1bdb29f4",
+      "date": "2004-02-08",
+      "venue": "The Zodiac",
+      "city": "Oxford",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.7522210025796,
+      "lng": -1.25596046447754,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/the-zodiac-oxford-england-1bdb29f4.html",
+      "songs": []
+    },
+    {
+      "id": "bdb29f6",
+      "date": "2004-02-07",
+      "venue": "West End Centre",
+      "city": "Aldershot",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.25,
+      "lng": -0.7666667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/west-end-centre-aldershot-england-bdb29f6.html",
+      "songs": []
+    },
+    {
+      "id": "3db29f7",
+      "date": "2004-01-29",
+      "venue": "100 Club",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/100-club-london-england-3db29f7.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb29f8",
+      "date": "2004-01-22",
+      "venue": "Buffalo Bar",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/buffalo-bar-london-england-1bdb29f8.html",
+      "songs": []
+    },
+    {
+      "id": "13db2901",
+      "date": "2004-01-16",
+      "venue": "Carling Academy Islington",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/carling-academy-islington-london-england-13db2901.html",
+      "songs": []
+    },
+    {
       "id": "63fc9aef",
       "date": "2004-01-12",
       "venue": "Steve Lamacq BBC Studio Session",
@@ -92465,6 +95004,174 @@
       ]
     },
     {
+      "id": "1bdb291c",
+      "date": "2003-12-17",
+      "venue": "Barfly",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/barfly-london-england-1bdb291c.html",
+      "songs": []
+    },
+    {
+      "id": "13db291d",
+      "date": "2003-12-03",
+      "venue": "The White Horse",
+      "city": "High Wycombe",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.6333333,
+      "lng": -0.7666667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-white-horse-high-wycombe-england-13db291d.html",
+      "songs": []
+    },
+    {
+      "id": "bdb291e",
+      "date": "2003-11-25",
+      "venue": "The Dublin Castle",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-dublin-castle-london-england-bdb291e.html",
+      "songs": []
+    },
+    {
+      "id": "3db291f",
+      "date": "2003-11-14",
+      "venue": "Barfly",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/barfly-london-england-3db291f.html",
+      "songs": []
+    },
+    {
+      "id": "13db2919",
+      "date": "2003-11-13",
+      "venue": "The Metro Club",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-metro-club-london-england-13db2919.html",
+      "songs": []
+    },
+    {
+      "id": "bdb291a",
+      "date": "2003-11-05",
+      "venue": "Catch",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/catch-london-england-bdb291a.html",
+      "songs": []
+    },
+    {
+      "id": "3db291b",
+      "date": "2003-10-30",
+      "venue": "Buffalo Bar",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/buffalo-bar-london-england-3db291b.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2924",
+      "date": "2003-10-28",
+      "venue": "Paradise Bar",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/paradise-bar-london-england-1bdb2924.html",
+      "songs": []
+    },
+    {
+      "id": "3db2927",
+      "date": "2003-10-24",
+      "venue": "Electrowerkz",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/electrowerkz-london-england-3db2927.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2920",
+      "date": "2003-10-17",
+      "venue": "Upstairs at The Garage",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/upstairs-at-the-garage-london-england-1bdb2920.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb292c",
+      "date": "2003-10-09",
+      "venue": "The White Horse",
+      "city": "High Wycombe",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.6333333,
+      "lng": -0.7666667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-white-horse-high-wycombe-england-1bdb292c.html",
+      "songs": []
+    },
+    {
+      "id": "13db292d",
+      "date": "2003-09-26",
+      "venue": "The Rising Sun Arts Centre",
+      "city": "Reading",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.4333333,
+      "lng": -1,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-rising-sun-arts-centre-reading-england-13db292d.html",
+      "songs": []
+    },
+    {
       "id": "bdb292e",
       "date": "2003-09-25",
       "venue": "Buffalo Bar",
@@ -92482,14 +95189,120 @@
           "tape": false,
           "encore": 0,
           "cover": null
-        },
-        {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
         }
       ]
+    },
+    {
+      "id": "3db292b",
+      "date": "2003-09-17",
+      "venue": "Windmill Brixton",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/windmill-brixton-london-england-3db292b.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2934",
+      "date": "2003-09-11",
+      "venue": "The Wheatsheaf",
+      "city": "Oxford",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.7522210025796,
+      "lng": -1.25596046447754,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-wheatsheaf-oxford-england-1bdb2934.html",
+      "songs": []
+    },
+    {
+      "id": "13db2935",
+      "date": "2003-09-08",
+      "venue": "93 Feet East",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/93-feet-east-london-england-13db2935.html",
+      "songs": []
+    },
+    {
+      "id": "3db2937",
+      "date": "2003-08-26",
+      "venue": "Paradise Bar",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/paradise-bar-london-england-3db2937.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2930",
+      "date": "2003-08-21",
+      "venue": "On The Rocks",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/on-the-rocks-london-england-1bdb2930.html",
+      "songs": []
+    },
+    {
+      "id": "13db2931",
+      "date": "2003-07-26",
+      "venue": "Barfly",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/barfly-london-england-13db2931.html",
+      "songs": []
+    },
+    {
+      "id": "3db2933",
+      "date": "2003-07-18",
+      "venue": "The Fusilier & Firkin",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-fusilier-and-firkin-london-england-3db2933.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb293c",
+      "date": "2003-06-08",
+      "venue": "The Borderline",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-borderline-london-england-1bdb293c.html",
+      "songs": []
     },
     {
       "id": "13db293d",
@@ -92505,24 +95318,40 @@
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-dublin-castle-london-england-13db293d.html",
       "songs": [
         {
-          "name": "",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
           "name": "Rivulet",
-          "tape": false,
-          "encore": 0,
-          "cover": null
-        },
-        {
-          "name": "",
           "tape": false,
           "encore": 0,
           "cover": null
         }
       ]
+    },
+    {
+      "id": "bdb293e",
+      "date": "2003-05-23",
+      "venue": "Arts Cafe",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/arts-cafe-london-england-bdb293e.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2938",
+      "date": "2003-05-09",
+      "venue": "The Fusilier & Firkin",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-fusilier-and-firkin-london-england-1bdb2938.html",
+      "songs": []
     },
     {
       "id": "3db293b",
@@ -92588,6 +95417,76 @@
       ]
     },
     {
+      "id": "13db2945",
+      "date": "2003-03-12",
+      "venue": "Windmill Brixton",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/windmill-brixton-london-england-13db2945.html",
+      "songs": []
+    },
+    {
+      "id": "bdb2946",
+      "date": "2003-02-28",
+      "venue": "The Fusilier & Firkin",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/the-fusilier-and-firkin-london-england-bdb2946.html",
+      "songs": []
+    },
+    {
+      "id": "3db2947",
+      "date": "2003-02-26",
+      "venue": "Arts Cafe",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/arts-cafe-london-england-3db2947.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2940",
+      "date": "2003-02-06",
+      "venue": "",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/unknown-venue-london-england-1bdb2940.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb294c",
+      "date": "2002-11-26",
+      "venue": "The Dublin Castle",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/the-dublin-castle-london-england-1bdb294c.html",
+      "songs": []
+    },
+    {
       "id": "13db294d",
       "date": "2002-10-17",
       "venue": "Bull & Gate",
@@ -92631,6 +95530,118 @@
           "cover": null
         }
       ]
+    },
+    {
+      "id": "3db294f",
+      "date": "2002-09-16",
+      "venue": "The Dublin Castle",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/the-dublin-castle-london-england-3db294f.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2948",
+      "date": "2002-08-12",
+      "venue": "Bull & Gate",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/bull-and-gate-london-england-1bdb2948.html",
+      "songs": []
+    },
+    {
+      "id": "13db2949",
+      "date": "2002-08-01",
+      "venue": "The Metro Club",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/the-metro-club-london-england-13db2949.html",
+      "songs": []
+    },
+    {
+      "id": "bdb294a",
+      "date": "2002-06-29",
+      "venue": "Cherry Jam",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/cherry-jam-london-england-bdb294a.html",
+      "songs": []
+    },
+    {
+      "id": "3db294b",
+      "date": "2002-06-20",
+      "venue": "The Spitz",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/the-spitz-london-england-3db294b.html",
+      "songs": []
+    },
+    {
+      "id": "1bdb2954",
+      "date": "2002-06-13",
+      "venue": "The Hope and Anchor",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/the-hope-and-anchor-london-england-1bdb2954.html",
+      "songs": []
+    },
+    {
+      "id": "3db2957",
+      "date": "2002-05-27",
+      "venue": "Bull & Gate",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/bull-and-gate-london-england-3db2957.html",
+      "songs": []
+    },
+    {
+      "id": "13db2951",
+      "date": "2002-02-20",
+      "venue": "The Verge",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2002/the-verge-london-england-13db2951.html",
+      "songs": []
     }
   ]
 }

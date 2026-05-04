@@ -12,7 +12,7 @@ export function useSetlists() {
         if (!r.ok) throw new Error(`Failed to load data (${r.status})`)
         return r.json()
       })
-      .then(data => setState({ loading: false, error: null, setlists: data.setlists || [], lastUpdated: data.lastUpdated }))
+      .then(data => setState({ loading: false, error: null, setlists: data.setlists || [], lastUpdated: data.lastUpdated, totalWithSetlist: data.totalWithSetlist ?? null }))
       .catch(err => setState({ loading: false, error: err.message, setlists: [], lastUpdated: null }))
   }, [])
 

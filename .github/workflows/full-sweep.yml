@@ -1,16 +1,17 @@
-name: Fetch Setlist Data (Recent)
+name: Full Setlist Sweep
 
 on:
   schedule:
-    # Run daily at 06:00 UTC — fetches recent pages only and merges
-    - cron: '0 6 * * *'
+    # Run every Sunday at 03:00 UTC — full fetch of all pages
+    # Catches old shows (5+ years) that had setlists filled in retrospectively
+    - cron: '0 3 * * 0'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  fetch:
+  sweep:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,8 +20,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch recent setlists and merge
-        run: node scripts/fetch-setlists.mjs --recent
+      - name: Full sweep — fetch all setlist pages
+        run: node scripts/fetch-setlists.mjs
         env:
           SETLISTFM_API_KEY: ${{ secrets.SETLISTFM_API_KEY }}
 
@@ -32,6 +33,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update setlist data (recent) [skip ci]"
+            git commit -m "chore: update setlist data (full sweep) [skip ci]"
             git push
           fi

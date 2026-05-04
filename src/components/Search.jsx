@@ -1,5 +1,6 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import albumData from '../../config/albums.json'
 
 export default function Search({ setlists }) {
   const [query, setQuery] = useState('')
@@ -16,6 +17,11 @@ export default function Search({ setlists }) {
     const shows = []
     const venues = new Map()
     const cities = new Map()
+
+    // Albums / releases
+    const albums = albumData
+      .filter(a => a.name.toLowerCase().includes(q))
+      .map(a => ({ type: 'album', label: a.name, sub: a.year ? String(a.year) : 'Release', id: a.id }))
 
     setlists.forEach(show => {
       // Shows
@@ -43,10 +49,11 @@ export default function Search({ setlists }) {
     })
 
     return [
+      ...albums.slice(0, 3),
       ...Array.from(songs.values()).slice(0, 4),
-      ...Array.from(venues.values()).slice(0, 3),
-      ...Array.from(cities.values()).slice(0, 3),
-      ...shows.slice(0, 4),
+      ...Array.from(venues.values()).slice(0, 2),
+      ...Array.from(cities.values()).slice(0, 2),
+      ...shows.slice(0, 3),
     ].slice(0, 10)
   }, [query, setlists])
 
@@ -84,10 +91,11 @@ export default function Search({ setlists }) {
     else if (result.type === 'show') navigate(`/concert/${result.id}`)
     else if (result.type === 'venue') navigate(`/venue/${encodeURIComponent(result.venue)}/${encodeURIComponent(result.city)}/${result.countryCode}`)
     else if (result.type === 'city') navigate(`/city/${encodeURIComponent(result.city)}/${result.countryCode}`)
+    else if (result.type === 'album') navigate(`/album/${result.id}`)
   }
 
-  const typeIcon = { song: '♪', show: '📅', venue: '📍', city: '🌍' }
-  const typeLabel = { song: 'Song', show: 'Show', venue: 'Venue', city: 'City' }
+  const typeIcon = { song: '♪', show: '📅', venue: '📍', city: '🌍', album: '💿' }
+  const typeLabel = { song: 'Song', show: 'Show', venue: 'Venue', city: 'City', album: 'Release' }
 
   return (
     <div ref={containerRef} style={{ position: 'relative' }}>
