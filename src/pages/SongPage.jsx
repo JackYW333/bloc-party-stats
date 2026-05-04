@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
@@ -41,6 +41,12 @@ export default function SongPage({ data }) {
   const last = shows[shows.length - 1]
   const showsWithSetlist = countShowsWithSetlist(setlists)
   const pct = showsWithSetlist ? Math.round((shows.length / showsWithSetlist) * 100) : 0
+  const [expandedNotes, setExpandedNotes] = useState(new Set())
+  const toggleNote = id => setExpandedNotes(prev => {
+    const next = new Set(prev)
+    next.has(id) ? next.delete(id) : next.add(id)
+    return next
+  })
   const note = songNotes[decoded]?.note
 
   return (
@@ -121,11 +127,19 @@ export default function SongPage({ data }) {
                     <td style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>
                       {show.tour ? <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link> : '—'}
                     </td>
-                    <td style={{
-                      maxWidth: 200, overflow: 'hidden', textOverflow: 'ellipsis',
-                      whiteSpace: 'nowrap', fontSize: '0.75rem', color: 'var(--text-dim)',
-                      fontStyle: 'italic',
-                    }} title={info || undefined}>
+                    <td
+                      style={{
+                        maxWidth: expandedNotes.has(show.id) ? 'none' : 200,
+                        overflow: 'hidden',
+                        textOverflow: expandedNotes.has(show.id) ? 'unset' : 'ellipsis',
+                        whiteSpace: expandedNotes.has(show.id) ? 'normal' : 'nowrap',
+                        fontSize: '0.75rem', color: 'var(--text-dim)', fontStyle: 'italic',
+                        cursor: info ? 'pointer' : 'default',
+                        userSelect: 'none',
+                      }}
+                      onClick={() => info && toggleNote(show.id)}
+                      title={info && !expandedNotes.has(show.id) ? 'Click to expand' : undefined}
+                    >
                       {info || '—'}
                     </td>
                     <td style={{ whiteSpace: 'nowrap' }}>
