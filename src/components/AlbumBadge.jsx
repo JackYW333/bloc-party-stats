@@ -15,7 +15,7 @@ export default function AlbumBadge({ album }) {
       to={`/album/${album.id}`}
       className="album-badge"
       style={{ background: album.color, color: textColor, border: `1px solid ${album.color}` }}
-      title={`${album.name} (${album.year})`}
+      title={album.year ? `${album.name} (${album.year})` : album.name}
     >
       {album.name.replace('A Weekend in the City', 'AWITC')}
     </Link>
