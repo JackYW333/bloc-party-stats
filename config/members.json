@@ -5,7 +5,7 @@
       "name": "Kele Okereke",
       "role": "Vocals, Guitar",
       "periods": [
-        { "from": "2003-01-01", "to": null }
+        { "from": "2002-01-01", "to": null }
       ]
     },
     {
@@ -13,21 +13,21 @@
       "name": "Russell Lissack",
       "role": "Guitar",
       "periods": [
-        { "from": "2003-01-01", "to": null }
+        { "from": "2002-01-01", "to": null }
       ]
     },
     {
       "id": "gordon",
       "name": "Gordon Moakes",
-      "role": "Bass, Vocals",
+      "role": "Bass, Vocals, Glockenspiel",
       "periods": [
-        { "from": "2003-01-01", "to": "2015-04-01" }
+        { "from": "2002-01-01", "to": "2015-04-01" }
       ]
     },
     {
       "id": "justin",
       "name": "Justin Harris",
-      "role": "Bass, Vocals",
+      "role": "Bass, Vocals, Keys",
       "periods": [
         { "from": "2015-04-01", "to": "2022-03-29" },
         { "from": "2022-04-03", "to": "2022-12-31" }
@@ -45,7 +45,7 @@
     {
       "id": "harry",
       "name": "Harry Deacon",
-      "role": "Bass",
+      "role": "Bass, Vocals, Keys, Glockenspiel",
       "periods": [
         { "from": "2023-04-24", "to": null }
       ]
@@ -55,7 +55,7 @@
       "name": "Matt Tong",
       "role": "Drums",
       "periods": [
-        { "from": "2003-01-01", "to": "2013-06-09" }
+        { "from": "2002-01-01", "to": "2013-06-09" }
       ]
     },
     {
@@ -82,7 +82,7 @@
     {
       "id": "louise",
       "name": "Louise Bartle",
-      "role": "Drums",
+      "role": "Drums, Vocals",
       "periods": [
         { "from": "2015-01-01", "to": null }
       ]
