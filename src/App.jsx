@@ -6,6 +6,7 @@ import ConcertPage from './pages/ConcertPage.jsx'
 import MembersPage from './pages/MembersPage.jsx'
 import SongPage from './pages/SongPage.jsx'
 import AlbumPage from './pages/AlbumPage.jsx'
+import VenuePage from './pages/VenuePage.jsx'
 import YearPage from './pages/YearPage.jsx'
 import CountryPage from './pages/CountryPage.jsx'
 import CityPage from './pages/CityPage.jsx'
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/country/:countryCode" element={<CountryPage data={data} />} />
         <Route path="/city/:cityName/:countryCode" element={<CityPage data={data} />} />
         <Route path="/album/:albumId" element={<AlbumPage data={data} />} />
+        <Route path="/venue/:venueName/:cityName/:countryCode" element={<VenuePage data={data} />} />
       </Routes>
     </>
   )

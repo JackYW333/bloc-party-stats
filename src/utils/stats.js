@@ -61,7 +61,7 @@ export function computeVenueStats(setlists) {
   const map = {}
   setlists.forEach(show => {
     const key = `${show.venue}||${show.city}`
-    if (!map[key]) map[key] = { venue: show.venue, city: show.city, country: show.country, count: 0 }
+    if (!map[key]) map[key] = { venue: show.venue, city: show.city, country: show.country, countryCode: show.countryCode, count: 0 }
     map[key].count++
   })
   return Object.values(map).sort((a, b) => b.count - a.count)

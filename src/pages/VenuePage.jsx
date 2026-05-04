@@ -1,0 +1,103 @@
+import { useMemo } from 'react'
+import { useParams, Link } from 'react-router-dom'
+import StatCard from '../components/StatCard.jsx'
+import { countUniqueSongs, computeSongStats, formatDate } from '../utils/stats.js'
+
+export default function VenuePage({ data }) {
+  const { venueName, cityName, countryCode } = useParams()
+  const decodedVenue = decodeURIComponent(venueName)
+  const decodedCity = decodeURIComponent(cityName)
+  const { loading, error, setlists } = data
+
+  const shows = useMemo(
+    () => setlists
+      .filter(s => s.venue === decodedVenue && s.city === decodedCity && s.countryCode === countryCode)
+      .sort((a, b) => a.date.localeCompare(b.date)),
+    [setlists, decodedVenue, decodedCity, countryCode]
+  )
+
+  const countryName = shows[0]?.country || countryCode
+
+  const stats = useMemo(() => shows.length ? {
+    uniqueSongs: countUniqueSongs(shows),
+    topSongs: computeSongStats(shows).slice(0, 10),
+  } : null, [shows])
+
+  if (loading) return <div className="loading">Loading…</div>
+  if (error) return <div className="loading">Error: {error}</div>
+  if (!shows.length) return <div className="page-container"><div className="empty">No shows found for {decodedVenue}.</div></div>
+
+  const max = stats.topSongs[0]?.count || 1
+
+  return (
+    <div className="page-container">
+      <div className="breadcrumb">
+        <Link to="/">Overview</Link>
+        <span className="breadcrumb__sep">›</span>
+        <Link to={`/country/${countryCode}`}>{countryName}</Link>
+        <span className="breadcrumb__sep">›</span>
+        <Link to={`/city/${encodeURIComponent(decodedCity)}/${countryCode}`}>{decodedCity}</Link>
+        <span className="breadcrumb__sep">›</span>
+        <span>{decodedVenue}</span>
+      </div>
+
+      <div className="page-heading">
+        <h1>{decodedVenue}</h1>
+        <p className="sub">{decodedCity}, {countryName}</p>
+      </div>
+
+      <div className="stat-grid">
+        <StatCard value={shows.length} label="Shows" />
+        <StatCard value={stats.uniqueSongs} label="Unique Songs" />
+        <StatCard value={formatDate(shows[0].date)} label="First Show" />
+        <StatCard value={formatDate(shows[shows.length - 1].date)} label="Last Show" />
+      </div>
+
+      <div className="section two-col">
+        <div className="card">
+          <div className="card-title">Most Played Here</div>
+          <ol className="ranked-list">
+            {stats.topSongs.map((s, i) => (
+              <li key={s.name}>
+                <span className="ranked-list__rank">{i + 1}</span>
+                <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{s.name}</Link>
+                <div className="ranked-list__bar-wrap">
+                  <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
+                </div>
+                <span className="ranked-list__meta">{s.count}×</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+
+        <div className="section">
+          <div className="section-title">All Shows</div>
+          <div className="table-scroll">
+            <table className="shows-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Date</th>
+                  <th>Tour</th>
+                  <th>Songs</th>
+                </tr>
+              </thead>
+              <tbody>
+                {shows.map((show, i) => (
+                  <tr key={show.id}>
+                    <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
+                    <td style={{ whiteSpace: 'nowrap' }}><Link to={`/concert/${show.id}`}>{formatDate(show.date)}</Link></td>
+                    <td style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>
+                      {show.tour ? <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link> : '—'}
+                    </td>
+                    <td>{show.songs.filter(s => !s.tape).length}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
