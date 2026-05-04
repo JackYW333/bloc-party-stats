@@ -19,12 +19,14 @@ import CountryPage from './pages/CountryPage.jsx'
 import CityPage from './pages/CityPage.jsx'
 import { useSetlists } from './hooks/useSetlists.js'
 import Search from './components/Search.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 export default function App() {
   const data = useSetlists()
 
   return (
     <>
+      <ScrollToTop />
       <header className="site-header">
         <NavLink to="/" className="site-logo">
           Bloc Party <span>Stats</span>
