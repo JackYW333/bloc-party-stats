@@ -20,6 +20,7 @@ import {
   computeSetLengthByYear,
   computeEncoreStats,
   countUniqueSongs,
+  countShowsWithSetlist,
   formatDate,
 } from '../utils/stats.js'
 
@@ -38,6 +39,7 @@ export default function Overview({ data }) {
       openers: computeOpeners(setlists),
       closers: computeClosers(setlists),
       uniqueSongs: countUniqueSongs(setlists),
+      showsWithSetlist: countShowsWithSetlist(setlists),
       setLength: computeSetLengthByYear(setlists),
       encores: computeEncoreStats(setlists),
     }
@@ -77,7 +79,7 @@ export default function Overview({ data }) {
       </div>
 
       <div className="section two-col">
-        <SongTable songs={stats.songs} totalShows={setlists.length} />
+        <SongTable songs={stats.songs} totalShows={stats.showsWithSetlist} />
         <AlbumCoverage data={stats.albums} />
       </div>
 
@@ -86,7 +88,7 @@ export default function Overview({ data }) {
       </div>
 
       <div className="section">
-        <OpenerCloser openers={stats.openers} closers={stats.closers} />
+        <OpenerCloser openers={stats.openers} closers={stats.closers} totalShows={stats.showsWithSetlist} />
       </div>
 
       <div className="section">

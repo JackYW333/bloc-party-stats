@@ -197,6 +197,10 @@ export function computeSongGaps(allSetlists, songName) {
   }
 }
 
+export function countShowsWithSetlist(setlists) {
+  return setlists.filter(s => s.songs.some(song => !song.tape)).length
+}
+
 export function countUniqueSongs(setlists) {
   const seen = new Set()
   setlists.forEach(show => show.songs.forEach(s => { if (!s.tape) seen.add(s.name) }))

@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom'
 import AlbumBadge from './AlbumBadge.jsx'
 
-export default function OpenerCloser({ openers, closers }) {
+export default function OpenerCloser({ openers, closers, totalShows = 0 }) {
   return (
     <div className="two-col">
-      <RankCard title="Most Common Openers" data={openers} />
-      <RankCard title="Most Common Closers" data={closers} />
+      <RankCard title="Most Common Openers" data={openers} totalShows={totalShows} />
+      <RankCard title="Most Common Closers" data={closers} totalShows={totalShows} />
     </div>
   )
 }
 
-function RankCard({ title, data }) {
+function RankCard({ title, data, totalShows }) {
   const max = data[0]?.count || 1
   return (
     <div className="card">
@@ -24,7 +24,9 @@ function RankCard({ title, data }) {
             <div className="ranked-list__bar-wrap">
               <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
             </div>
-            <span className="ranked-list__meta">{s.count}×</span>
+            <span className="ranked-list__meta">
+              {s.count}×{totalShows > 0 ? ` (${Math.round((s.count / totalShows) * 100)}%)` : ''}
+            </span>
           </li>
         ))}
       </ol>

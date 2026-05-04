@@ -13,6 +13,7 @@ import {
   computeOpeners,
   computeClosers,
   countUniqueSongs,
+  countShowsWithSetlist,
   formatDate,
   formatDateShort,
 } from '../utils/stats.js'
@@ -37,6 +38,7 @@ export default function TourPage({ data }) {
       openers: computeOpeners(tourShows),
       closers: computeClosers(tourShows),
       uniqueSongs: countUniqueSongs(tourShows),
+      showsWithSetlist: countShowsWithSetlist(tourShows),
     }
   }, [tourShows])
 
@@ -71,7 +73,7 @@ export default function TourPage({ data }) {
       </div>
 
       <div className="section two-col">
-        <SongTable songs={stats.songs} limit={15} totalShows={tourShows.length} />
+        <SongTable songs={stats.songs} limit={15} totalShows={stats.showsWithSetlist} />
         <AlbumCoverage data={stats.albums} />
       </div>
 
@@ -80,7 +82,7 @@ export default function TourPage({ data }) {
       </div>
 
       <div className="section">
-        <OpenerCloser openers={stats.openers} closers={stats.closers} />
+        <OpenerCloser openers={stats.openers} closers={stats.closers} totalShows={stats.showsWithSetlist} />
       </div>
 
       <div className="section">

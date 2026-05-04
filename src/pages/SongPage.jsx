@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { getAlbum, formatDate, annotateSongDebutDates, computeSongGaps } from '../utils/stats.js'
+import { getAlbum, formatDate, annotateSongDebutDates, computeSongGaps, countShowsWithSetlist } from '../utils/stats.js'
 
 function getPosition(show, songName) {
   const liveSongs = show.songs.filter(s => !s.tape)
@@ -38,7 +38,8 @@ export default function SongPage({ data }) {
 
   const first = shows[0]
   const last = shows[shows.length - 1]
-  const pct = setlists.length ? Math.round((shows.length / setlists.length) * 100) : 0
+  const showsWithSetlist = countShowsWithSetlist(setlists)
+  const pct = showsWithSetlist ? Math.round((shows.length / showsWithSetlist) * 100) : 0
 
   return (
     <div className="page-container">
