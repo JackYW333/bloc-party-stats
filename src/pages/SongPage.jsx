@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
 import { getAlbum, formatDate, annotateSongDebutDates, computeSongGaps, countShowsWithSetlist } from '../utils/stats.js'
+import songNotes from '../../config/song-notes.json'
 
 function getPosition(show, songName) {
   const liveSongs = show.songs.filter(s => !s.tape)
@@ -40,6 +41,7 @@ export default function SongPage({ data }) {
   const last = shows[shows.length - 1]
   const showsWithSetlist = countShowsWithSetlist(setlists)
   const pct = showsWithSetlist ? Math.round((shows.length / showsWithSetlist) * 100) : 0
+  const note = songNotes[decoded]?.note
 
   return (
     <div className="page-container">
@@ -53,6 +55,17 @@ export default function SongPage({ data }) {
         <h1>{decoded}</h1>
         <div style={{ marginTop: '0.5rem' }}><AlbumBadge album={album} /></div>
       </div>
+
+      {note && (
+        <div style={{
+          background: 'var(--bg-card)', border: '1px solid var(--border)',
+          borderLeft: '3px solid var(--accent)', borderRadius: '6px',
+          padding: '0.75rem 1rem', marginBottom: '1.5rem',
+          fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.6,
+        }}>
+          {note}
+        </div>
+      )}
 
       <div className="stat-grid">
         <StatCard value={shows.length} label="Times Played" />

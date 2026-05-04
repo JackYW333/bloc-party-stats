@@ -29,7 +29,15 @@
       "name": "Justin Harris",
       "role": "Bass, Vocals",
       "periods": [
-        { "from": "2015-04-01", "to": null }
+        { "from": "2015-04-01", "to": "2022-12-31" }
+      ]
+    },
+    {
+      "id": "harry",
+      "name": "Harry Deacon",
+      "role": "Bass",
+      "periods": [
+        { "from": "2023-01-01", "to": null }
       ]
     },
     {
