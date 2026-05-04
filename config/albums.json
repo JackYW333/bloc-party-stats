@@ -13,11 +13,11 @@
       "Blue Light",
       "She's Hearing Voices",
       "This Modern Love",
-      "Luno",
+      "The Pioneers",
       "Price of Gasoline",
       "So Here We Are",
+      "Luno",
       "Plans",
-      "The Pioneers",
       "Compliments",
       "Every Time Is the Last Time"
     ]
@@ -58,10 +58,10 @@
       "Signs",
       "One Month Off",
       "Zephyrus",
-      "Ion Square",
-      "Letter to My Son",
       "Talons",
       "Better Than Heaven",
+      "Ion Square",
+      "Letter to My Son",
       "Your Visits Are Getting Shorter",
       "Idea for a Story"
     ]
@@ -74,31 +74,31 @@
     "mbid": "08f53230-984f-45ff-ab63-550128ef3bf0",
     "songs": [
       "So He Begins to Lie",
-      "Team A",
-      "V.A.L.I.S.",
-      "Day Four",
-      "Octopus",
-      "Truth",
-      "Kettling",
-      "Leaf Skeleton",
-      "We Are Not Good People",
-      "Coliseum",
-      "Real Talk",
       "3x3",
-      "Black Crown",
+      "Octopus",
+      "Real Talk",
+      "Kettling",
+      "Day Four",
+      "Coliseum",
+      "V.A.L.I.S.",
+      "Team A",
+      "Truth",
+      "The Healing",
+      "We Are Not Good People",
       "Mean",
-      "The Healing"
+      "Leaf Skeleton",
+      "Black Crown"
     ]
   },
   {
     "id": "four-more",
     "name": "Four More",
-    "year": 2013,
+    "year": 2012,
     "color": "#cb3d38",
     "mbid": "ecc29994-74d6-4bbd-9991-627aa9eb3c53",
     "songs": [
-      "Lean",
-      "Straight Thru Cru"
+      "Straight Thru Cru",
+      "Lean"
     ]
   },
   {
@@ -110,20 +110,20 @@
     "songs": [
       "The Love Within",
       "Only He Can Heal Me",
-      "Into the Earth",
+      "So Real",
+      "The Good News",
       "Fortress",
       "Different Drugs",
+      "Into the Earth",
       "My True Name",
       "Virtue",
       "Exes",
       "Living Lux",
       "Eden",
-      "Evening Song",
       "New Blood",
       "Paraíso",
-      "So Real",
-      "The God Vibration",
-      "The Good News"
+      "Evening Song",
+      "The God Vibration"
     ]
   },
   {
@@ -133,21 +133,21 @@
     "color": "#d32e44",
     "mbid": "785fb786-3cd5-4e84-8db7-77453c94454a",
     "songs": [
-      "Acting Out",
-      "By Any Means Necessary",
-      "Callum Is a Snake",
       "Day Drinker",
-      "If We Get Caught",
-      "In Situ",
-      "Of Things Yet to Come",
-      "Rough Justice",
-      "Sex Magik",
-      "Strut",
-      "The Girls Are Fighting",
-      "The Peace Offering",
-      "The Robot and the Psychonaut",
       "Traps",
-      "You Should Know the Truth"
+      "You Should Know the Truth",
+      "Callum Is a Snake",
+      "Rough Justice",
+      "The Girls Are Fighting",
+      "Of Things Yet to Come",
+      "Sex Magik",
+      "By Any Means Necessary",
+      "In Situ",
+      "If We Get Caught",
+      "The Peace Offering",
+      "Acting Out",
+      "The Robot and the Psychonaut",
+      "Strut"
     ]
   },
   {
@@ -212,18 +212,18 @@
     "color": "#593e20",
     "mbid": "f89f9202-46e9-47f5-98f7-c715392226a2",
     "songs": [
-      "Atonement",
-      "Cain Said to Abel",
       "Cavaliers and Roundheads",
-      "Emma Kate's Accident",
-      "England",
-      "Rhododendrons",
-      "Secrets",
-      "Selfish Son",
       "The Once and Future King",
-      "Version 2.0",
+      "Secrets",
+      "Cain Said to Abel",
+      "Selfish Son",
       "Vision of Heaven",
-      "We Were Lovers"
+      "We Were Lovers",
+      "Rhododendrons",
+      "Atonement",
+      "England",
+      "Emma Kate's Accident",
+      "Version 2.0"
     ]
   },
   {
@@ -252,11 +252,11 @@
     "color": "#215262",
     "mbid": "74acef9c-9145-458a-9dff-5c922b025c7a",
     "songs": [
-      "Children of the Future",
+      "Ratchet",
+      "Obscene",
       "French Exit",
       "Montreal",
-      "Obscene",
-      "Ratchet",
+      "Children of the Future",
       "X-Cutioner's Song"
     ]
   },
@@ -277,9 +277,9 @@
     "color": "#094d72",
     "mbid": "3b33cc79-eba4-4980-99bd-1316c1538347",
     "songs": [
-      "Blue",
       "High Life",
       "Keep It Rolling",
+      "Blue",
       "The Blood Moon"
     ]
   },
