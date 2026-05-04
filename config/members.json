@@ -37,7 +37,15 @@
       "name": "Matt Tong",
       "role": "Drums",
       "periods": [
-        { "from": "2003-01-01", "to": "2013-09-01" }
+        { "from": "2003-01-01", "to": "2013-06-09" }
+      ]
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah Jones",
+      "role": "Drums (touring)",
+      "periods": [
+        { "from": "2013-06-10", "to": "2013-12-31" }
       ]
     },
     {
