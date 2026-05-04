@@ -1,4 +1,7 @@
 import { useState, useEffect } from 'react'
+import excludedShows from '../../config/excluded-shows.json'
+
+const excludedIds = new Set(excludedShows.map(s => s.id))
 
 export function useSetlists() {
   const [state, setState] = useState({ loading: true, error: null, setlists: [], lastUpdated: null })
@@ -12,7 +15,10 @@ export function useSetlists() {
         if (!r.ok) throw new Error(`Failed to load data (${r.status})`)
         return r.json()
       })
-      .then(data => setState({ loading: false, error: null, setlists: data.setlists || [], lastUpdated: data.lastUpdated, totalWithSetlist: data.totalWithSetlist ?? null }))
+      .then(data => {
+        const setlists = (data.setlists || []).filter(s => !excludedIds.has(s.id))
+        setState({ loading: false, error: null, setlists, lastUpdated: data.lastUpdated, totalWithSetlist: data.totalWithSetlist != null ? data.totalWithSetlist - excludedIds.size : null })
+      })
       .catch(err => setState({ loading: false, error: err.message, setlists: [], lastUpdated: null }))
   }, [])
 
