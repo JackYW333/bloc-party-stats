@@ -93,6 +93,7 @@ export default function SongPage({ data }) {
                 <th>City</th>
                 <th>Country</th>
                 <th>Tour</th>
+                <th>Notes</th>
                 <th></th>
               </tr>
             </thead>
@@ -120,10 +121,18 @@ export default function SongPage({ data }) {
                     <td style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>
                       {show.tour ? <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link> : '—'}
                     </td>
-                    <td style={{ display: 'flex', gap: '0.35rem', alignItems: 'center', flexWrap: 'wrap' }}>
-                      {isDebut && <span className="tag tag--debut">debut</span>}
-                      {pos && <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{pos}</span>}
-                      {info && <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', fontStyle: 'italic' }}>{info}</span>}
+                    <td style={{
+                      maxWidth: 200, overflow: 'hidden', textOverflow: 'ellipsis',
+                      whiteSpace: 'nowrap', fontSize: '0.75rem', color: 'var(--text-dim)',
+                      fontStyle: 'italic',
+                    }} title={info || undefined}>
+                      {info || '—'}
+                    </td>
+                    <td style={{ whiteSpace: 'nowrap' }}>
+                      <div style={{ display: 'flex', gap: '0.35rem', alignItems: 'center' }}>
+                        {isDebut && <span className="tag tag--debut">debut</span>}
+                        {pos && <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{pos}</span>}
+                      </div>
                     </td>
                   </tr>
                 )
