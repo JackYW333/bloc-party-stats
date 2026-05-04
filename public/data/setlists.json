@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-05-03T11:19:13.021Z",
-  "total": 901,
+  "lastUpdated": "2026-05-04T08:42:06.633Z",
+  "total": 902,
   "setlists": [
+    {
+      "id": "7b480ea0",
+      "date": "2026-05-02",
+      "venue": "Recinto Ferial de la Fica",
+      "city": "Murcia",
+      "state": "Murcia",
+      "country": "Spain",
+      "countryCode": "ES",
+      "lat": 37.9833333,
+      "lng": -1.1166667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/recinto-ferial-de-la-fica-murcia-spain-7b480ea0.html",
+      "songs": [
+        {
+          "name": "Every Time Is the Last Time",
+          "tape": true,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Real Talk",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "In Situ",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Different Drugs",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "The Love Within",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Pigwig",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null
+        }
+      ]
+    },
     {
       "id": "634b3a43",
       "date": "2026-03-27",
