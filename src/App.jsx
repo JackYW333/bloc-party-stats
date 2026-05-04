@@ -13,6 +13,7 @@ import AllCitiesPage from './pages/AllCitiesPage.jsx'
 import AllShowsPage from './pages/AllShowsPage.jsx'
 import AllVenuesPage from './pages/AllVenuesPage.jsx'
 import AllSongsPage from './pages/AllSongsPage.jsx'
+import MemberPage from './pages/MemberPage.jsx'
 import YearPage from './pages/YearPage.jsx'
 import CountryPage from './pages/CountryPage.jsx'
 import CityPage from './pages/CityPage.jsx'
@@ -55,6 +56,7 @@ export default function App() {
         <Route path="/shows" element={<AllShowsPage data={data} />} />
         <Route path="/venues" element={<AllVenuesPage data={data} />} />
         <Route path="/songs" element={<AllSongsPage data={data} />} />
+        <Route path="/member/:memberId" element={<MemberPage data={data} />} />
       </Routes>
     </>
   )

@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import membersConfig from '../../config/members.json'
 
 function isInPeriod(date, periods) {
@@ -48,7 +49,10 @@ export default function MembersPage({ data }) {
 
       <div className="member-grid">
         {memberStats.map(member => (
-          <div key={member.id} className="member-card">
+          <Link key={member.id} to={`/member/${member.id}`} className="member-card" style={{ display: 'block', textDecoration: 'none' }}
+            onMouseEnter={e => e.currentTarget.style.borderColor = 'var(--accent)'}
+            onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--border)'}
+          >
             <div
               style={{
                 width: 56, height: 56, borderRadius: '50%',
@@ -67,10 +71,13 @@ export default function MembersPage({ data }) {
             <div className="member-card__period">{formatPeriods(member.periods)}</div>
             {member.firstShow && (
               <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-dim)' }}>
-                First: {member.firstShow.date} · Last: {member.lastShow?.date}
+                First: <Link to={`/concert/${member.firstShow.id}`} style={{ color: 'var(--text-dim)' }}>{member.firstShow.date}</Link>
+                {member.lastShow && member.lastShow.id !== member.firstShow.id && (
+                  <> · Last: <Link to={`/concert/${member.lastShow.id}`} style={{ color: 'var(--text-dim)' }}>{member.lastShow.date}</Link></>
+                )}
               </div>
             )}
-          </div>
+          </Link>
         ))}
       </div>
 

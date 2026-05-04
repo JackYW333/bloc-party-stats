@@ -161,8 +161,9 @@ function OnThisDay({ setlists }) {
                 <Link to={`/concert/${show.id}`} style={{ color: 'var(--text)', flex: 1, fontSize: '0.875rem' }}>{show.venue}</Link>
               </div>
               <div style={{ paddingLeft: 44, fontSize: '0.78rem', color: 'var(--text-muted)' }}>
-                {show.city}, {show.country}
-                {show.tour ? ` · ${show.tour}` : ''}
+                <Link to={`/city/${encodeURIComponent(show.city)}/${show.countryCode}`} style={{ color: 'var(--text-muted)' }}>{show.city}</Link>
+                , <Link to={`/country/${show.countryCode}`} style={{ color: 'var(--text-muted)' }}>{show.country}</Link>
+                {show.tour ? <> · <Link to={`/tour/${encodeURIComponent(show.tour)}`} style={{ color: 'var(--text-muted)' }}>{show.tour}</Link></> : ''}
               </div>
             </li>
           ))}

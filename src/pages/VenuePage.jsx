@@ -43,7 +43,10 @@ export default function VenuePage({ data }) {
 
       <div className="page-heading">
         <h1>{decodedVenue}</h1>
-        <p className="sub">{decodedCity}, {countryName}</p>
+        <p className="sub">
+          <Link to={`/city/${encodeURIComponent(decodedCity)}/${countryCode}`} style={{ color: 'var(--text-muted)' }}>{decodedCity}</Link>
+          , <Link to={`/country/${countryCode}`} style={{ color: 'var(--text-muted)' }}>{countryName}</Link>
+        </p>
       </div>
 
       <div className="stat-grid">

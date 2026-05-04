@@ -107,9 +107,9 @@ export default function TourPage({ data }) {
                     <Link to={`/concert/${show.id}`}>{formatDateShort(show.date)}</Link>
                   </td>
                   <td><Link to={`/concert/${show.id}`}>{show.venue}</Link></td>
-                  <td>{show.city}</td>
+                  <td><Link to={`/city/${encodeURIComponent(show.city)}/${show.countryCode}`} style={{ color: 'var(--text)' }}>{show.city}</Link></td>
                   <td>
-                    <span className="country-code">{show.countryCode}</span>
+                    <Link to={`/country/${show.countryCode}`}><span className="country-code">{show.countryCode}</span></Link>
                   </td>
                   <td>{show.songs.filter(s => !s.tape).length}</td>
                 </tr>

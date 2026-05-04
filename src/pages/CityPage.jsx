@@ -57,7 +57,7 @@ export default function CityPage({ data }) {
               {stats.venues.map((v, i) => (
                 <li key={v.venue}>
                   <span className="ranked-list__rank">{i + 1}</span>
-                  <span className="ranked-list__name">{v.venue}</span>
+                  <Link to={`/venue/${encodeURIComponent(v.venue)}/${encodeURIComponent(decoded)}/${countryCode}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{v.venue}</Link>
                   <div className="ranked-list__bar-wrap">
                     <div className="ranked-list__bar" style={{ width: `${Math.round((v.count / maxVenues) * 100)}%` }} />
                   </div>
