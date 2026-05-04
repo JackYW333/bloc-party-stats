@@ -71,12 +71,13 @@ export default function Overview({ data }) {
           label={totalWithSetlist != null && totalWithSetlist < setlists.length
             ? `Total Shows (${totalWithSetlist.toLocaleString()} with setlist)`
             : 'Total Shows'}
+          to="/shows"
         />
-        <StatCard value={stats.countries.length} label="Countries" />
-        <StatCard value={stats.cities.length} label="Cities" />
-        <StatCard value={stats.venues.length} label="Venues" />
-        <StatCard value={stats.uniqueSongs.toLocaleString()} label="Unique Songs" />
-        <StatCard value={stats.songs[0]?.name ?? '—'} label="Most Played Song" />
+        <StatCard value={stats.countries.length} label="Countries" to="/countries" />
+        <StatCard value={stats.cities.length} label="Cities" to="/cities" />
+        <StatCard value={stats.venues.length} label="Venues" to="/venues" />
+        <StatCard value={stats.uniqueSongs.toLocaleString()} label="Unique Songs" to="/songs" />
+        <StatCard value={stats.songs[0]?.name ?? '—'} label="Most Played Song" to={stats.songs[0] ? `/song/${encodeURIComponent(stats.songs[0].name)}` : null} />
       </div>
 
       <div className="section">
