@@ -552,4 +552,37 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 600; }
   .page-container { padding: 1rem; }
   .site-header { padding: 0 1rem; }
   .stat-card__value { font-size: 1.5rem; }
+  .two-col { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Scrollable tables on mobile */
+  .table-scroll { border-radius: 8px; }
+  .shows-table { font-size: 0.8rem; }
+  .shows-table th, .shows-table td { padding: 0.5rem 0.5rem; }
+
+  /* Ranked list bars hidden on small screens */
+  .ranked-list__bar-wrap { display: none; }
+
+  /* Nav wraps */
+  .site-nav a { padding: 0.375rem 0.5rem; font-size: 0.8rem; }
+
+  /* Show nav prev/next stacks vertically */
+  .show-nav { flex-direction: column; gap: 0.5rem; }
+  .show-nav__side--right { justify-content: flex-start; }
+  .show-nav__btn { max-width: 100%; width: 100%; }
+
+  /* Page heading */
+  .page-heading h1 { font-size: 1.35rem; }
+
+  /* Member grid single column */
+  .member-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Album coverage meta wraps */
+  .album-coverage-item__header { flex-wrap: wrap; gap: 0.2rem; }
+}
+
+@media (max-width: 400px) {
+  .stat-grid { grid-template-columns: 1fr; }
+  .member-grid { grid-template-columns: 1fr; }
+  .site-logo { font-size: 0.85rem; }
 }

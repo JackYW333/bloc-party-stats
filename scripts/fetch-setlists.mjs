@@ -72,8 +72,9 @@ function parseSongs(sets) {
   setList.forEach(set => {
     const encoreNum = set.encore || 0
     ;(set.song || []).forEach(song => {
+      if (!song.name?.trim()) return
       songs.push({
-        name: song.name,
+        name: song.name.trim(),
         tape: Boolean(song.tape),
         encore: encoreNum,
         cover: song.cover ? { name: song.cover.name } : null,

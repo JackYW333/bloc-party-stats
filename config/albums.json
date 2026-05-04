@@ -286,5 +286,15 @@
       "Pigwig",
       "Love Bombs"
     ]
+  },
+  {
+    "id": "unreleased",
+    "name": "Unreleased",
+    "year": null,
+    "color": "#888896",
+    "songs": [
+      "Evil Jake",
+      "This Is Not a Competition"
+    ]
   }
 ]

@@ -156,10 +156,88 @@ export function getDebutsForShow(show, debutMap) {
   return show.songs.filter(s => !s.tape && debutMap[s.name] === show.date).map(s => s.name)
 }
 
+function daysBetween(dateA, dateB) {
+  return Math.round((new Date(dateB) - new Date(dateA)) / 86400000)
+}
+
+export function computeSongGaps(allSetlists, songName) {
+  const plays = allSetlists
+    .filter(s => s.songs.some(song => !song.tape && song.name === songName))
+    .map(s => s.date)
+    .sort()
+
+  if (plays.length === 0) return null
+
+  // Longest gap between consecutive plays
+  let longestGap = 0
+  let longestGapFrom = null
+  let longestGapTo = null
+  for (let i = 1; i < plays.length; i++) {
+    const gap = daysBetween(plays[i - 1], plays[i])
+    if (gap > longestGap) {
+      longestGap = gap
+      longestGapFrom = plays[i - 1]
+      longestGapTo = plays[i]
+    }
+  }
+
+  // Current gap: shows since last play (in the full sorted setlist)
+  const sorted = [...allSetlists].sort((a, b) => a.date.localeCompare(b.date))
+  const lastPlayDate = plays[plays.length - 1]
+  const showsSinceLast = sorted.filter(s => s.date > lastPlayDate).length
+  const daysSinceLast = daysBetween(lastPlayDate, new Date().toISOString().slice(0, 10))
+
+  return {
+    lastPlayDate,
+    showsSinceLast,
+    daysSinceLast,
+    longestGap,
+    longestGapFrom,
+    longestGapTo,
+  }
+}
+
 export function countUniqueSongs(setlists) {
   const seen = new Set()
   setlists.forEach(show => show.songs.forEach(s => { if (!s.tape) seen.add(s.name) }))
   return seen.size
+}
+
+export function computeSetLengthByYear(setlists) {
+  const byYear = {}
+  setlists.forEach(show => {
+    const year = show.date.slice(0, 4)
+    const count = show.songs.filter(s => !s.tape).length
+    if (!count) return
+    if (!byYear[year]) byYear[year] = { total: 0, shows: 0 }
+    byYear[year].total += count
+    byYear[year].shows++
+  })
+  return Object.entries(byYear)
+    .map(([year, { total, shows }]) => ({ year, avg: Math.round((total / shows) * 10) / 10 }))
+    .sort((a, b) => a.year.localeCompare(b.year))
+}
+
+export function computeEncoreStats(setlists) {
+  let showsWithEncore = 0
+  const encoreSongs = {}
+
+  setlists.forEach(show => {
+    const hasEncore = show.songs.some(s => !s.tape && s.encore > 0)
+    if (hasEncore) showsWithEncore++
+    show.songs.forEach(s => {
+      if (s.tape || s.encore === 0) return
+      encoreSongs[s.name] = (encoreSongs[s.name] || 0) + 1
+    })
+  })
+
+  return {
+    showsWithEncore,
+    encorePct: setlists.length ? Math.round((showsWithEncore / setlists.length) * 100) : 0,
+    topEncoreSongs: Object.entries(encoreSongs)
+      .map(([name, count]) => ({ name, count, album: getAlbum(name) }))
+      .sort((a, b) => b.count - a.count),
+  }
 }
 
 export function formatDate(isoDate) {

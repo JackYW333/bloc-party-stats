@@ -71,7 +71,7 @@ export default function TourPage({ data }) {
       </div>
 
       <div className="section two-col">
-        <SongTable songs={stats.songs} limit={15} />
+        <SongTable songs={stats.songs} limit={15} totalShows={tourShows.length} />
         <AlbumCoverage data={stats.albums} />
       </div>
 

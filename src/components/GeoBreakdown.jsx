@@ -7,7 +7,10 @@ export default function GeoBreakdown({ countries, cities }) {
   return (
     <div className="two-col">
       <div className="card">
-        <div className="card-title">Countries</div>
+        <div className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <span>Countries</span>
+          <Link to="/countries" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>
+        </div>
         <ol className="ranked-list">
           {countries.slice(0, 15).map((c, i) => (
             <li key={c.code || c.name}>
@@ -23,7 +26,10 @@ export default function GeoBreakdown({ countries, cities }) {
         </ol>
       </div>
       <div className="card">
-        <div className="card-title">Cities</div>
+        <div className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <span>Cities</span>
+          <Link to="/cities" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>
+        </div>
         <ol className="ranked-list">
           {cities.slice(0, 15).map((c, i) => (
             <li key={`${c.city}-${c.country}`}>

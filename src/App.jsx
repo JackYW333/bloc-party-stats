@@ -7,10 +7,14 @@ import MembersPage from './pages/MembersPage.jsx'
 import SongPage from './pages/SongPage.jsx'
 import AlbumPage from './pages/AlbumPage.jsx'
 import VenuePage from './pages/VenuePage.jsx'
+import DebutsPage from './pages/DebutsPage.jsx'
+import AllCountriesPage from './pages/AllCountriesPage.jsx'
+import AllCitiesPage from './pages/AllCitiesPage.jsx'
 import YearPage from './pages/YearPage.jsx'
 import CountryPage from './pages/CountryPage.jsx'
 import CityPage from './pages/CityPage.jsx'
 import { useSetlists } from './hooks/useSetlists.js'
+import Search from './components/Search.jsx'
 
 export default function App() {
   const data = useSetlists()
@@ -21,9 +25,11 @@ export default function App() {
         <NavLink to="/" className="site-logo">
           Bloc Party <span>Stats</span>
         </NavLink>
+        <Search setlists={data.setlists} />
         <nav className="site-nav">
           <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Overview</NavLink>
           <NavLink to="/tours" className={({ isActive }) => isActive ? 'active' : ''}>Tours</NavLink>
+          <NavLink to="/debuts" className={({ isActive }) => isActive ? 'active' : ''}>Debuts</NavLink>
           <NavLink to="/members" className={({ isActive }) => isActive ? 'active' : ''}>Members</NavLink>
         </nav>
       </header>
@@ -40,6 +46,9 @@ export default function App() {
         <Route path="/city/:cityName/:countryCode" element={<CityPage data={data} />} />
         <Route path="/album/:albumId" element={<AlbumPage data={data} />} />
         <Route path="/venue/:venueName/:cityName/:countryCode" element={<VenuePage data={data} />} />
+        <Route path="/debuts" element={<DebutsPage data={data} />} />
+        <Route path="/countries" element={<AllCountriesPage data={data} />} />
+        <Route path="/cities" element={<AllCitiesPage data={data} />} />
       </Routes>
     </>
   )

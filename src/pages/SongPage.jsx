@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { getAlbum, formatDate, annotateSongDebutDates } from '../utils/stats.js'
+import { getAlbum, formatDate, annotateSongDebutDates, computeSongGaps } from '../utils/stats.js'
 
 function getPosition(show, songName) {
   const liveSongs = show.songs.filter(s => !s.tape)
@@ -30,6 +30,7 @@ export default function SongPage({ data }) {
   )
 
   const debutMap = useMemo(() => annotateSongDebutDates(setlists), [setlists])
+  const gaps = useMemo(() => computeSongGaps(setlists, decoded), [setlists, decoded])
 
   if (loading) return <div className="loading">Loading…</div>
   if (error) return <div className="loading">Error: {error}</div>
@@ -57,6 +58,13 @@ export default function SongPage({ data }) {
         <StatCard value={`${pct}%`} label="Of All Shows" />
         <StatCard value={formatDate(first.date)} label="First Played" />
         <StatCard value={formatDate(last.date)} label="Last Played" />
+        {gaps && <StatCard value={`${gaps.showsSinceLast} shows / ${gaps.daysSinceLast} days`} label="Since Last Played" />}
+        {gaps?.longestGap > 0 && (
+          <StatCard
+            value={`${gaps.longestGap} days`}
+            label={`Longest Break (${gaps.longestGapFrom?.slice(0,4)}–${gaps.longestGapTo?.slice(0,4)})`}
+          />
+        )}
       </div>
 
       <div className="section">

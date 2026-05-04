@@ -6,6 +6,8 @@ import ShowsPerYear from '../components/ShowsPerYear.jsx'
 import AlbumCoverage from '../components/AlbumCoverage.jsx'
 import GeoBreakdown from '../components/GeoBreakdown.jsx'
 import OpenerCloser from '../components/OpenerCloser.jsx'
+import SetLengthChart from '../components/SetLengthChart.jsx'
+import EncoreStats from '../components/EncoreStats.jsx'
 import {
   computeSongStats,
   computeShowsPerYear,
@@ -15,6 +17,8 @@ import {
   computeAlbumCoverage,
   computeOpeners,
   computeClosers,
+  computeSetLengthByYear,
+  computeEncoreStats,
   countUniqueSongs,
   formatDate,
 } from '../utils/stats.js'
@@ -34,6 +38,8 @@ export default function Overview({ data }) {
       openers: computeOpeners(setlists),
       closers: computeClosers(setlists),
       uniqueSongs: countUniqueSongs(setlists),
+      setLength: computeSetLengthByYear(setlists),
+      encores: computeEncoreStats(setlists),
     }
   }, [setlists])
 
@@ -71,7 +77,7 @@ export default function Overview({ data }) {
       </div>
 
       <div className="section two-col">
-        <SongTable songs={stats.songs} />
+        <SongTable songs={stats.songs} totalShows={setlists.length} />
         <AlbumCoverage data={stats.albums} />
       </div>
 
@@ -85,6 +91,17 @@ export default function Overview({ data }) {
 
       <div className="section">
         <VenueCard venues={stats.venues} />
+      </div>
+
+      <div className="section two-col">
+        <SetLengthChart data={stats.setLength} />
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+          <OnThisDay setlists={setlists} />
+        </div>
+      </div>
+
+      <div className="section">
+        <EncoreStats stats={stats.encores} />
       </div>
     </div>
   )
@@ -108,6 +125,41 @@ function VenueCard({ venues }) {
           </li>
         ))}
       </ol>
+    </div>
+  )
+}
+
+function OnThisDay({ setlists }) {
+  const today = new Date()
+  const mmdd = String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0')
+
+  const shows = setlists
+    .filter(s => s.date.slice(5) === mmdd)
+    .sort((a, b) => b.date.localeCompare(a.date))
+
+  const label = today.toLocaleDateString('en-GB', { day: 'numeric', month: 'long' })
+
+  return (
+    <div className="card">
+      <div className="card-title">On This Day — {label}</div>
+      {shows.length === 0 ? (
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', padding: '0.5rem 0' }}>No shows on this date.</p>
+      ) : (
+        <ul className="ranked-list">
+          {shows.map(show => (
+            <li key={show.id} style={{ flexDirection: 'column', alignItems: 'flex-start', gap: '0.15rem' }}>
+              <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', width: '100%' }}>
+                <span style={{ fontWeight: 600, color: 'var(--accent)', fontSize: '0.85rem', minWidth: 36 }}>{show.date.slice(0, 4)}</span>
+                <Link to={`/concert/${show.id}`} style={{ color: 'var(--text)', flex: 1, fontSize: '0.875rem' }}>{show.venue}</Link>
+              </div>
+              <div style={{ paddingLeft: 44, fontSize: '0.78rem', color: 'var(--text-muted)' }}>
+                {show.city}, {show.country}
+                {show.tour ? ` · ${show.tour}` : ''}
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )
 }

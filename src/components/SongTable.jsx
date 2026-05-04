@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import AlbumBadge from './AlbumBadge.jsx'
 
-export default function SongTable({ songs, limit = 20 }) {
+export default function SongTable({ songs, limit = 20, totalShows = 0 }) {
   const [expanded, setExpanded] = useState(false)
   const max = songs[0]?.count || 1
   const visible = expanded ? songs : songs.slice(0, limit)
@@ -21,7 +21,9 @@ export default function SongTable({ songs, limit = 20 }) {
             <div className="ranked-list__bar-wrap">
               <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
             </div>
-            <span className="ranked-list__meta">{s.count}×</span>
+            <span className="ranked-list__meta">
+              {s.count}×{totalShows > 0 ? ` (${Math.round((s.count / totalShows) * 100)}%)` : ''}
+            </span>
           </li>
         ))}
       </ol>
