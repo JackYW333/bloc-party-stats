@@ -36,27 +36,31 @@ export default function AlbumPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{album.name}</span>
-      </div>
-
-      <div className="page-heading">
-        <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <span
+      <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', marginBottom: '2rem', flexWrap: 'wrap' }}>
+        {album.mbid && (
+          <img
+            src={`https://coverartarchive.org/release-group/${album.mbid}/front`}
+            alt={`${album.name} cover art`}
             style={{
-              display: 'inline-block',
-              width: 14,
-              height: 14,
-              borderRadius: '50%',
-              background: album.color,
-              flexShrink: 0,
+              width: 140, height: 140, objectFit: 'cover',
+              borderRadius: '8px', flexShrink: 0,
+              border: `2px solid ${album.color}44`,
             }}
+            onError={e => { e.target.style.display = 'none' }}
           />
-          {album.name}
-        </h1>
-        <p className="sub">{album.year}</p>
+        )}
+        <div>
+          <div className="breadcrumb" style={{ marginBottom: '0.5rem' }}>
+            <Link to="/">Overview</Link>
+            <span className="breadcrumb__sep">›</span>
+            <span>{album.name}</span>
+          </div>
+          <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.75rem', fontWeight: 700 }}>
+            <span style={{ display: 'inline-block', width: 14, height: 14, borderRadius: '50%', background: album.color, flexShrink: 0 }} />
+            {album.name}
+          </h1>
+          {album.year && <p className="sub" style={{ marginTop: '0.25rem' }}>{album.year}</p>}
+        </div>
       </div>
 
       <div className="stat-grid">
