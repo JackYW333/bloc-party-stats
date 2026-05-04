@@ -37,9 +37,9 @@ export default function AlbumPage({ data }) {
   return (
     <div className="page-container">
       <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', marginBottom: '2rem', flexWrap: 'wrap' }}>
-        {album.mbid && (
+        {(album.imageUrl || album.mbid) && (
           <img
-            src={`https://coverartarchive.org/release-group/${album.mbid}/front`}
+            src={album.imageUrl || `https://coverartarchive.org/release-group/${album.mbid}/front`}
             alt={`${album.name} cover art`}
             style={{
               width: 140, height: 140, objectFit: 'cover',
