@@ -100,6 +100,8 @@ export default function SongPage({ data }) {
               {shows.map((show, i) => {
                 const pos = getPosition(show, decoded)
                 const isDebut = debutMap[decoded] === show.date
+                const songEntry = show.songs.find(s => !s.tape && s.name === decoded)
+                const info = songEntry?.info || null
                 return (
                   <tr key={show.id}>
                     <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
@@ -118,9 +120,10 @@ export default function SongPage({ data }) {
                     <td style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>
                       {show.tour ? <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link> : '—'}
                     </td>
-                    <td style={{ display: 'flex', gap: '0.35rem', alignItems: 'center' }}>
+                    <td style={{ display: 'flex', gap: '0.35rem', alignItems: 'center', flexWrap: 'wrap' }}>
                       {isDebut && <span className="tag tag--debut">debut</span>}
                       {pos && <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{pos}</span>}
+                      {info && <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', fontStyle: 'italic' }}>{info}</span>}
                     </td>
                   </tr>
                 )

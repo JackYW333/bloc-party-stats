@@ -80,6 +80,7 @@ function parseSongs(sets) {
         tape: Boolean(song.tape),
         encore: encoreNum,
         cover: song.cover ? { name: song.cover.name } : null,
+        info: song.info?.trim() || null,
       })
     })
   })
