@@ -68,7 +68,7 @@ export default function CountryPage({ data }) {
             {stats.venues.map((v, i) => (
               <li key={`${v.venue}-${v.city}`}>
                 <span className="ranked-list__rank">{i + 1}</span>
-                <span className="ranked-list__name">{v.venue}</span>
+                <Link to={`/venue/${encodeURIComponent(v.venue)}/${encodeURIComponent(v.city)}/${countryCode}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{v.venue}</Link>
                 <span className="ranked-list__meta" style={{ fontSize: '0.75rem' }}>{v.city}</span>
                 <div className="ranked-list__bar-wrap">
                   <div className="ranked-list__bar" style={{ width: `${Math.round((v.count / maxVenues) * 100)}%` }} />
