@@ -9,7 +9,10 @@ export default function SongTable({ songs, limit = 20, totalShows = 0 }) {
 
   return (
     <div className="card">
-      <div className="card-title">Most Played Songs</div>
+      <div className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <span>Most Played Songs</span>
+        <Link to="/songs" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>
+      </div>
       <ol className="ranked-list">
         {visible.map((s, i) => (
           <li key={s.name}>

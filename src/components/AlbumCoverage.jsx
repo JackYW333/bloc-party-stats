@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 export default function AlbumCoverage({ data }) {
   return (
     <div className="card">
-      <div className="card-title">Songs by Release</div>
+      <div className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <span>Songs by Release</span>
+        <Link to="/releases" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>
+      </div>
       <ul className="album-coverage-list">
         {data.filter(a => a.plays > 0).map(album => (
           <li key={album.id} className="album-coverage-item">

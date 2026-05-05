@@ -244,6 +244,10 @@ export function computeEncoreStats(setlists) {
   }
 }
 
+export function sortKey(name) {
+  return name.replace(/^[^a-zA-Z0-9]+/, '')
+}
+
 export function formatDate(isoDate) {
   if (!isoDate) return ''
   const [y, m, d] = isoDate.split('-')

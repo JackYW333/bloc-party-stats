@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { computeSongStats } from '../utils/stats.js'
+import { computeSongStats, sortKey } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 
 // Build lookup: song name (lowercase) → { albumIndex, trackIndex, album }
@@ -30,7 +30,7 @@ export default function AllSongsPage({ data }) {
 
   const sorted = useMemo(() => {
     if (sortBy === 'plays') return filtered
-    if (sortBy === 'name') return [...filtered].sort((a, b) => a.name.localeCompare(b.name))
+    if (sortBy === 'name') return [...filtered].sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)))
     if (sortBy === 'album') {
       return [...filtered].sort((a, b) => {
         const pa = getSongPosition(a.name)
