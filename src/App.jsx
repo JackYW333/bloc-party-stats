@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Routes, Route, NavLink } from 'react-router-dom'
 import Overview from './pages/Overview.jsx'
 import ToursPage from './pages/ToursPage.jsx'
@@ -24,21 +25,30 @@ import ScrollToTop from './components/ScrollToTop.jsx'
 
 export default function App() {
   const data = useSetlists()
+  const [menuOpen, setMenuOpen] = useState(false)
+  const closeMenu = () => setMenuOpen(false)
 
   return (
     <>
       <ScrollToTop />
       <header className="site-header">
-        <NavLink to="/" className="site-logo">
+        <NavLink to="/" className="site-logo" onClick={closeMenu}>
           Bloc Party <span>Stats</span>
         </NavLink>
         <Search setlists={data.setlists} />
-        <nav className="site-nav">
-          <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Overview</NavLink>
-          <NavLink to="/songs" className={({ isActive }) => isActive ? 'active' : ''}>All Songs</NavLink>
-          <NavLink to="/releases" className={({ isActive }) => isActive ? 'active' : ''}>Releases</NavLink>
-          <NavLink to="/members" className={({ isActive }) => isActive ? 'active' : ''}>Members</NavLink>
-          <NavLink to="/tours" className={({ isActive }) => isActive ? 'active' : ''}>Tours</NavLink>
+        <button
+          className="nav-toggle"
+          onClick={() => setMenuOpen(o => !o)}
+          aria-label="Toggle menu"
+        >
+          {menuOpen ? '✕' : '☰'}
+        </button>
+        <nav className={`site-nav${menuOpen ? ' site-nav--open' : ''}`}>
+          <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>Overview</NavLink>
+          <NavLink to="/songs" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>All Songs</NavLink>
+          <NavLink to="/releases" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>Releases</NavLink>
+          <NavLink to="/members" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>Members</NavLink>
+          <NavLink to="/tours" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>Tours</NavLink>
         </nav>
       </header>
 
