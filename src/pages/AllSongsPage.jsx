@@ -2,6 +2,19 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AlbumBadge from '../components/AlbumBadge.jsx'
 import { computeSongStats } from '../utils/stats.js'
+import albumData from '../../config/albums.json'
+
+// Build lookup: song name (lowercase) → { albumIndex, trackIndex, album }
+const songPositionMap = {}
+albumData.forEach((album, albumIndex) => {
+  album.songs.forEach((songName, trackIndex) => {
+    songPositionMap[songName.toLowerCase()] = { albumIndex, trackIndex, album }
+  })
+})
+
+function getSongPosition(name) {
+  return songPositionMap[name.toLowerCase()] ?? { albumIndex: Infinity, trackIndex: Infinity, album: null }
+}
 
 export default function AllSongsPage({ data }) {
   const { loading, error, setlists } = data
@@ -12,16 +25,40 @@ export default function AllSongsPage({ data }) {
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase()
-    const list = q ? songs.filter(s => s.name.toLowerCase().includes(q)) : songs
-    if (sortBy === 'plays') return list
-    if (sortBy === 'name') return [...list].sort((a, b) => a.name.localeCompare(b.name))
-    if (sortBy === 'album') return [...list].sort((a, b) => {
-      const ay = a.album?.year ?? 9999
-      const by = b.album?.year ?? 9999
-      return ay !== by ? ay - by : a.name.localeCompare(b.name)
+    return q ? songs.filter(s => s.name.toLowerCase().includes(q)) : songs
+  }, [songs, search])
+
+  const sorted = useMemo(() => {
+    if (sortBy === 'plays') return filtered
+    if (sortBy === 'name') return [...filtered].sort((a, b) => a.name.localeCompare(b.name))
+    if (sortBy === 'album') {
+      return [...filtered].sort((a, b) => {
+        const pa = getSongPosition(a.name)
+        const pb = getSongPosition(b.name)
+        if (pa.albumIndex !== pb.albumIndex) return pa.albumIndex - pb.albumIndex
+        return pa.trackIndex - pb.trackIndex
+      })
+    }
+    return filtered
+  }, [filtered, sortBy])
+
+  // When sorting by release, group into sections per album
+  const releaseGroups = useMemo(() => {
+    if (sortBy !== 'album') return null
+    const groups = []
+    let currentAlbumIndex = null
+    let currentGroup = null
+    sorted.forEach(song => {
+      const { albumIndex, album } = getSongPosition(song.name)
+      if (albumIndex !== currentAlbumIndex) {
+        currentAlbumIndex = albumIndex
+        currentGroup = { album: album ?? null, songs: [] }
+        groups.push(currentGroup)
+      }
+      currentGroup.songs.push(song)
     })
-    return list
-  }, [songs, search, sortBy])
+    return groups
+  }, [sorted, sortBy])
 
   if (loading) return <div className="loading">Loading…</div>
   if (error) return <div className="loading">Error: {error}</div>
@@ -69,21 +106,50 @@ export default function AllSongsPage({ data }) {
         </div>
       </div>
 
-      <div className="card">
-        <ol className="ranked-list">
-          {filtered.map((s, i) => (
-            <li key={s.name}>
-              <span className="ranked-list__rank">{i + 1}</span>
-              <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{s.name}</Link>
-              <AlbumBadge album={s.album} />
-              <div className="ranked-list__bar-wrap">
-                <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
-              </div>
-              <span className="ranked-list__meta">{s.count}×</span>
-            </li>
-          ))}
-        </ol>
-      </div>
+      {releaseGroups ? (
+        // Grouped by release
+        releaseGroups.map((group, gi) => (
+          <div key={gi} className="section">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.75rem', paddingBottom: '0.5rem', borderBottom: '1px solid var(--border)' }}>
+              {group.album
+                ? <Link to={`/album/${group.album.id}`} style={{ textDecoration: 'none' }}><AlbumBadge album={group.album} /></Link>
+                : <span style={{ fontSize: '0.8rem', color: 'var(--text-dim)' }}>Unknown release</span>}
+              {group.album?.year && <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>{group.album.year}</span>}
+            </div>
+            <div className="card">
+              <ol className="ranked-list">
+                {group.songs.map((s, i) => (
+                  <li key={s.name}>
+                    <span className="ranked-list__rank">{i + 1}</span>
+                    <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{s.name}</Link>
+                    <div className="ranked-list__bar-wrap">
+                      <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
+                    </div>
+                    <span className="ranked-list__meta">{s.count}×</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
+        ))
+      ) : (
+        // Flat list
+        <div className="card">
+          <ol className="ranked-list">
+            {sorted.map((s, i) => (
+              <li key={s.name}>
+                <span className="ranked-list__rank">{i + 1}</span>
+                <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{s.name}</Link>
+                <AlbumBadge album={s.album} />
+                <div className="ranked-list__bar-wrap">
+                  <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
+                </div>
+                <span className="ranked-list__meta">{s.count}×</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
     </div>
   )
 }
