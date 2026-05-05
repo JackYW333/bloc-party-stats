@@ -27,15 +27,15 @@ export default function AlbumDonut({ data, showLink = true }) {
         {showLink && <Link to="/releases" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>}
       </div>
       <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'center' }}>
-        <div style={{ width: 170, height: 170, flexShrink: 0 }}>
+        <div className="album-donut-chart">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
                 data={filtered}
                 cx="50%"
                 cy="50%"
-                innerRadius={52}
-                outerRadius={78}
+                innerRadius="61%"
+                outerRadius="92%"
                 paddingAngle={2}
                 dataKey="plays"
                 onClick={d => navigate(`/album/${d.id}`)}
