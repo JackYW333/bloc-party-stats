@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { computeCountryStats } from '../utils/stats.js'
+import WorldMap from '../components/WorldMap.jsx'
 
 export default function AllCountriesPage({ data }) {
   const { loading, error, setlists } = data
@@ -21,6 +22,9 @@ export default function AllCountriesPage({ data }) {
       <div className="page-heading">
         <h1>All Countries</h1>
         <p className="sub">{countries.length} countries visited</p>
+      </div>
+      <div className="section">
+        <WorldMap countries={countries} />
       </div>
       <div className="card">
         <ol className="ranked-list">

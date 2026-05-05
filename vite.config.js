@@ -10,6 +10,7 @@ export default defineConfig({
         manualChunks: {
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
           'charts': ['recharts'],
+          'maps': ['react-simple-maps'],
         },
       },
     },

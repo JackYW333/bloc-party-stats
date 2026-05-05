@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
 import SongTable from '../components/SongTable.jsx'
 import ShowsPerYear from '../components/ShowsPerYear.jsx'
-import AlbumCoverage from '../components/AlbumCoverage.jsx'
+import AlbumDonut from '../components/AlbumDonut.jsx'
 import GeoBreakdown from '../components/GeoBreakdown.jsx'
 import OpenerCloser from '../components/OpenerCloser.jsx'
 import SetLengthChart from '../components/SetLengthChart.jsx'
@@ -86,7 +86,7 @@ export default function Overview({ data }) {
 
       <div className="section two-col">
         <SongTable songs={stats.songs} totalShows={stats.showsWithSetlist} />
-        <AlbumCoverage data={stats.albums} />
+        <AlbumDonut data={stats.albums} />
       </div>
 
       <div className="section">
