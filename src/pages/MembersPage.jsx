@@ -40,11 +40,10 @@ export default function MembersPage({ data }) {
   }, [setlists])
 
   const formatPeriods = (periods) => {
-    return periods.map(p => {
-      const from = p.from ? p.from.slice(0, 7) : '?'
-      const to = p.to ? p.to.slice(0, 7) : 'present'
-      return `${from} – ${to}`
-    }).join(', ')
+    const fromYear = periods.reduce((min, p) => p.from < min ? p.from : min, periods[0].from).slice(0, 4)
+    const isCurrent = periods.some(p => p.to === null)
+    const toYear = isCurrent ? 'present' : periods.reduce((max, p) => p.to > max ? p.to : max, periods[0].to ?? periods[0].from).slice(0, 4)
+    return `${fromYear} – ${toYear}`
   }
 
   if (loading) return <div className="loading">Loading…</div>
@@ -94,14 +93,6 @@ export default function MembersPage({ data }) {
             <div className="member-card__shows">{member.showCount.toLocaleString()}</div>
             <div className="member-card__shows-label">shows</div>
             <div className="member-card__period">{formatPeriods(member.periods)}</div>
-            {member.firstShow && (
-              <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--text-dim)' }}>
-                First: <Link to={`/concert/${member.firstShow.id}`} style={{ color: 'var(--text-dim)' }}>{member.firstShow.date}</Link>
-                {member.lastShow && member.lastShow.id !== member.firstShow.id && (
-                  <> · Last: <Link to={`/concert/${member.lastShow.id}`} style={{ color: 'var(--text-dim)' }}>{member.lastShow.date}</Link></>
-                )}
-              </div>
-            )}
           </Link>
               ))}
             </div>

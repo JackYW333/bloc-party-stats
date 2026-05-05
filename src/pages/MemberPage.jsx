@@ -71,8 +71,8 @@ export default function MemberPage({ data }) {
         <StatCard value={shows.length.toLocaleString()} label="Shows" />
         <StatCard value={showsWithSetlist.length.toLocaleString()} label="With Known Setlist" />
         <StatCard value={stats?.uniqueSongs ?? '—'} label="Unique Songs Played" />
-        {first && <StatCard value={formatDate(first.date)} label="First Show" />}
-        {last && first?.id !== last?.id && <StatCard value={formatDate(last.date)} label="Last Show" />}
+        {first && <StatCard value={formatDate(first.date)} label="First Show" to={`/concert/${first.id}`} />}
+        {last && first?.id !== last?.id && <StatCard value={formatDate(last.date)} label="Last Show" to={`/concert/${last.id}`} />}
       </div>
 
       {stats && (
