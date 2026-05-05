@@ -54,6 +54,8 @@ export default function SongPage({ data }) {
       <div className="breadcrumb">
         <Link to="/">Overview</Link>
         <span className="breadcrumb__sep">›</span>
+        <Link to="/songs">All Songs</Link>
+        <span className="breadcrumb__sep">›</span>
         <span>{decoded}</span>
       </div>
 

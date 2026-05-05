@@ -16,7 +16,7 @@ function CustomTooltip({ active, payload }) {
   )
 }
 
-export default function AlbumDonut({ data }) {
+export default function AlbumDonut({ data, showLink = true }) {
   const navigate = useNavigate()
   const filtered = data.filter(a => a.plays > 0)
 
@@ -24,7 +24,7 @@ export default function AlbumDonut({ data }) {
     <div className="card">
       <div className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span>Plays by Release</span>
-        <Link to="/releases" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>
+        {showLink && <Link to="/releases" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>}
       </div>
       <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'center' }}>
         <div style={{ width: 170, height: 170, flexShrink: 0 }}>

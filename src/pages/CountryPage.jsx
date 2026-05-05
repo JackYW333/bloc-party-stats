@@ -32,6 +32,8 @@ export default function CountryPage({ data }) {
       <div className="breadcrumb">
         <Link to="/">Overview</Link>
         <span className="breadcrumb__sep">›</span>
+        <Link to="/countries">All Countries</Link>
+        <span className="breadcrumb__sep">›</span>
         <span>{countryName}</span>
       </div>
 

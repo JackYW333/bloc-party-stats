@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { computeAlbumCoverage } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
+import AlbumDonut from '../components/AlbumDonut.jsx'
 
 const TYPE_ORDER = ['album', 'ep', 'single', 'compilation', 'unreleased']
 const TYPE_LABELS = {
@@ -22,10 +23,10 @@ function luminance(hex) {
 export default function ReleasesPage({ data }) {
   const { loading, error, setlists } = data
 
-  const coverageMap = useMemo(() => {
-    if (!setlists.length) return {}
-    const coverage = computeAlbumCoverage(setlists)
-    return Object.fromEntries(coverage.map(c => [c.id, c]))
+  const { coverageMap, coverage } = useMemo(() => {
+    if (!setlists.length) return { coverageMap: {}, coverage: [] }
+    const cov = computeAlbumCoverage(setlists)
+    return { coverageMap: Object.fromEntries(cov.map(c => [c.id, c])), coverage: cov }
   }, [setlists])
 
   const grouped = useMemo(() => {
@@ -52,6 +53,11 @@ export default function ReleasesPage({ data }) {
 
   return (
     <div className="page-container">
+      <div className="breadcrumb">
+        <Link to="/">Overview</Link>
+        <span className="breadcrumb__sep">›</span>
+        <span>Releases</span>
+      </div>
       <div className="page-heading">
         <h1>Releases</h1>
         <p className="sub">{albumData.length} releases</p>
@@ -119,6 +125,12 @@ export default function ReleasesPage({ data }) {
           </div>
         )
       })}
+
+      {coverage.length > 0 && (
+        <div className="section">
+          <AlbumDonut data={coverage} showLink={false} />
+        </div>
+      )}
     </div>
   )
 }

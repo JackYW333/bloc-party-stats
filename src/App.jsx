@@ -35,10 +35,9 @@ export default function App() {
         <Search setlists={data.setlists} />
         <nav className="site-nav">
           <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Overview</NavLink>
-          <NavLink to="/tours" className={({ isActive }) => isActive ? 'active' : ''}>Tours</NavLink>
           <NavLink to="/releases" className={({ isActive }) => isActive ? 'active' : ''}>Releases</NavLink>
-          <NavLink to="/debuts" className={({ isActive }) => isActive ? 'active' : ''}>Debuts</NavLink>
           <NavLink to="/members" className={({ isActive }) => isActive ? 'active' : ''}>Members</NavLink>
+          <NavLink to="/tours" className={({ isActive }) => isActive ? 'active' : ''}>Tours</NavLink>
         </nav>
       </header>
 

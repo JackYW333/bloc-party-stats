@@ -75,7 +75,11 @@ export default function AllSongsPage({ data }) {
 
       <div className="page-heading">
         <h1>All Songs</h1>
-        <p className="sub">{songs.length} unique songs played live</p>
+        <p className="sub">
+          {songs.length} unique songs played live
+          <span style={{ margin: '0 0.5rem', color: 'var(--border)' }}>·</span>
+          <Link to="/debuts" style={{ color: 'var(--accent)', fontSize: '0.875rem' }}>Song Debuts →</Link>
+        </p>
       </div>
 
       <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.25rem', flexWrap: 'wrap', alignItems: 'center' }}>

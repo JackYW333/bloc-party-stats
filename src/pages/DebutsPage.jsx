@@ -37,6 +37,11 @@ export default function DebutsPage({ data }) {
 
   return (
     <div className="page-container">
+      <div className="breadcrumb">
+        <Link to="/">Overview</Link>
+        <span className="breadcrumb__sep">›</span>
+        <span>Song Debuts</span>
+      </div>
       <div className="page-heading">
         <h1>Song Debuts</h1>
         <p className="sub">{debuts.length} songs debuted live</p>

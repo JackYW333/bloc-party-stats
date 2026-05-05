@@ -55,6 +55,8 @@ export default function TourPage({ data }) {
   return (
     <div className="page-container">
       <div className="breadcrumb">
+        <Link to="/">Overview</Link>
+        <span className="breadcrumb__sep">›</span>
         <Link to="/tours">Tours</Link>
         <span className="breadcrumb__sep">›</span>
         <span>{decoded}</span>

@@ -15,6 +15,11 @@ export default function ToursPage({ data }) {
 
   return (
     <div className="page-container">
+      <div className="breadcrumb">
+        <Link to="/">Overview</Link>
+        <span className="breadcrumb__sep">›</span>
+        <span>Tours</span>
+      </div>
       <div className="page-heading">
         <h1>Tours</h1>
         <p className="sub">{tours.length} tour{tours.length !== 1 ? 's' : ''} · {setlists.length} total shows</p>
