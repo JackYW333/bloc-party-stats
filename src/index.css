@@ -548,8 +548,8 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 600; }
 }
 
 .album-donut-chart {
-  width: 220px;
-  height: 220px;
+  width: 300px;
+  height: 300px;
   flex-shrink: 0;
 }
 
