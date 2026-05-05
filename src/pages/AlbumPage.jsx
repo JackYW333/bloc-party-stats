@@ -51,7 +51,7 @@ export default function AlbumPage({ data }) {
         )}
         <div>
           <div className="breadcrumb" style={{ marginBottom: '0.5rem' }}>
-            <Link to="/">Overview</Link>
+            <Link to="/releases">Releases</Link>
             <span className="breadcrumb__sep">›</span>
             <span>{album.name}</span>
           </div>

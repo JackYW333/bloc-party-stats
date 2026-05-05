@@ -6,6 +6,7 @@ import ConcertPage from './pages/ConcertPage.jsx'
 import MembersPage from './pages/MembersPage.jsx'
 import SongPage from './pages/SongPage.jsx'
 import AlbumPage from './pages/AlbumPage.jsx'
+import ReleasesPage from './pages/ReleasesPage.jsx'
 import VenuePage from './pages/VenuePage.jsx'
 import DebutsPage from './pages/DebutsPage.jsx'
 import AllCountriesPage from './pages/AllCountriesPage.jsx'
@@ -35,6 +36,7 @@ export default function App() {
         <nav className="site-nav">
           <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Overview</NavLink>
           <NavLink to="/tours" className={({ isActive }) => isActive ? 'active' : ''}>Tours</NavLink>
+          <NavLink to="/releases" className={({ isActive }) => isActive ? 'active' : ''}>Releases</NavLink>
           <NavLink to="/debuts" className={({ isActive }) => isActive ? 'active' : ''}>Debuts</NavLink>
           <NavLink to="/members" className={({ isActive }) => isActive ? 'active' : ''}>Members</NavLink>
         </nav>
@@ -50,6 +52,7 @@ export default function App() {
         <Route path="/year/:year" element={<YearPage data={data} />} />
         <Route path="/country/:countryCode" element={<CountryPage data={data} />} />
         <Route path="/city/:cityName/:countryCode" element={<CityPage data={data} />} />
+        <Route path="/releases" element={<ReleasesPage data={data} />} />
         <Route path="/album/:albumId" element={<AlbumPage data={data} />} />
         <Route path="/venue/:venueName/:cityName/:countryCode" element={<VenuePage data={data} />} />
         <Route path="/debuts" element={<DebutsPage data={data} />} />
