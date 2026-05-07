@@ -98,7 +98,7 @@ export default function AlbumPage({ data }) {
                   <span className="ranked-list__rank">{i + 1}</span>
                   {stat
                     ? <Link to={`/song/${encodeURIComponent(stat.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{stat.name}</Link>
-                    : <span className="ranked-list__name" style={{ color: 'var(--text-dim)' }}>{songName}</span>
+                    : <Link to={`/song/${encodeURIComponent(songName)}`} className="ranked-list__name" style={{ color: 'var(--text-dim)' }}>{songName}</Link>
                   }
                   {stat ? (
                     <>
