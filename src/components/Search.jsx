@@ -53,6 +53,15 @@ export default function Search({ setlists }) {
       })
     })
 
+    // Never-played songs from albumData not already found in setlists
+    albumData.forEach(album => {
+      album.songs.forEach(songName => {
+        if (songName.toLowerCase().includes(q) && !songs.has(songName)) {
+          songs.set(songName, { type: 'song', label: songName, sub: 'Never played', name: songName })
+        }
+      })
+    })
+
     return [
       ...albums.slice(0, 3),
       ...Array.from(songs.values()).slice(0, 4),
