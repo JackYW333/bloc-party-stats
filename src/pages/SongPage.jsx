@@ -52,7 +52,19 @@ export default function SongPage({ data }) {
   const first = shows[0]
   const last = shows[shows.length - 1]
   const showsWithSetlist = countShowsWithSetlist(setlists)
-  const pct = showsWithSetlist ? Math.round((shows.length / showsWithSetlist) * 100) : 0
+
+  // Use the earlier of album release date and live debut as the denominator start
+  const debutDate = debutMap[decoded] || null
+  const releaseDate = album?.releaseDate || null
+  const effectiveStart = [debutDate, releaseDate].filter(Boolean).sort()[0] || null
+  const pctAll = showsWithSetlist ? Math.round((shows.length / showsWithSetlist) * 100) : 0
+  const pctBase = effectiveStart
+    ? setlists.filter(s => s.date >= effectiveStart && s.songs.some(song => !song.tape)).length
+    : showsWithSetlist
+  const pct = pctBase ? Math.round((shows.length / pctBase) * 100) : 0
+  const pctLabel = effectiveStart === releaseDate
+    ? 'Of Shows Since Release'
+    : 'Of Shows Since Debut'
   const toggleNote = id => setExpandedNotes(prev => {
     const next = new Set(prev)
     next.has(id) ? next.delete(id) : next.add(id)
@@ -82,7 +94,8 @@ export default function SongPage({ data }) {
 
       <div className="stat-grid">
         <StatCard value={shows.length} label="Times Played" />
-        <StatCard value={`${pct}%`} label="Of All Shows" />
+        <StatCard value={`${pctAll}%`} label="Of All Shows" />
+        {effectiveStart && <StatCard value={`${pct}%`} label={pctLabel} />}
         <StatCard value={formatDate(first.date)} label="First Played" />
         <StatCard value={formatDate(last.date)} label="Last Played" />
         {gaps && <StatCard value={`${gaps.showsSinceLast} shows / ${gaps.daysSinceLast} days`} label="Since Last Played" />}
