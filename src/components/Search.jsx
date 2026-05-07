@@ -110,7 +110,7 @@ export default function Search({ setlists }) {
     else if (result.type === 'album') navigate(`/album/${result.id}`)
   }
 
-  const typeIcon = { song: '♪', show: '📅', venue: '📍', city: '🌍', country: '🌍', album: '💿' }
+  const typeIcon = { song: '🎵', show: '📅', venue: '📍', city: '🌍', country: '🌍', album: '💿' }
   const typeLabel = { song: 'Song', show: 'Show', venue: 'Venue', city: 'City', country: 'Country', album: 'Release' }
 
   return (
