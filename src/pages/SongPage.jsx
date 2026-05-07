@@ -36,7 +36,24 @@ export default function SongPage({ data }) {
 
   if (loading) return <div className="loading">Loading…</div>
   if (error) return <div className="loading">Error: {error}</div>
-  if (!shows.length) return <div className="page-container"><div className="empty">No performances found for "{decoded}".</div></div>
+  if (!shows.length) return (
+    <div className="page-container">
+      <div className="breadcrumb">
+        <Link to="/">Overview</Link>
+        <span className="breadcrumb__sep">›</span>
+        <Link to="/songs">All Songs</Link>
+        <span className="breadcrumb__sep">›</span>
+        <span>{decoded}</span>
+      </div>
+      <div className="page-heading" style={{ opacity: 0.6 }}>
+        <h1>{decoded}</h1>
+        <div style={{ marginTop: '0.5rem' }}><AlbumBadge album={album} /></div>
+      </div>
+      <p style={{ color: 'var(--text-dim)', fontSize: '0.875rem', marginTop: '1rem' }}>
+        This song has never been played live.
+      </p>
+    </div>
+  )
 
   const first = shows[0]
   const last = shows[shows.length - 1]

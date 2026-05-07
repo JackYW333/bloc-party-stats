@@ -23,24 +23,42 @@ export default function AllSongsPage({ data }) {
 
   const songs = useMemo(() => computeSongStats(setlists), [setlists])
 
+  const unplayed = useMemo(() => {
+    const played = new Set(songs.map(s => s.name.toLowerCase()))
+    const result = []
+    albumData.forEach(album => {
+      album.songs.forEach(songName => {
+        if (!played.has(songName.toLowerCase()))
+          result.push({ name: songName, count: 0, dates: [], album, neverPlayed: true })
+      })
+    })
+    return result
+  }, [songs])
+
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase()
     return q ? songs.filter(s => s.name.toLowerCase().includes(q)) : songs
   }, [songs, search])
 
+  const filteredUnplayed = useMemo(() => {
+    const q = search.trim().toLowerCase()
+    return q ? unplayed.filter(s => s.name.toLowerCase().includes(q)) : unplayed
+  }, [unplayed, search])
+
   const sorted = useMemo(() => {
-    if (sortBy === 'plays') return filtered
-    if (sortBy === 'name') return [...filtered].sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)))
+    const all = [...filtered, ...filteredUnplayed]
+    if (sortBy === 'plays') return all
+    if (sortBy === 'name') return all.sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)))
     if (sortBy === 'album') {
-      return [...filtered].sort((a, b) => {
+      return all.sort((a, b) => {
         const pa = getSongPosition(a.name)
         const pb = getSongPosition(b.name)
         if (pa.albumIndex !== pb.albumIndex) return pa.albumIndex - pb.albumIndex
         return pa.trackIndex - pb.trackIndex
       })
     }
-    return filtered
-  }, [filtered, sortBy])
+    return all
+  }, [filtered, filteredUnplayed, sortBy])
 
   // When sorting by release, group into sections per album
   const releaseGroups = useMemo(() => {
@@ -123,13 +141,15 @@ export default function AllSongsPage({ data }) {
             <div className="card">
               <ol className="ranked-list">
                 {group.songs.map((s, i) => (
-                  <li key={s.name}>
-                    <span className="ranked-list__rank">{i + 1}</span>
+                  <li key={s.name} style={{ opacity: s.neverPlayed ? 0.4 : 1 }}>
+                    <span className="ranked-list__rank">{s.neverPlayed ? '—' : i + 1}</span>
                     <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{s.name}</Link>
-                    <div className="ranked-list__bar-wrap">
-                      <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
-                    </div>
-                    <span className="ranked-list__meta">{s.count}×</span>
+                    {!s.neverPlayed && (
+                      <div className="ranked-list__bar-wrap">
+                        <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
+                      </div>
+                    )}
+                    <span className="ranked-list__meta">{s.neverPlayed ? 'never played' : `${s.count}×`}</span>
                   </li>
                 ))}
               </ol>
@@ -141,14 +161,16 @@ export default function AllSongsPage({ data }) {
         <div className="card">
           <ol className="ranked-list">
             {sorted.map((s, i) => (
-              <li key={s.name}>
-                <span className="ranked-list__rank">{i + 1}</span>
+              <li key={s.name} style={{ opacity: s.neverPlayed ? 0.4 : 1 }}>
+                <span className="ranked-list__rank">{s.neverPlayed ? '—' : i + 1}</span>
                 <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{s.name}</Link>
                 <AlbumBadge album={s.album} />
-                <div className="ranked-list__bar-wrap">
-                  <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
-                </div>
-                <span className="ranked-list__meta">{s.count}×</span>
+                {!s.neverPlayed && (
+                  <div className="ranked-list__bar-wrap">
+                    <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / max) * 100)}%` }} />
+                  </div>
+                )}
+                <span className="ranked-list__meta">{s.neverPlayed ? 'never played' : `${s.count}×`}</span>
               </li>
             ))}
           </ol>
