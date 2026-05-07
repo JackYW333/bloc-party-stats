@@ -19,12 +19,15 @@ import MemberPage from './pages/MemberPage.jsx'
 import YearPage from './pages/YearPage.jsx'
 import CountryPage from './pages/CountryPage.jsx'
 import CityPage from './pages/CityPage.jsx'
+import MyShowsPage from './pages/MyShowsPage.jsx'
 import { useSetlists } from './hooks/useSetlists.js'
+import { useAttendance } from './hooks/useAttendance.js'
 import Search from './components/Search.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 
 export default function App() {
   const data = useSetlists()
+  const attendance = useAttendance()
   const [menuOpen, setMenuOpen] = useState(false)
   const closeMenu = () => setMenuOpen(false)
 
@@ -49,6 +52,7 @@ export default function App() {
           <NavLink to="/releases" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>Releases</NavLink>
           <NavLink to="/members" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>Members</NavLink>
           <NavLink to="/tours" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>Tours</NavLink>
+          <NavLink to="/my-shows" className={({ isActive }) => isActive ? 'active' : ''} onClick={closeMenu}>My Shows</NavLink>
         </nav>
       </header>
 
@@ -56,9 +60,9 @@ export default function App() {
         <Route path="/" element={<Overview data={data} />} />
         <Route path="/tours" element={<ToursPage data={data} />} />
         <Route path="/tour/:tourName" element={<TourPage data={data} />} />
-        <Route path="/concert/:id" element={<ConcertPage data={data} />} />
+        <Route path="/concert/:id" element={<ConcertPage data={data} attendance={attendance} />} />
         <Route path="/members" element={<MembersPage data={data} />} />
-        <Route path="/song/:songName" element={<SongPage data={data} />} />
+        <Route path="/song/:songName" element={<SongPage data={data} attendance={attendance} />} />
         <Route path="/year/:year" element={<YearPage data={data} />} />
         <Route path="/country/:countryCode" element={<CountryPage data={data} />} />
         <Route path="/city/:cityName/:countryCode" element={<CityPage data={data} />} />
@@ -68,7 +72,8 @@ export default function App() {
         <Route path="/debuts" element={<DebutsPage data={data} />} />
         <Route path="/countries" element={<AllCountriesPage data={data} />} />
         <Route path="/cities" element={<AllCitiesPage data={data} />} />
-        <Route path="/shows" element={<AllShowsPage data={data} />} />
+        <Route path="/shows" element={<AllShowsPage data={data} attendance={attendance} />} />
+        <Route path="/my-shows" element={<MyShowsPage data={data} attendance={attendance} />} />
         <Route path="/venues" element={<AllVenuesPage data={data} />} />
         <Route path="/songs" element={<AllSongsPage data={data} />} />
         <Route path="/member/:memberId" element={<MemberPage data={data} />} />

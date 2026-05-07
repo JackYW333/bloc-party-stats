@@ -17,10 +17,11 @@ function getPosition(show, songName) {
   return null
 }
 
-export default function SongPage({ data }) {
+export default function SongPage({ data, attendance }) {
   const { songName } = useParams()
   const decoded = decodeURIComponent(songName)
   const { loading, error, setlists, debutMap } = data
+  const { attended } = attendance
 
   const album = getAlbum(decoded)
 
@@ -105,6 +106,12 @@ export default function SongPage({ data }) {
             label={`Longest Break (${gaps.longestGapFrom?.slice(0,4)}–${gaps.longestGapTo?.slice(0,4)})`}
           />
         )}
+        <div className="stat-card stat-card--seen">
+          <div className="stat-card__value" style={{ color: 'var(--green)' }}>
+            {shows.filter(s => attended.has(s.id)).length}
+          </div>
+          <div className="stat-card__label">Times Seen Live</div>
+        </div>
       </div>
 
       <div className="section">
@@ -129,8 +136,9 @@ export default function SongPage({ data }) {
                 const isDebut = debutMap[decoded] === show.date
                 const songEntry = show.songs.find(s => !s.tape && s.name === decoded)
                 const info = songEntry?.info || null
+                const wasAttended = attended.has(show.id)
                 return (
-                  <tr key={show.id}>
+                  <tr key={show.id} className={wasAttended ? 'attended-row' : ''}>
                     <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                     <td style={{ whiteSpace: 'nowrap' }}><Link to={`/concert/${show.id}`}>{formatDate(show.date)}</Link></td>
                     <td><Link to={`/concert/${show.id}`}>{show.venue}</Link></td>

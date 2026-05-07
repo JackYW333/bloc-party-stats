@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 import { formatDate } from '../utils/stats.js'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 
-export default function AllShowsPage({ data }) {
+export default function AllShowsPage({ data, attendance }) {
   const { loading, error, setlists } = data
+  const { attended } = attendance
   const [search, setSearch] = useState('')
 
   const sorted = useMemo(
@@ -61,11 +62,12 @@ export default function AllShowsPage({ data }) {
               <th>Country</th>
               <th>Tour</th>
               <th>Songs</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             {filtered.map((show, i) => (
-              <tr key={show.id}>
+              <tr key={show.id} className={attended.has(show.id) ? 'attended-row' : ''}>
                 <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                 <td style={{ whiteSpace: 'nowrap' }}>
                   {show.songs.length > 0
@@ -89,6 +91,7 @@ export default function AllShowsPage({ data }) {
                 <td style={{ color: show.songs.length > 0 ? 'var(--text)' : 'var(--text-dim)' }}>
                   {show.songs.length > 0 ? show.songs.filter(s => !s.tape).length : '—'}
                 </td>
+                <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
               </tr>
             ))}
           </tbody>

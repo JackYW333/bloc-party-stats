@@ -4,9 +4,10 @@ import Breadcrumb from '../components/Breadcrumb.jsx'
 import SetlistView from '../components/SetlistView.jsx'
 import { getDebutsForShow, formatDate } from '../utils/stats.js'
 
-export default function ConcertPage({ data }) {
+export default function ConcertPage({ data, attendance }) {
   const { id } = useParams()
   const { loading, error, setlists, debutMap } = data
+  const { attended, toggleAttendance } = attendance
 
   const sorted = useMemo(
     () => [...setlists].sort((a, b) => a.date.localeCompare(b.date)),
@@ -36,16 +37,24 @@ export default function ConcertPage({ data }) {
         : [{ label: 'Overview', to: '/' }, { label: formatDate(show.date) }]
       } />
 
-      <div className="page-heading">
-        <h1>{show.venue}</h1>
-        <p className="sub">
-          {show.city}{show.state ? `, ${show.state}` : ''}, {show.country} · {formatDate(show.date)}
-        </p>
-        {show.tour && (
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
-            <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link>
+      <div className="page-heading" style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
+        <div>
+          <h1>{show.venue}</h1>
+          <p className="sub">
+            {show.city}{show.state ? `, ${show.state}` : ''}, {show.country} · {formatDate(show.date)}
           </p>
-        )}
+          {show.tour && (
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+              <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link>
+            </p>
+          )}
+        </div>
+        <button
+          className={`attend-btn${attended.has(show.id) ? ' attend-btn--active' : ''}`}
+          onClick={() => toggleAttendance(show.id)}
+        >
+          {attended.has(show.id) ? '✓ Attended' : '+ Mark as Attended'}
+        </button>
       </div>
 
       <div className="stat-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))' }}>
