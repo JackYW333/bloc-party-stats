@@ -12,6 +12,13 @@ export function getAlbum(songName) {
   return songAlbumMap[songName.toLowerCase()] || null
 }
 
+export function luminance(hex) {
+  const r = parseInt(hex.slice(1, 3), 16) / 255
+  const g = parseInt(hex.slice(3, 5), 16) / 255
+  const b = parseInt(hex.slice(5, 7), 16) / 255
+  return 0.299 * r + 0.587 * g + 0.114 * b
+}
+
 export function computeSongStats(setlists) {
   const map = {}
   setlists.forEach(show => {
@@ -71,18 +78,15 @@ export function computeTourStats(setlists) {
   const map = {}
   setlists.forEach(show => {
     const tourName = show.tour || 'Unknown / Standalone'
-    if (!map[tourName]) map[tourName] = { name: tourName, shows: [], dates: [] }
-    map[tourName].shows.push(show)
-    map[tourName].dates.push(show.date)
+    if (!map[tourName]) {
+      map[tourName] = { name: tourName, count: 1, from: show.date, to: show.date }
+    } else {
+      map[tourName].count++
+      if (show.date < map[tourName].from) map[tourName].from = show.date
+      if (show.date > map[tourName].to) map[tourName].to = show.date
+    }
   })
-  return Object.values(map)
-    .map(t => ({
-      name: t.name,
-      count: t.shows.length,
-      from: t.dates.reduce((a, b) => (a < b ? a : b)),
-      to: t.dates.reduce((a, b) => (a > b ? a : b)),
-    }))
-    .sort((a, b) => b.from.localeCompare(a.from))
+  return Object.values(map).sort((a, b) => b.from.localeCompare(a.from))
 }
 
 export function computeAlbumCoverage(setlists) {
@@ -160,6 +164,19 @@ function daysBetween(dateA, dateB) {
   return Math.round((new Date(dateB) - new Date(dateA)) / 86400000)
 }
 
+export function findLongestGap(sortedDates) {
+  let longestGap = 0, longestGapFrom = null, longestGapTo = null
+  for (let i = 1; i < sortedDates.length; i++) {
+    const gap = daysBetween(sortedDates[i - 1], sortedDates[i])
+    if (gap > longestGap) {
+      longestGap = gap
+      longestGapFrom = sortedDates[i - 1]
+      longestGapTo = sortedDates[i]
+    }
+  }
+  return { longestGap, longestGapFrom, longestGapTo }
+}
+
 export function computeSongGaps(allSetlists, songName) {
   const plays = allSetlists
     .filter(s => s.songs.some(song => !song.tape && song.name === songName))
@@ -168,18 +185,7 @@ export function computeSongGaps(allSetlists, songName) {
 
   if (plays.length === 0) return null
 
-  // Longest gap between consecutive plays
-  let longestGap = 0
-  let longestGapFrom = null
-  let longestGapTo = null
-  for (let i = 1; i < plays.length; i++) {
-    const gap = daysBetween(plays[i - 1], plays[i])
-    if (gap > longestGap) {
-      longestGap = gap
-      longestGapFrom = plays[i - 1]
-      longestGapTo = plays[i]
-    }
-  }
+  const { longestGap, longestGapFrom, longestGapTo } = findLongestGap(plays)
 
   // Current gap: shows since last play (in the full sorted setlist)
   const sorted = [...allSetlists].sort((a, b) => a.date.localeCompare(b.date))
@@ -255,9 +261,3 @@ export function formatDate(isoDate) {
   return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
 }
 
-export function formatDateShort(isoDate) {
-  if (!isoDate) return ''
-  const [y, m, d] = isoDate.split('-')
-  const date = new Date(Number(y), Number(m) - 1, Number(d))
-  return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
-}

@@ -1,7 +1,8 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
-import { countUniqueSongs, computeSongStats, formatDate } from '../utils/stats.js'
+import { countUniqueSongs, computeSongStats, formatDate, findLongestGap } from '../utils/stats.js'
 
 export default function VenuePage({ data }) {
   const { venueName, cityName, countryCode } = useParams()
@@ -20,11 +21,7 @@ export default function VenuePage({ data }) {
 
   const stats = useMemo(() => {
     if (!shows.length) return null
-    let longestGap = 0, longestGapFrom = null, longestGapTo = null
-    for (let i = 1; i < shows.length; i++) {
-      const gap = Math.round((new Date(shows[i].date) - new Date(shows[i - 1].date)) / 86400000)
-      if (gap > longestGap) { longestGap = gap; longestGapFrom = shows[i - 1].date; longestGapTo = shows[i].date }
-    }
+    const { longestGap, longestGapFrom, longestGapTo } = findLongestGap(shows.map(s => s.date))
     return {
       uniqueSongs: countUniqueSongs(shows),
       topSongs: computeSongStats(shows).slice(0, 10),
@@ -40,15 +37,12 @@ export default function VenuePage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to={`/country/${countryCode}`}>{countryName}</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to={`/city/${encodeURIComponent(decodedCity)}/${countryCode}`}>{decodedCity}</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{decodedVenue}</span>
-      </div>
+      <Breadcrumb items={[
+        { label: 'Overview', to: '/' },
+        { label: countryName, to: `/country/${countryCode}` },
+        { label: decodedCity, to: `/city/${encodeURIComponent(decodedCity)}/${countryCode}` },
+        { label: decodedVenue },
+      ]} />
 
       <div className="page-heading">
         <h1>{decodedVenue}</h1>

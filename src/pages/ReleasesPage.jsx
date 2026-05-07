@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { computeAlbumCoverage } from '../utils/stats.js'
+import Breadcrumb from '../components/Breadcrumb.jsx'
+import { luminance } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 import AlbumDonut from '../components/AlbumDonut.jsx'
 
@@ -13,21 +14,12 @@ const TYPE_LABELS = {
   unreleased: 'Unreleased',
 }
 
-function luminance(hex) {
-  const r = parseInt(hex.slice(1, 3), 16) / 255
-  const g = parseInt(hex.slice(3, 5), 16) / 255
-  const b = parseInt(hex.slice(5, 7), 16) / 255
-  return 0.299 * r + 0.587 * g + 0.114 * b
-}
-
 export default function ReleasesPage({ data }) {
-  const { loading, error, setlists } = data
-
-  const { coverageMap, coverage } = useMemo(() => {
-    if (!setlists.length) return { coverageMap: {}, coverage: [] }
-    const cov = computeAlbumCoverage(setlists)
-    return { coverageMap: Object.fromEntries(cov.map(c => [c.id, c])), coverage: cov }
-  }, [setlists])
+  const { loading, error, albumCoverage: coverage } = data
+  const coverageMap = useMemo(
+    () => Object.fromEntries(coverage.map(c => [c.id, c])),
+    [coverage]
+  )
 
   const grouped = useMemo(() => {
     const byType = {}
@@ -53,11 +45,7 @@ export default function ReleasesPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>Releases</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'Releases' }]} />
       <div className="page-heading">
         <h1>Releases</h1>
         <p className="sub">{albumData.length} releases</p>

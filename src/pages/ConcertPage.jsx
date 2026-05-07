@@ -1,11 +1,12 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import SetlistView from '../components/SetlistView.jsx'
-import { annotateSongDebutDates, getDebutsForShow, formatDate } from '../utils/stats.js'
+import { getDebutsForShow, formatDate } from '../utils/stats.js'
 
 export default function ConcertPage({ data }) {
   const { id } = useParams()
-  const { loading, error, setlists } = data
+  const { loading, error, setlists, debutMap } = data
 
   const sorted = useMemo(
     () => [...setlists].sort((a, b) => a.date.localeCompare(b.date)),
@@ -16,11 +17,6 @@ export default function ConcertPage({ data }) {
   const show = sorted[showIndex] ?? null
   const prev = showIndex > 0 ? sorted[showIndex - 1] : null
   const next = showIndex < sorted.length - 1 ? sorted[showIndex + 1] : null
-
-  const debutMap = useMemo(() => {
-    if (!setlists.length) return {}
-    return annotateSongDebutDates(setlists)
-  }, [setlists])
 
   const debutNames = useMemo(() => {
     if (!show) return []
@@ -35,22 +31,10 @@ export default function ConcertPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        {show.tour ? (
-          <>
-            <Link to="/tours">Tours</Link>
-            <span className="breadcrumb__sep">›</span>
-            <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link>
-            <span className="breadcrumb__sep">›</span>
-          </>
-        ) : (
-          <>
-            <Link to="/">Overview</Link>
-            <span className="breadcrumb__sep">›</span>
-          </>
-        )}
-        <span>{formatDate(show.date)}</span>
-      </div>
+      <Breadcrumb items={show.tour
+        ? [{ label: 'Tours', to: '/tours' }, { label: show.tour, to: `/tour/${encodeURIComponent(show.tour)}` }, { label: formatDate(show.date) }]
+        : [{ label: 'Overview', to: '/' }, { label: formatDate(show.date) }]
+      } />
 
       <div className="page-heading">
         <h1>{show.venue}</h1>

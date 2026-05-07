@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import { computeVenueStats, countUniqueSongs, formatDate } from '../utils/stats.js'
 
@@ -30,13 +31,7 @@ export default function CityPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to={`/country/${countryCode}`}>{countryName}</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{decoded}</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: countryName, to: `/country/${countryCode}` }, { label: decoded }]} />
 
       <div className="page-heading">
         <h1>{decoded}</h1>

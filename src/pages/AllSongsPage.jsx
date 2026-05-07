@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import AlbumBadge from '../components/AlbumBadge.jsx'
 import { computeSongStats, sortKey } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
+import Breadcrumb from '../components/Breadcrumb.jsx'
+import SearchInput from '../components/SearchInput.jsx'
 
 // Build lookup: song name (lowercase) → { albumIndex, trackIndex, album }
 const songPositionMap = {}
@@ -85,11 +87,7 @@ export default function AllSongsPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>All Songs</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'All Songs' }]} />
 
       <div className="page-heading">
         <h1>All Songs</h1>
@@ -101,17 +99,7 @@ export default function AllSongsPage({ data }) {
       </div>
 
       <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.25rem', flexWrap: 'wrap', alignItems: 'center' }}>
-        <input
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-          placeholder="Search songs…"
-          style={{
-            background: 'var(--bg-card)', border: '1px solid var(--border)',
-            borderRadius: '7px', padding: '0.5rem 0.75rem',
-            color: 'var(--text)', fontSize: '0.875rem', width: '100%', maxWidth: 300,
-            outline: 'none',
-          }}
-        />
+        <SearchInput value={search} onChange={setSearch} placeholder="Search songs…" />
         <div style={{ display: 'flex', gap: '0.4rem' }}>
           {[['plays', 'Most Played'], ['name', 'A–Z'], ['album', 'By Release']].map(([val, label]) => (
             <button

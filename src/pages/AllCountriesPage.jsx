@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
-import { Link } from 'react-router-dom'
 import { computeCountryStats } from '../utils/stats.js'
+import Breadcrumb from '../components/Breadcrumb.jsx'
+import RankedList from '../components/RankedList.jsx'
 import WorldMap from '../components/WorldMap.jsx'
 
 export default function AllCountriesPage({ data }) {
@@ -14,11 +15,7 @@ export default function AllCountriesPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>All Countries</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'All Countries' }]} />
       <div className="page-heading">
         <h1>All Countries</h1>
         <p className="sub">{countries.length} countries visited</p>
@@ -27,19 +24,16 @@ export default function AllCountriesPage({ data }) {
         <WorldMap countries={countries} />
       </div>
       <div className="card">
-        <ol className="ranked-list">
-          {countries.map((c, i) => (
-            <li key={c.code}>
-              <span className="ranked-list__rank">{i + 1}</span>
-              <Link to={`/country/${c.code}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{c.name}</Link>
-              <span className="country-code">{c.code}</span>
-              <div className="ranked-list__bar-wrap">
-                <div className="ranked-list__bar" style={{ width: `${Math.round((c.count / max) * 100)}%` }} />
-              </div>
-              <span className="ranked-list__meta">{c.count}</span>
-            </li>
-          ))}
-        </ol>
+        <RankedList
+          items={countries.map(c => ({
+            key: c.code,
+            to: `/country/${c.code}`,
+            label: c.name,
+            extra: <span className="country-code">{c.code}</span>,
+            count: c.count,
+          }))}
+          max={max}
+        />
       </div>
     </div>
   )

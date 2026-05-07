@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import membersConfig from '../../config/members.json'
 
 function isInPeriod(date, periods) {
@@ -51,11 +52,7 @@ export default function MembersPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>Members</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'Members' }]} />
       <div className="page-heading">
         <h1>Band Members</h1>
         <p className="sub">Show counts calculated from membership date ranges</p>

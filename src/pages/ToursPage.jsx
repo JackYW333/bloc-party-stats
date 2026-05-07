@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import { computeTourStats, formatDate } from '../utils/stats.js'
 
 export default function ToursPage({ data }) {
@@ -15,11 +16,7 @@ export default function ToursPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>Tours</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'Tours' }]} />
       <div className="page-heading">
         <h1>Tours</h1>
         <p className="sub">{tours.length} tour{tours.length !== 1 ? 's' : ''} · {setlists.length} total shows</p>

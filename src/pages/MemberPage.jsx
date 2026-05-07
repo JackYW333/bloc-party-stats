@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import { computeSongStats, countUniqueSongs, computeShowsPerYear, formatDate } from '../utils/stats.js'
 import ShowsPerYear from '../components/ShowsPerYear.jsx'
@@ -54,13 +55,7 @@ export default function MemberPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to="/members">Members</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{member.name}</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'Members', to: '/members' }, { label: member.name }]} />
 
       <div className="page-heading">
         <h1>{member.name}</h1>

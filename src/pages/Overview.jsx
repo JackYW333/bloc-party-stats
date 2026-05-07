@@ -14,7 +14,6 @@ import {
   computeCountryStats,
   computeCityStats,
   computeVenueStats,
-  computeAlbumCoverage,
   computeOpeners,
   computeClosers,
   computeSetLengthByYear,
@@ -25,7 +24,7 @@ import {
 } from '../utils/stats.js'
 
 export default function Overview({ data }) {
-  const { loading, error, setlists, lastUpdated, totalWithSetlist } = data
+  const { loading, error, setlists, lastUpdated, totalWithSetlist, albumCoverage } = data
 
   const stats = useMemo(() => {
     if (!setlists.length) return null
@@ -35,7 +34,7 @@ export default function Overview({ data }) {
       countries: computeCountryStats(setlists),
       cities: computeCityStats(setlists),
       venues: computeVenueStats(setlists),
-      albums: computeAlbumCoverage(setlists),
+      albums: albumCoverage,
       openers: computeOpeners(setlists),
       closers: computeClosers(setlists),
       uniqueSongs: countUniqueSongs(setlists),

@@ -1,17 +1,16 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { annotateSongDebutDates, getAlbum, formatDate } from '../utils/stats.js'
+import { getAlbum, formatDate, luminance } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 
 export default function DebutsPage({ data }) {
-  const { loading, error, setlists } = data
+  const { loading, error, setlists, debutMap } = data
   const [filterAlbum, setFilterAlbum] = useState('all')
 
   const debuts = useMemo(() => {
     if (!setlists.length) return []
-    const debutMap = annotateSongDebutDates(setlists)
-    const showById = Object.fromEntries(setlists.map(s => [s.id, s]))
 
     return Object.entries(debutMap)
       .map(([songName, date]) => {
@@ -37,13 +36,7 @@ export default function DebutsPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to="/songs">All Songs</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>Song Debuts</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'All Songs', to: '/songs' }, { label: 'Song Debuts' }]} />
       <div className="page-heading">
         <h1>Song Debuts</h1>
         <p className="sub">{debuts.length} songs debuted live</p>
@@ -130,9 +123,3 @@ export default function DebutsPage({ data }) {
   )
 }
 
-function luminance(hex) {
-  const r = parseInt(hex.slice(1, 3), 16) / 255
-  const g = parseInt(hex.slice(3, 5), 16) / 255
-  const b = parseInt(hex.slice(5, 7), 16) / 255
-  return 0.299 * r + 0.587 * g + 0.114 * b
-}

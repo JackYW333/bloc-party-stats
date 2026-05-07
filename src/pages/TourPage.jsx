@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import SongTable from '../components/SongTable.jsx'
 import AlbumCoverage from '../components/AlbumCoverage.jsx'
@@ -15,7 +16,6 @@ import {
   countUniqueSongs,
   countShowsWithSetlist,
   formatDate,
-  formatDateShort,
 } from '../utils/stats.js'
 
 export default function TourPage({ data }) {
@@ -54,13 +54,7 @@ export default function TourPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to="/tours">Tours</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{decoded}</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'Tours', to: '/tours' }, { label: decoded }]} />
 
       <div className="page-heading">
         <h1>{decoded}</h1>
@@ -106,7 +100,7 @@ export default function TourPage({ data }) {
                 <tr key={show.id}>
                   <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                   <td style={{ whiteSpace: 'nowrap' }}>
-                    <Link to={`/concert/${show.id}`}>{formatDateShort(show.date)}</Link>
+                    <Link to={`/concert/${show.id}`}>{formatDate(show.date)}</Link>
                   </td>
                   <td><Link to={`/concert/${show.id}`}>{show.venue}</Link></td>
                   <td><Link to={`/city/${encodeURIComponent(show.city)}/${show.countryCode}`} style={{ color: 'var(--text)' }}>{show.city}</Link></td>

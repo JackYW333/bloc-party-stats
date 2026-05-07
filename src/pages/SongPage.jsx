@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { getAlbum, formatDate, annotateSongDebutDates, computeSongGaps, countShowsWithSetlist } from '../utils/stats.js'
+import { getAlbum, formatDate, computeSongGaps, countShowsWithSetlist } from '../utils/stats.js'
 import songNotes from '../../config/song-notes.json'
 
 function getPosition(show, songName) {
@@ -19,7 +20,7 @@ function getPosition(show, songName) {
 export default function SongPage({ data }) {
   const { songName } = useParams()
   const decoded = decodeURIComponent(songName)
-  const { loading, error, setlists } = data
+  const { loading, error, setlists, debutMap } = data
 
   const album = getAlbum(decoded)
 
@@ -30,7 +31,6 @@ export default function SongPage({ data }) {
     [setlists, decoded]
   )
 
-  const debutMap = useMemo(() => annotateSongDebutDates(setlists), [setlists])
   const gaps = useMemo(() => computeSongGaps(setlists, decoded), [setlists, decoded])
   const [expandedNotes, setExpandedNotes] = useState(new Set())
 
@@ -38,13 +38,7 @@ export default function SongPage({ data }) {
   if (error) return <div className="loading">Error: {error}</div>
   if (!shows.length) return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to="/songs">All Songs</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{decoded}</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'All Songs', to: '/songs' }, { label: decoded }]} />
       <div className="page-heading" style={{ opacity: 0.6 }}>
         <h1>{decoded}</h1>
         <div style={{ marginTop: '0.5rem' }}><AlbumBadge album={album} /></div>
@@ -68,13 +62,7 @@ export default function SongPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <Link to="/songs">All Songs</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{decoded}</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'All Songs', to: '/songs' }, { label: decoded }]} />
 
       <div className="page-heading">
         <h1>{decoded}</h1>

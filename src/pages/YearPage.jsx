@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import { computeCountryStats, computeCityStats, countUniqueSongs, formatDate } from '../utils/stats.js'
 
@@ -24,11 +25,7 @@ export default function YearPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>{year}</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: year }]} />
 
       <div className="page-heading">
         <h1>{year}</h1>

@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { formatDate } from '../utils/stats.js'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 
 export default function AllShowsPage({ data }) {
   const { loading, error, setlists } = data
@@ -28,11 +29,7 @@ export default function AllShowsPage({ data }) {
 
   return (
     <div className="page-container">
-      <div className="breadcrumb">
-        <Link to="/">Overview</Link>
-        <span className="breadcrumb__sep">›</span>
-        <span>All Shows</span>
-      </div>
+      <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'All Shows' }]} />
 
       <div className="page-heading">
         <h1>All Shows</h1>

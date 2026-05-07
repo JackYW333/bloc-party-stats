@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
 import { computeSongStats, formatDate } from '../utils/stats.js'
+import Breadcrumb from '../components/Breadcrumb.jsx'
 
 function formatRelDate(iso) {
   if (!iso) return null
@@ -57,11 +58,7 @@ export default function AlbumPage({ data }) {
           />
         )}
         <div>
-          <div className="breadcrumb" style={{ marginBottom: '0.5rem' }}>
-            <Link to="/releases">Releases</Link>
-            <span className="breadcrumb__sep">›</span>
-            <span>{album.name}</span>
-          </div>
+          <Breadcrumb items={[{ label: 'Releases', to: '/releases' }, { label: album.name }]} style={{ marginBottom: '0.5rem' }} />
           <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.75rem', fontWeight: 700 }}>
             <span style={{ display: 'inline-block', width: 14, height: 14, borderRadius: '50%', background: album.color, flexShrink: 0 }} />
             {album.name}
