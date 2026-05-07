@@ -92,7 +92,7 @@ export default function SongPage({ data }) {
         </div>
       )}
 
-      <div className="stat-grid">
+      <div className="stat-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))' }}>
         <StatCard value={shows.length} label="Times Played" />
         <StatCard value={`${pctAll}%`} label="Of All Shows" />
         {effectiveStart && <StatCard value={`${pct}%`} label={pctLabel} />}
