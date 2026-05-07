@@ -18,10 +18,19 @@ export default function VenuePage({ data }) {
 
   const countryName = shows[0]?.country || countryCode
 
-  const stats = useMemo(() => shows.length ? {
-    uniqueSongs: countUniqueSongs(shows),
-    topSongs: computeSongStats(shows).slice(0, 10),
-  } : null, [shows])
+  const stats = useMemo(() => {
+    if (!shows.length) return null
+    let longestGap = 0, longestGapFrom = null, longestGapTo = null
+    for (let i = 1; i < shows.length; i++) {
+      const gap = Math.round((new Date(shows[i].date) - new Date(shows[i - 1].date)) / 86400000)
+      if (gap > longestGap) { longestGap = gap; longestGapFrom = shows[i - 1].date; longestGapTo = shows[i].date }
+    }
+    return {
+      uniqueSongs: countUniqueSongs(shows),
+      topSongs: computeSongStats(shows).slice(0, 10),
+      longestGap, longestGapFrom, longestGapTo,
+    }
+  }, [shows])
 
   if (loading) return <div className="loading">Loading…</div>
   if (error) return <div className="loading">Error: {error}</div>
@@ -54,6 +63,12 @@ export default function VenuePage({ data }) {
         <StatCard value={stats.uniqueSongs} label="Unique Songs" />
         <StatCard value={formatDate(shows[0].date)} label="First Show" />
         <StatCard value={formatDate(shows[shows.length - 1].date)} label="Last Show" />
+        {shows.length >= 3 && stats.longestGap > 0 && (
+          <StatCard
+            value={`${stats.longestGap} days`}
+            label={`Longest Break (${stats.longestGapFrom.slice(0, 4)}–${stats.longestGapTo.slice(0, 4)})`}
+          />
+        )}
       </div>
 
       <div className="section two-col">
