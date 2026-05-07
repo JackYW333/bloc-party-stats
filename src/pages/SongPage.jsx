@@ -32,6 +32,7 @@ export default function SongPage({ data }) {
 
   const debutMap = useMemo(() => annotateSongDebutDates(setlists), [setlists])
   const gaps = useMemo(() => computeSongGaps(setlists, decoded), [setlists, decoded])
+  const [expandedNotes, setExpandedNotes] = useState(new Set())
 
   if (loading) return <div className="loading">Loading…</div>
   if (error) return <div className="loading">Error: {error}</div>
@@ -41,7 +42,6 @@ export default function SongPage({ data }) {
   const last = shows[shows.length - 1]
   const showsWithSetlist = countShowsWithSetlist(setlists)
   const pct = showsWithSetlist ? Math.round((shows.length / showsWithSetlist) * 100) : 0
-  const [expandedNotes, setExpandedNotes] = useState(new Set())
   const toggleNote = id => setExpandedNotes(prev => {
     const next = new Set(prev)
     next.has(id) ? next.delete(id) : next.add(id)
