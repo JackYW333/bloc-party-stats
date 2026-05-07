@@ -17,6 +17,7 @@ export default function Search({ setlists }) {
     const shows = []
     const venues = new Map()
     const cities = new Map()
+    const countries = new Map()
 
     // Albums / releases
     const albums = albumData
@@ -39,6 +40,10 @@ export default function Search({ setlists }) {
         const key = `${show.city}||${show.countryCode}`
         if (!cities.has(key)) cities.set(key, { type: 'city', label: show.city, sub: show.country, city: show.city, countryCode: show.countryCode })
       }
+      // Countries
+      if (show.country.toLowerCase().includes(q)) {
+        if (!countries.has(show.countryCode)) countries.set(show.countryCode, { type: 'country', label: show.country, sub: show.countryCode, code: show.countryCode })
+      }
       // Songs
       show.songs.forEach(song => {
         if (song.tape) return
@@ -53,6 +58,7 @@ export default function Search({ setlists }) {
       ...Array.from(songs.values()).slice(0, 4),
       ...Array.from(venues.values()).slice(0, 2),
       ...Array.from(cities.values()).slice(0, 2),
+      ...Array.from(countries.values()).slice(0, 2),
       ...shows.slice(0, 3),
     ].slice(0, 10)
   }, [query, setlists])
@@ -91,11 +97,12 @@ export default function Search({ setlists }) {
     else if (result.type === 'show') navigate(`/concert/${result.id}`)
     else if (result.type === 'venue') navigate(`/venue/${encodeURIComponent(result.venue)}/${encodeURIComponent(result.city)}/${result.countryCode}`)
     else if (result.type === 'city') navigate(`/city/${encodeURIComponent(result.city)}/${result.countryCode}`)
+    else if (result.type === 'country') navigate(`/country/${result.code}`)
     else if (result.type === 'album') navigate(`/album/${result.id}`)
   }
 
-  const typeIcon = { song: '♪', show: '📅', venue: '📍', city: '🌍', album: '💿' }
-  const typeLabel = { song: 'Song', show: 'Show', venue: 'Venue', city: 'City', album: 'Release' }
+  const typeIcon = { song: '♪', show: '📅', venue: '📍', city: '🌍', country: '🌍', album: '💿' }
+  const typeLabel = { song: 'Song', show: 'Show', venue: 'Venue', city: 'City', country: 'Country', album: 'Release' }
 
   return (
     <div ref={containerRef} style={{ position: 'relative' }}>

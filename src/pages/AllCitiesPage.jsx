@@ -1,18 +1,10 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { computeCityStats } from '../utils/stats.js'
 
 export default function AllCitiesPage({ data }) {
   const { loading, error, setlists } = data
-  const [search, setSearch] = useState('')
   const cities = useMemo(() => computeCityStats(setlists), [setlists])
-
-  const filtered = useMemo(() => {
-    const q = search.trim().toLowerCase()
-    return q ? cities.filter(c =>
-      c.city.toLowerCase().includes(q) || c.country.toLowerCase().includes(q)
-    ) : cities
-  }, [cities, search])
 
   if (loading) return <div className="loading">Loading…</div>
   if (error) return <div className="loading">Error: {error}</div>
@@ -30,20 +22,9 @@ export default function AllCitiesPage({ data }) {
         <h1>All Cities</h1>
         <p className="sub">{cities.length} cities visited</p>
       </div>
-      <input
-        value={search}
-        onChange={e => setSearch(e.target.value)}
-        placeholder="Search cities or countries…"
-        style={{
-          background: 'var(--bg-card)', border: '1px solid var(--border)',
-          borderRadius: '7px', padding: '0.5rem 0.75rem',
-          color: 'var(--text)', fontSize: '0.875rem', width: '100%', maxWidth: 300,
-          outline: 'none', marginBottom: '1rem',
-        }}
-      />
       <div className="card">
         <ol className="ranked-list">
-          {filtered.map((c, i) => (
+          {cities.map((c, i) => (
             <li key={`${c.city}-${c.country}`}>
               <span className="ranked-list__rank">{i + 1}</span>
               <Link to={`/city/${encodeURIComponent(c.city)}/${c.countryCode}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>{c.city}</Link>

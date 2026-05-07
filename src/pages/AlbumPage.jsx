@@ -2,6 +2,13 @@ import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
 import { computeSongStats, formatDate } from '../utils/stats.js'
+
+function formatRelDate(iso) {
+  if (!iso) return null
+  const [y, m, d] = iso.split('-')
+  return new Date(Number(y), Number(m) - 1, Number(d))
+    .toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
+}
 import albumData from '../../config/albums.json'
 
 export default function AlbumPage({ data }) {
@@ -59,7 +66,17 @@ export default function AlbumPage({ data }) {
             <span style={{ display: 'inline-block', width: 14, height: 14, borderRadius: '50%', background: album.color, flexShrink: 0 }} />
             {album.name}
           </h1>
-          {album.year && <p className="sub" style={{ marginTop: '0.25rem' }}>{album.year}</p>}
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem 1.25rem', marginTop: '0.35rem', fontSize: '0.85rem', color: 'var(--text-muted)', alignItems: 'center' }}>
+            {album.releaseDate && <span>{formatRelDate(album.releaseDate)}</span>}
+            {!album.releaseDate && album.year && <span>{album.year}</span>}
+            {album.label && <span style={{ color: 'var(--text-dim)' }}>{album.label}</span>}
+            {album.spotifyUrl && (
+              <a href={album.spotifyUrl} target="_blank" rel="noopener noreferrer"
+                style={{ color: '#1db954', textDecoration: 'none', fontWeight: 600, fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                ▶ Spotify
+              </a>
+            )}
+          </div>
         </div>
       </div>
 

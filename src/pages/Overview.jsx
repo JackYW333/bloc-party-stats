@@ -119,7 +119,10 @@ function VenueCard({ venues }) {
   const max = venues[0]?.count || 1
   return (
     <div className="card">
-      <div className="card-title">Most Visited Venues</div>
+      <div className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <span>Most Visited Venues</span>
+        <Link to="/venues" style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--accent)' }}>See all</Link>
+      </div>
       <ol className="ranked-list">
         {venues.slice(0, 15).map((v, i) => (
           <li key={`${v.venue}-${v.city}`}>
