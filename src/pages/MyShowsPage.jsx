@@ -1,7 +1,8 @@
-import { useMemo, useRef } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb.jsx'
-import { formatDate } from '../utils/stats.js'
+import AlbumBadge from '../components/AlbumBadge.jsx'
+import { formatDate, getAlbum } from '../utils/stats.js'
 
 export default function MyShowsPage({ data, attendance }) {
   const { loading, error, setlists } = data
@@ -16,10 +17,18 @@ export default function MyShowsPage({ data, attendance }) {
   const stats = useMemo(() => {
     const countries = new Set(myShows.map(s => s.countryCode))
     const cities = new Set(myShows.map(s => `${s.city}||${s.countryCode}`))
-    const songs = new Set()
-    myShows.forEach(s => s.songs.forEach(song => { if (!song.tape) songs.add(song.name) }))
-    return { countries: countries.size, cities: cities.size, songs: songs.size }
+    const songCounts = {}
+    myShows.forEach(s => s.songs.forEach(song => {
+      if (!song.tape) songCounts[song.name] = (songCounts[song.name] || 0) + 1
+    }))
+    const rankedSongs = Object.entries(songCounts)
+      .map(([name, count]) => ({ name, count, album: getAlbum(name) }))
+      .sort((a, b) => b.count - a.count)
+    return { countries: countries.size, cities: cities.size, songs: rankedSongs.length, rankedSongs }
   }, [myShows])
+
+  const [songsExpanded, setSongsExpanded] = useState(false)
+  const SONG_LIMIT = 20
 
   if (loading) return <div className="loading">Loading…</div>
   if (error) return <div className="loading">Error: {error}</div>
@@ -75,6 +84,35 @@ export default function MyShowsPage({ data, attendance }) {
             <div className="stat-card">
               <div className="stat-card__value">{stats.songs}</div>
               <div className="stat-card__label">Unique Songs Heard</div>
+            </div>
+          </div>
+
+          <div className="section">
+            <div className="section-title">Songs I've Heard Live</div>
+            <div className="card">
+              <ol className="ranked-list">
+                {(songsExpanded ? stats.rankedSongs : stats.rankedSongs.slice(0, SONG_LIMIT)).map((s, i) => (
+                  <li key={s.name}>
+                    <span className="ranked-list__rank">{i + 1}</span>
+                    <Link to={`/song/${encodeURIComponent(s.name)}`} className="ranked-list__name" style={{ color: 'var(--text)' }}>
+                      {s.name}
+                    </Link>
+                    <AlbumBadge album={s.album} />
+                    <div className="ranked-list__bar-wrap">
+                      <div className="ranked-list__bar" style={{ width: `${Math.round((s.count / stats.rankedSongs[0].count) * 100)}%` }} />
+                    </div>
+                    <span className="ranked-list__meta">{s.count}×</span>
+                  </li>
+                ))}
+              </ol>
+              {stats.rankedSongs.length > SONG_LIMIT && (
+                <button
+                  onClick={() => setSongsExpanded(e => !e)}
+                  style={{ marginTop: '0.75rem', background: 'none', border: 'none', color: 'var(--accent)', cursor: 'pointer', fontSize: '0.85rem' }}
+                >
+                  {songsExpanded ? 'Show less' : `Show all ${stats.rankedSongs.length} songs`}
+                </button>
+              )}
             </div>
           </div>
 
