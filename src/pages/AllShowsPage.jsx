@@ -69,14 +69,14 @@ export default function AllShowsPage({ data, attendance }) {
               <tr key={show.id} className={attended.has(show.id) ? 'attended-row' : ''}>
                 <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                 <td style={{ whiteSpace: 'nowrap' }}>
-                  {show.songs.length > 0
-                    ? <Link to={`/concert/${show.id}`}>{formatDate(show.date)}</Link>
-                    : <span style={{ color: 'var(--text-muted)' }}>{formatDate(show.date)}</span>}
+                  <Link to={`/concert/${show.id}`} style={show.songs.length === 0 ? { color: 'var(--text-muted)' } : undefined}>
+                    {formatDate(show.date)}
+                  </Link>
                 </td>
                 <td>
-                  {show.songs.length > 0
-                    ? <Link to={`/concert/${show.id}`}>{show.venue}</Link>
-                    : <span style={{ color: 'var(--text-muted)' }}>{show.venue}</span>}
+                  <Link to={`/concert/${show.id}`} style={show.songs.length === 0 ? { color: 'var(--text-muted)' } : undefined}>
+                    {show.venue}
+                  </Link>
                 </td>
                 <td>
                   <Link to={`/city/${encodeURIComponent(show.city)}/${show.countryCode}`} style={{ color: 'var(--text)' }}>{show.city}</Link>

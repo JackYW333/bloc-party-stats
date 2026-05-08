@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T00:58:28.818Z",
+  "lastUpdated": "2026-05-08T01:02:01.937Z",
   "total": 1132,
   "totalWithSetlist": 902,
   "setlists": [
@@ -21944,7 +21944,7 @@
       "countryCode": "MY",
       "lat": 3.0333333,
       "lng": 101.7166667,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/soundvalley-festival-serdang-malaysia-63e0926f.html",
       "songs": [
         {
@@ -22071,7 +22071,7 @@
       "countryCode": "GB",
       "lat": 52.9172609850369,
       "lng": -4.09227848052979,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/castell-park-portmeirion-wales-3e2c987.html",
       "songs": [
         {
@@ -22205,7 +22205,7 @@
       "countryCode": "BE",
       "lat": 51.2,
       "lng": 4.033,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/groeneputte-stekene-belgium-53e2fb01.html",
       "songs": [
         {
@@ -22332,7 +22332,7 @@
       "countryCode": "RO",
       "lat": 44.433,
       "lng": 26.1,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/romexpo-bucharest-romania-73e5aae1.html",
       "songs": [
         {
@@ -22389,7 +22389,7 @@
       "countryCode": "IE",
       "lat": 53.3330556,
       "lng": -6.2488889,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/trinity-college-dublin-dublin-ireland-43e6879f.html",
       "songs": [
         {
