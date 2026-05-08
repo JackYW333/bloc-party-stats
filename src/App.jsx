@@ -59,24 +59,24 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Overview data={data} />} />
         <Route path="/tours" element={<ToursPage data={data} />} />
-        <Route path="/tour/:tourName" element={<TourPage data={data} />} />
+        <Route path="/tour/:tourName" element={<TourPage data={data} attendance={attendance} />} />
         <Route path="/concert/:id" element={<ConcertPage data={data} attendance={attendance} />} />
         <Route path="/members" element={<MembersPage data={data} />} />
         <Route path="/song/:songName" element={<SongPage data={data} attendance={attendance} />} />
-        <Route path="/year/:year" element={<YearPage data={data} />} />
-        <Route path="/country/:countryCode" element={<CountryPage data={data} />} />
-        <Route path="/city/:cityName/:countryCode" element={<CityPage data={data} />} />
+        <Route path="/year/:year" element={<YearPage data={data} attendance={attendance} />} />
+        <Route path="/country/:countryCode" element={<CountryPage data={data} attendance={attendance} />} />
+        <Route path="/city/:cityName/:countryCode" element={<CityPage data={data} attendance={attendance} />} />
         <Route path="/releases" element={<ReleasesPage data={data} />} />
         <Route path="/album/:albumId" element={<AlbumPage data={data} />} />
-        <Route path="/venue/:venueName/:cityName/:countryCode" element={<VenuePage data={data} />} />
-        <Route path="/debuts" element={<DebutsPage data={data} />} />
+        <Route path="/venue/:venueName/:cityName/:countryCode" element={<VenuePage data={data} attendance={attendance} />} />
+        <Route path="/debuts" element={<DebutsPage data={data} attendance={attendance} />} />
         <Route path="/countries" element={<AllCountriesPage data={data} />} />
         <Route path="/cities" element={<AllCitiesPage data={data} />} />
         <Route path="/shows" element={<AllShowsPage data={data} attendance={attendance} />} />
         <Route path="/my-shows" element={<MyShowsPage data={data} attendance={attendance} />} />
         <Route path="/venues" element={<AllVenuesPage data={data} />} />
         <Route path="/songs" element={<AllSongsPage data={data} />} />
-        <Route path="/member/:memberId" element={<MemberPage data={data} />} />
+        <Route path="/member/:memberId" element={<MemberPage data={data} attendance={attendance} />} />
       </Routes>
     </>
   )

@@ -4,11 +4,12 @@ import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import { countUniqueSongs, computeSongStats, formatDate, findLongestGap } from '../utils/stats.js'
 
-export default function VenuePage({ data }) {
+export default function VenuePage({ data, attendance }) {
   const { venueName, cityName, countryCode } = useParams()
   const decodedVenue = decodeURIComponent(venueName)
   const decodedCity = decodeURIComponent(cityName)
   const { loading, error, setlists } = data
+  const { attended } = attendance
 
   const shows = useMemo(
     () => setlists
@@ -92,17 +93,19 @@ export default function VenuePage({ data }) {
                   <th>Date</th>
                   <th>Tour</th>
                   <th>Songs</th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
                 {shows.map((show, i) => (
-                  <tr key={show.id}>
+                  <tr key={show.id} className={attended.has(show.id) ? 'attended-row' : ''}>
                     <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                     <td style={{ whiteSpace: 'nowrap' }}><Link to={`/concert/${show.id}`}>{formatDate(show.date)}</Link></td>
                     <td style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>
                       {show.tour ? <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link> : '—'}
                     </td>
                     <td>{show.songs.filter(s => !s.tape).length}</td>
+                    <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
                   </tr>
                 ))}
               </tbody>

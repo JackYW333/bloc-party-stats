@@ -4,9 +4,10 @@ import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import { computeCityStats, computeVenueStats, countUniqueSongs, formatDate } from '../utils/stats.js'
 
-export default function CountryPage({ data }) {
+export default function CountryPage({ data, attendance }) {
   const { countryCode } = useParams()
   const { loading, error, setlists } = data
+  const { attended } = attendance
 
   const shows = useMemo(
     () => setlists.filter(s => s.countryCode === countryCode).sort((a, b) => a.date.localeCompare(b.date)),
@@ -89,11 +90,12 @@ export default function CountryPage({ data }) {
                 <th>City</th>
                 <th>Tour</th>
                 <th>Songs</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
               {shows.map((show, i) => (
-                <tr key={show.id}>
+                <tr key={show.id} className={attended.has(show.id) ? 'attended-row' : ''}>
                   <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                   <td style={{ whiteSpace: 'nowrap' }}><Link to={`/concert/${show.id}`}>{formatDate(show.date)}</Link></td>
                   <td><Link to={`/concert/${show.id}`}>{show.venue}</Link></td>
@@ -102,6 +104,7 @@ export default function CountryPage({ data }) {
                     {show.tour ? <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link> : '—'}
                   </td>
                   <td>{show.songs.filter(s => !s.tape).length}</td>
+                  <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
                 </tr>
               ))}
             </tbody>

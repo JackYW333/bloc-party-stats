@@ -19,9 +19,10 @@ function formatPeriods(periods) {
   }).join(', ')
 }
 
-export default function MemberPage({ data }) {
+export default function MemberPage({ data, attendance }) {
   const { memberId } = useParams()
   const { loading, error, setlists } = data
+  const { attended } = attendance
 
   const member = membersConfig.members.find(m => m.id === memberId)
 
@@ -95,11 +96,12 @@ export default function MemberPage({ data }) {
                 <th>Country</th>
                 <th>Tour</th>
                 <th>Songs</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
               {[...shows].reverse().map((show, i) => (
-                <tr key={show.id}>
+                <tr key={show.id} className={attended.has(show.id) ? 'attended-row' : ''}>
                   <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                   <td style={{ whiteSpace: 'nowrap' }}>
                     {show.songs.length > 0
@@ -119,6 +121,7 @@ export default function MemberPage({ data }) {
                   <td style={{ color: show.songs.length > 0 ? 'var(--text)' : 'var(--text-dim)' }}>
                     {show.songs.length > 0 ? show.songs.filter(s => !s.tape).length : '—'}
                   </td>
+                  <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
                 </tr>
               ))}
             </tbody>

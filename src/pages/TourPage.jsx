@@ -18,10 +18,11 @@ import {
   formatDate,
 } from '../utils/stats.js'
 
-export default function TourPage({ data }) {
+export default function TourPage({ data, attendance }) {
   const { tourName } = useParams()
   const decoded = decodeURIComponent(tourName)
   const { loading, error, setlists } = data
+  const { attended } = attendance
 
   const tourShows = useMemo(
     () => setlists.filter(s => (s.tour || 'Unknown / Standalone') === decoded),
@@ -93,11 +94,12 @@ export default function TourPage({ data }) {
                 <th>City</th>
                 <th>Country</th>
                 <th>Songs</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
               {sorted.map((show, i) => (
-                <tr key={show.id}>
+                <tr key={show.id} className={attended.has(show.id) ? 'attended-row' : ''}>
                   <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                   <td style={{ whiteSpace: 'nowrap' }}>
                     <Link to={`/concert/${show.id}`}>{formatDate(show.date)}</Link>
@@ -108,6 +110,7 @@ export default function TourPage({ data }) {
                     <Link to={`/country/${show.countryCode}`}><span className="country-code">{show.countryCode}</span></Link>
                   </td>
                   <td>{show.songs.filter(s => !s.tape).length}</td>
+                  <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
                 </tr>
               ))}
             </tbody>

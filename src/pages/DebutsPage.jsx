@@ -5,8 +5,9 @@ import AlbumBadge from '../components/AlbumBadge.jsx'
 import { getAlbum, formatDate, luminance } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 
-export default function DebutsPage({ data }) {
+export default function DebutsPage({ data, attendance }) {
   const { loading, error, setlists, debutMap } = data
+  const { attended } = attendance
   const [filterAlbum, setFilterAlbum] = useState('all')
 
   const debuts = useMemo(() => {
@@ -92,11 +93,12 @@ export default function DebutsPage({ data }) {
               <th>Venue</th>
               <th>City</th>
               <th>Tour</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             {filtered.map((d, i) => (
-              <tr key={d.songName}>
+              <tr key={d.songName} className={d.show && attended.has(d.show.id) ? 'attended-row' : ''}>
                 <td style={{ color: 'var(--text-dim)', fontSize: '0.8rem' }}>{i + 1}</td>
                 <td><Link to={`/song/${encodeURIComponent(d.songName)}`}>{d.songName}</Link></td>
                 <td><AlbumBadge album={d.album} /></td>
@@ -114,6 +116,7 @@ export default function DebutsPage({ data }) {
                     ? <Link to={`/tour/${encodeURIComponent(d.show.tour)}`}>{d.show.tour}</Link>
                     : '—'}
                 </td>
+                <td>{d.show && attended.has(d.show.id) && <span className="attended-dot" title="Attended" />}</td>
               </tr>
             ))}
           </tbody>
