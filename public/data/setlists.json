@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T00:34:13.504Z",
+  "lastUpdated": "2026-05-08T00:53:35.994Z",
   "total": 1132,
   "totalWithSetlist": 902,
   "setlists": [
@@ -9440,7 +9440,7 @@
       "countryCode": "AU",
       "lat": -42.9166667,
       "lng": 147.3333333,
-      "tour": null,
+      "tour": "Interpol + Bloc Party Co-Headline Tour 2023",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/odeon-theatre-hobart-australia-7ba1ceac.html",
       "songs": [
         {
@@ -9588,7 +9588,7 @@
       "countryCode": "AU",
       "lat": -34.9333333,
       "lng": 138.6,
-      "tour": null,
+      "tour": "Interpol + Bloc Party Co-Headline Tour 2023",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/hindley-street-music-hall-adelaide-australia-5ba1e710.html",
       "songs": [
         {
@@ -9736,7 +9736,7 @@
       "countryCode": "AU",
       "lat": -31.9333333,
       "lng": 115.8333333,
-      "tour": null,
+      "tour": "Interpol + Bloc Party Co-Headline Tour 2023",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/red-hill-auditorium-perth-australia-33a1fcbd.html",
       "songs": [
         {
@@ -15534,7 +15534,7 @@
       "countryCode": "FR",
       "lat": 45.567,
       "lng": 5.933,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2022/place-du-palais-de-justice-chambery-france-63b6e643.html",
       "songs": [
         {
@@ -15572,7 +15572,7 @@
       "countryCode": "GB",
       "lat": 51.48,
       "lng": -3.18,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2022/the-great-hall-cardiff-university-students-union-cardiff-wales-1bb6b968.html",
       "songs": [
         {
@@ -15706,7 +15706,7 @@
       "countryCode": "GB",
       "lat": 51.4166667,
       "lng": -0.2833333,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2022/pryzm-kingston-upon-thames-england-53894bb9.html",
       "songs": [
         {
@@ -15840,7 +15840,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2022/the-garage-london-england-5b894bb8.html",
       "songs": [
         {
@@ -15974,7 +15974,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/the-late-late-show-with-james-corden-los-angeles-ca-b9b9d1e.html",
       "songs": [
         {
@@ -15996,7 +15996,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/hollywood-palladium-los-angeles-ca-239ad4d3.html",
       "songs": [
         {
@@ -16165,7 +16165,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/masonic-auditorium-san-francisco-ca-39aede7.html",
       "songs": [
         {
@@ -16320,7 +16320,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/hollywood-palladium-los-angeles-ca-b9aedbe.html",
       "songs": [
         {
@@ -17215,7 +17215,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/douglas-park-chicago-il-39c81a3.html",
       "songs": [
         {
@@ -17335,7 +17335,7 @@
       "countryCode": "GB",
       "lat": 50.8090805768295,
       "lng": -1.07142448425293,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/southsea-common-portsmouth-england-239f1c3f.html",
       "songs": [
         {
@@ -17462,7 +17462,7 @@
       "countryCode": "NO",
       "lat": 63.4305242970809,
       "lng": 10.3949761390686,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/marinen-trondheim-norway-2b9f3812.html",
       "songs": [
         {
@@ -17582,7 +17582,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/kelvingrove-bandstand-glasgow-scotland-39f99df.html",
       "songs": [
         {
@@ -17723,7 +17723,7 @@
       "countryCode": "IT",
       "lat": 45.4902778,
       "lng": 12.2425,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/parco-san-giuliano-mestre-italy-7b9eea3c.html",
       "songs": [
         {
@@ -17850,7 +17850,7 @@
       "countryCode": "GB",
       "lat": 52.4666667,
       "lng": -1.9166667,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/o2-academy-birmingham-england-5b9eeb1c.html",
       "songs": [
         {
@@ -18005,7 +18005,7 @@
       "countryCode": "GB",
       "lat": 54.973,
       "lng": -1.614,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/o2-academy-newcastle-newcastle-upon-tyne-england-739ef2f1.html",
       "songs": [
         {
@@ -18160,7 +18160,7 @@
       "countryCode": "BE",
       "lat": 51.21,
       "lng": 3.225,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/minnewaterpark-bruges-belgium-39eb9cb.html",
       "songs": [
         {
@@ -18301,7 +18301,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/castlefield-bowl-manchester-england-63914203.html",
       "songs": [
         {
@@ -18456,7 +18456,7 @@
       "countryCode": "GB",
       "lat": 50.8283849472495,
       "lng": -0.139474868774414,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/brighton-centre-brighton-england-3b916058.html",
       "songs": [
         {
@@ -18611,7 +18611,7 @@
       "countryCode": "GB",
       "lat": 51.45,
       "lng": -2.5833333,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/lloyds-amphitheatre-bristol-england-539173b9.html",
       "songs": [
         {
@@ -18766,7 +18766,7 @@
       "countryCode": "DE",
       "lat": 51.33962,
       "lng": 12.371292,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/parkbuhne-im-clara-zetkin-park-leipzig-germany-639102db.html",
       "songs": [
         {
@@ -18921,7 +18921,7 @@
       "countryCode": "DE",
       "lat": 47.9725709174694,
       "lng": 8.92759323120117,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/take-off-gewerbepark-neuhausen-ob-eck-germany-33912085.html",
       "songs": [
         {
@@ -19062,7 +19062,7 @@
       "countryCode": "DE",
       "lat": 53.1666667,
       "lng": 9.4833333,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/eichenring-scheessel-germany-1b912950.html",
       "songs": [
         {
@@ -19203,7 +19203,7 @@
       "countryCode": "DE",
       "lat": 52.5166667,
       "lng": 13.4,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/zitadelle-spandau-berlin-germany-7b912a60.html",
       "songs": [
         {
@@ -19358,7 +19358,7 @@
       "countryCode": "DE",
       "lat": 50.9333333,
       "lng": 6.95,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/palladium-cologne-germany-5b912b78.html",
       "songs": [
         {
@@ -19513,7 +19513,7 @@
       "countryCode": "ES",
       "lat": 42.880524123434,
       "lng": -8.54568958282471,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/auditorio-monte-do-gozo-santiago-de-compostela-spain-391e55b.html",
       "songs": [
         {
@@ -35083,7 +35083,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "First Reunion Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2015/o2-abc-glasgow-scotland-13f5190d.html",
       "songs": [
         {
@@ -35210,7 +35210,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "First Reunion Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2015/unknown-venue-los-angeles-ca-bf519b6.html",
       "songs": [
         {
@@ -35309,7 +35309,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "First Reunion Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2015/the-late-late-show-with-james-corden-los-angeles-ca-2bf5302a.html",
       "songs": [
         {
@@ -35331,7 +35331,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "First Reunion Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2015/maida-vale-studios-london-england-63f41ac3.html",
       "songs": [
         {
@@ -35395,7 +35395,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "First Reunion Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2015/exposition-park-los-angeles-ca-73f7c6ed.html",
       "songs": [
         {
@@ -35501,7 +35501,7 @@
       "countryCode": "US",
       "lat": 34.0900091,
       "lng": -118.3617443,
-      "tour": null,
+      "tour": "First Reunion Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2015/the-roxy-west-hollywood-ca-23f7cc1f.html",
       "songs": [
         {
@@ -35628,7 +35628,7 @@
       "countryCode": "US",
       "lat": 34.0552886,
       "lng": -117.7522793,
-      "tour": null,
+      "tour": "First Reunion Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2015/the-glass-house-pomona-ca-53f7d3ad.html",
       "songs": [
         {
@@ -74941,7 +74941,7 @@
       "countryCode": "BE",
       "lat": 50.93,
       "lng": 5.338,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/domein-kiewit-hasselt-belgium-13d6dd99.html",
       "songs": [
         {
@@ -75047,7 +75047,7 @@
       "countryCode": "DE",
       "lat": 50.8833333,
       "lng": 11.1666667,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/stausee-hohenfelden-germany-53d71b45.html",
       "songs": [
         {
@@ -75146,7 +75146,7 @@
       "countryCode": "US",
       "lat": 39.2903848,
       "lng": -76.6121893,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/pimlico-race-course-baltimore-md-2bd7cc8a.html",
       "songs": [
         {
@@ -75231,7 +75231,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/webster-hall-new-york-ny-43db13a7.html",
       "songs": [
         {
@@ -75351,7 +75351,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/webster-hall-new-york-ny-6bd41622.html",
       "songs": [
         {
@@ -75478,7 +75478,7 @@
       "countryCode": "US",
       "lat": 39.952335,
       "lng": -75.163789,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-theatre-of-living-arts-philadelphia-pa-23d5c457.html",
       "songs": [
         {
@@ -75605,7 +75605,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/house-of-blues-chicago-il-bd0a166.html",
       "songs": [
         {
@@ -75725,7 +75725,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/grant-park-chicago-il-63d6ba87.html",
       "songs": [
         {
@@ -75817,7 +75817,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-fillmore-san-francisco-ca-23db0c07.html",
       "songs": [
         {
@@ -75951,7 +75951,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/mayan-theatre-los-angeles-ca-53d51369.html",
       "songs": [
         {
@@ -76071,7 +76071,7 @@
       "countryCode": "US",
       "lat": 34.0552886,
       "lng": -117.7522793,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-glass-house-pomona-ca-43d4c33b.html",
       "songs": [
         {
@@ -76191,7 +76191,7 @@
       "countryCode": "JP",
       "lat": 36.9333333,
       "lng": 138.8166667,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/green-stage-yuzawa-japan-1bd78180.html",
       "songs": [
         {
@@ -76255,7 +76255,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-o2-arena-london-england-73d2666d.html",
       "songs": [
         {
@@ -76326,7 +76326,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/alexandra-palace-london-england-1bd4e5b8.html",
       "songs": [
         {
@@ -76460,7 +76460,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/alexandra-palace-london-england-5bd74fd4.html",
       "songs": [
         {
@@ -76594,7 +76594,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/manchester-central-manchester-england-53d61bb1.html",
       "songs": [
         {
@@ -76721,7 +76721,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/hall-4-glasgow-scotland-4bde974e.html",
       "songs": [
         {
@@ -76855,7 +76855,7 @@
       "countryCode": "GB",
       "lat": 51.2333333,
       "lng": 0.6166667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-cockpit-leeds-england-1bdf6930.html",
       "songs": [
         {
@@ -78987,7 +78987,7 @@
       "countryCode": "IS",
       "lat": 64.146027916677,
       "lng": -21.9422721862793,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/art-museum-reykjavik-iceland-43db13eb.html",
       "songs": [
         {
@@ -82518,7 +82518,7 @@
       "countryCode": "IE",
       "lat": 53.216,
       "lng": -6.667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/punchestown-racecourse-naas-ireland-33d6c04d.html",
       "songs": [
         {
@@ -82624,7 +82624,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/wembley-stadium-london-england-4bd5ef2a.html",
       "songs": [
         {
@@ -82660,7 +82660,7 @@
       "countryCode": "GB",
       "lat": 56.2,
       "lng": -3.4166667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/balado-kinross-scotland-5bdb1334.html",
       "songs": [
         {
@@ -82738,7 +82738,7 @@
       "countryCode": "PT",
       "lat": 38.7166667,
       "lng": -9.1333333,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/parque-do-tejo-lisbon-portugal-bd3397e.html",
       "songs": [
         {
@@ -82858,7 +82858,7 @@
       "countryCode": "PL",
       "lat": 54.5,
       "lng": 18.55,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/lotnisko-gdynia-kosakowo-gdynia-poland-3bde28c8.html",
       "songs": [
         {
@@ -82985,7 +82985,7 @@
       "countryCode": "CH",
       "lat": 47.43,
       "lng": 9.376,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/sittertobel-st-gallen-switzerland-53db1331.html",
       "songs": [
         {
@@ -83063,7 +83063,7 @@
       "countryCode": "BE",
       "lat": 50.967,
       "lng": 4.7,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/festivalpark-werchter-belgium-3d6dd97.html",
       "songs": [
         {
@@ -83169,7 +83169,7 @@
       "countryCode": "FR",
       "lat": 49.417,
       "lng": 1.033,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/zenith-de-rouen-le-grand-quevilly-france-5bdb133c.html",
       "songs": []
     },
@@ -83183,7 +83183,7 @@
       "countryCode": "LU",
       "lat": 49.6116667,
       "lng": 6.13,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/den-atelier-luxembourg-luxembourg-53db133d.html",
       "songs": []
     },
@@ -83197,7 +83197,7 @@
       "countryCode": "DE",
       "lat": 47.9725709174694,
       "lng": 8.92759323120117,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/take-off-gewerbepark-neuhausen-ob-eck-germany-4bd4cf0e.html",
       "songs": [
         {
@@ -83310,7 +83310,7 @@
       "countryCode": "DE",
       "lat": 53.1666667,
       "lng": 9.4833333,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/eichenring-scheessel-germany-4bdec3d2.html",
       "songs": [
         {
@@ -83423,7 +83423,7 @@
       "countryCode": "GB",
       "lat": 51.0869868802263,
       "lng": -4.0620231628418,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/worthy-farm-pilton-england-4bdb133e.html",
       "songs": [
         {
@@ -89418,7 +89418,7 @@
       "countryCode": "GB",
       "lat": 55.95,
       "lng": -3.2,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/corn-exchange-edinburgh-scotland-7bd08a40.html",
       "songs": [
         {
@@ -89440,7 +89440,7 @@
       "countryCode": "GB",
       "lat": 57.1333333,
       "lng": -2.1,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/music-hall-aberdeen-scotland-bdb1182.html",
       "songs": []
     },
@@ -89454,7 +89454,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/barrowland-glasgow-scotland-63d6def7.html",
       "songs": [
         {
@@ -89581,7 +89581,7 @@
       "countryCode": "IE",
       "lat": 53.3330556,
       "lng": -6.2488889,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/ambassador-theatre-dublin-ireland-23d6c02b.html",
       "songs": [
         {
@@ -90767,7 +90767,7 @@
       "countryCode": "GB",
       "lat": 51.0833333,
       "lng": 1.1833333,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/leas-cliff-hall-folkestone-england-bdb1192.html",
       "songs": [
         {
@@ -90887,7 +90887,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/london-astoria-london-england-3db1193.html",
       "songs": [
         {
@@ -91014,7 +91014,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/london-astoria-london-england-1bdb119c.html",
       "songs": [
         {
@@ -91141,7 +91141,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/london-astoria-london-england-43d49767.html",
       "songs": [
         {
@@ -91268,7 +91268,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/maida-vale-studios-london-england-bdb119a.html",
       "songs": [
         {
@@ -91367,7 +91367,7 @@
       "countryCode": "GB",
       "lat": 52.6278273182018,
       "lng": 1.29833936691284,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-lcr-uea-norwich-england-23d2004b.html",
       "songs": [
         {
@@ -91494,7 +91494,7 @@
       "countryCode": "GB",
       "lat": 50.9,
       "lng": -1.4,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/southampton-guildhall-southampton-england-1bdb11a0.html",
       "songs": [
         {
@@ -91621,7 +91621,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/mean-fiddler-london-england-bdb11a2.html",
       "songs": [
         {
@@ -91734,7 +91734,7 @@
       "countryCode": "GB",
       "lat": 50.7166667,
       "lng": -1.8833333,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-old-fire-station-bournemouth-england-1bdb11ac.html",
       "songs": [
         {
@@ -91847,7 +91847,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/canal-television-studios-paris-france-4bd7abe6.html",
       "songs": [
         {
@@ -91925,7 +91925,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": "Silent Alarm",
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/black-session-la-maison-de-la-radio-paris-france-1bdb11a8.html",
       "songs": [
         {
@@ -92024,7 +92024,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-album-chart-show-london-england-4358f34f.html",
       "songs": [
         {
@@ -92145,7 +92145,7 @@
       "countryCode": "JP",
       "lat": 35.69,
       "lng": 139.692,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/unit-tokyo-japan-5bdb1770.html",
       "songs": []
     },
@@ -93828,7 +93828,7 @@
       "countryCode": "GB",
       "lat": 56.5,
       "lng": -2.9666667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/camperdown-country-park-dundee-scotland-43db177b.html",
       "songs": [
         {
@@ -93906,7 +93906,7 @@
       "countryCode": "US",
       "lat": 33.7205771,
       "lng": -116.2155619,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/empire-polo-club-indio-ca-33d17cbd.html",
       "songs": [
         {
@@ -93991,7 +93991,7 @@
       "countryCode": "US",
       "lat": 36.1749705,
       "lng": -115.137223,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/the-joint-at-hard-rock-hotel-las-vegas-nv-73d5aeb5.html",
       "songs": []
     },
@@ -94005,7 +94005,7 @@
       "countryCode": "US",
       "lat": 33.414768,
       "lng": -111.9093095,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/marquee-theatre-tempe-az-33db1481.html",
       "songs": [
         {
@@ -94118,7 +94118,7 @@
       "countryCode": "US",
       "lat": 26.1223084,
       "lng": -80.1433786,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/revolution-live-fort-lauderdale-fl-13d03d1d.html",
       "songs": [
         {
@@ -94203,7 +94203,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/royal-albert-hall-london-england-43d4975f.html",
       "songs": [
         {
@@ -94316,7 +94316,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/fabric-london-england-23d2e007.html",
       "songs": [
         {
@@ -94429,7 +94429,7 @@
       "countryCode": "GB",
       "lat": 52.6278273182018,
       "lng": 1.29833936691284,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/the-waterfront-norwich-england-3bd2e000.html",
       "songs": [
         {
@@ -94542,7 +94542,7 @@
       "countryCode": "GB",
       "lat": 53.8257,
       "lng": -3.0552,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/esquires-bedford-england-33d2e001.html",
       "songs": [
         {
@@ -94662,7 +94662,7 @@
       "countryCode": "GB",
       "lat": 52.9536023000285,
       "lng": -1.15047454833984,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/rescue-rooms-nottingham-england-2bd2e002.html",
       "songs": [
         {
@@ -94775,7 +94775,7 @@
       "countryCode": "GB",
       "lat": 54.973,
       "lng": -1.614,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/northumbria-university-newcastle-upon-tyne-england-23d2e003.html",
       "songs": [
         {
@@ -94888,7 +94888,7 @@
       "countryCode": "GB",
       "lat": 51.2333333,
       "lng": 0.6166667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/the-cockpit-leeds-england-3bd2e00c.html",
       "songs": [
         {
@@ -95001,7 +95001,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/king-tuts-wah-wah-hut-glasgow-scotland-33d2e00d.html",
       "songs": [
         {
@@ -95114,7 +95114,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/manchester-academy-3-university-of-manchester-students-union-manchester-england-2bd2e00e.html",
       "songs": [
         {
@@ -95227,7 +95227,7 @@
       "countryCode": "GB",
       "lat": 50.8283849472495,
       "lng": -0.139474868774414,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/concorde-2-brighton-england-23d2e00f.html",
       "songs": [
         {
@@ -95340,7 +95340,7 @@
       "countryCode": "GB",
       "lat": 53.9666667,
       "lng": -1.0833333,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/vanbrugh-college-york-england-138b41d1.html",
       "songs": []
     },
@@ -95354,7 +95354,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/koko-london-england-73d5fa4d.html",
       "songs": [
         {
@@ -97670,7 +97670,7 @@
       "countryCode": "GB",
       "lat": 50.8090805768295,
       "lng": -1.07142448425293,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/portsmouth-guildhall-portsmouth-england-4bd2f71a.html",
       "songs": [
         {
@@ -97790,7 +97790,7 @@
       "countryCode": "GB",
       "lat": 52.6278273182018,
       "lng": 1.29833936691284,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-lcr-uea-norwich-england-33dcc471.html",
       "songs": []
     },
@@ -97804,7 +97804,7 @@
       "countryCode": "GB",
       "lat": 52.2018,
       "lng": 0.1144,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/cambridge-corn-exchange-cambridge-england-3db15d3.html",
       "songs": [
         {
@@ -97833,7 +97833,7 @@
       "countryCode": "GB",
       "lat": 54.973,
       "lng": -1.614,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/northumbria-university-newcastle-upon-tyne-england-33d1fc99.html",
       "songs": [
         {
@@ -97960,7 +97960,7 @@
       "countryCode": "GB",
       "lat": 54.5727778,
       "lng": -1.1627778,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/middlesbrough-town-hall-middlesbrough-england-1bdb15dc.html",
       "songs": [
         {
@@ -98017,7 +98017,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-glasgow-glasgow-scotland-13db15dd.html",
       "songs": []
     },
@@ -98031,7 +98031,7 @@
       "countryCode": "GB",
       "lat": 55.95,
       "lng": -3.2,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/corn-exchange-edinburgh-scotland-bdb15de.html",
       "songs": []
     },
@@ -98045,7 +98045,7 @@
       "countryCode": "US",
       "lat": 33.7489954,
       "lng": -84.3879824,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/tabernacle-atlanta-ga-3dd890b.html",
       "songs": [
         {
@@ -98186,7 +98186,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/zilker-park-austin-tx-63dd027f.html",
       "songs": [
         {
@@ -98278,7 +98278,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-warfield-san-francisco-ca-3db15df.html",
       "songs": []
     },
@@ -98292,7 +98292,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-warfield-san-francisco-ca-33da3cd5.html",
       "songs": []
     },
@@ -98306,7 +98306,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hollywood-palladium-los-angeles-ca-43d5d77b.html",
       "songs": []
     },
@@ -98320,7 +98320,7 @@
       "countryCode": "US",
       "lat": 34.1808392,
       "lng": -118.3089661,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-tonight-show-with-jay-leno-burbank-ca-3b8c5c68.html",
       "songs": [
         {
@@ -98342,7 +98342,7 @@
       "countryCode": "US",
       "lat": 32.7153292,
       "lng": -117.1572551,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/sdsu-open-air-theatre-san-diego-state-university-san-diego-ca-1bdb15d8.html",
       "songs": [
         {
@@ -98420,7 +98420,7 @@
       "countryCode": "US",
       "lat": 34.1083449,
       "lng": -117.2897652,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hyundai-pavilion-san-bernardino-ca-bdb15da.html",
       "songs": [
         {
@@ -98505,7 +98505,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/congress-theater-chicago-il-3db15db.html",
       "songs": []
     },
@@ -98519,7 +98519,7 @@
       "countryCode": "US",
       "lat": 42.4894801,
       "lng": -83.1446485,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/royal-oak-music-theatre-royal-oak-mi-1bdb15e4.html",
       "songs": [
         {
@@ -98618,7 +98618,7 @@
       "countryCode": "CA",
       "lat": 43.700113788,
       "lng": -79.416304194,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-docks-toronto-on-canada-13db15e5.html",
       "songs": []
     },
@@ -98632,7 +98632,7 @@
       "countryCode": "US",
       "lat": 39.952335,
       "lng": -75.163789,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/electric-factory-philadelphia-pa-bdb15e6.html",
       "songs": [
         {
@@ -98675,7 +98675,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/roseland-ballroom-new-york-ny-3db15e7.html",
       "songs": [
         {
@@ -98795,7 +98795,7 @@
       "countryCode": "US",
       "lat": 42.3584308,
       "lng": -71.0597732,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/avalon-boston-ma-1bdb15e0.html",
       "songs": []
     },
@@ -98809,7 +98809,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/grosvenor-house-hotel-london-england-7b4f0638.html",
       "songs": []
     },
@@ -98823,7 +98823,7 @@
       "countryCode": "GB",
       "lat": 51.4333333,
       "lng": -1,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/little-johns-farm-reading-england-bdb15e2.html",
       "songs": [
         {
@@ -98929,7 +98929,7 @@
       "countryCode": "GB",
       "lat": 53.88118,
       "lng": -1.35452,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/bramham-park-bramham-england-3bda280c.html",
       "songs": [
         {
@@ -99028,7 +99028,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-islington-london-england-13db15ed.html",
       "songs": [
         {
@@ -99085,7 +99085,7 @@
       "countryCode": "JP",
       "lat": 35.362,
       "lng": 140.622,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hall-4-chiba-japan-1bdb15e8.html",
       "songs": [
         {
@@ -99114,7 +99114,7 @@
       "countryCode": "JP",
       "lat": 34.694,
       "lng": 135.502,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/5-goukan-osaka-japan-bdb15ea.html",
       "songs": []
     },
@@ -99128,7 +99128,7 @@
       "countryCode": "AU",
       "lat": -28.65,
       "lng": 153.6166667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/belongil-fields-byron-bay-australia-bddadaa.html",
       "songs": [
         {
@@ -99213,7 +99213,7 @@
       "countryCode": "AU",
       "lat": -33.8678499639382,
       "lng": 151.207323074341,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/metro-theatre-sydney-australia-13db15f5.html",
       "songs": [
         {
@@ -99312,7 +99312,7 @@
       "countryCode": "AU",
       "lat": -33.8678499639382,
       "lng": 151.207323074341,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/metro-theatre-sydney-australia-bdb15f6.html",
       "songs": []
     },
@@ -99326,7 +99326,7 @@
       "countryCode": "AU",
       "lat": -37.8139965641595,
       "lng": 144.963322877884,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-hi-fi-melbourne-australia-63d1da47.html",
       "songs": []
     },
@@ -99340,7 +99340,7 @@
       "countryCode": "AU",
       "lat": -37.8139965641595,
       "lng": 144.963322877884,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/rove-live-melbourne-australia-1ba429e4.html",
       "songs": [
         {
@@ -99362,7 +99362,7 @@
       "countryCode": "DE",
       "lat": 50.583,
       "lng": 8.65,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/am-kugelberg-giessen-germany-1bdb15f0.html",
       "songs": [
         {
@@ -99447,7 +99447,7 @@
       "countryCode": "DE",
       "lat": 51.7333333,
       "lng": 12.45,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/ferropolis-grafenhainichen-germany-bdd5d2e.html",
       "songs": [
         {
@@ -99483,7 +99483,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/somerset-house-london-england-73d5fa39.html",
       "songs": [
         {
@@ -99596,7 +99596,7 @@
       "countryCode": "GB",
       "lat": 56.2,
       "lng": -3.4166667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/balado-kinross-scotland-1bdb1500.html",
       "songs": [
         {
@@ -99653,7 +99653,7 @@
       "countryCode": "IE",
       "lat": 53.216,
       "lng": -6.667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/punchestown-racecourse-naas-ireland-bdfb962.html",
       "songs": [
         {
@@ -99738,7 +99738,7 @@
       "countryCode": "SE",
       "lat": 59.3325765361753,
       "lng": 18.0649030208588,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/munchenbryggeriet-stockholm-sweden-4bdae7de.html",
       "songs": []
     },
@@ -99752,7 +99752,7 @@
       "countryCode": "SE",
       "lat": 57.7071623103656,
       "lng": 11.9667935371399,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/tradgarn-gothenburg-sweden-1bdb150c.html",
       "songs": [
         {
@@ -99851,7 +99851,7 @@
       "countryCode": "NO",
       "lat": 58.1467938592621,
       "lng": 7.99736022949219,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/bendiksbukta-kristiansand-norway-3db150b.html",
       "songs": [
         {
@@ -99915,7 +99915,7 @@
       "countryCode": "DK",
       "lat": 55.6415191517441,
       "lng": 12.0803475379944,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/dyrskuepladsen-roskilde-denmark-1bdb1514.html",
       "songs": []
     },
@@ -99929,7 +99929,7 @@
       "countryCode": "BE",
       "lat": 50.967,
       "lng": 4.7,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/festivalpark-werchter-belgium-13defd5d.html",
       "songs": [
         {
@@ -100028,7 +100028,7 @@
       "countryCode": "FR",
       "lat": 47.633,
       "lng": 6.867,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/presquile-de-malsaucy-belfort-france-53d1a359.html",
       "songs": [
         {
@@ -100127,7 +100127,7 @@
       "countryCode": "DE",
       "lat": 50.8666667,
       "lng": 6.1,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/schulzentrum-herzogenrath-germany-13d125f5.html",
       "songs": []
     },
@@ -100141,7 +100141,7 @@
       "countryCode": "GB",
       "lat": 51.0869868802263,
       "lng": -4.0620231628418,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/worthy-farm-pilton-england-4bd5ef2e.html",
       "songs": [
         {
@@ -100240,7 +100240,7 @@
       "countryCode": "US",
       "lat": 39.952335,
       "lng": -75.163789,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/trocadero-theatre-philadelphia-pa-3db1517.html",
       "songs": [
         {
@@ -100276,7 +100276,7 @@
       "countryCode": "US",
       "lat": 38.895,
       "lng": -77.036,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/930-club-washington-dc-43d2e717.html",
       "songs": [
         {
@@ -100389,7 +100389,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/late-night-with-conan-obrien-new-york-ny-539683bd.html",
       "songs": [
         {
@@ -100411,7 +100411,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/webster-hall-new-york-ny-1bdb1510.html",
       "songs": []
     },
@@ -100425,7 +100425,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/webster-hall-new-york-ny-13db1511.html",
       "songs": []
     },
@@ -100439,7 +100439,7 @@
       "countryCode": "US",
       "lat": 39.2403841,
       "lng": -76.8394184,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/merriweather-post-pavilion-columbia-md-1bdb151c.html",
       "songs": []
     },
@@ -100453,7 +100453,7 @@
       "countryCode": "US",
       "lat": 33.7489954,
       "lng": -84.3879824,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/downtown-atlanta-atlanta-ga-2bd3703e.html",
       "songs": []
     },
@@ -100467,7 +100467,7 @@
       "countryCode": "US",
       "lat": 29.955,
       "lng": -90.075,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/one-eyed-jacks-new-orleans-la-13db151d.html",
       "songs": []
     },
@@ -100481,7 +100481,7 @@
       "countryCode": "US",
       "lat": 32.7830556,
       "lng": -96.8066667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-ballroom-dallas-tx-bdb151e.html",
       "songs": []
     },
@@ -100495,7 +100495,7 @@
       "countryCode": "MX",
       "lat": 19.434,
       "lng": -99.139,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/salon-21-mexico-city-mexico-4bd4b382.html",
       "songs": [
         {
@@ -100615,7 +100615,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/el-rey-theatre-los-angeles-ca-3db151f.html",
       "songs": []
     },
@@ -100629,7 +100629,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/el-rey-theatre-los-angeles-ca-bdb151a.html",
       "songs": []
     },
@@ -100643,7 +100643,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-fillmore-san-francisco-ca-3d3510b.html",
       "songs": [
         {
@@ -100756,7 +100756,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/slims-san-francisco-ca-3db151b.html",
       "songs": []
     },
@@ -100770,7 +100770,7 @@
       "countryCode": "CA",
       "lat": 49.249657393,
       "lng": -123.119340403,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/commodore-ballroom-vancouver-bc-canada-1bdb1524.html",
       "songs": []
     },
@@ -100784,7 +100784,7 @@
       "countryCode": "US",
       "lat": 47.0790224,
       "lng": -119.8558822,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-gorge-amphitheatre-george-wa-13db1525.html",
       "songs": [
         {
@@ -100862,7 +100862,7 @@
       "countryCode": "US",
       "lat": 45.5234515,
       "lng": -122.6762071,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/crystal-ballroom-portland-or-bdb1526.html",
       "songs": []
     },
@@ -100876,7 +100876,7 @@
       "countryCode": "US",
       "lat": 40.7607794,
       "lng": -111.8910474,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/in-the-venue-salt-lake-city-ut-1bdb1520.html",
       "songs": []
     },
@@ -100890,7 +100890,7 @@
       "countryCode": "US",
       "lat": 39.6477653,
       "lng": -104.9877597,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/gothic-theatre-englewood-co-13db152d.html",
       "songs": [
         {
@@ -100926,7 +100926,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/jimmy-kimmel-live-los-angeles-ca-bdb1522.html",
       "songs": [
         {
@@ -100983,7 +100983,7 @@
       "countryCode": "US",
       "lat": 33.6694649,
       "lng": -117.8231107,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/verizon-wireless-amphitheatre-irvine-ca-bdb2546.html",
       "songs": [
         {
@@ -101047,7 +101047,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/la-cigale-paris-france-6bd7b206.html",
       "songs": [
         {
@@ -101174,7 +101174,7 @@
       "countryCode": "FR",
       "lat": 50.633,
       "lng": 3.067,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/le-splendid-lille-france-73d3d241.html",
       "songs": []
     },
@@ -101188,7 +101188,7 @@
       "countryCode": "NL",
       "lat": 50.9070922400953,
       "lng": 6.02715969085693,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/megaland-landgraaf-netherlands-33dd6ce1.html",
       "songs": [
         {
@@ -101280,7 +101280,7 @@
       "countryCode": "FR",
       "lat": 45.767,
       "lng": 4.883,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/le-transbordeur-villeurbanne-france-13db2541.html",
       "songs": [
         {
@@ -101400,7 +101400,7 @@
       "countryCode": "FR",
       "lat": 43.3,
       "lng": 5.4,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/le-moulin-marseille-france-bdb2542.html",
       "songs": [
         {
@@ -101527,7 +101527,7 @@
       "countryCode": "FR",
       "lat": 43.55,
       "lng": 1.467,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/salle-des-fetes-ramonville-saint-agne-france-3db2543.html",
       "songs": [
         {
@@ -101647,7 +101647,7 @@
       "countryCode": "JP",
       "lat": 35.69,
       "lng": 139.692,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/shibuya-club-quattro-tokyo-japan-1bdb254c.html",
       "songs": [
         {
@@ -101718,7 +101718,7 @@
       "countryCode": "JP",
       "lat": 35.69,
       "lng": 139.692,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/shibuya-club-quattro-tokyo-japan-13db254d.html",
       "songs": []
     },
@@ -101732,7 +101732,7 @@
       "countryCode": "JP",
       "lat": 35.105,
       "lng": 136.542,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/nagoya-club-quattro-nagoya-japan-3db254f.html",
       "songs": []
     },
@@ -101746,7 +101746,7 @@
       "countryCode": "JP",
       "lat": 34.694,
       "lng": 135.502,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/shinsaibashi-club-quattro-osaka-japan-1bdb2548.html",
       "songs": []
     },
@@ -101760,7 +101760,7 @@
       "countryCode": "US",
       "lat": 33.7205771,
       "lng": -116.2155619,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/empire-polo-club-indio-ca-3bd17cb8.html",
       "songs": [
         {
@@ -101845,7 +101845,7 @@
       "countryCode": "IT",
       "lat": 45.4642693810258,
       "lng": 9.1895055770874,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/transilvania-live-milan-italy-13db2549.html",
       "songs": [
         {
@@ -101958,7 +101958,7 @@
       "countryCode": "DE",
       "lat": 48.1374325498109,
       "lng": 11.5754914283752,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/georg-elser-hallen-munich-germany-6bd46af6.html",
       "songs": []
     },
@@ -101972,7 +101972,7 @@
       "countryCode": "FR",
       "lat": 47.083,
       "lng": 2.4,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/palais-dauron-bourges-france-1bdf4d04.html",
       "songs": [
         {
@@ -102022,7 +102022,7 @@
       "countryCode": "DE",
       "lat": 53.55,
       "lng": 10,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/markthalle-hamburg-germany-5bdec380.html",
       "songs": []
     },
@@ -102036,7 +102036,7 @@
       "countryCode": "DE",
       "lat": 52.5166667,
       "lng": 13.4,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/postbahnhof-berlin-germany-bdb254a.html",
       "songs": []
     },
@@ -102050,7 +102050,7 @@
       "countryCode": "DE",
       "lat": 50.9333333,
       "lng": 6.95,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/live-music-hall-cologne-germany-43d73357.html",
       "songs": [
         {
@@ -102163,7 +102163,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/manchester-academy-1-manchester-england-7bde827c.html",
       "songs": [
         {
@@ -102185,7 +102185,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/barrowland-glasgow-scotland-5bd483a4.html",
       "songs": []
     },
@@ -102199,7 +102199,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/london-astoria-london-england-43d3df67.html",
       "songs": []
     },
@@ -102213,7 +102213,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/london-astoria-london-england-3db254b.html",
       "songs": []
     },
@@ -102227,7 +102227,7 @@
       "countryCode": "US",
       "lat": 38.895,
       "lng": -77.036,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/black-cat-washington-dc-1bdb2554.html",
       "songs": [
         {
@@ -102333,7 +102333,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/bowery-ballroom-new-york-ny-bdb2556.html",
       "songs": [
         {
@@ -102439,7 +102439,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/bowery-ballroom-new-york-ny-63ddb2cb.html",
       "songs": [
         {
@@ -102545,7 +102545,7 @@
       "countryCode": "US",
       "lat": 39.952335,
       "lng": -75.163789,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/club-polaris-aka-starlight-ballroom-philadelphia-pa-73540a91.html",
       "songs": []
     },
@@ -102559,7 +102559,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/late-show-with-david-letterman-new-york-ny-1ba39598.html",
       "songs": [
         {
@@ -102581,7 +102581,7 @@
       "countryCode": "US",
       "lat": 42.3584308,
       "lng": -71.0597732,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/paradise-rock-club-boston-ma-3db2557.html",
       "songs": []
     },
@@ -102595,7 +102595,7 @@
       "countryCode": "CA",
       "lat": 45.5088375,
       "lng": -73.587809,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/la-tulipe-montreal-qc-canada-bdcb5f2.html",
       "songs": []
     },
@@ -102609,7 +102609,7 @@
       "countryCode": "CA",
       "lat": 43.700113788,
       "lng": -79.416304194,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-opera-house-toronto-on-canada-7bdb2ecc.html",
       "songs": [
         {
@@ -102715,7 +102715,7 @@
       "countryCode": "US",
       "lat": 42.331427,
       "lng": -83.0457538,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-magic-stick-detroit-mi-13d53571.html",
       "songs": [
         {
@@ -102821,7 +102821,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/metro-chicago-il-1bd7ddf4.html",
       "songs": []
     },
@@ -102835,7 +102835,7 @@
       "countryCode": "US",
       "lat": 44.9799654,
       "lng": -93.2638361,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/first-avenue-minneapolis-mn-13db2551.html",
       "songs": []
     },
@@ -102849,7 +102849,7 @@
       "countryCode": "CA",
       "lat": 49.249657393,
       "lng": -123.119340403,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/richards-on-richards-vancouver-bc-canada-3db255f.html",
       "songs": []
     },
@@ -102863,7 +102863,7 @@
       "countryCode": "US",
       "lat": 47.6062095,
       "lng": -122.3320708,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/neumos-seattle-wa-1bdb2558.html",
       "songs": [
         {
@@ -102969,7 +102969,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/bottom-of-the-hill-san-francisco-ca-13db2559.html",
       "songs": [
         {
@@ -103075,7 +103075,7 @@
       "countryCode": "US",
       "lat": 34.0900091,
       "lng": -118.3617443,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/troubadour-west-hollywood-ca-bdb2566.html",
       "songs": []
     },
@@ -103089,7 +103089,7 @@
       "countryCode": "US",
       "lat": 34.0194543,
       "lng": -118.4911912,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/kcrw-studios-santa-monica-ca-3db255b.html",
       "songs": [
         {
@@ -103160,7 +103160,7 @@
       "countryCode": "US",
       "lat": 34.0552886,
       "lng": -117.7522793,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-glass-house-pomona-ca-3db2567.html",
       "songs": [
         {
@@ -103266,7 +103266,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/urban-outfitters-austin-tx-2bdb70c2.html",
       "songs": [
         {
@@ -103330,7 +103330,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-rhizome-collective-austin-tx-13db2561.html",
       "songs": [
         {
@@ -103394,7 +103394,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/stubbs-bar-b-q-austin-tx-3bdb2890.html",
       "songs": [
         {
@@ -103458,7 +103458,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/stubbs-bar-b-q-austin-tx-13f5c55d.html",
       "songs": []
     },
@@ -103472,7 +103472,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-ritz-austin-tx-2bdb2892.html",
       "songs": []
     },
@@ -103486,7 +103486,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/la-boule-noire-paris-france-63d7b207.html",
       "songs": [
         {
@@ -103606,7 +103606,7 @@
       "countryCode": "BE",
       "lat": 50.85,
       "lng": 4.35,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/lorangerie-sint-joost-ten-noode-saint-josse-ten-noode-belgium-7bd7b204.html",
       "songs": [
         {
@@ -103726,7 +103726,7 @@
       "countryCode": "GB",
       "lat": 50.8090805768295,
       "lng": -1.07142448425293,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/portsmouth-pyramids-centre-portsmouth-england-6bd42e6e.html",
       "songs": []
     },
@@ -103740,7 +103740,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-forum-london-england-3bdb2898.html",
       "songs": []
     },
@@ -103754,7 +103754,7 @@
       "countryCode": "GB",
       "lat": 53.383,
       "lng": -1.466,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-leadmill-sheffield-england-33db2899.html",
       "songs": [
         {
@@ -103846,7 +103846,7 @@
       "countryCode": "GB",
       "lat": 55.95,
       "lng": -3.2,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/liquid-room-edinburgh-scotland-2bdb289a.html",
       "songs": []
     },
@@ -103860,7 +103860,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-roxy-new-york-ny-23db289b.html",
       "songs": []
     },
@@ -103874,7 +103874,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/barfly-london-england-3bdb28a4.html",
       "songs": [
         {
@@ -103966,7 +103966,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/xfm-radio-studios-london-england-73fc9ad9.html",
       "songs": [
         {
@@ -103995,7 +103995,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/virgin-megastore-london-england-2bdb28a6.html",
       "songs": []
     },
@@ -104689,7 +104689,7 @@
       "countryCode": "IE",
       "lat": 53.3330556,
       "lng": -6.2488889,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/whelans-dublin-ireland-3bdb2840.html",
       "songs": [
         {
@@ -104718,7 +104718,7 @@
       "countryCode": "FR",
       "lat": 48.633,
       "lng": 2.45,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/arenes-de-lagora-evry-france-23db2847.html",
       "songs": [
         {
@@ -104789,7 +104789,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/steve-lamacq-bbc-studio-session-london-england-73fc9ae1.html",
       "songs": [
         {

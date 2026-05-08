@@ -19,6 +19,7 @@ import https from 'https'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUTPUT_PATH = join(__dirname, '..', 'public', 'data', 'setlists.json')
 const MANUAL_ASSIGNMENTS_PATH = join(__dirname, '..', 'config', 'manual-tour-assignments.json')
+const TOUR_DATE_RULES_PATH = join(__dirname, '..', 'config', 'tour-date-rules.json')
 const TOUR_REVIEW_PATH = join(__dirname, '..', 'config', 'tour-review-needed.json')
 const INFER_WINDOW_DAYS = 30
 
@@ -197,6 +198,14 @@ function absDaysBetween(dateA, dateB) {
   return Math.abs(Math.round((new Date(dateA) - new Date(dateB)) / 86400000))
 }
 
+function loadDateRules() {
+  try {
+    return JSON.parse(readFileSync(TOUR_DATE_RULES_PATH, 'utf8'))
+  } catch {
+    return []
+  }
+}
+
 function loadManualAssignments() {
   try {
     const list = JSON.parse(readFileSync(MANUAL_ASSIGNMENTS_PATH, 'utf8'))
@@ -208,6 +217,7 @@ function loadManualAssignments() {
 
 function inferTours(shows) {
   const manualAssignments = loadManualAssignments()
+  const dateRules = loadDateRules()
 
   // Build date span + all show dates for each named tour
   const tourRanges = {}
@@ -223,6 +233,7 @@ function inferTours(shows) {
   const needsReview = []
   let autoAssigned = 0
   let manualApplied = 0
+  let ruleApplied = 0
 
   const processed = shows.map(show => {
     // Manual assignments always win
@@ -233,6 +244,16 @@ function inferTours(shows) {
     }
 
     if (show.tour) return show
+
+    // Apply date-range rules
+    const rule = dateRules.find(r =>
+      show.date >= r.from && show.date <= r.to &&
+      (!r.country || show.country === r.country)
+    )
+    if (rule) {
+      ruleApplied++
+      return { ...show, tour: rule.tour }
+    }
 
     // Find tours whose date span contains this show's date
     const candidates = Object.entries(tourRanges)
@@ -274,7 +295,7 @@ function inferTours(shows) {
   } else {
     console.log('✓ No shows need manual tour review.')
   }
-  console.log(`✓ Tour inference: ${autoAssigned} auto-assigned, ${manualApplied} from manual-tour-assignments.json`)
+  console.log(`✓ Tour inference: ${autoAssigned} auto-assigned, ${ruleApplied} from date rules, ${manualApplied} from manual-tour-assignments.json`)
 
   return processed
 }
