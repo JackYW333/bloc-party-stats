@@ -93,7 +93,6 @@ export default function DebutsPage({ data, attendance }) {
               <th>Venue</th>
               <th>City</th>
               <th>Tour</th>
-              <th></th>
             </tr>
           </thead>
           <tbody>
@@ -116,7 +115,6 @@ export default function DebutsPage({ data, attendance }) {
                     ? <Link to={`/tour/${encodeURIComponent(d.show.tour)}`}>{d.show.tour}</Link>
                     : '—'}
                 </td>
-                <td>{d.show && attended.has(d.show.id) && <span className="attended-dot" title="Attended" />}</td>
               </tr>
             ))}
           </tbody>

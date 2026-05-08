@@ -94,7 +94,6 @@ export default function TourPage({ data, attendance }) {
                 <th>City</th>
                 <th>Country</th>
                 <th>Songs</th>
-                <th></th>
               </tr>
             </thead>
             <tbody>
@@ -110,7 +109,6 @@ export default function TourPage({ data, attendance }) {
                     <Link to={`/country/${show.countryCode}`}><span className="country-code">{show.countryCode}</span></Link>
                   </td>
                   <td>{show.songs.filter(s => !s.tape).length}</td>
-                  <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
                 </tr>
               ))}
             </tbody>

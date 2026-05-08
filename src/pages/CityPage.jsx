@@ -76,7 +76,6 @@ export default function CityPage({ data, attendance }) {
                 <th>Venue</th>
                 <th>Tour</th>
                 <th>Songs</th>
-                <th></th>
               </tr>
             </thead>
             <tbody>
@@ -89,7 +88,6 @@ export default function CityPage({ data, attendance }) {
                     {show.tour ? <Link to={`/tour/${encodeURIComponent(show.tour)}`}>{show.tour}</Link> : '—'}
                   </td>
                   <td>{show.songs.filter(s => !s.tape).length}</td>
-                  <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
                 </tr>
               ))}
             </tbody>

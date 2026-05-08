@@ -62,7 +62,6 @@ export default function AllShowsPage({ data, attendance }) {
               <th>Country</th>
               <th>Tour</th>
               <th>Songs</th>
-              <th></th>
             </tr>
           </thead>
           <tbody>
@@ -91,7 +90,6 @@ export default function AllShowsPage({ data, attendance }) {
                 <td style={{ color: show.songs.length > 0 ? 'var(--text)' : 'var(--text-dim)' }}>
                   {show.songs.length > 0 ? show.songs.filter(s => !s.tape).length : '—'}
                 </td>
-                <td>{attended.has(show.id) && <span className="attended-dot" title="Attended" />}</td>
               </tr>
             ))}
           </tbody>
