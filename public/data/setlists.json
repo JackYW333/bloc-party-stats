@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T00:53:35.994Z",
+  "lastUpdated": "2026-05-08T00:58:28.818Z",
   "total": 1132,
   "totalWithSetlist": 902,
   "setlists": [
@@ -59393,7 +59393,7 @@
       "countryCode": "GB",
       "lat": 51.4333333,
       "lng": -1,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/little-johns-farm-reading-england-1bd79960.html",
       "songs": [
         {
@@ -59499,7 +59499,7 @@
       "countryCode": "GB",
       "lat": 53.88118,
       "lng": -1.35452,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/bramham-park-bramham-england-3bd7a0d0.html",
       "songs": [
         {
@@ -59598,7 +59598,7 @@
       "countryCode": "FR",
       "lat": 48.833,
       "lng": 2.183,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/scene-de-la-cascade-saint-cloud-france-3d7a16b.html",
       "songs": [
         {
@@ -59718,7 +59718,7 @@
       "countryCode": "NL",
       "lat": 52.455,
       "lng": 5.693056,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/evenemententerrein-walibi-holland-biddinghuizen-netherlands-7bd7aad8.html",
       "songs": [
         {
@@ -59831,7 +59831,7 @@
       "countryCode": "AT",
       "lat": 48.2,
       "lng": 15.633,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/green-park-st-polten-austria-73d7aaa5.html",
       "songs": [
         {
@@ -59958,7 +59958,7 @@
       "countryCode": "HU",
       "lat": 47.5,
       "lng": 19.08333,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/obudai-sziget-budapest-hungary-4bd42712.html",
       "songs": [
         {
@@ -60078,7 +60078,7 @@
       "countryCode": "PT",
       "lat": 37.1385613789851,
       "lng": -8.53775024414062,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/autodromo-internacional-do-algarve-portimao-portugal-7bd716cc.html",
       "songs": [
         {
@@ -60212,7 +60212,7 @@
       "countryCode": "DE",
       "lat": 48.1374325498109,
       "lng": 11.5754914283752,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/galopprennbahn-riem-munich-germany-13eb41d9.html",
       "songs": []
     },
@@ -60226,7 +60226,7 @@
       "countryCode": "AU",
       "lat": -33.8678499639382,
       "lng": 151.207323074341,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/museum-of-contemporary-art-sydney-australia-1bd6411c.html",
       "songs": [
         {
@@ -60360,7 +60360,7 @@
       "countryCode": "AU",
       "lat": -27.4679357321901,
       "lng": 153.028092384338,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/valley-studios-brisbane-australia-4bd643ce.html",
       "songs": [
         {
@@ -60494,7 +60494,7 @@
       "countryCode": "AU",
       "lat": -28.65,
       "lng": 153.6166667,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/supertop-byron-bay-australia-1bd641c4.html",
       "songs": [
         {
@@ -60607,7 +60607,7 @@
       "countryCode": "AU",
       "lat": -28.65,
       "lng": 153.6166667,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/great-northern-hotel-byron-bay-australia-53d64b75.html",
       "songs": [
         {
