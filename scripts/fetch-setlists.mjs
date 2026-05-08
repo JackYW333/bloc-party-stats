@@ -11,13 +11,16 @@
  * Verify at: https://www.setlist.fm/setlists/bloc-party-13d6bdc1.html
  */
 
-import { writeFileSync, readFileSync, mkdirSync } from 'fs'
+import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 import https from 'https'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUTPUT_PATH = join(__dirname, '..', 'public', 'data', 'setlists.json')
+const MANUAL_ASSIGNMENTS_PATH = join(__dirname, '..', 'config', 'manual-tour-assignments.json')
+const TOUR_REVIEW_PATH = join(__dirname, '..', 'config', 'tour-review-needed.json')
+const INFER_WINDOW_DAYS = 30
 
 const API_KEY = process.env.SETLISTFM_API_KEY
 const ARTIST_MBID = process.env.BLOC_PARTY_MBID || '8c538f11-c141-4588-8ecb-931083524186'
@@ -146,7 +149,8 @@ async function fullSweep() {
     all = all.concat(data.setlist || [])
   }
 
-  const processed = all.map(parseShow).sort((a, b) => b.date.localeCompare(a.date))
+  const parsed = all.map(parseShow).sort((a, b) => b.date.localeCompare(a.date))
+  const processed = inferTours(parsed)
   save(processed)
 }
 
@@ -185,8 +189,94 @@ async function recentMerge() {
     console.log(`${added} new show(s), ${updated} updated setlist(s)`)
   }
 
-  const merged = Array.from(byId.values()).sort((a, b) => b.date.localeCompare(a.date))
+  const merged = inferTours(Array.from(byId.values()).sort((a, b) => b.date.localeCompare(a.date)))
   save(merged)
+}
+
+function absDaysBetween(dateA, dateB) {
+  return Math.abs(Math.round((new Date(dateA) - new Date(dateB)) / 86400000))
+}
+
+function loadManualAssignments() {
+  try {
+    const list = JSON.parse(readFileSync(MANUAL_ASSIGNMENTS_PATH, 'utf8'))
+    return new Map(list.map(a => [a.id, a.tour]))
+  } catch {
+    return new Map()
+  }
+}
+
+function inferTours(shows) {
+  const manualAssignments = loadManualAssignments()
+
+  // Build date span + all show dates for each named tour
+  const tourRanges = {}
+  shows.forEach(show => {
+    if (!show.tour) return
+    if (!tourRanges[show.tour]) tourRanges[show.tour] = { from: show.date, to: show.date, dates: [] }
+    const r = tourRanges[show.tour]
+    if (show.date < r.from) r.from = show.date
+    if (show.date > r.to) r.to = show.date
+    r.dates.push(show.date)
+  })
+
+  const needsReview = []
+  let autoAssigned = 0
+  let manualApplied = 0
+
+  const processed = shows.map(show => {
+    // Manual assignments always win
+    if (manualAssignments.has(show.id)) {
+      const tour = manualAssignments.get(show.id)
+      if (tour && !show.tour) manualApplied++
+      return { ...show, tour: tour ?? show.tour }
+    }
+
+    if (show.tour) return show
+
+    // Find tours whose date span contains this show's date
+    const candidates = Object.entries(tourRanges)
+      .filter(([, r]) => show.date >= r.from && show.date <= r.to)
+      .map(([tourName, r]) => ({
+        tourName,
+        nearest: r.dates.reduce((min, d) => Math.min(min, absDaysBetween(show.date, d)), Infinity),
+      }))
+
+    if (candidates.length === 0) return show  // Genuinely standalone
+
+    const withinWindow = candidates
+      .filter(c => c.nearest <= INFER_WINDOW_DAYS)
+      .sort((a, b) => a.nearest - b.nearest)
+
+    if (withinWindow.length === 0) {
+      needsReview.push({
+        id: show.id,
+        date: show.date,
+        venue: show.venue,
+        city: show.city,
+        country: show.country,
+        candidateTours: candidates
+          .sort((a, b) => a.nearest - b.nearest)
+          .map(c => ({ tour: c.tourName, nearestShowDays: c.nearest })),
+        tour: null,
+      })
+      return show
+    }
+
+    autoAssigned++
+    return { ...show, tour: withinWindow[0].tourName }
+  })
+
+  if (needsReview.length > 0) {
+    writeFileSync(TOUR_REVIEW_PATH, JSON.stringify(needsReview, null, 2))
+    console.log(`⚠  ${needsReview.length} show(s) need manual tour assignment → config/tour-review-needed.json`)
+    console.log(`   Fill in "tour" values and add entries to config/manual-tour-assignments.json, then re-run.`)
+  } else {
+    console.log('✓ No shows need manual tour review.')
+  }
+  console.log(`✓ Tour inference: ${autoAssigned} auto-assigned, ${manualApplied} from manual-tour-assignments.json`)
+
+  return processed
 }
 
 async function main() {

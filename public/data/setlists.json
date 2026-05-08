@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T08:46:06.588Z",
+  "lastUpdated": "2026-05-08T00:34:13.504Z",
   "total": 1132,
   "totalWithSetlist": 902,
   "setlists": [
@@ -753,7 +753,7 @@
       "countryCode": "AR",
       "lat": -34.576,
       "lng": -58.409,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/teatro-vorterix-buenos-aires-argentina-734532fd.html",
       "songs": [
         {
@@ -929,7 +929,7 @@
       "countryCode": "BR",
       "lat": -23.5475,
       "lng": -46.63611111,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/parque-do-ibirapuera-sao-paulo-brazil-5b43731c.html",
       "songs": [
         {
@@ -1042,7 +1042,7 @@
       "countryCode": "CO",
       "lat": 4.6,
       "lng": -74.083,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/chamorro-entertainment-city-hall-bogota-colombia-6b43baba.html",
       "songs": [
         {
@@ -3231,7 +3231,7 @@
       "countryCode": "GB",
       "lat": 51.2166667,
       "lng": -1.2166667,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/hill-farm-steventon-england-3b5e4c80.html",
       "songs": [
         {
@@ -3365,7 +3365,7 @@
       "countryCode": "GB",
       "lat": 50.8283849472495,
       "lng": -0.139474868774414,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/brighton-beach-brighton-england-5b518bec.html",
       "songs": [
         {
@@ -3527,7 +3527,7 @@
       "countryCode": "GB",
       "lat": 52.9536023000285,
       "lng": -1.15047454833984,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/wollaton-park-nottingham-england-535acb59.html",
       "songs": [
         {
@@ -3682,7 +3682,7 @@
       "countryCode": "ES",
       "lat": 40.05,
       "lng": 0.0666667,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/recinto-de-festivales-de-benicassim-benicassim-spain-7b599ae4.html",
       "songs": [
         {
@@ -3739,7 +3739,7 @@
       "countryCode": "DE",
       "lat": 48.1374325498109,
       "lng": 11.5754914283752,
-      "tour": null,
+      "tour": "20 Years of Bloc Party",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/zenith-munich-germany-b46e9ea.html",
       "songs": [
         {
@@ -12234,7 +12234,7 @@
       "countryCode": "GB",
       "lat": 52.4666667,
       "lng": -1.9166667,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/utilita-arena-birmingham-birmingham-england-53b8cf95.html",
       "songs": [
         {
@@ -12328,7 +12328,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/the-o2-arena-london-england-23b8dc47.html",
       "songs": [
         {
@@ -12422,7 +12422,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/ao-arena-manchester-england-3b8e5db.html",
       "songs": [
         {
@@ -12516,7 +12516,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/the-ovo-hydro-glasgow-scotland-2bb8ecbe.html",
       "songs": [
         {
@@ -12610,7 +12610,7 @@
       "countryCode": "GB",
       "lat": 51.48,
       "lng": -3.18,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/cardiff-international-arena-cardiff-wales-63b88ebf.html",
       "songs": [
         {
@@ -12697,7 +12697,7 @@
       "countryCode": "IE",
       "lat": 53.3330556,
       "lng": -6.2488889,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/3arena-dublin-ireland-73b8a6b1.html",
       "songs": [
         {
@@ -14384,7 +14384,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Alpha Games",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2022/the-late-late-show-with-james-corden-los-angeles-ca-5bb75738.html",
       "songs": [
         {
@@ -16595,7 +16595,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/central-park-summerstage-new-york-ny-b9cc1f2.html",
       "songs": [
         {
@@ -16750,7 +16750,7 @@
       "countryCode": "US",
       "lat": 42.3584308,
       "lng": -71.0597732,
-      "tour": null,
+      "tour": "Silent Alarm 2019 Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/house-of-blues-boston-ma-1b9cc50c.html",
       "songs": [
         {
@@ -22664,7 +22664,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/roundhouse-london-england-43f803d3.html",
       "songs": [
         {
@@ -22812,7 +22812,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/albert-hall-manchester-england-4bf80f9a.html",
       "songs": [
         {
@@ -22946,7 +22946,7 @@
       "countryCode": "IN",
       "lat": 19.99727,
       "lng": 73.79096,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2017/sula-vineyards-nashik-india-23f824f3.html",
       "songs": [
         {
@@ -23073,7 +23073,7 @@
       "countryCode": "MX",
       "lat": 20.6666667,
       "lng": -103.3333333,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/parque-trasloma-guadalajara-mexico-1bfab9fc.html",
       "songs": [
         {
@@ -23172,7 +23172,7 @@
       "countryCode": "MX",
       "lat": 19.434,
       "lng": -99.139,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/el-plaza-condesa-mexico-city-mexico-7bfabad0.html",
       "songs": [
         {
@@ -24336,7 +24336,7 @@
       "countryCode": "US",
       "lat": 39.7391536,
       "lng": -104.9847034,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/ogden-theatre-denver-co-3bfda854.html",
       "songs": [
         {
@@ -24463,7 +24463,7 @@
       "countryCode": "ID",
       "lat": -8.3333333,
       "lng": 115,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/gwk-cultural-park-bali-indonesia-63fc668f.html",
       "songs": [
         {
@@ -29990,7 +29990,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/late-night-with-seth-meyers-new-york-ny-5bf03b5c.html",
       "songs": [
         {
@@ -30355,7 +30355,7 @@
       "countryCode": "FR",
       "lat": 48.9,
       "lng": 2.367,
-      "tour": null,
+      "tour": "Hymns",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/taratata-la-plaine-saint-denis-france-6bf14eca.html",
       "songs": [
         {
@@ -32175,7 +32175,7 @@
       "countryCode": "GB",
       "lat": 51.4166667,
       "lng": -0.2833333,
-      "tour": null,
+      "tour": "NME Awards Tour 2016",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/the-hippodrome-kingston-upon-thames-england-7bf3dea4.html",
       "songs": [
         {
@@ -32302,7 +32302,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "NME Awards Tour 2016",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/sunday-brunch-london-england-1bf3cd20.html",
       "songs": [
         {
@@ -45262,7 +45262,7 @@
       "countryCode": "US",
       "lat": 35.6009452,
       "lng": -82.554015,
-      "tour": null,
+      "tour": "Four Tour 2013",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/echo-mountain-recording-asheville-nc-7bf3f240.html",
       "songs": [
         {
@@ -60875,7 +60875,7 @@
       "countryCode": "DE",
       "lat": 51.7333333,
       "lng": 12.45,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/ferropolis-grafenhainichen-germany-33d7e819.html",
       "songs": [
         {
@@ -61016,7 +61016,7 @@
       "countryCode": "CH",
       "lat": 46.948,
       "lng": 7.447,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/gurten-bern-switzerland-33d26881.html",
       "songs": []
     },
@@ -61171,7 +61171,7 @@
       "countryCode": "GB",
       "lat": 56.2,
       "lng": -3.4166667,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/balado-kinross-scotland-53db1389.html",
       "songs": [
         {
@@ -61277,7 +61277,7 @@
       "countryCode": "IE",
       "lat": 53.216,
       "lng": -6.667,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/punchestown-racecourse-naas-ireland-3d56d17.html",
       "songs": [
         {
@@ -61369,7 +61369,7 @@
       "countryCode": "CH",
       "lat": 46.4330064251585,
       "lng": 6.91143035888672,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/miles-davis-hall-montreux-switzerland-73d7b205.html",
       "songs": [
         {
@@ -61503,7 +61503,7 @@
       "countryCode": "CZ",
       "lat": 50.2092284127622,
       "lng": 15.8327684657118,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/festivalpark-hradec-kralove-czechia-13d5d9d5.html",
       "songs": []
     },
@@ -61517,7 +61517,7 @@
       "countryCode": "FR",
       "lat": 50.293,
       "lng": 2.782,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/la-citadelle-arras-france-7bd1ca44.html",
       "songs": [
         {
@@ -61630,7 +61630,7 @@
       "countryCode": "BE",
       "lat": 50.967,
       "lng": 4.7,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/festivalpark-werchter-belgium-2bd668c2.html",
       "songs": [
         {
@@ -61757,7 +61757,7 @@
       "countryCode": "GR",
       "lat": 37.9474464019929,
       "lng": 23.6370849609375,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/tae-kwon-do-stadium-piraeus-greece-33dd7449.html",
       "songs": [
         {
@@ -62406,7 +62406,7 @@
       "countryCode": "DK",
       "lat": 56.5666667,
       "lng": 9.0333333,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/strandtangen-skive-denmark-63d4cadb.html",
       "songs": [
         {
@@ -62540,7 +62540,7 @@
       "countryCode": "FR",
       "lat": 48.583,
       "lng": 7.75,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/la-laiterie-strasbourg-france-53d1fb65.html",
       "songs": []
     },
@@ -62836,7 +62836,7 @@
       "countryCode": "ES",
       "lat": 41.3887868890716,
       "lng": 2.15898513793945,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/parc-del-forum-barcelona-spain-43d7b38b.html",
       "songs": [
         {
@@ -63097,7 +63097,7 @@
       "countryCode": "CA",
       "lat": 49.884398624,
       "lng": -97.147044715,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/burton-cummings-theatre-winnipeg-mb-canada-1bd62580.html",
       "songs": [
         {
@@ -63238,7 +63238,7 @@
       "countryCode": "CA",
       "lat": 52.116786331,
       "lng": -106.634521548,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/odeon-event-centre-saskatoon-sk-canada-1bd62590.html",
       "songs": [
         {
@@ -63372,7 +63372,7 @@
       "countryCode": "CA",
       "lat": 51.050112282,
       "lng": -114.085285152,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/big-four-building-calgary-ab-canada-7bd62a90.html",
       "songs": [
         {
@@ -63513,7 +63513,7 @@
       "countryCode": "CA",
       "lat": 53.550135939,
       "lng": -113.468712219,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/shaw-conference-centre-edmonton-ab-canada-63d62a8f.html",
       "songs": [
         {
@@ -63654,7 +63654,7 @@
       "countryCode": "CA",
       "lat": 49.249657393,
       "lng": -123.119340403,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/commodore-ballroom-vancouver-bc-canada-63d7f24f.html",
       "songs": [
         {
@@ -63795,7 +63795,7 @@
       "countryCode": "CA",
       "lat": 49.249657393,
       "lng": -123.119340403,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/commodore-ballroom-vancouver-bc-canada-4bdd5b9a.html",
       "songs": [
         {
@@ -63936,7 +63936,7 @@
       "countryCode": "US",
       "lat": 47.6062095,
       "lng": -122.3320708,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/showbox-at-the-market-seattle-wa-5bdb1394.html",
       "songs": [
         {
@@ -64077,7 +64077,7 @@
       "countryCode": "US",
       "lat": 47.6062095,
       "lng": -122.3320708,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/showbox-at-the-market-seattle-wa-2bd228b6.html",
       "songs": [
         {
@@ -64218,7 +64218,7 @@
       "countryCode": "US",
       "lat": 45.5234515,
       "lng": -122.6762071,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/roseland-theater-portland-or-6bd62e4e.html",
       "songs": []
     },
@@ -64232,7 +64232,7 @@
       "countryCode": "US",
       "lat": 37.8043722,
       "lng": -122.2708026,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/fox-theater-oakland-ca-3bd62cb0.html",
       "songs": [
         {
@@ -64380,7 +64380,7 @@
       "countryCode": "US",
       "lat": 35,
       "lng": 120,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/veterans-memorial-building-san-luis-obispo-ca-53db1395.html",
       "songs": []
     },
@@ -64394,7 +64394,7 @@
       "countryCode": "MX",
       "lat": 19.434,
       "lng": -99.139,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/parque-alameda-poniente-mexico-city-mexico-7bd63238.html",
       "songs": [
         {
@@ -64535,7 +64535,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/hollywood-palladium-los-angeles-ca-2bd7cc9e.html",
       "songs": [
         {
@@ -64979,7 +64979,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/aragon-ballroom-chicago-il-1bd63dd0.html",
       "songs": [
         {
@@ -65261,7 +65261,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/terminal-5-new-york-ny-53d6c365.html",
       "songs": [
         {
@@ -65409,7 +65409,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/late-show-with-david-letterman-new-york-ny-53e4e3c9.html",
       "songs": [
         {
@@ -65431,7 +65431,7 @@
       "countryCode": "US",
       "lat": 38.895,
       "lng": -77.036,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/930-club-washington-dc-3d6c13b.html",
       "songs": [
         {
@@ -65586,7 +65586,7 @@
       "countryCode": "US",
       "lat": 39.952335,
       "lng": -75.163789,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/electric-factory-philadelphia-pa-13d735f1.html",
       "songs": [
         {
@@ -65734,7 +65734,7 @@
       "countryCode": "US",
       "lat": 42.3584308,
       "lng": -71.0597732,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/house-of-blues-boston-ma-6bd6c60a.html",
       "songs": [
         {
@@ -65882,7 +65882,7 @@
       "countryCode": "CA",
       "lat": 45.5088375,
       "lng": -73.587809,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/metropolis-montreal-qc-canada-63d6c67f.html",
       "songs": [
         {
@@ -66030,7 +66030,7 @@
       "countryCode": "CA",
       "lat": 45.4209405046496,
       "lng": -75.6902861595154,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/bronson-centre-ottawa-on-canada-43db1397.html",
       "songs": [
         {
@@ -66178,7 +66178,7 @@
       "countryCode": "CA",
       "lat": 42.983389283,
       "lng": -81.233042387,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/centennial-hall-london-on-canada-5bdb1390.html",
       "songs": [
         {
@@ -66312,7 +66312,7 @@
       "countryCode": "CA",
       "lat": 43.700113788,
       "lng": -79.416304194,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/kool-haus-toronto-on-canada-6bd6caf6.html",
       "songs": [
         {
@@ -66467,7 +66467,7 @@
       "countryCode": "CA",
       "lat": 43.700113788,
       "lng": -79.416304194,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/kool-haus-toronto-on-canada-73d6ca21.html",
       "songs": [
         {
@@ -66763,7 +66763,7 @@
       "countryCode": "SE",
       "lat": 59.3325765361753,
       "lng": 18.0649030208588,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/cirkus-stockholm-sweden-33d6c4a1.html",
       "songs": [
         {
@@ -66911,7 +66911,7 @@
       "countryCode": "NO",
       "lat": 59.912697157616,
       "lng": 10.7413673400879,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/sentrum-scene-oslo-norway-43d6dbc3.html",
       "songs": [
         {
@@ -67059,7 +67059,7 @@
       "countryCode": "DK",
       "lat": 55.6776812020993,
       "lng": 12.5709342956543,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/store-vega-copenhagen-denmark-63d6da87.html",
       "songs": [
         {
@@ -67207,7 +67207,7 @@
       "countryCode": "DE",
       "lat": 53.55,
       "lng": 10,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/docks-hamburg-germany-53d773d5.html",
       "songs": [
         {
@@ -67355,7 +67355,7 @@
       "countryCode": "NL",
       "lat": 52.373,
       "lng": 4.9,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/grote-zaal-amsterdam-netherlands-6bd7da76.html",
       "songs": [
         {
@@ -67503,7 +67503,7 @@
       "countryCode": "NL",
       "lat": 52.373,
       "lng": 4.9,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/grote-zaal-amsterdam-netherlands-1bd64d98.html",
       "songs": [
         {
@@ -67651,7 +67651,7 @@
       "countryCode": "DE",
       "lat": 50.9333333,
       "lng": 6.95,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/palladium-cologne-germany-63d6debf.html",
       "songs": [
         {
@@ -67799,7 +67799,7 @@
       "countryCode": "DE",
       "lat": 51.0508910809796,
       "lng": 13.738317489624,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/alter-schlachthof-dresden-germany-33d7c871.html",
       "songs": [
         {
@@ -67947,7 +67947,7 @@
       "countryCode": "DE",
       "lat": 52.5166667,
       "lng": 13.4,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/columbiahalle-berlin-germany-6bd4da42.html",
       "songs": [
         {
@@ -68095,7 +68095,7 @@
       "countryCode": "BE",
       "lat": 50.847,
       "lng": 4.353,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/ancienne-belgique-brussels-belgium-3d6dd5f.html",
       "songs": [
         {
@@ -68243,7 +68243,7 @@
       "countryCode": "BE",
       "lat": 50.847,
       "lng": 4.353,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/ancienne-belgique-brussels-belgium-43d4a78f.html",
       "songs": [
         {
@@ -68391,7 +68391,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/lolympia-bruno-coquatrix-paris-france-63d6e28b.html",
       "songs": [
         {
@@ -68539,7 +68539,7 @@
       "countryCode": "DE",
       "lat": 48.1374325498109,
       "lng": 11.5754914283752,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/tonhalle-munich-germany-43d6e34b.html",
       "songs": [
         {
@@ -68687,7 +68687,7 @@
       "countryCode": "DE",
       "lat": 49.4076782980183,
       "lng": 8.69078636169434,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/schwimmbad-music-club-heidelberg-germany-73fe7e65.html",
       "songs": [
         {
@@ -68828,7 +68828,7 @@
       "countryCode": "DE",
       "lat": 51.9623559078618,
       "lng": 7.62571334838867,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/cineplex-munster-germany-63dfb6c3.html",
       "songs": [
         {
@@ -69112,7 +69112,7 @@
       "countryCode": "GB",
       "lat": 52.5833333,
       "lng": -2.1333333,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/civic-hall-wolverhampton-england-73d6e631.html",
       "songs": [
         {
@@ -69260,7 +69260,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/maida-vale-studios-london-england-6bf51626.html",
       "songs": [
         {
@@ -69291,7 +69291,7 @@
       "countryCode": "US",
       "lat": 34.0194543,
       "lng": -118.4911912,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/kcrw-studios-santa-monica-ca-bd9a132.html",
       "songs": [
         {
@@ -69355,7 +69355,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/carling-apollo-manchester-manchester-england-3d6e5df.html",
       "songs": [
         {
@@ -69505,7 +69505,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/carling-apollo-manchester-manchester-england-7bd6ead4.html",
       "songs": [
         {
@@ -69653,7 +69653,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/o2-academy-glasgow-glasgow-scotland-2bd6e4e6.html",
       "songs": [
         {
@@ -69794,7 +69794,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/o2-academy-glasgow-glasgow-scotland-53d6ebd9.html",
       "songs": [
         {
@@ -69935,7 +69935,7 @@
       "countryCode": "US",
       "lat": 32.7153292,
       "lng": -117.1572551,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/house-of-blues-san-diego-ca-7bd68224.html",
       "songs": [
         {
@@ -70083,7 +70083,7 @@
       "countryCode": "US",
       "lat": 33.8352932,
       "lng": -117.9145036,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-grove-of-anaheim-anaheim-ca-43d683cb.html",
       "songs": [
         {
@@ -70224,7 +70224,7 @@
       "countryCode": "US",
       "lat": 33.414768,
       "lng": -111.9093095,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/marquee-theatre-tempe-az-33d680a5.html",
       "songs": [
         {
@@ -70358,7 +70358,7 @@
       "countryCode": "US",
       "lat": 36.1749705,
       "lng": -115.137223,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-joint-at-hard-rock-hotel-las-vegas-nv-53db1391.html",
       "songs": []
     },
@@ -70372,7 +70372,7 @@
       "countryCode": "US",
       "lat": 37.8043722,
       "lng": -122.2708026,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/oracle-arena-oakland-ca-3d11d5f.html",
       "songs": [
         {
@@ -70450,7 +70450,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/club-nokia-los-angeles-ca-2bd684c2.html",
       "songs": [
         {
@@ -70549,7 +70549,7 @@
       "countryCode": "AU",
       "lat": -31.9333333,
       "lng": 115.8333333,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/belvoir-amphitheatre-perth-australia-3bd68cc4.html",
       "songs": [
         {
@@ -71134,7 +71134,7 @@
       "countryCode": "AU",
       "lat": -34.9333333,
       "lng": 138.6,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/thebarton-theatre-adelaide-australia-73d69689.html",
       "songs": [
         {
@@ -71275,7 +71275,7 @@
       "countryCode": "AU",
       "lat": -37.8139965641595,
       "lng": 144.963322877884,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/festival-hall-melbourne-australia-3bd6948c.html",
       "songs": [
         {
@@ -71374,7 +71374,7 @@
       "countryCode": "AU",
       "lat": -37.8139965641595,
       "lng": 144.963322877884,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/festival-hall-melbourne-australia-13d69555.html",
       "songs": [
         {
@@ -71508,7 +71508,7 @@
       "countryCode": "BR",
       "lat": -22.903,
       "lng": -43.208,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/circo-voador-rio-de-janeiro-brazil-73d69e4d.html",
       "songs": [
         {
@@ -71649,7 +71649,7 @@
       "countryCode": "BR",
       "lat": -23.5475,
       "lng": -46.63611111,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/villa-dos-galpoes-sao-paulo-brazil-4bd69f4a.html",
       "songs": [
         {
@@ -71769,7 +71769,7 @@
       "countryCode": "CO",
       "lat": 4.6,
       "lng": -74.083,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/parque-simon-bolivar-bogota-colombia-13daa1ed.html",
       "songs": [
         {
@@ -71882,7 +71882,7 @@
       "countryCode": "AR",
       "lat": -34.576,
       "lng": -58.409,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/club-ciudad-de-buenos-aires-buenos-aires-argentina-2bd6a006.html",
       "songs": [
         {
@@ -71995,7 +71995,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/hmv-london-england-bd6a5a2.html",
       "songs": [
         {
@@ -72059,7 +72059,7 @@
       "countryCode": "BE",
       "lat": 50.85,
       "lng": 4.383,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/studio-brussel-club-69-schaarbeek-schaerbeek-belgium-53db139d.html",
       "songs": [
         {
@@ -72334,7 +72334,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/jardin-du-palais-royal-paris-france-63589eff.html",
       "songs": [
         {
@@ -72356,7 +72356,7 @@
       "countryCode": "DE",
       "lat": 52.5166667,
       "lng": 13.4,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/airbase-1-berlin-germany-33d6a83d.html",
       "songs": [
         {
@@ -72483,7 +72483,7 @@
       "countryCode": "DE",
       "lat": 51.2666667,
       "lng": 7.1833333,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/rex-theater-wuppertal-germany-63d6ae8b.html",
       "songs": [
         {
@@ -72624,7 +72624,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/barfly-glasgow-scotland-4bd6afba.html",
       "songs": [
         {
@@ -72878,7 +72878,7 @@
       "countryCode": "FR",
       "lat": 48.9,
       "lng": 2.367,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/studio-104-la-plaine-saint-denis-france-33d7cc79.html",
       "songs": [
         {
@@ -72942,7 +72942,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/apple-store-regent-street-london-england-2bd54c72.html",
       "songs": [
         {
@@ -73048,7 +73048,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/maida-vale-studios-london-england-6bf51656.html",
       "songs": [
         {
@@ -73084,7 +73084,7 @@
       "countryCode": "BR",
       "lat": -23.5475,
       "lng": -46.63611111,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/credicard-hall-sao-paulo-brazil-6bd6bab2.html",
       "songs": [
         {
@@ -73113,7 +73113,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-forum-london-england-3bd6b8e4.html",
       "songs": [
         {
@@ -73254,7 +73254,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/roseland-ballroom-new-york-ny-6bd7ea8e.html",
       "songs": [
         {
@@ -73381,7 +73381,7 @@
       "countryCode": "CA",
       "lat": 45.5088375,
       "lng": -73.587809,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/metropolis-montreal-qc-canada-43db139f.html",
       "songs": [
         {
@@ -73515,7 +73515,7 @@
       "countryCode": "CA",
       "lat": 44.6453303558448,
       "lng": -63.5723876953125,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-marquee-club-halifax-ns-canada-7bdf82a8.html",
       "songs": [
         {
@@ -73670,7 +73670,7 @@
       "countryCode": "CA",
       "lat": 44.6453303558448,
       "lng": -63.5723876953125,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/the-marquee-club-halifax-ns-canada-5bdb1398.html",
       "songs": [
         {
@@ -73804,7 +73804,7 @@
       "countryCode": "CA",
       "lat": 45.945414773,
       "lng": -66.665581601,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/downtown-fredericton-fredericton-nb-canada-53db1399.html",
       "songs": [
         {
@@ -73931,7 +73931,7 @@
       "countryCode": "CA",
       "lat": 46.812,
       "lng": -71.215,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/le-parc-de-lilot-fleurie-quebec-city-qc-canada-4bd4b782.html",
       "songs": [
         {
@@ -74051,7 +74051,7 @@
       "countryCode": "CA",
       "lat": 51.050112282,
       "lng": -114.085285152,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/macewan-hall-university-of-calgary-calgary-ab-canada-73debac5.html",
       "songs": [
         {
@@ -74178,7 +74178,7 @@
       "countryCode": "CA",
       "lat": 53.550135939,
       "lng": -113.468712219,
-      "tour": null,
+      "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/edmonton-event-centre-edmonton-ab-canada-43d62b7f.html",
       "songs": [
         {
@@ -77109,7 +77109,7 @@
       "countryCode": "ES",
       "lat": 41.3887868890716,
       "lng": 2.15898513793945,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/espacio-movistar-barcelona-spain-5bd7b388.html",
       "songs": [
         {
@@ -77243,7 +77243,7 @@
       "countryCode": "ES",
       "lat": 43.2627062282001,
       "lng": -2.9252815246582,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/santana-27-bilbao-spain-53db13e5.html",
       "songs": [
         {
@@ -77356,7 +77356,7 @@
       "countryCode": "ES",
       "lat": 40.9666667,
       "lng": -5.65,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/pabellon-multiusos-sanchez-paraiso-salamanca-spain-7bda16f4.html",
       "songs": []
     },
@@ -77384,7 +77384,7 @@
       "countryCode": "FR",
       "lat": 43.3,
       "lng": 5.4,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/dock-des-suds-marseille-france-4bdb13e6.html",
       "songs": []
     },
@@ -77398,7 +77398,7 @@
       "countryCode": "IT",
       "lat": 45.123848,
       "lng": 7.63542,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/teatro-concordia-venaria-reale-venaria-reale-italy-23d11cab.html",
       "songs": [
         {
@@ -77525,7 +77525,7 @@
       "countryCode": "IT",
       "lat": 44.676068,
       "lng": 11.032102,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/vox-club-nonantola-italy-2bd2508e.html",
       "songs": [
         {
@@ -77652,7 +77652,7 @@
       "countryCode": "DE",
       "lat": 48.7823242931971,
       "lng": 9.17701721191406,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/theaterhaus-stuttgart-germany-2bd42c2a.html",
       "songs": [
         {
@@ -77793,7 +77793,7 @@
       "countryCode": "FR",
       "lat": 49.119,
       "lng": 6.173,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/les-arenes-metz-france-43db13e7.html",
       "songs": [
         {
@@ -77920,7 +77920,7 @@
       "countryCode": "BE",
       "lat": 51.25,
       "lng": 4.45,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/lotto-arena-merksem-belgium-bd6dd5e.html",
       "songs": [
         {
@@ -78054,7 +78054,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/le-zenith-paris-france-53d7ab15.html",
       "songs": [
         {
@@ -78181,7 +78181,7 @@
       "countryCode": "DE",
       "lat": 49.4883333,
       "lng": 8.4647222,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/mozartsaal-mannheim-germany-2bd0700e.html",
       "songs": [
         {
@@ -78308,7 +78308,7 @@
       "countryCode": "DE",
       "lat": 53.55,
       "lng": 10,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/grosse-freiheit-36-hamburg-germany-43db13e3.html",
       "songs": [
         {
@@ -78449,7 +78449,7 @@
       "countryCode": "DE",
       "lat": 53.55,
       "lng": 10,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/grosse-freiheit-36-hamburg-germany-73d4d28d.html",
       "songs": [
         {
@@ -78576,7 +78576,7 @@
       "countryCode": "NL",
       "lat": 52.373,
       "lng": 4.9,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/heineken-music-hall-amsterdam-netherlands-73d70a89.html",
       "songs": [
         {
@@ -78726,7 +78726,7 @@
       "countryCode": "DK",
       "lat": 55.6776812020993,
       "lng": 12.5709342956543,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/kb-hallen-copenhagen-denmark-43bc5757.html",
       "songs": []
     },
@@ -78740,7 +78740,7 @@
       "countryCode": "IE",
       "lat": 53.3330556,
       "lng": -6.2488889,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/phoenix-park-dublin-ireland-13d5c5b5.html",
       "songs": [
         {
@@ -78874,7 +78874,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/roundhouse-london-england-13d799cd.html",
       "songs": [
         {
@@ -79093,7 +79093,7 @@
       "countryCode": "IS",
       "lat": 64.0671046248028,
       "lng": -21.9377446174622,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/flensborgarskolinn-hafnarfjorur-iceland-5bdb13f4.html",
       "songs": []
     },
@@ -79107,7 +79107,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/barfly-london-england-53d2d7f5.html",
       "songs": [
         {
@@ -79213,7 +79213,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/los-angeles-city-hall-los-angeles-ca-5bdb13f8.html",
       "songs": [
         {
@@ -79333,7 +79333,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/wamu-theater-at-madison-square-garden-new-york-ny-23d0b813.html",
       "songs": [
         {
@@ -79467,7 +79467,7 @@
       "countryCode": "US",
       "lat": 41.8239891,
       "lng": -71.4128343,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/lupos-heartbreak-hotel-providence-ri-53d78369.html",
       "songs": [
         {
@@ -79594,7 +79594,7 @@
       "countryCode": "CA",
       "lat": 45.4209405046496,
       "lng": -75.6902861595154,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/capital-music-hall-ottawa-on-canada-4bdb13fa.html",
       "songs": [
         {
@@ -79721,7 +79721,7 @@
       "countryCode": "CA",
       "lat": 42.983389283,
       "lng": -81.233042387,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/john-labatt-centre-london-on-canada-73df32bd.html",
       "songs": [
         {
@@ -79848,7 +79848,7 @@
       "countryCode": "CA",
       "lat": 43.700113788,
       "lng": -79.416304194,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-docks-toronto-on-canada-1bd7a9a0.html",
       "songs": [
         {
@@ -79982,7 +79982,7 @@
       "countryCode": "US",
       "lat": 39.0836712,
       "lng": -84.5085537,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/madison-theater-covington-ky-53d603b1.html",
       "songs": [
         {
@@ -80116,7 +80116,7 @@
       "countryCode": "US",
       "lat": 36.1658899,
       "lng": -86.7844432,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/city-hall-nashville-tn-63dc1eab.html",
       "songs": []
     },
@@ -80130,7 +80130,7 @@
       "countryCode": "US",
       "lat": 36.1539816,
       "lng": -95.992775,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/cains-ballroom-tulsa-ok-43db13fb.html",
       "songs": []
     },
@@ -80144,7 +80144,7 @@
       "countryCode": "US",
       "lat": 32.7830556,
       "lng": -96.8066667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/house-of-blues-dallas-tx-53db1305.html",
       "songs": []
     },
@@ -80158,7 +80158,7 @@
       "countryCode": "US",
       "lat": 29.7632836,
       "lng": -95.3632715,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-ballroom-houston-tx-4bdb1306.html",
       "songs": [
         {
@@ -80419,7 +80419,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/austin-city-limits-studio-austin-tx-43db1307.html",
       "songs": [
         {
@@ -80476,7 +80476,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/zilker-park-austin-tx-5bdb1300.html",
       "songs": [
         {
@@ -80575,7 +80575,7 @@
       "countryCode": "US",
       "lat": 38.6272733,
       "lng": -90.1978889,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-pageant-st-louis-mo-53d713c9.html",
       "songs": [
         {
@@ -80695,7 +80695,7 @@
       "countryCode": "US",
       "lat": 39.9611755,
       "lng": -82.9987942,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/lifestyle-communities-pavilion-columbus-oh-1bd39160.html",
       "songs": [
         {
@@ -80829,7 +80829,7 @@
       "countryCode": "US",
       "lat": 39.7683765,
       "lng": -86.1580423,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/egyptian-room-at-the-murat-centre-indianapolis-in-33d43075.html",
       "songs": [
         {
@@ -80956,7 +80956,7 @@
       "countryCode": "US",
       "lat": 43.0389025,
       "lng": -87.9064736,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/pabst-theater-milwaukee-wi-3dcb993.html",
       "songs": [
         {
@@ -81083,7 +81083,7 @@
       "countryCode": "CA",
       "lat": 45.5088375,
       "lng": -73.587809,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/parc-jean-drapeau-montreal-qc-canada-5bdc2328.html",
       "songs": [
         {
@@ -81140,7 +81140,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-hideout-chicago-il-6bd64e72.html",
       "songs": [
         {
@@ -81253,7 +81253,7 @@
       "countryCode": "GB",
       "lat": 53.88118,
       "lng": -1.35452,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/bramham-park-bramham-england-4bd7df82.html",
       "songs": [
         {
@@ -81437,7 +81437,7 @@
       "countryCode": "GB",
       "lat": 50.8283849472495,
       "lng": -0.139474868774414,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/concorde-2-brighton-england-43d6bb73.html",
       "songs": [
         {
@@ -81564,7 +81564,7 @@
       "countryCode": "JP",
       "lat": 35.362,
       "lng": 140.622,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/chiba-marine-stadium-chiba-japan-4bd1fbe6.html",
       "songs": [
         {
@@ -81734,7 +81734,7 @@
       "countryCode": "NZ",
       "lat": -36.8666667,
       "lng": 174.7666667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/pacific-arts-centre-auckland-new-zealand-1bd275f0.html",
       "songs": [
         {
@@ -81861,7 +81861,7 @@
       "countryCode": "AU",
       "lat": -28.65,
       "lng": 153.6166667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/belongil-fields-byron-bay-australia-5bd76354.html",
       "songs": [
         {
@@ -81960,7 +81960,7 @@
       "countryCode": "AU",
       "lat": -33.8678499639382,
       "lng": 151.207323074341,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/hordern-pavilion-sydney-australia-73d4eab5.html",
       "songs": [
         {
@@ -82087,7 +82087,7 @@
       "countryCode": "AU",
       "lat": -37.8139965641595,
       "lng": 144.963322877884,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/festival-hall-melbourne-australia-4bd5dbce.html",
       "songs": [
         {
@@ -82221,7 +82221,7 @@
       "countryCode": "AU",
       "lat": -37.8139965641595,
       "lng": 144.963322877884,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/abc-studios-melbourne-australia-53db130d.html",
       "songs": [
         {
@@ -82327,7 +82327,7 @@
       "countryCode": "ES",
       "lat": 40.4049999806498,
       "lng": -3.87834548950195,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/recinto-summercase-boadilla-del-monte-spain-3bd610d4.html",
       "songs": [
         {
@@ -82419,7 +82419,7 @@
       "countryCode": "ES",
       "lat": 41.3887868890716,
       "lng": 2.15898513793945,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/parc-del-forum-barcelona-spain-4bdb131a.html",
       "songs": [
         {
@@ -82504,7 +82504,7 @@
       "countryCode": "SE",
       "lat": 59.6552818052101,
       "lng": 12.5851821899414,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/folkets-park-arvika-sweden-5bd55bd4.html",
       "songs": []
     },
@@ -83522,7 +83522,7 @@
       "countryCode": "US",
       "lat": 32.8350521,
       "lng": -116.7664109,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/viejas-casino-and-resort-alpine-ca-53db1345.html",
       "songs": [
         {
@@ -83649,7 +83649,7 @@
       "countryCode": "US",
       "lat": 36.1749705,
       "lng": -115.137223,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/pearl-concert-theater-las-vegas-nv-63d5aedb.html",
       "songs": [
         {
@@ -83783,7 +83783,7 @@
       "countryCode": "US",
       "lat": 39.7391536,
       "lng": -104.9847034,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/ogden-theatre-denver-co-4bdb1346.html",
       "songs": [
         {
@@ -83910,7 +83910,7 @@
       "countryCode": "US",
       "lat": 39.0997266,
       "lng": -94.5785667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/uptown-theater-kansas-city-mo-5bdb1340.html",
       "songs": [
         {
@@ -84044,7 +84044,7 @@
       "countryCode": "US",
       "lat": 37.3860517,
       "lng": -122.0838511,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/shoreline-amphitheatre-mountain-view-ca-13d3512d.html",
       "songs": [
         {
@@ -84122,7 +84122,7 @@
       "countryCode": "US",
       "lat": 40.2203907,
       "lng": -74.0120817,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-stone-pony-asbury-park-nj-53db1341.html",
       "songs": [
         {
@@ -84235,7 +84235,7 @@
       "countryCode": "US",
       "lat": 42.3584308,
       "lng": -71.0597732,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/lansdowne-street-boston-ma-5bdb134c.html",
       "songs": [
         {
@@ -84348,7 +84348,7 @@
       "countryCode": "US",
       "lat": 39.9284459,
       "lng": -75.2737955,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/tower-theatre-upper-darby-pa-4bd6e706.html",
       "songs": [
         {
@@ -84475,7 +84475,7 @@
       "countryCode": "US",
       "lat": 38.895,
       "lng": -77.036,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/dar-constitution-hall-washington-dc-53d3ff09.html",
       "songs": [
         {
@@ -84609,7 +84609,7 @@
       "countryCode": "US",
       "lat": 36.1,
       "lng": -80.244,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/millennium-center-winston-salem-nc-5bd73b48.html",
       "songs": [
         {
@@ -84736,7 +84736,7 @@
       "countryCode": "US",
       "lat": 33.8160058,
       "lng": -78.680016,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/house-of-blues-north-myrtle-beach-sc-4bdb134e.html",
       "songs": [
         {
@@ -84877,7 +84877,7 @@
       "countryCode": "US",
       "lat": 33.7489954,
       "lng": -84.3879824,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/tabernacle-atlanta-ga-43db134f.html",
       "songs": []
     },
@@ -84891,7 +84891,7 @@
       "countryCode": "US",
       "lat": 28.5383355,
       "lng": -81.3792365,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/club-firestone-orlando-fl-23d3701f.html",
       "songs": [
         {
@@ -85018,7 +85018,7 @@
       "countryCode": "US",
       "lat": 27.7708606,
       "lng": -82.6792661,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/jannus-landing-st-petersburg-fl-2bd654ea.html",
       "songs": [
         {
@@ -85040,7 +85040,7 @@
       "countryCode": "US",
       "lat": 26.2378597,
       "lng": -80.1247667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/pompano-beach-amphitheater-pompano-beach-fl-5bdb1348.html",
       "songs": [
         {
@@ -85062,7 +85062,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/later-with-jools-holland-bbc-television-centre-london-england-6bfc9ade.html",
       "songs": [
         {
@@ -85098,7 +85098,7 @@
       "countryCode": "GB",
       "lat": 53.75663,
       "lng": -0.19775,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/moor-park-preston-england-43db1353.html",
       "songs": [
         {
@@ -85190,7 +85190,7 @@
       "countryCode": "PT",
       "lat": 38.7166667,
       "lng": -9.1333333,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/coliseu-dos-recreios-lisbon-portugal-3d2b1df.html",
       "songs": [
         {
@@ -85599,7 +85599,7 @@
       "countryCode": "IT",
       "lat": 45.4642693810258,
       "lng": 9.1895055770874,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/alcatraz-milan-italy-53d35f75.html",
       "songs": [
         {
@@ -85621,7 +85621,7 @@
       "countryCode": "IT",
       "lat": 44.4938114812334,
       "lng": 11.3387489318848,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/estragon-bologna-italy-53d72359.html",
       "songs": [
         {
@@ -85755,7 +85755,7 @@
       "countryCode": "CH",
       "lat": 46.5159963488544,
       "lng": 6.6328239440918,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/salle-metropole-lausanne-switzerland-53db135d.html",
       "songs": []
     },
@@ -85769,7 +85769,7 @@
       "countryCode": "DE",
       "lat": 48.1374325498109,
       "lng": 11.5754914283752,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/tonhalle-munich-germany-4bdb135e.html",
       "songs": []
     },
@@ -85783,7 +85783,7 @@
       "countryCode": "DE",
       "lat": 50.9333333,
       "lng": 6.95,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/palladium-cologne-germany-43d41bb7.html",
       "songs": [
         {
@@ -85917,7 +85917,7 @@
       "countryCode": "DE",
       "lat": 51.0508910809796,
       "lng": 13.738317489624,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/alter-schlachthof-dresden-germany-bd7ed2e.html",
       "songs": []
     },
@@ -85931,7 +85931,7 @@
       "countryCode": "AT",
       "lat": 48.2084877601653,
       "lng": 16.3720750808716,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/planettt-bank-austria-halle-gasometer-vienna-austria-4bd6af06.html",
       "songs": [
         {
@@ -86058,7 +86058,7 @@
       "countryCode": "DE",
       "lat": 52.5166667,
       "lng": 13.4,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/columbiahalle-berlin-germany-73d4d281.html",
       "songs": [
         {
@@ -86185,7 +86185,7 @@
       "countryCode": "NO",
       "lat": 59.912697157616,
       "lng": 10.7413673400879,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/sentrum-scene-oslo-norway-4bd28f7a.html",
       "songs": []
     },
@@ -86199,7 +86199,7 @@
       "countryCode": "SE",
       "lat": 59.3325765361753,
       "lng": 18.0649030208588,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/cirkus-stockholm-sweden-7bd6ea58.html",
       "songs": [
         {
@@ -86333,7 +86333,7 @@
       "countryCode": "DK",
       "lat": 55.6776812020993,
       "lng": 12.5709342956543,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/store-vega-copenhagen-denmark-5bdda384.html",
       "songs": []
     },
@@ -86347,7 +86347,7 @@
       "countryCode": "NL",
       "lat": 52.090833,
       "lng": 5.122222,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/muziekcentrum-vredenburg-utrecht-netherlands-5bd573f4.html",
       "songs": [
         {
@@ -86615,7 +86615,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/le-reservoir-paris-france-43db135b.html",
       "songs": [
         {
@@ -86841,7 +86841,7 @@
       "countryCode": "FR",
       "lat": 50.633,
       "lng": 3.067,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/laeronef-lille-france-5bdb1364.html",
       "songs": []
     },
@@ -86869,7 +86869,7 @@
       "countryCode": "FR",
       "lat": 47.083,
       "lng": 2.4,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/le-phenix-bourges-france-13df4d05.html",
       "songs": [
         {
@@ -87243,7 +87243,7 @@
       "countryCode": "GB",
       "lat": 53.8166667,
       "lng": -3.05,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/empress-ballroom-blackpool-england-23db10c3.html",
       "songs": [
         {
@@ -87370,7 +87370,7 @@
       "countryCode": "GB",
       "lat": 50.3715254228346,
       "lng": -4.14304733276367,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/plymouth-pavilions-plymouth-england-33d13029.html",
       "songs": [
         {
@@ -87413,7 +87413,7 @@
       "countryCode": "GB",
       "lat": 52.5833333,
       "lng": -2.1333333,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/civic-hall-wolverhampton-england-53d3cf15.html",
       "songs": [
         {
@@ -87540,7 +87540,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/carling-academy-glasgow-glasgow-scotland-4bd717a6.html",
       "songs": []
     },
@@ -87554,7 +87554,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/united-palace-theatre-new-york-ny-33db10cd.html",
       "songs": [
         {
@@ -87681,7 +87681,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/united-palace-theatre-new-york-ny-2bdf0012.html",
       "songs": [
         {
@@ -87808,7 +87808,7 @@
       "countryCode": "US",
       "lat": 40.7142691,
       "lng": -74.0059729,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/late-show-with-david-letterman-new-york-ny-7b575a18.html",
       "songs": [
         {
@@ -87830,7 +87830,7 @@
       "countryCode": "US",
       "lat": 42.3584308,
       "lng": -71.0597732,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/orpheum-theatre-boston-ma-63d51ec3.html",
       "songs": [
         {
@@ -88162,7 +88162,7 @@
       "countryCode": "US",
       "lat": 41.850033,
       "lng": -87.6500523,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/congress-theater-chicago-il-7bd3daec.html",
       "songs": [
         {
@@ -88296,7 +88296,7 @@
       "countryCode": "US",
       "lat": 34.1808392,
       "lng": -118.3089661,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/last-call-with-carson-daly-burbank-ca-23f6004b.html",
       "songs": [
         {
@@ -88360,7 +88360,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/wiltern-theatre-los-angeles-ca-3d0a13f.html",
       "songs": [
         {
@@ -88480,7 +88480,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/wiltern-theatre-los-angeles-ca-2bdb10ca.html",
       "songs": [
         {
@@ -88607,7 +88607,7 @@
       "countryCode": "US",
       "lat": 37.775,
       "lng": -122.419,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-concourse-san-francisco-ca-1bd35118.html",
       "songs": [
         {
@@ -88734,7 +88734,7 @@
       "countryCode": "US",
       "lat": 30.267153,
       "lng": -97.7430608,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/stubbs-bar-b-q-austin-tx-73d24ac1.html",
       "songs": [
         {
@@ -88854,7 +88854,7 @@
       "countryCode": "US",
       "lat": 45.5234515,
       "lng": -122.6762071,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/crystal-ballroom-portland-or-23d55c27.html",
       "songs": [
         {
@@ -88981,7 +88981,7 @@
       "countryCode": "CA",
       "lat": 49.249657393,
       "lng": -123.119340403,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-orpheum-vancouver-bc-canada-63d7f243.html",
       "songs": [
         {
@@ -89108,7 +89108,7 @@
       "countryCode": "US",
       "lat": 47.6062095,
       "lng": -122.3320708,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/paramount-theatre-seattle-wa-23db10cb.html",
       "songs": [
         {
@@ -89235,7 +89235,7 @@
       "countryCode": "JP",
       "lat": 34.694,
       "lng": 135.502,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/nanba-hatch-osaka-japan-33db10d5.html",
       "songs": []
     },
@@ -89249,7 +89249,7 @@
       "countryCode": "JP",
       "lat": 35.105,
       "lng": 136.542,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/club-diamond-hall-nagoya-japan-3bdb10d0.html",
       "songs": []
     },
@@ -89263,7 +89263,7 @@
       "countryCode": "JP",
       "lat": 35.69,
       "lng": 139.692,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/studio-coast-tokyo-japan-1bdb1184.html",
       "songs": []
     },
@@ -89404,7 +89404,7 @@
       "countryCode": "GB",
       "lat": 54.973,
       "lng": -1.614,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/carling-academy-newcastle-upon-tyne-england-3db1187.html",
       "songs": []
     },
@@ -89440,7 +89440,7 @@
       "countryCode": "GB",
       "lat": 57.1333333,
       "lng": -2.1,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/music-hall-aberdeen-scotland-bdb1182.html",
       "songs": []
     },
@@ -89454,7 +89454,7 @@
       "countryCode": "GB",
       "lat": 55.8333333,
       "lng": -4.25,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/barrowland-glasgow-scotland-63d6def7.html",
       "songs": [
         {
@@ -89581,7 +89581,7 @@
       "countryCode": "IE",
       "lat": 53.3330556,
       "lng": -6.2488889,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/ambassador-theatre-dublin-ireland-23d6c02b.html",
       "songs": [
         {
@@ -89708,7 +89708,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/manchester-academy-1-manchester-england-5bdeff4c.html",
       "songs": [
         {
@@ -89835,7 +89835,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/virgin-megastore-manchester-england-53f023b9.html",
       "songs": [
         {
@@ -89885,7 +89885,7 @@
       "countryCode": "GB",
       "lat": 52.2018,
       "lng": 0.1144,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/cambridge-corn-exchange-cambridge-england-1bdb118c.html",
       "songs": [
         {
@@ -90139,7 +90139,7 @@
       "countryCode": "GB",
       "lat": 52.4666667,
       "lng": -1.9166667,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/carling-academy-birmingham-england-bd4e5b6.html",
       "songs": [
         {
@@ -90266,7 +90266,7 @@
       "countryCode": "GB",
       "lat": 50.7235979104432,
       "lng": -3.52750718593597,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/university-of-exeter-exeter-england-bdb1196.html",
       "songs": [
         {
@@ -90393,7 +90393,7 @@
       "countryCode": "GB",
       "lat": 51.45,
       "lng": -2.5833333,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/carling-academy-bristol-bristol-england-6bd7423e.html",
       "songs": [
         {
@@ -90520,7 +90520,7 @@
       "countryCode": "GB",
       "lat": 51.48,
       "lng": -3.18,
-      "tour": null,
+      "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/cardiff-university-cardiff-wales-1bdb1190.html",
       "songs": [
         {
@@ -90767,7 +90767,7 @@
       "countryCode": "GB",
       "lat": 51.0833333,
       "lng": 1.1833333,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/leas-cliff-hall-folkestone-england-bdb1192.html",
       "songs": [
         {
@@ -90887,7 +90887,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/london-astoria-london-england-3db1193.html",
       "songs": [
         {
@@ -91014,7 +91014,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/london-astoria-london-england-1bdb119c.html",
       "songs": [
         {
@@ -91141,7 +91141,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/london-astoria-london-england-43d49767.html",
       "songs": [
         {
@@ -91268,7 +91268,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/maida-vale-studios-london-england-bdb119a.html",
       "songs": [
         {
@@ -91367,7 +91367,7 @@
       "countryCode": "GB",
       "lat": 52.6278273182018,
       "lng": 1.29833936691284,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-lcr-uea-norwich-england-23d2004b.html",
       "songs": [
         {
@@ -91494,7 +91494,7 @@
       "countryCode": "GB",
       "lat": 50.9,
       "lng": -1.4,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/southampton-guildhall-southampton-england-1bdb11a0.html",
       "songs": [
         {
@@ -91621,7 +91621,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/mean-fiddler-london-england-bdb11a2.html",
       "songs": [
         {
@@ -91734,7 +91734,7 @@
       "countryCode": "GB",
       "lat": 50.7166667,
       "lng": -1.8833333,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/the-old-fire-station-bournemouth-england-1bdb11ac.html",
       "songs": [
         {
@@ -91847,7 +91847,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/canal-television-studios-paris-france-4bd7abe6.html",
       "songs": [
         {
@@ -91925,7 +91925,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/black-session-la-maison-de-la-radio-paris-france-1bdb11a8.html",
       "songs": [
         {
@@ -92159,7 +92159,7 @@
       "countryCode": "IE",
       "lat": 53.219,
       "lng": -8.887,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/stradbally-hall-stradbally-ireland-13d009a1.html",
       "songs": [
         {
@@ -92181,7 +92181,7 @@
       "countryCode": "GB",
       "lat": 52.695,
       "lng": -2.289,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/weston-park-weston-under-lizard-england-13d0f555.html",
       "songs": [
         {
@@ -92337,7 +92337,7 @@
       "countryCode": "NL",
       "lat": 52.455,
       "lng": 5.693056,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/evenemententerrein-walibi-holland-biddinghuizen-netherlands-4bdb177e.html",
       "songs": []
     },
@@ -92584,7 +92584,7 @@
       "countryCode": "US",
       "lat": 29.7632836,
       "lng": -95.3632715,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/the-ballroom-at-warehouse-live-houston-tx-13cb81b9.html",
       "songs": [
         {
@@ -92959,7 +92959,7 @@
       "countryCode": "US",
       "lat": 34.052,
       "lng": -118.244,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/greek-theatre-los-angeles-ca-5bf24fbc.html",
       "songs": [
         {
@@ -93291,7 +93291,7 @@
       "countryCode": "US",
       "lat": 40.65,
       "lng": -73.95,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/mccarren-pool-brooklyn-ny-33d2e005.html",
       "songs": [
         {
@@ -93517,7 +93517,7 @@
       "countryCode": "US",
       "lat": 40.2203907,
       "lng": -74.0120817,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/the-stone-pony-asbury-park-nj-2bd2e006.html",
       "songs": [
         {
@@ -93729,7 +93729,7 @@
       "countryCode": "CA",
       "lat": 43.700113788,
       "lng": -79.416304194,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2006/olympic-island-toronto-on-canada-3bd22c38.html",
       "songs": [
         {
@@ -95488,7 +95488,7 @@
       "countryCode": "NL",
       "lat": 52.373,
       "lng": 4.9,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/grote-zaal-amsterdam-netherlands-bd6c9c2.html",
       "songs": [
         {
@@ -95608,7 +95608,7 @@
       "countryCode": "DE",
       "lat": 51.222,
       "lng": 6.776,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/tor-3-dusseldorf-germany-53d73375.html",
       "songs": []
     },
@@ -95622,7 +95622,7 @@
       "countryCode": "DE",
       "lat": 52.0333333,
       "lng": 8.5333333,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/ringlokschuppen-bielefeld-germany-53de6705.html",
       "songs": [
         {
@@ -95742,7 +95742,7 @@
       "countryCode": "DE",
       "lat": 51.0508910809796,
       "lng": 13.738317489624,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/alter-schlachthof-dresden-germany-1bdb15b8.html",
       "songs": []
     },
@@ -95756,7 +95756,7 @@
       "countryCode": "DE",
       "lat": 50.05,
       "lng": 8.7,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hugenottenhalle-neu-isenburg-germany-13db15b9.html",
       "songs": []
     },
@@ -95770,7 +95770,7 @@
       "countryCode": "DE",
       "lat": 48.7823242931971,
       "lng": 9.17701721191406,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/lka-longhorn-stuttgart-germany-bdb15ba.html",
       "songs": [
         {
@@ -95890,7 +95890,7 @@
       "countryCode": "CH",
       "lat": 47.3666667,
       "lng": 8.55,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/volkshaus-zurich-switzerland-43d54f67.html",
       "songs": [
         {
@@ -96010,7 +96010,7 @@
       "countryCode": "IT",
       "lat": 45.63,
       "lng": 12.3741667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/new-age-roncade-italy-1bdb15c4.html",
       "songs": [
         {
@@ -96130,7 +96130,7 @@
       "countryCode": "IT",
       "lat": 44.676068,
       "lng": 11.032102,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/vox-club-nonantola-italy-43d297cb.html",
       "songs": [
         {
@@ -96250,7 +96250,7 @@
       "countryCode": "IT",
       "lat": 45.4642693810258,
       "lng": 9.1895055770874,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/rolling-stone-milan-italy-4bdbab3a.html",
       "songs": [
         {
@@ -96370,7 +96370,7 @@
       "countryCode": "ES",
       "lat": 41.3887868890716,
       "lng": 2.15898513793945,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/razzmatazz-barcelona-spain-13d4814d.html",
       "songs": []
     },
@@ -96384,7 +96384,7 @@
       "countryCode": "ES",
       "lat": 40.4165020941502,
       "lng": -3.70256423950195,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/sala-aqualung-madrid-spain-1bd749bc.html",
       "songs": [
         {
@@ -96504,7 +96504,7 @@
       "countryCode": "FR",
       "lat": 44.883,
       "lng": -0.65,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/le-vigean-eysines-france-13db15c5.html",
       "songs": []
     },
@@ -96518,7 +96518,7 @@
       "countryCode": "FR",
       "lat": 47.217,
       "lng": -1.65,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/la-carriere-saint-herblain-france-bdb15c6.html",
       "songs": []
     },
@@ -96532,7 +96532,7 @@
       "countryCode": "FR",
       "lat": 48.853,
       "lng": 2.349,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/le-zenith-paris-france-53d7ab01.html",
       "songs": [
         {
@@ -96659,7 +96659,7 @@
       "countryCode": "FR",
       "lat": 48.6,
       "lng": 7.75,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/salle-des-fetes-schiltigheim-france-3db15c7.html",
       "songs": []
     },
@@ -96673,7 +96673,7 @@
       "countryCode": "FR",
       "lat": 50.633,
       "lng": 3.067,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/laeronef-lille-france-7bd3d248.html",
       "songs": [
         {
@@ -96793,7 +96793,7 @@
       "countryCode": "BE",
       "lat": 50.85,
       "lng": 4.383,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/hallen-van-schaarbeek-halles-de-schaerbeek-schaarbeek-schaerbeek-belgium-6bd2de1e.html",
       "songs": []
     },
@@ -96807,7 +96807,7 @@
       "countryCode": "IE",
       "lat": 53.2719444,
       "lng": -9.0488889,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/black-box-galway-ireland-bdb15ce.html",
       "songs": []
     },
@@ -96821,7 +96821,7 @@
       "countryCode": "IE",
       "lat": 53.3330556,
       "lng": -6.2488889,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/olympia-theatre-dublin-ireland-3bd6c02c.html",
       "songs": [
         {
@@ -97061,7 +97061,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/bbc-radio-2-studios-london-england-43d9abe3.html",
       "songs": [
         {
@@ -97104,7 +97104,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-brixton-london-england-bd3390a.html",
       "songs": [
         {
@@ -97133,7 +97133,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-brixton-london-england-5bd4975c.html",
       "songs": []
     },
@@ -97147,7 +97147,7 @@
       "countryCode": "GB",
       "lat": 50.7235979104432,
       "lng": -3.52750718593597,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/university-of-exeter-exeter-england-3db15cf.html",
       "songs": []
     },
@@ -97161,7 +97161,7 @@
       "countryCode": "GB",
       "lat": 51.45,
       "lng": -2.5833333,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-bristol-bristol-england-1bdb15c8.html",
       "songs": [
         {
@@ -97281,7 +97281,7 @@
       "countryCode": "GB",
       "lat": 51.48,
       "lng": -3.18,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/cardiff-university-cardiff-wales-7bd40ea4.html",
       "songs": []
     },
@@ -97295,7 +97295,7 @@
       "countryCode": "GB",
       "lat": 52.6333333,
       "lng": -1.1333333,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/de-montfort-hall-leicester-england-7bd6560c.html",
       "songs": []
     },
@@ -97309,7 +97309,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-apollo-manchester-manchester-england-bdb15ca.html",
       "songs": [
         {
@@ -97331,7 +97331,7 @@
       "countryCode": "GB",
       "lat": 53.4809464283615,
       "lng": -2.23743438720703,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-apollo-manchester-manchester-england-1bdb15d4.html",
       "songs": []
     },
@@ -97345,7 +97345,7 @@
       "countryCode": "GB",
       "lat": 51.2333333,
       "lng": 0.6166667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/the-refectory-university-of-leeds-leeds-england-13db15d5.html",
       "songs": [
         {
@@ -97465,7 +97465,7 @@
       "countryCode": "GB",
       "lat": 53.4166667,
       "lng": -3,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-liverpool-liverpool-england-bdb15d6.html",
       "songs": []
     },
@@ -97479,7 +97479,7 @@
       "countryCode": "GB",
       "lat": 52.9536023000285,
       "lng": -1.15047454833984,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/rock-city-nottingham-england-3db15d7.html",
       "songs": []
     },
@@ -97493,7 +97493,7 @@
       "countryCode": "GB",
       "lat": 52.4666667,
       "lng": -1.9166667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-birmingham-england-4bd3cf16.html",
       "songs": []
     },
@@ -97507,7 +97507,7 @@
       "countryCode": "GB",
       "lat": 52.4666667,
       "lng": -1.9166667,
-      "tour": null,
+      "tour": "Silent Alarm",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/carling-academy-birmingham-england-1bdb15d0.html",
       "songs": [
         {
@@ -104023,7 +104023,7 @@
       "countryCode": "GB",
       "lat": 51.4333333,
       "lng": -1,
-      "tour": null,
+      "tour": "NME Awards Tour 2005",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/fez-club-reading-england-33db28a1.html",
       "songs": [
         {
@@ -104221,7 +104221,7 @@
       "countryCode": "GB",
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
-      "tour": null,
+      "tour": "NME Awards Tour 2005",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/bbc-studios-london-england-63fc9adb.html",
       "songs": [
         {
