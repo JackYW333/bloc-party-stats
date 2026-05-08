@@ -622,8 +622,9 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 600; }
   cursor: default;
 }
 
-.attended-row td { background: rgba(46, 204, 113, 0.04) !important; }
-.attended-row:hover td { background: rgba(46, 204, 113, 0.08) !important; }
+.attended-row td { background: rgba(46, 204, 113, 0.09) !important; }
+.attended-row td:first-child { border-left: 3px solid var(--green); }
+.attended-row:hover td { background: rgba(46, 204, 113, 0.15) !important; }
 
 .attended-dot {
   display: inline-block;
