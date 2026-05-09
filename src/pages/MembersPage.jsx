@@ -55,7 +55,6 @@ export default function MembersPage({ data }) {
       <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'Members' }]} />
       <div className="page-heading">
         <h1>Band Members</h1>
-        <p className="sub">Show counts calculated from membership date ranges</p>
       </div>
 
       {[
@@ -97,15 +96,6 @@ export default function MembersPage({ data }) {
         )
       })}
 
-      <div style={{ marginTop: '2rem' }}>
-        <p style={{ fontSize: '0.8rem', color: 'var(--text-dim)', lineHeight: 1.6 }}>
-          Show counts are calculated by matching each concert's date against each member's active period(s) as defined in{' '}
-          <code style={{ fontSize: '0.75rem', background: 'var(--bg-card)', padding: '0.1rem 0.3rem', borderRadius: '3px' }}>
-            config/members.json
-          </code>
-          . Edit that file to correct membership dates or add non-consecutive periods.
-        </p>
-      </div>
     </div>
   )
 }
