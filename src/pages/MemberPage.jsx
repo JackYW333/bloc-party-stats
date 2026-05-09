@@ -58,9 +58,18 @@ export default function MemberPage({ data, attendance }) {
     <div className="page-container">
       <Breadcrumb items={[{ label: 'Overview', to: '/' }, { label: 'Members', to: '/members' }, { label: member.name }]} />
 
-      <div className="page-heading">
-        <h1>{member.name}</h1>
-        <p className="sub">{member.role} · {formatPeriods(member.periods)}</p>
+      <div className="page-heading" style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+        {member.image && (
+          <img
+            src={`${import.meta.env.BASE_URL}${member.image}`.replace('//', '/')}
+            alt={member.name}
+            className="member-avatar member-avatar--large"
+          />
+        )}
+        <div>
+          <h1>{member.name}</h1>
+          <p className="sub">{member.role} · {formatPeriods(member.periods)}</p>
+        </div>
       </div>
 
       <div className="stat-grid">

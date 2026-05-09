@@ -362,6 +362,33 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 600; }
   margin-top: 0.25rem;
 }
 
+.member-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  margin: 0 auto 0.75rem;
+  display: block;
+}
+
+.member-avatar--placeholder {
+  background: var(--bg-hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.member-avatar--large {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
 .member-card__period {
   font-size: 0.75rem;
   color: var(--text-dim);

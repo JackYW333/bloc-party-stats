@@ -4,6 +4,7 @@
       "id": "kele",
       "name": "Kele Okereke",
       "role": "Vocals, Guitar",
+      "image": "images/members/kele.jpg",
       "periods": [
         { "from": "2002-01-01", "to": null }
       ]
@@ -12,6 +13,7 @@
       "id": "russell",
       "name": "Russell Lissack",
       "role": "Guitar",
+      "image": "images/members/russell.jpg",
       "periods": [
         { "from": "2002-01-01", "to": null }
       ]
@@ -46,6 +48,7 @@
       "id": "harry",
       "name": "Harry Deacon",
       "role": "Bass, Vocals, Keys, Glockenspiel",
+      "image": "images/members/harry.jpg",
       "periods": [
         { "from": "2023-04-24", "to": null }
       ]
@@ -83,6 +86,7 @@
       "id": "louise",
       "name": "Louise Bartle",
       "role": "Drums, Vocals",
+      "image": "images/members/louise.jpg",
       "periods": [
         { "from": "2015-01-01", "to": null }
       ]

@@ -74,17 +74,17 @@ export default function MembersPage({ data }) {
             onMouseEnter={e => e.currentTarget.style.borderColor = 'var(--accent)'}
             onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--border)'}
           >
-            <div
-              style={{
-                width: 56, height: 56, borderRadius: '50%',
-                background: 'var(--bg-hover)', border: '1px solid var(--border)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                margin: '0 auto 0.75rem',
-                fontSize: '1.25rem', color: 'var(--text-muted)', fontWeight: 700,
-              }}
-            >
-              {member.name.charAt(0)}
-            </div>
+            {member.image ? (
+              <img
+                src={`${import.meta.env.BASE_URL}${member.image}`.replace('//', '/')}
+                alt={member.name}
+                className="member-avatar"
+              />
+            ) : (
+              <div className="member-avatar member-avatar--placeholder">
+                {member.name.charAt(0)}
+              </div>
+            )}
             <div className="member-card__name">{member.name}</div>
             <div className="member-card__role">{member.role}</div>
             <div className="member-card__shows">{member.showCount.toLocaleString()}</div>
