@@ -164,18 +164,30 @@
     ]
   },
   {
-    "id": "untitled-album-7",
-    "name": "Untitled Album #7",
-    "year": null,
-    "releaseDate": null,
-    "label": null,
+    "id": "anatomy-of-a-brief-romance",
+    "name": "Anatomy Of A Brief Romance",
+    "year": 2026,
+    "releaseDate": "2026-09-11",
+    "label": "cOnTAGIOUS LTD / Virgin Music Group",
     "spotifyUrl": null,
+    "imageUrl": "images/BP_AOABR.png",
     "type": "album",
-    "color": "#00b4d8",
+    "color": "#B91725",
     "songs": [
+      "22.01.22",
       "Coming On Strong",
+      "Love Bombs",
       "Pigwig",
-      "Love Bombs"
+      "Blue Lagoon",
+      "Muscleworks",
+      "Clark Kent",
+      "Worst Birthday Ever",
+      "Not Your Problem",
+      "Now We Can't Be Friends",
+      "Rotherhithe",
+      "Stories",
+      "Moving On",
+      "Eulogy"
     ]
   },
   {

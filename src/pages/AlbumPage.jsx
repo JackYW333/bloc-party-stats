@@ -47,7 +47,9 @@ export default function AlbumPage({ data }) {
       <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', marginBottom: '2rem', flexWrap: 'wrap' }}>
         {(album.imageUrl || album.mbid) && (
           <img
-            src={album.imageUrl || `https://coverartarchive.org/release-group/${album.mbid}/front`}
+            src={album.imageUrl
+              ? (album.imageUrl.startsWith('http') ? album.imageUrl : `${import.meta.env.BASE_URL}${album.imageUrl}`.replace('//', '/'))
+              : `https://coverartarchive.org/release-group/${album.mbid}/front`}
             alt={`${album.name} cover art`}
             style={{
               width: 140, height: 140, objectFit: 'cover',
