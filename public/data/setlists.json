@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T09:29:01.609Z",
+  "lastUpdated": "2026-06-14T07:53:04.540Z",
   "total": 1132,
   "totalWithSetlist": 902,
   "setlists": [
@@ -73797,7 +73797,7 @@
     {
       "id": "53db1399",
       "date": "2008-09-13",
-      "venue": "Downtown Fredericton",
+      "venue": "TD Main Stage",
       "city": "Fredericton",
       "state": "New Brunswick",
       "country": "Canada",
@@ -73805,7 +73805,7 @@
       "lat": 45.945414773,
       "lng": -66.665581601,
       "tour": "Intimacy Tour",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/downtown-fredericton-fredericton-nb-canada-53db1399.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2008/td-main-stage-fredericton-nb-canada-53db1399.html",
       "songs": [
         {
           "name": "Waiting for the 7.18",
