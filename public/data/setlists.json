@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T09:31:12.874Z",
+  "lastUpdated": "2026-06-21T08:06:18.800Z",
   "total": 1132,
   "totalWithSetlist": 902,
   "setlists": [
@@ -3224,7 +3224,7 @@
     {
       "id": "3b5e4c80",
       "date": "2025-07-24",
-      "venue": "Hill Farm",
+      "venue": "Truck Stage",
       "city": "Steventon",
       "state": "England",
       "country": "United Kingdom",
@@ -3232,7 +3232,7 @@
       "lat": 51.2166667,
       "lng": -1.2166667,
       "tour": "20 Years of Bloc Party",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/hill-farm-steventon-england-3b5e4c80.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/truck-stage-steventon-england-3b5e4c80.html",
       "songs": [
         {
           "name": "So Here We Are",
@@ -36637,7 +36637,7 @@
     {
       "id": "3bd96c00",
       "date": "2013-07-05",
-      "venue": "La Citadelle",
+      "venue": "Green Room",
       "city": "Arras",
       "state": "Hauts-de-France",
       "country": "France",
@@ -36645,7 +36645,7 @@
       "lat": 50.293,
       "lng": 2.782,
       "tour": "Four Tour 2013",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/la-citadelle-arras-france-3bd96c00.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/green-room-arras-france-3bd96c00.html",
       "songs": [
         {
           "name": "So Here We Are",
@@ -36757,7 +36757,7 @@
     {
       "id": "1bd975c4",
       "date": "2013-07-04",
-      "venue": "Festivalpark",
+      "venue": "The Barn",
       "city": "Werchter",
       "state": "Flemish Brabant",
       "country": "Belgium",
@@ -36765,7 +36765,7 @@
       "lat": 50.967,
       "lng": 4.7,
       "tour": "Four Tour 2013",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/festivalpark-werchter-belgium-1bd975c4.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/the-barn-werchter-belgium-1bd975c4.html",
       "songs": [
         {
           "name": "Octopus",
