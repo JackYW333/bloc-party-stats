@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-04T08:48:11.771Z",
-  "total": 1133,
+  "lastUpdated": "2026-07-05T06:47:11.512Z",
+  "total": 1134,
   "totalWithSetlist": 902,
   "setlists": [
+    {
+      "id": "434957e3",
+      "date": "2026-07-07",
+      "venue": "Ruoff Music Center",
+      "city": "Noblesville",
+      "state": "Indiana",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.0455918,
+      "lng": -86.0085955,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/ruoff-music-center-noblesville-in-434957e3.html",
+      "songs": []
+    },
     {
       "id": "534957ed",
       "date": "2026-07-05",
