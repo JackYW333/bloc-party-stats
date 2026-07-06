@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-05T09:18:27.475Z",
-  "total": 1134,
-  "totalWithSetlist": 902,
+  "lastUpdated": "2026-07-06T08:07:25.885Z",
+  "total": 1135,
+  "totalWithSetlist": 903,
   "setlists": [
+    {
+      "id": "6b747656",
+      "date": "2026-07-08",
+      "venue": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 36.1658899,
+      "lng": -86.7844432,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/ryman-auditorium-nashville-tn-6b747656.html",
+      "songs": []
+    },
     {
       "id": "434957e3",
       "date": "2026-07-07",
@@ -29,7 +43,78 @@
       "lng": -90.4298401,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/hollywood-casino-amphitheatre-maryland-heights-mo-534957ed.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "First time since 2017"
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "7b480ea0",
