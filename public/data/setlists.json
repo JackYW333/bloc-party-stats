@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-10T09:49:45.394Z",
-  "total": 1137,
-  "totalWithSetlist": 905,
+  "lastUpdated": "2026-07-11T08:07:47.549Z",
+  "total": 1138,
+  "totalWithSetlist": 906,
   "setlists": [
+    {
+      "id": "4b4957e6",
+      "date": "2026-07-13",
+      "venue": "Pine Knob Music Theatre",
+      "city": "Clarkston",
+      "state": "Michigan",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 42.7086411,
+      "lng": -83.4396633,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/pine-knob-music-theatre-clarkston-mi-4b4957e6.html",
+      "songs": []
+    },
     {
       "id": "5b4957e0",
       "date": "2026-07-11",
@@ -29,7 +43,78 @@
       "lng": -87.7844944,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/credit-union-1-amphitheatre-tinley-park-il-23495483.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "6b747656",
