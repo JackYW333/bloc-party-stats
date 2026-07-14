@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-13T09:42:44.539Z",
-  "total": 1139,
+  "lastUpdated": "2026-07-14T08:21:44.221Z",
+  "total": 1140,
   "totalWithSetlist": 907,
   "setlists": [
+    {
+      "id": "6b74764a",
+      "date": "2026-07-16",
+      "venue": "Théâtre Beanfield",
+      "city": "Montreal",
+      "state": "Quebec",
+      "country": "Canada",
+      "countryCode": "CA",
+      "lat": 45.5088375,
+      "lng": -73.587809,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/theatre-beanfield-montreal-qc-canada-6b74764a.html",
+      "songs": []
+    },
     {
       "id": "534957e5",
       "date": "2026-07-15",
