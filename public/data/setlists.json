@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-15T08:28:29.944Z",
-  "total": 1140,
-  "totalWithSetlist": 908,
+  "lastUpdated": "2026-07-16T08:26:22.229Z",
+  "total": 1141,
+  "totalWithSetlist": 909,
   "setlists": [
+    {
+      "id": "4b4957da",
+      "date": "2026-07-18",
+      "venue": "Xfinity Center",
+      "city": "Mansfield",
+      "state": "Massachusetts",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 42.0334326,
+      "lng": -71.2189405,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/xfinity-center-mansfield-ma-4b4957da.html",
+      "songs": []
+    },
     {
       "id": "6b74764a",
       "date": "2026-07-16",
@@ -29,7 +43,85 @@
       "lng": -79.416304194,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/rbc-amphitheatre-toronto-on-canada-534957e5.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Every Time Is the Last Time",
+          "tape": true,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "4b4957e6",
