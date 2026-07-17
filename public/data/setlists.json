@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-16T08:26:22.229Z",
+  "lastUpdated": "2026-07-17T08:22:35.570Z",
   "total": 1141,
-  "totalWithSetlist": 909,
+  "totalWithSetlist": 910,
   "setlists": [
     {
       "id": "4b4957da",
@@ -29,7 +29,141 @@
       "lng": -73.587809,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/theatre-beanfield-montreal-qc-canada-6b74764a.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Kettling",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Different Drugs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Kele said the song has been renamed to “Lagoon Blue”"
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Positive Tension",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Love Within",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Signs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "534957e5",
