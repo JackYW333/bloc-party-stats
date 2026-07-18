@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-17T08:22:35.570Z",
-  "total": 1141,
+  "lastUpdated": "2026-07-18T08:04:36.731Z",
+  "total": 1142,
   "totalWithSetlist": 910,
   "setlists": [
+    {
+      "id": "7b74764c",
+      "date": "2026-07-20",
+      "venue": "Globe Iron",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 41.4994954,
+      "lng": -81.6954088,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/globe-iron-cleveland-oh-7b74764c.html",
+      "songs": []
+    },
     {
       "id": "4b4957da",
       "date": "2026-07-18",
@@ -52,7 +66,7 @@
           "info": null
         },
         {
-          "name": "Love Bombs",
+          "name": "In Situ",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -60,6 +74,13 @@
         },
         {
           "name": "Kettling",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -122,6 +143,13 @@
           "info": null
         },
         {
+          "name": "Pigwig",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
           "name": "The Love Within",
           "tape": false,
           "encore": 0,
@@ -131,35 +159,35 @@
         {
           "name": "Signs",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "Helicopter",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "Flux",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "This Modern Love",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "Ratchet",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         }
