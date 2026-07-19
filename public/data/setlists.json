@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-18T08:04:36.731Z",
-  "total": 1142,
+  "lastUpdated": "2026-07-19T06:05:03.069Z",
+  "total": 1143,
   "totalWithSetlist": 910,
   "setlists": [
+    {
+      "id": "7b747644",
+      "date": "2026-07-21",
+      "venue": "Roxian Theatre Presented By Citizens",
+      "city": "McKees Rocks",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.4656244,
+      "lng": -80.0656106,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/roxian-theatre-presented-by-citizens-mckees-rocks-pa-7b747644.html",
+      "songs": []
+    },
     {
       "id": "7b74764c",
       "date": "2026-07-20",
@@ -109460,7 +109474,7 @@
     {
       "id": "1bdb2940",
       "date": "2003-02-06",
-      "venue": "Sound Republic",
+      "venue": "Sound",
       "city": "London",
       "state": "England",
       "country": "United Kingdom",
@@ -109468,7 +109482,7 @@
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
       "tour": null,
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/sound-republic-london-england-1bdb2940.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2003/sound-london-england-1bdb2940.html",
       "songs": []
     },
     {
