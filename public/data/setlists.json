@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-19T08:29:53.842Z",
-  "total": 1143,
-  "totalWithSetlist": 910,
+  "lastUpdated": "2026-07-20T09:30:42.308Z",
+  "total": 1144,
+  "totalWithSetlist": 911,
   "setlists": [
+    {
+      "id": "534957d9",
+      "date": "2026-07-22",
+      "venue": "PNC Bank Arts Center",
+      "city": "Holmdel",
+      "state": "New Jersey",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 40.3451095,
+      "lng": -74.1840322,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/pnc-bank-arts-center-holmdel-nj-534957d9.html",
+      "songs": []
+    },
     {
       "id": "7b747644",
       "date": "2026-07-21",
@@ -43,7 +57,78 @@
       "lng": -71.2189405,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/xfinity-center-mansfield-ma-4b4957da.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "6b74764a",
