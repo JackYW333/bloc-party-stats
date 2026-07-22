@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-21T08:40:44.802Z",
-  "total": 1144,
-  "totalWithSetlist": 911,
+  "lastUpdated": "2026-07-22T08:40:15.566Z",
+  "total": 1145,
+  "totalWithSetlist": 913,
   "setlists": [
+    {
+      "id": "434957df",
+      "date": "2026-07-24",
+      "venue": "Saratoga Performing Arts Center",
+      "city": "Saratoga Springs",
+      "state": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 43.0831301,
+      "lng": -73.7845651,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/saratoga-performing-arts-center-saratoga-springs-ny-434957df.html",
+      "songs": []
+    },
     {
       "id": "534957d9",
       "date": "2026-07-22",
@@ -29,7 +43,148 @@
       "lng": -80.0656106,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/roxian-theatre-presented-by-citizens-mckees-rocks-pa-7b747644.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Real Talk",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Skeleton",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Positive Tension",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Love Within",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Tulips",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "7b74764c",
@@ -43,7 +198,148 @@
       "lng": -81.6954088,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/globe-iron-cleveland-oh-7b74764c.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "In Situ",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Kettling",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Different Drugs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Team A",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Love Within",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Pigwig",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Like Eating Glass",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Signs",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "4b4957da",
