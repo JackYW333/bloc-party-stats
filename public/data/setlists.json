@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-25T08:18:42.087Z",
-  "total": 1147,
+  "lastUpdated": "2026-07-26T06:11:28.231Z",
+  "total": 1148,
   "totalWithSetlist": 915,
   "setlists": [
+    {
+      "id": "534957dd",
+      "date": "2026-07-28",
+      "venue": "Merriweather Post Pavilion",
+      "city": "Columbia",
+      "state": "Maryland",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 39.2403841,
+      "lng": -76.8394184,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/merriweather-post-pavilion-columbia-md-534957dd.html",
+      "songs": []
+    },
     {
       "id": "6374763f",
       "date": "2026-07-27",
@@ -631,13 +645,6 @@
           "info": null
         },
         {
-          "name": "Rough Justice",
-          "tape": false,
-          "encore": 0,
-          "cover": null,
-          "info": null
-        },
-        {
           "name": "In Situ",
           "tape": false,
           "encore": 0,
@@ -645,7 +652,7 @@
           "info": null
         },
         {
-          "name": "Kettling",
+          "name": "Rough Justice",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -653,6 +660,13 @@
         },
         {
           "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Kettling",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -701,6 +715,13 @@
           "info": "Kele said the song has been renamed to “Lagoon Blue”"
         },
         {
+          "name": "Pigwig",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
           "name": "Hunting for Witches",
           "tape": false,
           "encore": 0,
@@ -709,13 +730,6 @@
         },
         {
           "name": "Positive Tension",
-          "tape": false,
-          "encore": 0,
-          "cover": null,
-          "info": null
-        },
-        {
-          "name": "Pigwig",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -28031,7 +28045,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": "with Björk - Big Time Sensuality intro"
+          "info": "with Bj��rk - Big Time Sensuality intro"
         },
         {
           "name": "Banquet",
