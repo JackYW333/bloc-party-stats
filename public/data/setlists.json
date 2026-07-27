@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-07-26T08:36:39.977Z",
-  "total": 1148,
-  "totalWithSetlist": 915,
+  "lastUpdated": "2026-07-27T10:05:05.073Z",
+  "total": 1149,
+  "totalWithSetlist": 916,
   "setlists": [
+    {
+      "id": "434957d3",
+      "date": "2026-07-29",
+      "venue": "Freedom Mortgage Pavilion",
+      "city": "Camden",
+      "state": "New Jersey",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 39.9259463,
+      "lng": -75.1196199,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/freedom-mortgage-pavilion-camden-nj-434957d3.html",
+      "songs": []
+    },
     {
       "id": "534957dd",
       "date": "2026-07-28",
@@ -43,7 +57,85 @@
       "lng": -73.5101258,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/northwell-at-jones-beach-theater-wantagh-ny-4b4957de.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Every Time Is the Last Time",
+          "tape": true,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "In Situ",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Kettling",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "for Sarah"
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "434957df",
