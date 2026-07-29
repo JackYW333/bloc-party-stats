@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-28T08:47:33.907Z",
+  "lastUpdated": "2026-07-29T08:51:50.689Z",
   "total": 1149,
-  "totalWithSetlist": 917,
+  "totalWithSetlist": 918,
   "setlists": [
     {
       "id": "434957d3",
@@ -29,7 +29,78 @@
       "lng": -76.8394184,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/merriweather-post-pavilion-columbia-md-534957dd.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "We Are Not Good People",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "6374763f",
