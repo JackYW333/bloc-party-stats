@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T08:31:08.485Z",
+  "lastUpdated": "2026-08-02T06:08:45.995Z",
   "total": 1149,
   "totalWithSetlist": 919,
   "setlists": [
@@ -233,7 +233,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Alternate intro verse"
         },
         {
           "name": "Banquet",
@@ -254,7 +254,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "First time since 2013"
         },
         {
           "name": "Only He Can Heal Me",
@@ -504,7 +504,7 @@
           "info": null
         },
         {
-          "name": "Ratchet",
+          "name": "Flux",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -28427,7 +28427,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": "with Bj��rk - Big Time Sensuality intro"
+          "info": "with Björk - Big Time Sensuality intro"
         },
         {
           "name": "Banquet",
@@ -42613,49 +42613,6 @@
       ]
     },
     {
-      "id": "73aff205",
-      "date": "2013-03-27",
-      "venue": "Echo Mountain Recording",
-      "city": "Asheville",
-      "state": "North Carolina",
-      "country": "United States",
-      "countryCode": "US",
-      "lat": 35.6009452,
-      "lng": -82.554015,
-      "tour": "Four Tour 2013",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2013/echo-mountain-recording-asheville-nc-73aff205.html",
-      "songs": [
-        {
-          "name": "Truth",
-          "tape": false,
-          "encore": 0,
-          "cover": null,
-          "info": null
-        },
-        {
-          "name": "Day Four",
-          "tape": false,
-          "encore": 0,
-          "cover": null,
-          "info": null
-        },
-        {
-          "name": "Sunday",
-          "tape": false,
-          "encore": 0,
-          "cover": null,
-          "info": null
-        },
-        {
-          "name": "This Modern Love",
-          "tape": false,
-          "encore": 0,
-          "cover": null,
-          "info": null
-        }
-      ]
-    },
-    {
       "id": "5bd89f24",
       "date": "2013-03-24",
       "venue": "Bangkok Convention Center",
@@ -52746,6 +52703,49 @@
           "name": "This Modern Love",
           "tape": false,
           "encore": 2,
+          "cover": null,
+          "info": null
+        }
+      ]
+    },
+    {
+      "id": "1370f1f9",
+      "date": "2012-09-28",
+      "venue": "KEXP Studios",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States",
+      "countryCode": "US",
+      "lat": 47.6062095,
+      "lng": -122.3320708,
+      "tour": "Four Tour 2012",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2012/kexp-studios-seattle-wa-1370f1f9.html",
+      "songs": [
+        {
+          "name": "Truth",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Day Four",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Sunday",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
           "cover": null,
           "info": null
         }
