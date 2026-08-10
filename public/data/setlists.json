@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T07:07:35.995Z",
+  "lastUpdated": "2026-08-10T07:56:10.467Z",
   "total": 1149,
   "totalWithSetlist": 919,
   "setlists": [
@@ -772,6 +772,13 @@
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/globe-iron-cleveland-oh-7b74764c.html",
       "songs": [
+        {
+          "name": "Every Time Is the Last Time",
+          "tape": true,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
         {
           "name": "Coming On Strong",
           "tape": false,
