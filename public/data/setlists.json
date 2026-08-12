@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-08-11T07:19:36.043Z",
-  "total": 1149,
+  "lastUpdated": "2026-08-12T07:43:39.678Z",
+  "total": 1150,
   "totalWithSetlist": 919,
   "setlists": [
+    {
+      "id": "3b76d0a4",
+      "date": "2026-08-14",
+      "venue": "Praia Fluvial do Taboão",
+      "city": "Paredes de Coura",
+      "state": "Viana do Castelo",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "lat": 41.9,
+      "lng": -8.5666667,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/praia-fluvial-do-taboao-paredes-de-coura-portugal-3b76d0a4.html",
+      "songs": []
+    },
     {
       "id": "434957d3",
       "date": "2026-07-29",
