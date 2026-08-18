@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-17T07:09:15.653Z",
+  "lastUpdated": "2026-08-18T06:56:21.132Z",
   "total": 1150,
-  "totalWithSetlist": 919,
+  "totalWithSetlist": 920,
   "setlists": [
     {
       "id": "3b76d0a4",
@@ -15,7 +15,134 @@
       "lng": -8.5666667,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/praia-fluvial-do-taboao-paredes-de-coura-portugal-3b76d0a4.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Bjork's So Broken intro"
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Different Drugs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Lagoon Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "formerly \"Blue\""
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Pigwig",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Positive Tension",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Love Within",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "434957d3",
