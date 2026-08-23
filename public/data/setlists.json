@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T06:52:51.078Z",
+  "lastUpdated": "2026-08-23T03:55:30.533Z",
   "total": 1150,
   "totalWithSetlist": 920,
   "setlists": [
@@ -28652,7 +28652,7 @@
     {
       "id": "53ff9b6d",
       "date": "2016-06-30",
-      "venue": "Gröna Lund",
+      "venue": "Stora Scenen",
       "city": "Stockholm",
       "state": "Stockholm County",
       "country": "Sweden",
@@ -28660,7 +28660,7 @@
       "lat": 59.3325765361753,
       "lng": 18.0649030208588,
       "tour": "Hymns",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/grona-lund-stockholm-sweden-53ff9b6d.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2016/stora-scenen-stockholm-sweden-53ff9b6d.html",
       "songs": [
         {
           "name": "Only He Can Heal Me",
