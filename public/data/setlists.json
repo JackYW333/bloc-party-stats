@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T12:37:05.448Z",
+  "lastUpdated": "2026-08-30T09:06:59.744Z",
   "total": 1150,
   "totalWithSetlist": 920,
   "setlists": [
@@ -10679,14 +10679,14 @@
       "id": "ba149ae",
       "date": "2023-11-24",
       "venue": "The Star Theatre",
-      "city": "Singapore",
-      "state": "Central Singapore",
+      "city": "Queenstown",
+      "state": "Singapore (general)",
       "country": "Singapore",
       "countryCode": "SG",
-      "lat": 1.293,
-      "lng": 103.856,
+      "lat": 1.29944,
+      "lng": 103.80583,
       "tour": "Interpol + Bloc Party Co-Headline Tour 2023",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/the-star-theatre-singapore-singapore-ba149ae.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2023/the-star-theatre-queenstown-singapore-ba149ae.html",
       "songs": [
         {
           "name": "In Situ",
@@ -82807,7 +82807,7 @@
     {
       "id": "33d43075",
       "date": "2007-09-12",
-      "venue": "Egyptian Room at the Murat Centre",
+      "venue": "Egyptian Room",
       "city": "Indianapolis",
       "state": "Indiana",
       "country": "United States",
@@ -82815,7 +82815,7 @@
       "lat": 39.7683765,
       "lng": -86.1580423,
       "tour": "A Weekend in the City",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/egyptian-room-at-the-murat-centre-indianapolis-in-33d43075.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/egyptian-room-indianapolis-in-33d43075.html",
       "songs": [
         {
           "name": "Song for Clay (Disappear Here)",
