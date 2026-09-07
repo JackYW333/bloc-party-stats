@@ -1,8 +1,36 @@
 {
-  "lastUpdated": "2026-09-06T10:46:08.429Z",
-  "total": 1150,
+  "lastUpdated": "2026-09-07T12:17:01.657Z",
+  "total": 1152,
   "totalWithSetlist": 920,
   "setlists": [
+    {
+      "id": "73717271",
+      "date": "2026-09-09",
+      "venue": "The Met",
+      "city": "Bury",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.4358290120569,
+      "lng": -0.106773376464844,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/the-met-bury-england-73717271.html",
+      "songs": []
+    },
+    {
+      "id": "2370dca7",
+      "date": "2026-09-09",
+      "venue": "The Met",
+      "city": "Bury",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 52.4358290120569,
+      "lng": -0.106773376464844,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/the-met-bury-england-2370dca7.html",
+      "songs": []
+    },
     {
       "id": "3b76d0a4",
       "date": "2026-08-14",
