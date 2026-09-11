@@ -1,7 +1,7 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import albumData from '../../config/albums.json'
-import { canonicalSongName } from '../utils/stats.js'
+import { getLinkedNames } from '../utils/stats.js'
 
 export default function Search({ setlists }) {
   const [query, setQuery] = useState('')
@@ -48,20 +48,19 @@ export default function Search({ setlists }) {
       // Songs
       show.songs.forEach(song => {
         if (song.tape) return
-        const name = canonicalSongName(song.name)
-        if (name.toLowerCase().includes(q) && !songs.has(name)) {
-          songs.set(name, { type: 'song', label: name, sub: 'Song', name })
+        if (song.name.toLowerCase().includes(q) && !songs.has(song.name)) {
+          songs.set(song.name, { type: 'song', label: song.name, sub: 'Song', name: song.name })
         }
       })
     })
 
-    // Never-played songs from albumData not already found in setlists
+    // Never-played songs from albumData not already found in setlists.
+    // A song counts as played if it or any name it's linked to was performed.
     albumData.forEach(album => {
-      album.songs.forEach(rawSongName => {
-        const name = canonicalSongName(rawSongName)
-        if (name.toLowerCase().includes(q) && !songs.has(name)) {
-          songs.set(name, { type: 'song', label: name, sub: 'Never played', name })
-        }
+      album.songs.forEach(songName => {
+        if (!songName.toLowerCase().includes(q) || songs.has(songName)) return
+        const playedViaLink = getLinkedNames(songName).some(n => songs.has(n))
+        songs.set(songName, { type: 'song', label: songName, sub: playedViaLink ? 'Song' : 'Never played', name: songName })
       })
     })
 

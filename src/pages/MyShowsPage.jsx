@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { formatDate, getAlbum, canonicalSongName } from '../utils/stats.js'
+import { formatDate, getAlbum, getLinkedNames } from '../utils/stats.js'
 
 export default function MyShowsPage({ data, attendance }) {
   const { loading, error, setlists } = data
@@ -19,10 +19,9 @@ export default function MyShowsPage({ data, attendance }) {
     const cities = new Set(myShows.map(s => `${s.city}||${s.countryCode}`))
     const songCounts = {}
     myShows.forEach(s => s.songs.forEach(song => {
-      if (!song.tape) {
-        const key = canonicalSongName(song.name)
+      if (!song.tape) getLinkedNames(song.name).forEach(key => {
         songCounts[key] = (songCounts[key] || 0) + 1
-      }
+      })
     }))
     const rankedSongs = Object.entries(songCounts)
       .map(([name, count]) => ({ name, count, album: getAlbum(name) }))

@@ -1,17 +1,23 @@
 import albumData from '../../config/albums.json'
-import songAliases from '../../config/song-aliases.json'
+import songLinks from '../../config/song-links.json'
 
-// Some songs get performed live under one name and later officially released
-// under another (re-recordings, retitled tracks, etc). song-aliases.json maps
-// the alternate name → the canonical name so all stats/pages treat them as
-// one song. Lookup is case-insensitive; canonical casing always wins.
-const aliasMap = {}
-Object.entries(songAliases).forEach(([alias, canonical]) => {
-  aliasMap[alias.toLowerCase()] = canonical
+// Some songs get performed live under one name and later released under a
+// different one too (re-recordings, retitled tracks, etc). song-links.json
+// groups those names together — they stay separate songs (own page, own
+// album/EP attribution) but every performance under any name in the group
+// counts as a performance of all of them, for every stat. Lookup is
+// case-insensitive.
+const linkedNamesMap = {}
+songLinks.forEach(group => {
+  group.forEach(name => { linkedNamesMap[name.toLowerCase()] = group })
 })
 
-export function canonicalSongName(name) {
-  return aliasMap[name.toLowerCase()] || name
+export function getLinkedNames(name) {
+  return linkedNamesMap[name.toLowerCase()] || [name]
+}
+
+export function songsAreLinked(a, b) {
+  return getLinkedNames(a).some(n => n.toLowerCase() === b.toLowerCase())
 }
 
 // Build a flat song → album lookup, preferring type:'album' over singles/EPs
@@ -21,12 +27,6 @@ albumData.filter(a => a.type !== 'album').forEach(album => {
 })
 albumData.filter(a => a.type === 'album').forEach(album => {
   album.songs.forEach(song => { songAlbumMap[song.toLowerCase()] = album })
-})
-// Aliased names resolve to whatever album their canonical name resolved to
-// (e.g. a song's earlier EP title still points to the studio album it later appeared on).
-Object.entries(songAliases).forEach(([alias, canonical]) => {
-  const album = songAlbumMap[canonical.toLowerCase()]
-  if (album) songAlbumMap[alias.toLowerCase()] = album
 })
 
 export function getAlbum(songName) {
@@ -45,10 +45,11 @@ export function computeSongStats(setlists) {
   setlists.forEach(show => {
     show.songs.forEach(song => {
       if (song.tape) return
-      const key = canonicalSongName(song.name)
-      if (!map[key]) map[key] = { name: key, count: 0, dates: [], album: getAlbum(key) }
-      map[key].count++
-      map[key].dates.push(show.date)
+      getLinkedNames(song.name).forEach(key => {
+        if (!map[key]) map[key] = { name: key, count: 0, dates: [], album: getAlbum(key) }
+        map[key].count++
+        map[key].dates.push(show.date)
+      })
     })
   })
   return Object.values(map).sort((a, b) => b.count - a.count)
@@ -157,8 +158,9 @@ function computePositionStat(setlists, picker) {
   setlists.forEach(show => {
     const name = picker(show)
     if (!name) return
-    const key = canonicalSongName(name)
-    map[key] = (map[key] || 0) + 1
+    getLinkedNames(name).forEach(key => {
+      map[key] = (map[key] || 0) + 1
+    })
   })
   return Object.entries(map)
     .map(([name, count]) => ({ name, count, album: getAlbum(name) }))
@@ -172,15 +174,16 @@ export function annotateSongDebutDates(setlists) {
   sortedShows.forEach(show => {
     show.songs.forEach(song => {
       if (song.tape) return
-      const key = canonicalSongName(song.name)
-      if (!firstSeen[key]) firstSeen[key] = show.date
+      getLinkedNames(song.name).forEach(key => {
+        if (!firstSeen[key]) firstSeen[key] = show.date
+      })
     })
   })
   return firstSeen
 }
 
 export function getDebutsForShow(show, debutMap) {
-  return show.songs.filter(s => !s.tape && debutMap[canonicalSongName(s.name)] === show.date).map(s => s.name)
+  return show.songs.filter(s => !s.tape && debutMap[s.name] === show.date).map(s => s.name)
 }
 
 function daysBetween(dateA, dateB) {
@@ -201,9 +204,8 @@ export function findLongestGap(sortedDates) {
 }
 
 export function computeSongGaps(allSetlists, songName) {
-  const canonical = canonicalSongName(songName)
   const plays = allSetlists
-    .filter(s => s.songs.some(song => !song.tape && canonicalSongName(song.name) === canonical))
+    .filter(s => s.songs.some(song => !song.tape && songsAreLinked(song.name, songName)))
     .map(s => s.date)
     .sort()
 
@@ -233,7 +235,9 @@ export function countShowsWithSetlist(setlists) {
 
 export function countUniqueSongs(setlists) {
   const seen = new Set()
-  setlists.forEach(show => show.songs.forEach(s => { if (!s.tape) seen.add(canonicalSongName(s.name)) }))
+  setlists.forEach(show => show.songs.forEach(s => {
+    if (!s.tape) getLinkedNames(s.name).forEach(name => seen.add(name))
+  }))
   return seen.size
 }
 
@@ -261,8 +265,9 @@ export function computeEncoreStats(setlists) {
     if (hasEncore) showsWithEncore++
     show.songs.forEach(s => {
       if (s.tape || s.encore === 0) return
-      const key = canonicalSongName(s.name)
-      encoreSongs[key] = (encoreSongs[key] || 0) + 1
+      getLinkedNames(s.name).forEach(key => {
+        encoreSongs[key] = (encoreSongs[key] || 0) + 1
+      })
     })
   })
 

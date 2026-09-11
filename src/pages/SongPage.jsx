@@ -1,14 +1,14 @@
 import { useMemo, useState } from 'react'
-import { useParams, Link, Navigate } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import StatCard from '../components/StatCard.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { getAlbum, formatDate, computeSongGaps, countShowsWithSetlist, canonicalSongName } from '../utils/stats.js'
+import { getAlbum, formatDate, computeSongGaps, countShowsWithSetlist, songsAreLinked } from '../utils/stats.js'
 import songNotes from '../../config/song-notes.json'
 
 function getPosition(show, songName) {
   const liveSongs = show.songs.filter(s => !s.tape)
-  const idx = liveSongs.findIndex(s => canonicalSongName(s.name) === songName)
+  const idx = liveSongs.findIndex(s => songsAreLinked(s.name, songName))
   if (idx === -1) return null
   if (idx === 0) return 'Opener'
   if (idx === liveSongs.length - 1) return 'Closer'
@@ -20,21 +20,14 @@ function getPosition(show, songName) {
 export default function SongPage({ data, attendance }) {
   const { songName } = useParams()
   const decoded = decodeURIComponent(songName)
-  const decodedCanonical = canonicalSongName(decoded)
   const { loading, error, setlists, debutMap } = data
   const { attended } = attendance
-
-  // Alternate names (e.g. a song's earlier live/EP title) redirect to the
-  // canonical song page so stats, URLs, and links all live in one place.
-  if (decoded !== decodedCanonical) {
-    return <Navigate to={`/song/${encodeURIComponent(decodedCanonical)}`} replace />
-  }
 
   const album = getAlbum(decoded)
 
   const shows = useMemo(
     () => setlists
-      .filter(s => s.songs.some(song => !song.tape && canonicalSongName(song.name) === decoded))
+      .filter(s => s.songs.some(song => !song.tape && songsAreLinked(song.name, decoded)))
       .sort((a, b) => a.date.localeCompare(b.date)),
     [setlists, decoded]
   )
@@ -141,7 +134,7 @@ export default function SongPage({ data, attendance }) {
               {shows.map((show, i) => {
                 const pos = getPosition(show, decoded)
                 const isDebut = debutMap[decoded] === show.date
-                const songEntry = show.songs.find(s => !s.tape && canonicalSongName(s.name) === decoded)
+                const songEntry = show.songs.find(s => !s.tape && songsAreLinked(s.name, decoded))
                 const info = songEntry?.info || null
                 const performedAs = songEntry?.name !== decoded ? songEntry?.name : null
                 const wasAttended = attended.has(show.id)

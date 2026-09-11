@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { getAlbum, formatDate, luminance, canonicalSongName } from '../utils/stats.js'
+import { getAlbum, formatDate, luminance, songsAreLinked } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 
 export default function DebutsPage({ data, attendance }) {
@@ -15,7 +15,7 @@ export default function DebutsPage({ data, attendance }) {
 
     return Object.entries(debutMap)
       .map(([songName, date]) => {
-        const show = setlists.find(s => s.date === date && s.songs.some(song => !song.tape && canonicalSongName(song.name) === songName))
+        const show = setlists.find(s => s.date === date && s.songs.some(song => !song.tape && songsAreLinked(song.name, songName)))
         return {
           songName,
           date,
