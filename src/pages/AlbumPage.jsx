@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import StatCard from '../components/StatCard.jsx'
-import { computeSongStats, formatDate } from '../utils/stats.js'
+import { computeSongStats, formatDate, canonicalSongName } from '../utils/stats.js'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 
 function formatRelDate(iso) {
@@ -19,12 +19,12 @@ export default function AlbumPage({ data }) {
   const album = albumData.find(a => a.id === albumId)
 
   const albumSongsLower = useMemo(
-    () => new Set((album?.songs || []).map(s => s.toLowerCase())),
+    () => new Set((album?.songs || []).map(s => canonicalSongName(s).toLowerCase())),
     [album]
   )
 
   const albumShows = useMemo(
-    () => setlists.filter(s => s.songs.some(song => !song.tape && albumSongsLower.has(song.name.toLowerCase()))),
+    () => setlists.filter(s => s.songs.some(song => !song.tape && albumSongsLower.has(canonicalSongName(song.name).toLowerCase()))),
     [setlists, albumSongsLower]
   )
 
@@ -91,7 +91,7 @@ export default function AlbumPage({ data }) {
           <div className="card-title">Songs</div>
           <ol className="ranked-list">
             {album.songs.map((songName, i) => {
-              const stat = songStats.find(s => s.name.toLowerCase() === songName.toLowerCase())
+              const stat = songStats.find(s => s.name.toLowerCase() === canonicalSongName(songName).toLowerCase())
               return (
                 <li key={songName}>
                   <span className="ranked-list__rank">{i + 1}</span>

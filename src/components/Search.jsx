@@ -1,6 +1,7 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import albumData from '../../config/albums.json'
+import { canonicalSongName } from '../utils/stats.js'
 
 export default function Search({ setlists }) {
   const [query, setQuery] = useState('')
@@ -47,17 +48,19 @@ export default function Search({ setlists }) {
       // Songs
       show.songs.forEach(song => {
         if (song.tape) return
-        if (song.name.toLowerCase().includes(q) && !songs.has(song.name)) {
-          songs.set(song.name, { type: 'song', label: song.name, sub: 'Song', name: song.name })
+        const name = canonicalSongName(song.name)
+        if (name.toLowerCase().includes(q) && !songs.has(name)) {
+          songs.set(name, { type: 'song', label: name, sub: 'Song', name })
         }
       })
     })
 
     // Never-played songs from albumData not already found in setlists
     albumData.forEach(album => {
-      album.songs.forEach(songName => {
-        if (songName.toLowerCase().includes(q) && !songs.has(songName)) {
-          songs.set(songName, { type: 'song', label: songName, sub: 'Never played', name: songName })
+      album.songs.forEach(rawSongName => {
+        const name = canonicalSongName(rawSongName)
+        if (name.toLowerCase().includes(q) && !songs.has(name)) {
+          songs.set(name, { type: 'song', label: name, sub: 'Never played', name })
         }
       })
     })

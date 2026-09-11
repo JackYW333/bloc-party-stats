@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AlbumBadge from '../components/AlbumBadge.jsx'
-import { computeSongStats, sortKey } from '../utils/stats.js'
+import { computeSongStats, sortKey, canonicalSongName } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 import Breadcrumb from '../components/Breadcrumb.jsx'
 import SearchInput from '../components/SearchInput.jsx'
@@ -30,7 +30,7 @@ export default function AllSongsPage({ data }) {
     const result = []
     albumData.forEach(album => {
       album.songs.forEach(songName => {
-        if (!played.has(songName.toLowerCase()))
+        if (!played.has(canonicalSongName(songName).toLowerCase()))
           result.push({ name: songName, count: 0, dates: [], album, neverPlayed: true })
       })
     })
