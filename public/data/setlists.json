@@ -1,8 +1,36 @@
 {
-  "lastUpdated": "2026-09-11T11:05:51.248Z",
-  "total": 1156,
-  "totalWithSetlist": 923,
+  "lastUpdated": "2026-09-12T10:35:23.779Z",
+  "total": 1158,
+  "totalWithSetlist": 925,
   "setlists": [
+    {
+      "id": "63717213",
+      "date": "2026-09-14",
+      "venue": "Rough Trade Bristol",
+      "city": "Bristol",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.45,
+      "lng": -2.5833333,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/rough-trade-bristol-bristol-england-63717213.html",
+      "songs": []
+    },
+    {
+      "id": "3b70dc98",
+      "date": "2026-09-14",
+      "venue": "Rough Trade Bristol",
+      "city": "Bristol",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.45,
+      "lng": -2.5833333,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/rough-trade-bristol-bristol-england-3b70dc98.html",
+      "songs": []
+    },
     {
       "id": "2b70dc9a",
       "date": "2026-09-13",
@@ -29,7 +57,85 @@
       "lng": -3,
       "tour": "Anatomy of a Brief Romance Record Store Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/jacaranda-baltic-liverpool-england-63717247.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "22.01.22",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Clark Kent",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Prayer",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Not Your Problem",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Now We Can't Be Friends",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Moving On",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "She's Hearing Voices",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": "Not on setlist"
+        }
+      ]
     },
     {
       "id": "2370dc9b",
@@ -43,7 +149,85 @@
       "lng": -3,
       "tour": "Anatomy of a Brief Romance Record Store Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/jacaranda-baltic-liverpool-england-2370dc9b.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "22.01.22",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "In Situ",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Pigwig",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Worst Birthday Ever",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Lagoon Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Moving On",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": "Replaced I Still Remember on the setlist"
+        }
+      ]
     },
     {
       "id": "2b70dca6",
@@ -385,6 +569,13 @@
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/praia-fluvial-do-taboao-paredes-de-coura-portugal-3b76d0a4.html",
       "songs": [
+        {
+          "name": "Every Time Is the Last Time",
+          "tape": true,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
         {
           "name": "Coming On Strong",
           "tape": false,
