@@ -1,8 +1,50 @@
 {
-  "lastUpdated": "2026-09-12T10:35:23.779Z",
-  "total": 1158,
+  "lastUpdated": "2026-09-13T08:11:26.944Z",
+  "total": 1161,
   "totalWithSetlist": 925,
   "setlists": [
+    {
+      "id": "7b7172f8",
+      "date": "2026-09-15",
+      "venue": "Rough Trade East",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/rough-trade-east-london-england-7b7172f8.html",
+      "songs": []
+    },
+    {
+      "id": "6b7172fa",
+      "date": "2026-09-15",
+      "venue": "Rough Trade East",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/rough-trade-east-london-england-6b7172fa.html",
+      "songs": []
+    },
+    {
+      "id": "2370dc9f",
+      "date": "2026-09-15",
+      "venue": "Rough Trade East",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/rough-trade-east-london-england-2370dc9f.html",
+      "songs": []
+    },
     {
       "id": "63717213",
       "date": "2026-09-14",
@@ -303,7 +345,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "with snippet of Björk's So Broken in intro"
         },
         {
           "name": "Banquet",
@@ -934,7 +976,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": "Alternate intro verse"
+          "info": "w/ Björk's So Broken intro snippet cover"
         },
         {
           "name": "Banquet",
@@ -972,7 +1014,7 @@
           "info": null
         },
         {
-          "name": "Blue",
+          "name": "Lagoon Blue",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -1520,7 +1562,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "w/ Björk's So Broken intro snippet cover"
         },
         {
           "name": "Banquet",
