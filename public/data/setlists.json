@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-09-14T12:32:37.399Z",
-  "total": 1162,
-  "totalWithSetlist": 927,
+  "lastUpdated": "2026-09-15T11:35:07.335Z",
+  "total": 1163,
+  "totalWithSetlist": 928,
   "setlists": [
+    {
+      "id": "3b70dc9c",
+      "date": "2026-09-17",
+      "venue": "Stylus",
+      "city": "Leeds",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.2333333,
+      "lng": 0.6166667,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/stylus-leeds-england-3b70dc9c.html",
+      "songs": []
+    },
     {
       "id": "7b7172f8",
       "date": "2026-09-15",
@@ -57,7 +71,78 @@
       "lng": -2.5833333,
       "tour": "Anatomy of a Brief Romance Record Store Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/rough-trade-bristol-bristol-england-63717213.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Clark Kent",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Worst Birthday Ever",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Not Your Problem",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue Light",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Moving On",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "3b70dc98",
