@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-17T11:29:23.137Z",
+  "lastUpdated": "2026-09-18T11:02:36.809Z",
   "total": 1164,
-  "totalWithSetlist": 933,
+  "totalWithSetlist": 934,
   "setlists": [
     {
       "id": "3b70dc9c",
@@ -15,7 +15,101 @@
       "lng": 0.6166667,
       "tour": "Anatomy of a Brief Romance Record Store Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/stylus-leeds-england-3b70dc9c.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "22.01.22",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Clark Kent",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "So He Begins to Lie",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Worst Birthday Ever",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Two More Years",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Not Your Problem",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Now We Can't Be Friends",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Moving On",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "All the Things She Said",
+          "tape": false,
+          "encore": 1,
+          "cover": {
+            "name": "t.A.T.u."
+          },
+          "info": null
+        },
+        {
+          "name": "She's Hearing Voices",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "37e5d43",
