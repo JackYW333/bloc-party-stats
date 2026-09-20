@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-19T10:45:55.410Z",
+  "lastUpdated": "2026-09-20T08:28:16.984Z",
   "total": 1164,
-  "totalWithSetlist": 934,
+  "totalWithSetlist": 935,
   "setlists": [
     {
       "id": "3b70dc9c",
@@ -626,6 +626,28 @@
       ]
     },
     {
+      "id": "737e7e3d",
+      "date": "2026-09-13",
+      "venue": "Sunday Brunch",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.5084152563931,
+      "lng": -0.125532746315002,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/sunday-brunch-london-england-737e7e3d.html",
+      "songs": [
+        {
+          "name": "Lagoon Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
+    },
+    {
       "id": "2b70dc9a",
       "date": "2026-09-13",
       "venue": "Palais",
@@ -719,28 +741,6 @@
           "name": "Banquet",
           "tape": false,
           "encore": 1,
-          "cover": null,
-          "info": null
-        }
-      ]
-    },
-    {
-      "id": "737e7e3d",
-      "date": "2026-09-13",
-      "venue": "Sunday Brunch",
-      "city": "London",
-      "state": "England",
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "lat": 51.5084152563931,
-      "lng": -0.125532746315002,
-      "tour": "Anatomy of a Brief Romance Record Store Tour",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/sunday-brunch-london-england-737e7e3d.html",
-      "songs": [
-        {
-          "name": "Lagoon Blue",
-          "tape": false,
-          "encore": 0,
           "cover": null,
           "info": null
         }
@@ -88125,7 +88125,85 @@
       "lng": -84.3879824,
       "tour": "A Weekend in the City",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/tabernacle-atlanta-ga-43db134f.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Positive Tension",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue Light",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Prayer",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Uniform",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "She's Hearing Voices",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "23d3701f",
@@ -88838,7 +88916,7 @@
     {
       "id": "53d35f75",
       "date": "2007-05-13",
-      "venue": "Alcatraz",
+      "venue": "Rolling Stone",
       "city": "Milan",
       "state": "Lombardy",
       "country": "Italy",
@@ -88846,7 +88924,7 @@
       "lat": 45.4642693810258,
       "lng": 9.1895055770874,
       "tour": "A Weekend in the City",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/alcatraz-milan-italy-53d35f75.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/rolling-stone-milan-italy-53d35f75.html",
       "songs": [
         {
           "name": "Banquet",
