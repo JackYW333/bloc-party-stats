@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T11:14:16.316Z",
+  "lastUpdated": "2026-09-27T09:08:02.255Z",
   "total": 1164,
   "totalWithSetlist": 935,
   "setlists": [
@@ -67624,8 +67624,8 @@
       "state": "California",
       "country": "United States",
       "countryCode": "US",
-      "lat": 35,
-      "lng": 120,
+      "lat": 35.263501,
+      "lng": -120.662387,
       "tour": "Intimacy Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2009/veterans-memorial-building-san-luis-obispo-ca-53db1395.html",
       "songs": []
