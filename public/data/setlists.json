@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T10:30:53.629Z",
+  "lastUpdated": "2026-10-18T07:56:01.959Z",
   "total": 1164,
   "totalWithSetlist": 935,
   "setlists": [
@@ -102970,7 +102970,7 @@
     {
       "id": "bdfb962",
       "date": "2005-07-09",
-      "venue": "Punchestown Racecourse",
+      "venue": "Ticket Stage",
       "city": "Naas",
       "state": "Kildare",
       "country": "Ireland",
@@ -102978,7 +102978,7 @@
       "lat": 53.216,
       "lng": -6.667,
       "tour": "Silent Alarm",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/punchestown-racecourse-naas-ireland-bdfb962.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/ticket-stage-naas-ireland-bdfb962.html",
       "songs": [
         {
           "name": "Like Eating Glass",
@@ -103246,7 +103246,7 @@
     {
       "id": "13defd5d",
       "date": "2005-07-02",
-      "venue": "Festivalpark",
+      "venue": "Pyramid Marquee",
       "city": "Werchter",
       "state": "Flemish Brabant",
       "country": "Belgium",
@@ -103254,7 +103254,7 @@
       "lat": 50.967,
       "lng": 4.7,
       "tour": "Silent Alarm",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/festivalpark-werchter-belgium-13defd5d.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/pyramid-marquee-werchter-belgium-13defd5d.html",
       "songs": [
         {
           "name": "Like Eating Glass",
