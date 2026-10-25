@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T10:45:36.065Z",
+  "lastUpdated": "2026-10-25T08:17:35.420Z",
   "total": 1164,
   "totalWithSetlist": 935,
   "setlists": [
@@ -19834,7 +19834,7 @@
     {
       "id": "b9cc1f2",
       "date": "2019-09-20",
-      "venue": "Central Park SummerStage",
+      "venue": "SummerStage",
       "city": "New York",
       "state": "New York",
       "country": "United States",
@@ -19842,7 +19842,7 @@
       "lat": 40.7142691,
       "lng": -74.0059729,
       "tour": "Silent Alarm 2019 Tour",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/central-park-summerstage-new-york-ny-b9cc1f2.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2019/summerstage-new-york-ny-b9cc1f2.html",
       "songs": [
         {
           "name": "Every Time Is the Last Time",
