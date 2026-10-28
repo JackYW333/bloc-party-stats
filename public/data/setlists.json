@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-10-27T11:59:13.230Z",
-  "total": 1164,
+  "lastUpdated": "2026-10-28T12:37:59.302Z",
+  "total": 1165,
   "totalWithSetlist": 935,
   "setlists": [
+    {
+      "id": "637172eb",
+      "date": "2026-10-30",
+      "venue": "Circuit",
+      "city": "Kingston upon Thames",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 51.4166667,
+      "lng": -0.2833333,
+      "tour": "Anatomy of a Brief Romance Record Store Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/circuit-kingston-upon-thames-england-637172eb.html",
+      "songs": []
+    },
     {
       "id": "3b70dc9c",
       "date": "2026-09-17",
