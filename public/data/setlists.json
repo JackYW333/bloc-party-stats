@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T12:08:25.181Z",
+  "lastUpdated": "2026-11-01T10:18:04.231Z",
   "total": 1165,
   "totalWithSetlist": 936,
   "setlists": [
@@ -103047,7 +103047,7 @@
     {
       "id": "1bdb1500",
       "date": "2005-07-10",
-      "venue": "Balado",
+      "venue": "Radio 1/NME Stage",
       "city": "Kinross",
       "state": "Scotland",
       "country": "United Kingdom",
@@ -103055,7 +103055,7 @@
       "lat": 56.2,
       "lng": -3.4166667,
       "tour": "Silent Alarm",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/balado-kinross-scotland-1bdb1500.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2005/radio-1nme-stage-kinross-scotland-1bdb1500.html",
       "songs": [
         {
           "name": "Price of Gasoline",
