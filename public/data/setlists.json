@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T12:50:31.946Z",
+  "lastUpdated": "2026-11-08T10:04:26.821Z",
   "total": 1165,
   "totalWithSetlist": 936,
   "setlists": [
@@ -4082,42 +4082,42 @@
         {
           "name": "Signs",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "Little Thoughts",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": "South America 2025 tour debut"
         },
         {
           "name": "Helicopter",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "This Modern Love",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "Ratchet",
           "tape": false,
-          "encore": 0,
+          "encore": 1,
           "cover": null,
           "info": null
         },
         {
           "name": "Flux",
           "tape": false,
-          "encore": 0,
+          "encore": 2,
           "cover": null,
           "info": "Not included on the original setlist but it was performed after the crowd chanted: \"One more song!\""
         }
@@ -14526,6 +14526,13 @@
           "info": null
         },
         {
+          "name": "Rough Justice",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
           "name": "Kettling",
           "tape": false,
           "encore": 0,
@@ -14562,6 +14569,13 @@
         },
         {
           "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
           "tape": false,
           "encore": 0,
           "cover": null,
