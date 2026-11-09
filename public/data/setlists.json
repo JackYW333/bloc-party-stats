@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-11-08T13:11:26.338Z",
-  "total": 1165,
+  "lastUpdated": "2026-11-09T15:57:44.432Z",
+  "total": 1166,
   "totalWithSetlist": 936,
   "setlists": [
+    {
+      "id": "1b4fb914",
+      "date": "2026-11-11",
+      "venue": "Uber Arena",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 52.5166667,
+      "lng": 13.4,
+      "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/uber-arena-berlin-germany-1b4fb914.html",
+      "songs": []
+    },
     {
       "id": "637172eb",
       "date": "2026-10-30",
