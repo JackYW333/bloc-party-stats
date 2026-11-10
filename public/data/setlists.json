@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-11-09T15:57:44.432Z",
-  "total": 1166,
+  "lastUpdated": "2026-11-10T14:44:15.770Z",
+  "total": 1167,
   "totalWithSetlist": 936,
   "setlists": [
+    {
+      "id": "b4fb9ea",
+      "date": "2026-11-12",
+      "venue": "Barclays Arena",
+      "city": "Hamburg",
+      "state": "Hamburg",
+      "country": "Germany",
+      "countryCode": "DE",
+      "lat": 53.55,
+      "lng": 10,
+      "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/barclays-arena-hamburg-germany-b4fb9ea.html",
+      "songs": []
+    },
     {
       "id": "1b4fb914",
       "date": "2026-11-11",
