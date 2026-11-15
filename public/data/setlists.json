@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-11-14T13:22:21.726Z",
-  "total": 1169,
-  "totalWithSetlist": 938,
+  "lastUpdated": "2026-11-15T10:38:08.830Z",
+  "total": 1170,
+  "totalWithSetlist": 939,
   "setlists": [
+    {
+      "id": "b4fb9da",
+      "date": "2026-11-17",
+      "venue": "AFAS Live",
+      "city": "Amsterdam",
+      "state": "North Holland",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "lat": 52.373,
+      "lng": 4.9,
+      "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/afas-live-amsterdam-netherlands-b4fb9da.html",
+      "songs": []
+    },
     {
       "id": "b4fb9e6",
       "date": "2026-11-16",
@@ -29,7 +43,127 @@
       "lng": 6.776,
       "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/psd-bank-dome-dusseldorf-germany-134fb9ed.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "22.01.22",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Real Talk",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Different Drugs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Now We Can't Be Friends",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "I Still Remember",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Love Within",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "She's Hearing Voices",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Moving On",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "b4fb9ea",
@@ -88823,7 +88957,7 @@
     {
       "id": "6bfc9ade",
       "date": "2007-05-25",
-      "venue": "Later With Jools Holland, BBC Television Centre",
+      "venue": "Later With Jools Holland",
       "city": "London",
       "state": "England",
       "country": "United Kingdom",
@@ -88831,7 +88965,7 @@
       "lat": 51.5084152563931,
       "lng": -0.125532746315002,
       "tour": "A Weekend in the City",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/later-with-jools-holland-bbc-television-centre-london-england-6bfc9ade.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2007/later-with-jools-holland-london-england-6bfc9ade.html",
       "songs": [
         {
           "name": "Hunting for Witches",
