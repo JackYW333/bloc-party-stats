@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-11-21T14:30:46.492Z",
-  "total": 1174,
-  "totalWithSetlist": 943,
+  "lastUpdated": "2026-11-22T10:59:15.152Z",
+  "total": 1175,
+  "totalWithSetlist": 944,
   "setlists": [
+    {
+      "id": "34fb9c3",
+      "date": "2026-11-24",
+      "venue": "The Warehouse",
+      "city": "Manchester",
+      "state": "England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "lat": 53.4809464283615,
+      "lng": -2.23743438720703,
+      "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/the-warehouse-manchester-england-34fb9c3.html",
+      "songs": []
+    },
     {
       "id": "b4fb9ce",
       "date": "2026-11-23",
@@ -29,7 +43,134 @@
       "lng": -3.18,
       "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/utilita-arena-cardiff-cardiff-wales-b4fb9d6.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "22.01.22",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "In Situ",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rotherhithe",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "One More Chance",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Signs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Pigwig",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Lagoon Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "She's Hearing Voices",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Moving On",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Restarted from verse 2"
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": "Dedicated to John the drum tech for his birthday"
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "34fb9d3",
@@ -253,10 +394,10 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
-          "name": "Blue",
+          "name": "Lagoon Blue",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -345,7 +486,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Song for Clay (Disappear Here)",
@@ -373,7 +514,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Signs",
@@ -514,7 +655,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Lagoon Blue",
@@ -613,7 +754,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Song for Clay (Disappear Here)",
@@ -641,7 +782,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Now We Can't Be Friends",
@@ -651,7 +792,7 @@
           "info": null
         },
         {
-          "name": "Blue",
+          "name": "Lagoon Blue",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -676,7 +817,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Moving On",
@@ -726,14 +867,14 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Clark Kent",
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Love Bombs",
@@ -747,7 +888,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Song for Clay (Disappear Here)",
@@ -782,17 +923,17 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "I Still Remember",
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
-          "name": "Blue",
+          "name": "Lagoon Blue",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -803,7 +944,7 @@
           "tape": false,
           "encore": 0,
           "cover": null,
-          "info": null
+          "info": "Tour debut"
         },
         {
           "name": "Moving On",
@@ -1187,7 +1328,7 @@
           "info": null
         },
         {
-          "name": "Blue",
+          "name": "Lagoon Blue",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -1524,7 +1665,7 @@
           "info": null
         },
         {
-          "name": "Blue",
+          "name": "Lagoon Blue",
           "tape": false,
           "encore": 0,
           "cover": null,
@@ -4634,7 +4775,7 @@
     {
       "id": "1b4f1184",
       "date": "2025-12-06",
-      "venue": "Central Harbourfront Event Space",
+      "venue": "Harbourflap Stage",
       "city": "Central and Western District",
       "state": "Hong Kong (general)",
       "country": "Hong Kong SAR China",
@@ -4642,7 +4783,7 @@
       "lat": 22.284,
       "lng": 114.151,
       "tour": "20 Years of Bloc Party",
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/central-harbourfront-event-space-central-and-western-district-hong-kong-sar-china-1b4f1184.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2025/harbourflap-stage-central-and-western-district-hong-kong-sar-china-1b4f1184.html",
       "songs": [
         {
           "name": "So Here We Are",
@@ -111288,7 +111429,7 @@
     {
       "id": "4bdf3322",
       "date": "2004-08-29",
-      "venue": "Bramham Park",
+      "venue": "BBC Radio 1 Stage",
       "city": "Bramham",
       "state": "England",
       "country": "United Kingdom",
@@ -111296,7 +111437,7 @@
       "lat": 53.88118,
       "lng": -1.35452,
       "tour": null,
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/bramham-park-bramham-england-4bdf3322.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/bbc-radio-1-stage-bramham-england-4bdf3322.html",
       "songs": [
         {
           "name": "She's Hearing Voices",
@@ -111352,7 +111493,7 @@
     {
       "id": "13daf1f5",
       "date": "2004-08-28",
-      "venue": "Little John's Farm",
+      "venue": "BBC Radio 1 Stage",
       "city": "Reading",
       "state": "England",
       "country": "United Kingdom",
@@ -111360,7 +111501,7 @@
       "lat": 51.4333333,
       "lng": -1,
       "tour": null,
-      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/little-johns-farm-reading-england-13daf1f5.html",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2004/bbc-radio-1-stage-reading-england-13daf1f5.html",
       "songs": [
         {
           "name": "The Marshals Are Dead",
