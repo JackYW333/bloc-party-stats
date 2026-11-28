@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-11-27T16:30:19.018Z",
-  "total": 1178,
-  "totalWithSetlist": 946,
+  "lastUpdated": "2026-11-28T15:23:26.740Z",
+  "total": 1179,
+  "totalWithSetlist": 948,
   "setlists": [
+    {
+      "id": "b4fb9b2",
+      "date": "2026-11-30",
+      "venue": "3Arena",
+      "city": "Dublin",
+      "state": "Dublin",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "lat": 53.3330556,
+      "lng": -6.2488889,
+      "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
+      "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/3arena-dublin-ireland-b4fb9b2.html",
+      "songs": []
+    },
     {
       "id": "1b4fb9b8",
       "date": "2026-11-28",
@@ -29,7 +43,120 @@
       "lng": -0.139474868774414,
       "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/brighton-centre-brighton-england-b4fb9ba.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Coming On Strong",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "The Prayer",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Song for Clay (Disappear Here)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Traps",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Flux",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Ratchet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Clark Kent",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Moving On",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Different Drugs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "She's Hearing Voices",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Lagoon Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Now We Can't Be Friends",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rotherhithe",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "134fb9c5",
@@ -43,7 +170,71 @@
       "lng": -0.139474868774414,
       "tour": "Bloc Party and Interpol UK & EU Co-Headline Tour",
       "setlistFmUrl": "https://www.setlist.fm/setlist/bloc-party/2026/brighton-centre-brighton-england-134fb9c5.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "22.01.22",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mercury",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Banquet",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Hunting for Witches",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Helicopter",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "This Modern Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Love Bombs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Rotherhithe",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Lagoon Blue",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "34fb9c3",
